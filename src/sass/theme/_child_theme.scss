@@ -76,9 +76,12 @@
 
 //Header Home//
 header.entry-header{ display: none;}
+header.py-5{padding-top: 1rem!important;}
 
 //Profile picture//
-.profile-img{
+.d-flex > .profile-img{
   max-width: 50%;
   border-radius: 25px;
 }
+.row {flex-wrap: nowrap;}
+
