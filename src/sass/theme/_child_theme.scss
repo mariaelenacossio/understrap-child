@@ -23,6 +23,12 @@
 header.entry-header{ display: none;}
 header.py-5{padding-top: 1rem!important;}
 
+//Hero Section//
+.hero{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 //Profile picture//
 .profile-img{
   max-width: 50%;
