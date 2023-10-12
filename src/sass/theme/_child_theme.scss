@@ -37,7 +37,16 @@ header.py-5{padding-top: 1rem!important;}
 }
 .profile > p {
 display: flex;
-justify-content: center;}
+justify-content: center;
+}
+
+//Headings//
+.headings{
+  text-align: center;
+}
+hr{
+  line-height: 1rem;
+}
 
 //Portfolio Cards Section//
 .portfolio-cards{
