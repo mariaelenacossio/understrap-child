@@ -36,6 +36,15 @@ header.py-5{padding-top: 1rem!important;}
   height: fit-content;
 }
 
+//Portfolio Cards Section//
+.portfolio-cards{
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
 //Footer Homepage//
 .entry-footer{display: none;}
 .comment-respond {display: none;}
