@@ -20,14 +20,6 @@ defined( 'ABSPATH' ) || exit;
 	<?php wp_head(); ?>
 </head>
 <body>
-	<?php
-	while ( have_posts() ) {
-		the_post();
-		get_template_part( 'loop-templates/content', 'blank' );
-	}
-	wp_footer();
-	?>
-
 <section class="bg-light py-5">
 <div class="container px-5">
 <div class="row gx-5 justify-content-center">
@@ -47,5 +39,14 @@ defined( 'ABSPATH' ) || exit;
 </div>
 </div>
 </section>
+	<?php
+	while ( have_posts() ) {
+		the_post();
+		get_template_part( 'loop-templates/content', 'blank' );
+	}
+	wp_footer();
+	?>
+
+
 </body>
 </html>
