@@ -27,5 +27,25 @@ defined( 'ABSPATH' ) || exit;
 	}
 	wp_footer();
 	?>
+
+<section class="bg-light py-5">
+<div class="container px-5">
+<div class="row gx-5 justify-content-center">
+<div class="col-xxl-8">
+<div class="text-center my-5">
+<h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
+<p class="lead fw-light mb-4">I am a passionate and organized individual who loves crafting digital stories through websites and apps. I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Ai, in my creative process. Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. I thrive in a collaborative team environment, always eager to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.</p>
+<div class="d-flex justify-content-center fs-2 gap-4">
+<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
+<i class="fa fa-linkedin-square"></i><br>
+</a><br>
+<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
+<i class="fa fa-github-square"></i><br>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
 </body>
 </html>
