@@ -1,43 +1,38 @@
+<?php
+/**
+ * The header for our theme
+ *
+ * Displays all of the <head> section and everything up till <div id="content">
+ *
+ * @package Understrap
+ */
+
+// Exit if accessed directly.
+defined( 'ABSPATH' ) || exit;
+
+$bootstrap_version = get_theme_mod( 'understrap_bootstrap_version', 'bootstrap4' );
+$navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
-    <?php wp_head(); ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
 
-<header id="header">
-    <div class="container">
-        <div class="logo">
-            <a href="<?php echo esc_url(home_url('/')); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
-            </a>
-        </div>
-        <nav id="main-menu">
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'primary',
-                'menu_id' => 'primary-menu',
-                'container' => false,
-                'menu_class' => 'menu',
-            ));
-            ?>
-        </nav>
-    </div>
-</header>
+<body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
+<?php do_action( 'wp_body_open' ); ?>
+<div class="site" id="page">
 
-<div id="content">
-    <div class="container">
-        <!-- Your content goes here -->
-        <div class="container">
-            <p>This is an example </p>
-            
-    </div>
-</div>
+	<!-- ******************* The Navbar Area ******************* -->
+	<header id="wrapper-navbar">
 
-<?php wp_footer(); ?>
+		<a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content">
+			<?php esc_html_e( 'Skip to content', 'understrap' ); ?>
+		</a>
 
-</body>
-</html>
+		<?php get_template_part( 'global-templates/navbar', $navbar_type . '-' . $bootstrap_version ); ?>
+
+	</header><!-- #wrapper-navbar -->`
