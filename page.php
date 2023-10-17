@@ -52,7 +52,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 			?>
 
 		</div><!-- .row -->
-		
+		<div class="d-flex justify-content-center mt-5 mt-xxl-0">
+<div class="profile bg-gradient-primary-to-secondary">
+<figure><img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img"></figure>
+</div>
+</div>
+
 
 	</div><!-- #content -->
 
