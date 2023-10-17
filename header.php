@@ -31,6 +31,9 @@
 <div id="content">
     <div class="container">
         <!-- Your content goes here -->
+        <div class="container">
+            <p>This is an example </p>
+            
     </div>
 </div>
 
