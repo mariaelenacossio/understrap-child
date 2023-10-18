@@ -36,9 +36,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<main class="site-main" id="main">
 			<header class="py-5">
-				<div class="container px-5 pb-5">
+			<div class="container px-5 pb-5">
 				<div class="row gx-5 align-items-center">
-				<div class="col-xxl-5">
+				<div class="col-xxl-5 d-flex justify-content-center">
 					<!-- Header text content-->
 				<div class="text-center text-xxl-start">
 				<div class="fs-3 fw-light text-muted">Hi there, this is Mariaelena</div>
