@@ -36,6 +36,34 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div>
     </div>
   </div>
+  <!--End of Hero Section-->
+
+  <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="profile-container text-center p-4">
+                    <img src="your-profile-image.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="about-me-container p-4">
+                    <h2>About me</h2>
+                    <p>
+                        Insert your description text here. This is where you can introduce yourself and provide information about your skills and experiences.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://github.com/your-username" target="_blank" class="btn btn-dark mr-3">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/your-username" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
