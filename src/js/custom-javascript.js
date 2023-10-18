@@ -1,6 +1,6 @@
-// Add your custom JS here.
-
+(function() {
     "use strict";
+
 /**
    * Intro type effect
    */
@@ -16,3 +16,4 @@ if (typed) {
     backDelay: 2000
   });
 }
+})
