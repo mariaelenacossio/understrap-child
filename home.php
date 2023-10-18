@@ -20,12 +20,30 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<header class="py-5">
+<!-- ======= Hero Section ======= -->
+<div id="hero" class="hero route bg-image" style="background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">I am Morgan Freeman</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+
+
+
+<!-- <header class="py-5" style="background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png)">
 			<div class="container px-5 pb-5">
 				<div class="row gx-5 align-items-center">
-				<div class="col-xxl-5">
+				<div class="col-xxl-5"> -->
 					<!-- Header text content-->
-				<div class="text-center text-xxl-start">
+				<!-- <div class="text-center text-xxl-start">
 				<div class="fs-3 fw-light text-muted">Hi there, this is Mariaelena</div>
 				<h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">I'm a Web Designer</span></h1>
 				<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
@@ -33,19 +51,19 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a></div>
 				</div>
 				</div>
-				<div class="col-xxl-7 d-flex justify-content-center">
+				<div class="col-xxl-7 d-flex justify-content-center"> -->
 					<!-- Header profile picture-->
-				<div class="d-flex justify-content-center mt-5 mt-xxl-0">
+				<!-- <div class="d-flex justify-content-center mt-5 mt-xxl-0"> -->
 				<!-- <div class="profile bg-gradient-primary-to-secondary">
 				<figure>
 					<img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
 				</figure>
 				</div> -->
+				<!-- </div>
 				</div>
 				</div>
 				</div>
-				</div>
-				</header>
+				</header> -->
 
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
