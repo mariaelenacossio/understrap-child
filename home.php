@@ -33,8 +33,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			// Do the left sidebar check and open div#primary.
 			get_template_part( 'global-templates/left-sidebar-check' );
 			?>
-
-			<main class="site-main" id="main">
 			<header class="py-5">
 			<div class="container px-5 pb-5">
 				<div class="row gx-5 align-items-center">
@@ -61,6 +59,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				</div>
 				</header>
+			
+				<main class="site-main" id="main">
+
 				
 
 				<!--About Me Section-->
