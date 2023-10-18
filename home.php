@@ -39,7 +39,8 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
   <!--End of Hero Section-->
 
-  <div class="container mt-4">
+  <!-- ======= About Section ======= -->
+  <div class="bg-light container mt-4">
         <div class="row">
             <div class="col-lg-4">
                 <div class="profile-container text-center p-4">
@@ -48,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
             <div class="col-lg-8">
-                <div class="about-me-container bg-light p-4">
+                <div class="about-me-container p-4">
                     <h2>About me</h2>
                     <p class="lead fw-light mb-4">
 					I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
@@ -65,75 +66,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<i class="fa fa-github-square"></i>
 						</a>
 					</div>
-                    <!-- <div class="mt-4">
-                        <a href="https://github.com/your-username" target="_blank" class="btn btn-dark mr-3">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                        <a href="https://www.linkedin.com/in/your-username" target="_blank" class="btn btn-primary">
-                            <i class="fab fa-linkedin"></i> LinkedIn
-                        </a>
-                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-<!-- <div id="hero" class="hero route bg-image" style="background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container"> -->
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <!-- <h1 class="hero-title mb-4">I am Mariaelena Cossio Clark</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-				<!--Buttons-->
-				<!-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-				<a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a><br>
-				<a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a></div>
-				</div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- End Hero Section -->
-
-
-
-
-<!-- <header class="py-5" style="background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png)">
-			<div class="container px-5 pb-5">
-				<div class="row gx-5 align-items-center">
-				<div class="col-xxl-5"> -->
-					<!-- Header text content-->
-				<!-- <div class="text-center text-xxl-start">
-				<div class="fs-3 fw-light text-muted">Hi there, this is Mariaelena</div>
-				<h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">I'm a Web Designer</span></h1>
-				<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-				<a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a><br>
-				<a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a></div>
-				</div>
-				</div>
-				<div class="col-xxl-7 d-flex justify-content-center"> -->
-					<!-- Header profile picture-->
-				<!-- <div class="d-flex justify-content-center mt-5 mt-xxl-0"> -->
-				<!-- <div class="profile bg-gradient-primary-to-secondary">
-				<figure>
-					<img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
-				</figure>
-				</div> -->
-				<!-- </div>
-				</div>
-				</div>
-				</div>
-				</header> -->
 
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
@@ -152,7 +88,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			?>
 
 			
-				<main class="site-main" id="main">
+		<main class="site-main" id="main">
 
 				
 
@@ -161,9 +97,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="container px-5">
 				<div class="row gx-5 justify-content-center">
 				<div class="col-xxl-8">
-				<div class="profile bg-gradient-primary-to-secondary">
+				<div>
 				<figure>
-					<img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
+					<img class="img-fluid-profile" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
 				</figure>
 				</div>
 				<div class="text-center my-5">
