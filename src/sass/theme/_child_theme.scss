@@ -17,6 +17,20 @@ and (max-width: 477px){
 
 //About me Section
 .img-fluid-profile{
-  max-width: fit-content;
-  height: auto;
+  max-width: 100%;
+  height: 50vh;
+}
+@media 
+only screen //Small screens
+and (max-width: 477px){
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+.about-me-container p {text-align: center;}
+.about-me-container .mt-4 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
 }
