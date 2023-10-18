@@ -24,7 +24,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="profile-img" class="d-block mx-lg-auto img-fluid" width="850" height="450" loading="lazy">
+        <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" 
+		alt="profile-img" class="d-block mx-lg-auto img-fluid-hero" width="850" height="450" loading="lazy">
       </div>
       <div class="col-lg-6">
 	  	<p class="lead">Hi there, this is Mariaelena</p>
@@ -42,7 +43,8 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row">
             <div class="col-lg-4">
                 <div class="profile-container text-center p-4">
-                    <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img" class="img-fluid rounded-circle">
+                    <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" 
+					alt="profile-img" class="img-fluid-profile rounded-circle">
                 </div>
             </div>
             <div class="col-lg-8">

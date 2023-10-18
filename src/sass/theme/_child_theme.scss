@@ -1,9 +1,11 @@
 // Hero section
-.img-fluid{ max-width: fit-content;}
+.img-fluid-hero{ 
+  max-width: fit-content;
+  height: auto;}
 @media 
 only screen //Small screens
 and (max-width: 477px){
-  img.d-block.mx-lg-auto.img-fluid {
+  img.d-block.mx-lg-auto.img-fluid-hero {
     width: 500px;
     height: 250px;
     padding-right: 10rem;
@@ -11,4 +13,10 @@ and (max-width: 477px){
   p.lead{text-align: center;}
   h1.display-5.fw-bold.lh-1.mb-3 {text-align: center;}
   .py-5 {padding-top: 1rem!important;}  
+}
+
+//About me Section
+.img-fluid-profile{
+  max-width: fit-content;
+  height: auto;
 }
