@@ -21,24 +21,47 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!-- ======= Hero Section ======= -->
-<div id="hero" class="hero route bg-image" style="background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png)">
+<div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-- <div id="hero" class="hero route bg-image" style="background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
-        <div class="container">
+        <div class="container"> -->
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Mariaelena Cossio Clark</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+          <!-- <h1 class="hero-title mb-4">I am Mariaelena Cossio Clark</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
 				<!--Buttons-->
-				<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+				<!-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
 				<a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a><br>
 				<a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a></div>
 				</div>
         </div>
       </div>
     </div>
-  </div><!-- End Hero Section -->
+  </div> -->
+  <!-- End Hero Section -->
 
 
 
