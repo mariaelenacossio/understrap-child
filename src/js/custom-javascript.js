@@ -1,5 +1,6 @@
 // Add your custom JS here.
 
+    "use strict";
 /**
    * Intro type effect
    */
