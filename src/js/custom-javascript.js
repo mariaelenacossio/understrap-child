@@ -16,4 +16,4 @@ if (typed) {
     backDelay: 2000
   });
 }
-})
+});
