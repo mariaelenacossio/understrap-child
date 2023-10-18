@@ -1,63 +1,74 @@
-// Define your primary color
 $primary: #010125;
 
-// Hero Section
-.hero {
-    background-image: url('http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/efe-kurnaz-RnCPiXixooY-unsplash-photoutils.com_-scaled.webp');
-    color: #fff;
-    padding: 100px 0;
+
+//Homepage style//
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
 }
 
-.hero-content h1 {
-    font-size: 36px;
+//End Home page style//
+
+//Header Home//
+header.entry-header{ display: none;}
+header.py-5{background-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/efe-kurnaz-RnCPiXixooY-unsplash-photoutils.com_-scaled.webp);}
+
+//Hero Section//
+.hero{
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.hero-content h2 {
-    font-size: 24px;
+//Profile picture//
+.profile-img{
+  max-width: 50%;
+  border-radius: 24px;
+  height: fit-content;
+}
+figure {
+  display: flex;
+  justify-content: center;
 }
 
-.buttons .btn {
-    margin-right: 10px;
+.profile > p {
+display: flex;
+justify-content: center;
 }
 
-// Profile Picture
-.profile-img {
-    max-width: 50%;
-    border-radius: 24px;
-    height: fit-content;
+//Headings//
+.headings{
+  text-align: center;
+}
+hr{
+  line-height: 1rem;
 }
 
-.profile {
-    display: flex;
-    justify-content: center;
+//Social Links//
+.fa{font-size: 4rem;}
+
+//Portfolio Cards Section//
+.portfolio-cards{
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.social-links {
-    margin-top: 20px;
 
-    a {
-        font-size: 24px;
-        margin: 0 10px;
-        color: $primary;
-        transition: color 0.3s;
-
-        &:hover {
-            color: #6528e0;
-        }
-    }
-}
-
-// Case Studies
-.case-studies {
-    text-align: center;
-
-    h2 {
-        font-size: 36px;
-    }
-
-    hr {
-        background-color: $primary;
-        height: 2px;
-        margin-top: 20px;
-    }
-}
+//Footer Homepage//
+.entry-footer{display: none;}
+.comment-respond {display: none;}
+#wrapper-footer{display: none;}

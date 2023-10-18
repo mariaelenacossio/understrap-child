@@ -35,59 +35,103 @@ $container = get_theme_mod( 'understrap_container_type' );
 			?>
 
 			<main class="site-main" id="main">
-			<div class="hero">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="hero-content">
-                    <h1>Hi there, this is Mariaelena</h1>
-                    <h2>I'm a Web Designer</h2>
-                    <div class="buttons">
-                        <a class="btn btn-bd-primary" href="resume.html">Resume</a>
-                        <a class="btn btn-outline-dark" href="projects.html">Projects</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="profile">
-                    <figure class="profile-img">
-                        <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+			<header class="py-5">
+			<div class="container px-5 pb-5">
+				<div class="row gx-5 align-items-center">
+				<div class="col-xxl-5">
+					<!-- Header text content-->
+				<div class="text-center text-xxl-start">
+				<div class="fs-3 fw-light text-muted">Hi there, this is Mariaelena</div>
+				<h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">I'm a Web Designer</span></h1>
+				<div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+				<a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a><br>
+				<a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a></div>
+				</div>
+				</div>
+				<div class="col-xxl-7 d-flex justify-content-center">
+					<!-- Header profile picture-->
+				<div class="d-flex justify-content-center mt-5 mt-xxl-0">
+				<div class="profile bg-gradient-primary-to-secondary">
+				<figure class="profile-img"><img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img"></figure>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</header>
+				
 
-<section class="about-me">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h2>About Me</h2>
-                <p>
-                    I am a passionate and organized individual who loves crafting digital stories through websites and apps.
-                    I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Ai, in my creative process.
-                    Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality.
-                    I thrive in a collaborative team environment, always eager to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.
-                </p>
-                <div class="social-links">
-                    <a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                    <a href="https://github.com/mariaelenacossio" target="_blank"><i class="fa fa-github-square"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+				<!--About Me Section-->
+				<section class="bg-light py-5">
+				<div class="container px-5">
+				<div class="row gx-5 justify-content-center">
+				<div class="col-xxl-8">
+				<div class="text-center my-5">
+				<h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
+				<p class="lead fw-light mb-4">I am a passionate and organized individual who loves crafting digital stories through websites and apps. I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Ai, in my creative process. Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. I thrive in a collaborative team environment, always eager to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.</p>
+				<div class="d-flex justify-content-center fs-2 gap-4">
+				<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
+				<i class="fa fa-linkedin-square"></i><br>
+				</a><br>
+				<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
+				<i class="fa fa-github-square"></i><br>
+				</a></div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</section>
+				
 
-<section class="case-studies">
-    <div class="container">
-        <h2>Case Studies</h2>
-        <hr>
-        <div class="row">
-            <!-- Case study cards go here -->
-        </div>
-    </div>
-</section>				
+				
+				<div class="headings">
+				<h2 class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Case Studies</span></h2>
+				<hr>
+				</div>
+				
+
+				<!--Case Study Cards-->
+				<section class="portfolio-cards">
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+				<div class="col">
+				<div class="card">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				</div>
+				</div>
+				</div>
+				<div class="col">
+				<div class="card">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</section>
+				
 
 				
 				<!-- <footer class="bg-white py-4 mt-auto">
