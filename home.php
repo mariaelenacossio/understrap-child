@@ -51,9 +51,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="col-xxl-7 d-flex justify-content-center">
 					<!-- Header profile picture-->
 				<div class="d-flex justify-content-center mt-5 mt-xxl-0">
-				<div class="profile bg-gradient-primary-to-secondary">
-				<figure><img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img"></figure>
-				</div>
+				<!-- <div class="profile bg-gradient-primary-to-secondary">
+				<figure>
+					<img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
+				</figure>
+				</div> -->
 				</div>
 				</div>
 				</div>
@@ -66,6 +68,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="container px-5">
 				<div class="row gx-5 justify-content-center">
 				<div class="col-xxl-8">
+				<div class="profile bg-gradient-primary-to-secondary">
+				<figure>
+					<img class="profile-img" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
+				</figure>
+				</div>
 				<div class="text-center my-5">
 				<h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
 				<p class="lead fw-light mb-4">I am a passionate and organized individual who loves crafting digital stories through websites and apps. I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Ai, in my creative process. Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. I thrive in a collaborative team environment, always eager to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.</p>
