@@ -58,7 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					I thrive in a collaborative team environment, always eager to learn from others. 
 					Ultimately, my daily inspiration comes from creating meaningful digital experiences.
                     </p>
-					<div class="d-flex justify-content-center fs-2 gap-4">
+					<div class="social-links d-flex fs-2 gap-4">
 						<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
 						<i class="fa fa-linkedin-square"></i>
 						</a>
