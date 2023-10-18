@@ -24,16 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php endif; ?>
 
 <div class="wrapper" id="index-wrapper">
-
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
-
-		<div class="row">
-
-			<?php
-			// Do the left sidebar check and open div#primary.
-			get_template_part( 'global-templates/left-sidebar-check' );
-			?>
-			<header class="py-5">
+<header class="py-5">
 			<div class="container px-5 pb-5">
 				<div class="row gx-5 align-items-center">
 				<div class="col-xxl-5">
@@ -59,6 +50,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				</div>
 				</header>
+
+	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+
+		<div class="row">
+
+			<?php
+			// Do the left sidebar check and open div#primary.
+			get_template_part( 'global-templates/left-sidebar-check' );
+			?>
+
 			
 				<main class="site-main" id="main">
 
