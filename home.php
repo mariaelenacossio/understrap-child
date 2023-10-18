@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					Ultimately, my daily inspiration comes from creating meaningful digital experiences.
                     </p>
 					<div class="social-links d-flex fs-2 gap-4">
-						<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
+						<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" target="_blank" itemprop="SameAs" rel="noopener"><br>
 						<i class="fa fa-linkedin-square"></i>
 						</a>
 						<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
