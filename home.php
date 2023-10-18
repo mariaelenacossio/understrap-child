@@ -40,8 +40,8 @@ $container = get_theme_mod( 'understrap_container_type' );
   <!--End of Hero Section-->
 
   <!-- ======= About Section ======= -->
-  <div class="bg-light container mt-4 img-shadow">
-        <div class="row">
+  <div class="about-me bg-light container mt-4 img-shadow">
+        <div class="row pt-2">
             <div class="col-lg-4">
                 <div class="profile-container text-center p-4">
                     <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" 
@@ -60,10 +60,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </p>
 					<div class="d-flex justify-content-center fs-2 gap-4">
 						<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
-						<i class="fa fa-linkedin-square img-shadow"></i>
+						<i class="fa fa-linkedin-square"></i>
 						</a>
 						<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
-						<i class="fa fa-github-square img-shadow"></i>
+						<i class="fa fa-github-square"></i>
 						</a>
 					</div>
                 </div>
