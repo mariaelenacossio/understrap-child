@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<header class="py-5">
 			<div class="container px-5 pb-5">
 				<div class="row gx-5 align-items-center">
-				<div class="col-xxl-5 d-flex justify-content-center">
+				<div class="col-xxl-5">
 					<!-- Header text content-->
 				<div class="text-center text-xxl-start">
 				<div class="fs-3 fw-light text-muted">Hi there, this is Mariaelena</div>
@@ -48,7 +48,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a></div>
 				</div>
 				</div>
-				<div class="col-xxl-7">
+				<div class="col-xxl-7 d-flex justify-content-center">
 					<!-- Header profile picture-->
 				<div class="d-flex justify-content-center mt-5 mt-xxl-0">
 				<div class="profile bg-gradient-primary-to-secondary">
