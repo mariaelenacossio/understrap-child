@@ -19,6 +19,15 @@ $primary: #010125;
   --bs-btn-active-border-color: #5a23c8;
 }
 
+// Media queries 
+
+// Buttons Hero section
+@media (min-width: 576px){
+.justify-content-sm-center {
+    justify-content: center!important;
+    padding-top: 3rem;
+}
+}
 //End Home page style//
 
 //Header Home//
