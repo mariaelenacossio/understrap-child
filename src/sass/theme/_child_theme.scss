@@ -32,7 +32,7 @@ and (max-width: 477px){
   height: 50vh;
 }
 .about-me > .row>*{align-items: center;}
-.about-me > .pt-2{padding-top: 2rem;}
+.about-me > .row {padding-top: 2rem;}
 //Social Links//
 .fa{font-size: 4rem;}
 @media 
