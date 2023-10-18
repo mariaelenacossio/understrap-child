@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
         <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" 
-		alt="profile-img" class="d-block mx-lg-auto img-fluid-hero" width="850" height="450" loading="lazy">
+		alt="profile-img" class="d-block mx-lg-auto img-fluid-hero img-shadow" width="850" height="450" loading="lazy">
       </div>
       <div class="col-lg-6">
 	  	<p class="lead">Hi there, this is Mariaelena</p>
@@ -45,7 +45,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="col-lg-4">
                 <div class="profile-container text-center p-4">
                     <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" 
-					alt="profile-img" class="img-fluid-profile">
+					alt="profile-img" class="img-fluid-profile img-shadow">
                 </div>
             </div>
             <div class="col-lg-8">
@@ -60,10 +60,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </p>
 					<div class="d-flex justify-content-center fs-2 gap-4">
 						<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
-						<i class="fa fa-linkedin-square"></i>
+						<i class="fa fa-linkedin-square img-shadow"></i>
 						</a>
 						<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
-						<i class="fa fa-github-square"></i>
+						<i class="fa fa-github-square img-shadow"></i>
 						</a>
 					</div>
                 </div>
@@ -90,37 +90,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 			
 		<main class="site-main" id="main">
 
-				
-
-				<!--About Me Section-->
-				<section class="about-me bg-light py-5">
-				<div class="container px-5">
-				<div class="row gx-5 justify-content-center">
-				<div class="col-xxl-8">
-				<div>
-				<figure>
-					<img class="img-fluid-profile" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img">
-				</figure>
-				</div>
-				<div class="text-center my-5">
-				<h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-				<p class="lead fw-light mb-4">I am a passionate and organized individual who loves crafting digital stories through websites and apps. I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Ai, in my creative process. Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. I thrive in a collaborative team environment, always eager to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.</p>
-				<div class="d-flex justify-content-center fs-2 gap-4">
-				<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
-				<i class="fa fa-linkedin-square"></i><br>
-				</a><br>
-				<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
-				<i class="fa fa-github-square"></i><br>
-				</a></div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</section>
-				<!--End About Me Section-->
-
-
-				
 				<div class="headings">
 				<h2 class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Case Studies</span></h2>
 				<hr>

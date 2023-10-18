@@ -1,7 +1,14 @@
+//Global Styles
+//Img Shadows
+.img-shadow{box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+
+
+
 // Hero section
 .img-fluid-hero{ 
   max-width: fit-content;
-  height: auto;}
+  height: auto;
+}
 @media 
 only screen //Small screens
 and (max-width: 477px){
