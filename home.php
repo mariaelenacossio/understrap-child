@@ -42,14 +42,18 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row">
             <div class="col-lg-4">
                 <div class="profile-container text-center p-4">
-                    <img src="your-profile-image.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+                    <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img" class="img-fluid rounded-circle">
                 </div>
             </div>
             <div class="col-lg-8">
                 <div class="about-me-container p-4">
                     <h2>About me</h2>
                     <p>
-                        Insert your description text here. This is where you can introduce yourself and provide information about your skills and experiences.
+					I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
+					I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Adobe Illustrator, in my creative process. 
+					Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. 
+					I thrive in a collaborative team environment, always eager to learn from others. 
+					Ultimately, my daily inspiration comes from creating meaningful digital experiences.
                     </p>
                     <div class="mt-4">
                         <a href="https://github.com/your-username" target="_blank" class="btn btn-dark mr-3">
