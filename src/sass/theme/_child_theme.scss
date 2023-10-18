@@ -9,8 +9,7 @@
   max-width: fit-content;
   height: auto;
 }
-@media 
-only screen //Small screens
+@media only screen //Small screens
 and (max-width: 477px){
   img.d-block.mx-lg-auto.img-fluid-hero {
     width: 500px;
@@ -33,10 +32,7 @@ and (max-width: 477px){
 }
 .about-me > .row>*{align-items: center;}
 .about-me > .row {padding-top: 2rem;}
-//Social Links//
-.fa{font-size: 4rem;}
-@media 
-only screen //Small screens
+@media only screen //Small screens
 and (max-width: 477px){
 h2 {
   text-align: center;
@@ -49,3 +45,14 @@ h2 {
   gap: 1rem;
 }
 }
+
+//Social Links//
+.fa{font-size: 4rem;}
+.social-links {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+@media only screen //Small screens
+  and (max-width: 477px){
+    .social-links{justify-content: center;}
+  }
