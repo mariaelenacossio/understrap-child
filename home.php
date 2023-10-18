@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <!--End of Hero Section-->
 
   <!-- ======= About Section ======= -->
-  <div class="bg-light container mt-4">
+  <div class="bg-light container mt-4 img-shadow">
         <div class="row">
             <div class="col-lg-4">
                 <div class="profile-container text-center p-4">
