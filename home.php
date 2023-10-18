@@ -92,7 +92,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				
 
 				<!--About Me Section-->
-				<section class="bg-light py-5">
+				<section class="about-me bg-light py-5">
 				<div class="container px-5">
 				<div class="row gx-5 justify-content-center">
 				<div class="col-xxl-8">
