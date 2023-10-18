@@ -12,18 +12,14 @@
  */
 
 // Exit if accessed directly.
+
 defined( 'ABSPATH' ) || exit;
 
 get_header();
 
+
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-
-<?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
-
-<div class="wrapper" id="index-wrapper">
 <header class="py-5">
 			<div class="container px-5 pb-5">
 				<div class="row gx-5 align-items-center">
@@ -50,6 +46,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				</div>
 				</header>
+
+<?php if ( is_front_page() && is_home() ) : ?>
+	<?php get_template_part( 'global-templates/hero' ); ?>
+<?php endif; ?>
+
+<div class="wrapper" id="index-wrapper">
+
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
