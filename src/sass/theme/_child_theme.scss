@@ -45,6 +45,10 @@ h2 {
   gap: 1rem;
 }
 }
+@media only screen //Large screen
+and (min-width: 1250px){
+  .about-me > .row {padding-bottom: 2rem;}
+}
 
 //Social Links//
 .fa{font-size: 4rem;}
