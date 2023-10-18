@@ -125,13 +125,14 @@ $primary: #010125;
 
 
 // header.entry-header{ display: none;}
+// About me Section
 
-
-//Hero Section//
-// .hero{
-//   display: flex;
-//   flex-wrap: nowrap;
-// }
+.about-me > .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -calc(var(--bs-gutter-x) * 0.5);
+  margin-left: -calc(var(--bs-gutter-x) * 0.5);
+}
 
 //Profile picture//
 .profile-img{
