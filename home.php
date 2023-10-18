@@ -50,21 +50,29 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="col-lg-8">
                 <div class="about-me-container bg-light p-4">
                     <h2>About me</h2>
-                    <p>
+                    <p class="lead fw-light mb-4">
 					I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
 					I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Adobe Illustrator, in my creative process. 
 					Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. 
 					I thrive in a collaborative team environment, always eager to learn from others. 
 					Ultimately, my daily inspiration comes from creating meaningful digital experiences.
                     </p>
-                    <div class="mt-4">
+					<div class="d-flex justify-content-center fs-2 gap-4">
+						<a href="www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener"><br>
+						<i class="fa fa-linkedin-square"></i>
+						</a>
+						<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
+						<i class="fa fa-github-square"></i>
+						</a>
+					</div>
+                    <!-- <div class="mt-4">
                         <a href="https://github.com/your-username" target="_blank" class="btn btn-dark mr-3">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                         <a href="https://www.linkedin.com/in/your-username" target="_blank" class="btn btn-primary">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
