@@ -93,7 +93,8 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
   <!--End Sidebar Large Screens-->
 
   <!--Bottom Navbar for small screens-->
-  <header  class="btm-bar" id="wrapper-navbar">
+  
+  <div class="btm-bar" id="#wrapper-nav">
 	<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 4.5rem;">
 			<a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
 				<svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
@@ -156,7 +157,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 			</ul>
 			</div>
 		</div>
-</header>
+	</div>
   <!--Bottom Navbar for small screens-->
 
 		<!-- <a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content"> -->
