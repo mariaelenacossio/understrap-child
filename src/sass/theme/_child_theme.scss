@@ -113,13 +113,13 @@ and (max-width: 477px){
   position: fixed;
   bottom: 0;
   left: 0;
-  width: auto;
+  width: 389px;
   background-color: #f0f0f0;
   /* Adjust the height as needed */
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   /* Add any other styles you need */
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
   z-index: 999; /* Adjust the z-index to ensure it's above other content */
@@ -129,8 +129,8 @@ and (max-width: 477px){
 .btm-bar > .nav a {
   text-decoration: none;
   color: #333;
-  margin: 10px;
-  padding: 0.3rem;
+  // margin: 10px;
+  padding: 1rem;
   /* Add any other styles you need */
 }
 

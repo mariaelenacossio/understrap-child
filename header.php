@@ -102,9 +102,9 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<!--Bottom Navbar for small screens-->
   
   <div class="btm-bar" id="#wrapper-nav">
-	<div class="d-flex justify-content-center">
+	<!-- <div class="d-flex justify-content-center"> -->
 
-			<div class="nav">
+			<div class="nav d-flex">
 			<!-- <div class="nav-item"> -->
 				<a href="#home" class="nav-link active py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="i-color home" aria-label="Home">
@@ -148,6 +148,6 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 				</a>
 			<!-- </div> -->
 			</div><!--nav-pills-->
-		</div>
+		<!-- </div> -->
 	</div>
   <!--Bottom Navbar for small screens-->
