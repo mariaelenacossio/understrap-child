@@ -92,9 +92,16 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
   </div>
   <!--End Sidebar Large Screens-->
 
-  <!--Bottom Navbar for small screens-->
+		<!-- <a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content"> -->
+			<!-- ?php esc_html_e( 'Skip to content', 'understrap' ); ?> -->
+		<!-- </a> -->
+
+		<!-- ?php get_template_part( 'global-templates/navbar', $navbar_type . '-' . $bootstrap_version ); ?> -->
+
+	</header><!-- #wrapper-navbar -->
+	<!--Bottom Navbar for small screens-->
   
-  <div class="btm-bar" id="#wrapper-nav">
+	<div class="btm-bar" id="#wrapper-nav">
 	<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 4.5rem;">
 			<a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
 				<svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
@@ -159,11 +166,3 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 		</div>
 	</div>
   <!--Bottom Navbar for small screens-->
-
-		<!-- <a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content"> -->
-			<!-- ?php esc_html_e( 'Skip to content', 'understrap' ); ?> -->
-		<!-- </a> -->
-
-		<!-- ?php get_template_part( 'global-templates/navbar', $navbar_type . '-' . $bootstrap_version ); ?> -->
-
-	</header><!-- #wrapper-navbar -->
