@@ -102,11 +102,8 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<!--Bottom Navbar for small screens-->
   
   <div class="btm-bar" id="#wrapper-nav">
-	<div class="bg-light">
-			<a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
-				<svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-				<span class="visually-hidden">Icon-only</span>
-			</a>
+	<div class="d-flex justify-content-center">
+
 			<div class="nav nav-pills nav-flush mb-auto text-center">
 			<!-- <div class="nav-item"> -->
 				<a href="#home" class="nav-link active py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
