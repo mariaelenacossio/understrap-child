@@ -21,7 +21,16 @@ and (max-width:447px){
     margin-left: 270px;
     transition: 0.3s ease;
     }
-}  
+} 
+
+//Sidebar
+.side-bar{
+position: fixed;
+top: auto;
+overflow-y: scroll;
+border-right: 1px solid #072ac8;
+height: 100vh;
+}
 
 // Hero section
 .img-fluid-hero{ 

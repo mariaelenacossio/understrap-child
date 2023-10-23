@@ -27,7 +27,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<header id="wrapper-navbar">
+	<header  class="side-bar" id="wrapper-navbar">
 	<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 4.5rem;">
     <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
       <svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
