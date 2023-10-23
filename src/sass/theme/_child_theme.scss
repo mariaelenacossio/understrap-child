@@ -98,39 +98,59 @@ svg.home.i-color {fill: white;}
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
 
-.btm-bar{display: none;}
+
 
 //Bottom bar
+.btm-bar{display: none;}
+.btm-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 4.5rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-link {
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+
 @media only screen //Small Screens
 and (max-width: 477px){
   .side-bar {display: none;}
 
   //Bottom bar
-  /* CSS for the sticky bottom sidebar */
-.btm-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f0f0f0;
-  /* Adjust the height as needed */
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  /* Add any other styles you need */
-  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 999; /* Adjust the z-index to ensure it's above other content */
+  .btm-bar {
+    flex-direction: row;
+    width: 100%;
 }
 
-/* Optional: If you want to change the sidebar styles */
-.btm-bar a {
-  text-decoration: none;
-  color: #333;
-  margin: 10px;
-  /* Add any other styles you need */
+.d-flex.flex-column {
+    width: 100%;
 }
-.interface .btm-bar{width: 100%;}
+
+.nav {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-link {
+    padding: 15px 10px;
+    border: none;
+}
+
+.dropdown {
+    display: none; /* Hide the dropdown in horizontal layout */
+}
   
 }
 
