@@ -102,7 +102,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<!--Bottom Navbar for small screens-->
   
 	<div class="btm-bar" id="wrapper-nav">
-        <div class="d-flex flex-column flex-shrink-0 bg-light">
+        <div class="d-flex flex-shrink-0 bg-light">
             <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
                 <svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
                 <span class="visually-hidden">Icon-only</span>
