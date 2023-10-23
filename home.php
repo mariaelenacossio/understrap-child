@@ -20,6 +20,7 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
+<div class="interface">
 <!-- ======= Hero Section ======= -->
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -190,6 +191,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div><!-- #content -->
 
 </div><!-- #index-wrapper -->
+			</div><!--End Interface-->
 
 <?php
 get_footer();
