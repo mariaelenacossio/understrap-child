@@ -157,6 +157,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
     </div>
   </div>
 </div>
+</div>
   <!--Bottom Navbar for small screens-->
 
 		<!-- <a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content"> -->
