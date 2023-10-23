@@ -8,7 +8,20 @@
   margin-left: 250px;
   position: absolute;
   }
-
+@media only screen //Small screens
+and (max-width:447px){
+  .interface {
+    width: 100%;
+    margin-left: 0px;
+    display: inline-block;
+    transition: 0.3s ease;
+    }
+    .side-bar.active~.interface {
+    width: calc(100% - 270px);
+    margin-left: 270px;
+    transition: 0.3s ease;
+    }
+}  
 
 // Hero section
 .img-fluid-hero{ 
