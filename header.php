@@ -37,7 +37,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
       <li class="nav-item">
         <a href="#" class="nav-link active py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
 		<i class="fa-solid fa-house"></i>
-          <svg class="bi" width="24" height="24" role="img" aria-label="Home"><use xlink:href="#home"/></svg>
+          <!-- <svg class="bi" width="24" height="24" role="img" aria-label="Home"><use xlink:href="#home"/></svg> -->
         </a>
       </li>
       <li>
