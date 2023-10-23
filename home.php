@@ -21,24 +21,24 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="interface">
-<!-- ======= Hero Section ======= -->
-<div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" 
-		alt="profile-img" class="d-block mx-lg-auto img-fluid-hero img-shadow" width="850" height="450" loading="lazy">
-      </div>
-      <div class="col-lg-6">
-	  	<p class="lead">Hi there, this is Mariaelena</p>
-        <h1 class="display-5 fw-bold lh-1 mb-3">I am a Web Designer</h1>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Projects</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--End of Hero Section-->
+		<!-- ======= Hero Section ======= -->
+		<div class="container col-xxl-8 px-4 py-5">
+		<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+			<div class="col-10 col-sm-8 col-lg-6">
+			<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" 
+			alt="profile-img" class="d-block mx-lg-auto img-fluid-hero img-shadow" width="850" height="450" loading="lazy">
+			</div>
+			<div class="col-lg-6">
+			<p class="lead">Hi there, this is Mariaelena</p>
+			<h1 class="display-5 fw-bold lh-1 mb-3">I am a Web Designer</h1>
+			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+				<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+				<button type="button" class="btn btn-outline-secondary btn-lg px-4">Projects</button>
+			</div>
+			</div>
+		</div>
+		</div>
+		<!--End of Hero Section-->
 
   <!-- ======= About Section ======= -->
   <div class="about-me bg-light container mt-4 img-shadow">
@@ -192,6 +192,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- #index-wrapper -->
 			</div><!--End Interface-->
+			</div>
 
 <!-- ?php
 get_footer(); -->
