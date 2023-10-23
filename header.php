@@ -92,6 +92,27 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
   </div>
   <!--End Sidebar Large Screens-->
 
+  <div class="mobile-nav">
+        <a href="#" class="bloc-icon">
+            <img src="ressources/home.svg" alt="">
+        </a>
+        <a href="#" class="bloc-icon">
+            <img src="ressources/heart.svg" alt="">
+        </a>
+        <a href="#" class="bloc-icon">
+            <img src="ressources/magnifying-glass.svg" alt="">
+        </a>
+        <a href="#" class="bloc-icon">
+            <img src="ressources/plus.svg" alt="">
+        </a>
+        <a href="#" class="bloc-icon">
+            <img src="ressources/user.svg" alt="">
+        </a>
+</div>
+
+
+
+
 		<!-- <a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content"> -->
 			<!-- ?php esc_html_e( 'Skip to content', 'understrap' ); ?> -->
 		<!-- </a> -->
@@ -166,20 +187,3 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 		</div>
 	</div> -->
   <!--Bottom Navbar for small screens-->
-  <div class="mobile-nav">
-        <a href="#" class="bloc-icon">
-            <img src="ressources/home.svg" alt="">
-        </a>
-        <a href="#" class="bloc-icon">
-            <img src="ressources/heart.svg" alt="">
-        </a>
-        <a href="#" class="bloc-icon">
-            <img src="ressources/magnifying-glass.svg" alt="">
-        </a>
-        <a href="#" class="bloc-icon">
-            <img src="ressources/plus.svg" alt="">
-        </a>
-        <a href="#" class="bloc-icon">
-            <img src="ressources/user.svg" alt="">
-        </a>
-</div>
