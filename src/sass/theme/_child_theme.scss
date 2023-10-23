@@ -101,27 +101,7 @@ svg.home.i-color {fill: white;}
 
 
 //Bottom bar
-.btm-bar{display: none;}
-.btm-bar {
-  display: flex;
-  flex-direction: column;
-  background-color: lightgray;
-  width: 4.5rem;
-}
-
-.nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.nav-link {
-  padding: 15px 0;
-  border-bottom: 1px solid #ccc;
-}
-
-
-
+.btm-bar {display: none;}
 
 @media only screen //Small Screens
 and (max-width: 477px){
@@ -152,10 +132,25 @@ and (max-width: 477px){
   margin: 10px;
   /* Add any other styles you need */
 }
-.interface .btm-bar{width: 100%;}
   
 }
+// .btm-bar {
+//   display: flex;
+//   flex-direction: column;
+//   background-color: lightgray;
+//   width: 4.5rem;
+// }
 
+// .nav {
+//   display: flex;
+//   flex-direction: column;
+//   text-align: center;
+// }
+
+// .nav-link {
+//   padding: 15px 0;
+//   border-bottom: 1px solid #ccc;
+// }
 
 // @media only screen //Small screens
 // and (max-width:447px){comments
