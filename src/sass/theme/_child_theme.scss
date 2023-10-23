@@ -98,6 +98,14 @@ svg.home.i-color {fill: white;}
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
 
+.btm-bar{display: none;}
+
+//Bottom bar
+@media only screen //Small Screens
+and (max-width: 477px){
+  .btm-bar {display: flex;}
+}
+
 
 // @media only screen //Small screens
 // and (max-width:447px){
