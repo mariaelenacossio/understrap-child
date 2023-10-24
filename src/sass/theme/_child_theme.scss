@@ -35,8 +35,9 @@ and (max-width:447px){
 position: fixed;
 top: auto;
 overflow-y: scroll;
-border-right: 1px solid $background-color;
-height: 100vh;
+border-right: 1px solid #fffafb;
+height: 95vh;
+border-radius: 40px;
 }
 //Sidebar icons
 .i-color {
@@ -45,6 +46,13 @@ height: 100vh;
   fill: $primary-color;
   height: 2rem;
 }
+
+//Side navbar pills
+.nav-pills .nav-link.active{
+  background-color: $primary-color;
+}
+.nav-flush .nav-link {border-radius: 3rem;} //This is for the circle shape of the icon pills
+
 //Target home svg color
 svg.home.i-color {fill: $background-color;}
 
