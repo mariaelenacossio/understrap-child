@@ -29,10 +29,11 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<header  class="side-bar img-shadow" id="wrapper-navbar">
 	<div class="d-flex flex-column flex-shrink-0" style="width: 4.5rem;">
-		<a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
-			<svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-			<span class="visually-hidden">Icon-only</span>
-		</a>
+		<!-- <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right"> -->
+			<!-- <svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg> -->
+			<!-- <span class="visually-hidden">Icon-only</span> -->
+		<!-- </a> --> <!--Logo icon, add ASAP-->
+		
 			<ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
 				<li class="nav-item">
 				<a href="#home" class="nav-link active py-3 border-bottom" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
