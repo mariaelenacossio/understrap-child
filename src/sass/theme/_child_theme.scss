@@ -52,6 +52,8 @@ margin-top: 1rem;
   padding-top: 0.5rem;
 } //Padding between icons
 
+ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {padding-top: 2rem;} //Add padding for first icon
+
 //Side navbar pills
 .nav-pills .nav-link.active{
   background-color: $primary-color;
