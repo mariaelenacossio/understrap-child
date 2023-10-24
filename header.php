@@ -28,7 +28,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<header  class="side-bar" id="wrapper-navbar">
-	<div class="d-flex flex-column flex-shrink-0 bg-light" style="width: 4.5rem;">
+	<div class="d-flex flex-column flex-shrink-0" style="width: 4.5rem;">
 		<a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right">
 			<svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
 			<span class="visually-hidden">Icon-only</span>
@@ -77,7 +77,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 				</a>
 				</li>
 			</ul>
-		<div class="dropdown border-top">
+		<!-- <div class="dropdown border-top">
 			<a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
 				<img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
 			</a>
@@ -88,7 +88,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 			<li><hr class="dropdown-divider"></li>
 			<li><a class="dropdown-item" href="#">Sign out</a></li>
 			</ul>
-		</div>
+		</div> --> <!--Unnecessary Dropdown-->
   </div>
   <!--End Sidebar Large Screens-->
 
