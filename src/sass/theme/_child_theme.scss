@@ -36,8 +36,9 @@ position: fixed;
 top: auto;
 overflow-y: scroll;
 border-right: 1px solid #fffafb;
-height: 95vh;
+height: 90vh;
 border-radius: 40px;
+margin-top: 1rem;
 }
 //Sidebar icons
 .i-color {
@@ -46,7 +47,10 @@ border-radius: 40px;
   fill: $primary-color;
   height: 2rem;
 }
-.side-bar li {padding-bottom: 1.5rem;} //Padding between icons
+.side-bar li {
+  padding-bottom: 1.5rem;
+  padding-top: 0.5rem;
+} //Padding between icons
 
 //Side navbar pills
 .nav-pills .nav-link.active{
