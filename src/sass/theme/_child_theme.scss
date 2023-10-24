@@ -163,6 +163,10 @@ and (max-width: 477px){
   height: auto;
 }
 .hero {height: 100vh;}
+.py-5 { // Add padding to center the content
+  padding-top: 5rem!important;
+  padding-bottom: 3rem!important;
+}
 @media only screen //Small screens
 and (max-width: 477px){
   img.d-block.mx-lg-auto.img-fluid-hero {
