@@ -43,8 +43,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- ======= About Section (Test) ======= -->
 
 <div class="section-container">
-<div class="primary-container">
+<div class="primary-container img-shadow">
 	<div class="container-wrapper">
+		<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/profile-hero.png" 
+		alt="profile-img">
 		<div class="block">
 			<p>Mariaelena</p>
 		</div>
