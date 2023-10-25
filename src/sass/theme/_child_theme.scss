@@ -140,7 +140,7 @@ svg.home.i-color {fill: $background-color;}
   color: #fff; /* Change this to your desired hover text color */
   border-color: $secondary-color; /* Change this to your desired hover border color */
 }
-.nav-item.icon-fill svg:hover {fill: $background-color;}
+.nav-item.icon-fill .i-color:hover {fill: $background-color;}
 
 
 
