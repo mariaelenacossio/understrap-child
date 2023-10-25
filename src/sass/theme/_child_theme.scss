@@ -138,34 +138,34 @@ $background-b : #2d2c3e;
 $green        : #16A085;
 
 
-.icon{
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  width: $icon-size;
-  height: $icon-size;
-  margin-left: $icon-size/5;
-  margin-right: $icon-size/5;
-  border-radius: $icon-size*$border-radius;
-  overflow: hidden;
-  &::before, &::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transition: all 0.25s ease;
-    border-radius: $icon-size*$border-radius;
-  }
-  i{
-    position: relative;
-    color: $white;
-    font-size: $icon-size/2;
-    margin-top: $icon-size/4;
-    transition: all 0.25s ease;
-  }
-}
+// .icon{
+//   cursor: pointer;
+//   position: relative;
+//   display: inline-block;
+//   width: $icon-size;
+//   height: $icon-size;
+//   margin-left: $icon-size/5;
+//   margin-right: $icon-size/5;
+//   border-radius: $icon-size*$border-radius;
+//   overflow: hidden;
+//   &::before, &::after{
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+//     transition: all 0.25s ease;
+//     border-radius: $icon-size*$border-radius;
+//   }
+//   i{
+//     position: relative;
+//     color: $white;
+//     font-size: $icon-size/2;
+//     margin-top: $icon-size/4;
+//     transition: all 0.25s ease;
+//   }
+// }
 
 .icon-fill{
   &::before{
