@@ -232,11 +232,19 @@ and (max-width: 477px){
   height: 50vh;
   border-radius: 25px;
 }
+
 .about-me.bg-light.container.mt-4.img-shadow {margin-left: 0;}
 .about-me-container.p-4 {margin-top: 2rem;}
 p.lead.fw-light.mb-4{margin-top: 2rem;}
 .about-me > .row>*{align-items: center;}
-.about-me > .row {padding-top: 2rem;}
+.about-me > .row {
+padding-top: 2rem;
+/* Define your gradient background */
+background: linear-gradient(to bottom, #010125, #615ab7, #e3daff, #fffafb);
+/* Optionally, you can set the background to repeat */
+background-repeat: no-repeat;
+}
+
 @media only screen //Small screens
 and (max-width: 477px){
 h2 {
