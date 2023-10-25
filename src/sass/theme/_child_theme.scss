@@ -311,9 +311,6 @@ and (min-width: 1250px){
 
 //Portfolio Section
 //...Cards
-.card {transition: transform 0.3s;}
-
-.card:hover {transform: scale(1.05);}
 
 @keyframes bounce { //For card to bounce
   0%, 20%, 50%, 80%, 100% {
@@ -326,6 +323,11 @@ and (min-width: 1250px){
     transform: translateY(-10px);
   }
 }
+.card {transition: transform 0.3s;}
+
+.card:hover {transform: scale(1.05);}
+
+
 
 
 //About me Section (Test)
