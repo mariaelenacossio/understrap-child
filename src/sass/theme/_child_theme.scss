@@ -119,6 +119,18 @@ svg.home.i-color {fill: $background-color;}
 .lh-tight { line-height: 1.25; }
 
 //Test icons
+
+//Variables for icons test
+$icon-size    : 60px;
+$border-radius: 0.5;//15% = 0.15, 50% = 0.50 etc.
+
+$background   : #2d2c3e;
+$background-b : #2d2c3e;
+
+// Icon Colors
+$green        : #16A085;
+
+
 .icon{
   cursor: pointer;
   position: relative;
@@ -158,15 +170,7 @@ svg.home.i-color {fill: $background-color;}
   }
 }
 
-//Variables for icons test
-$icon-size    : 60px;
-$border-radius: 0.5;//15% = 0.15, 50% = 0.50 etc.
 
-$background   : #2d2c3e;
-$background-b : #2d2c3e;
-
-// Icon Colors
-$green        : #16A085;
 
 
 
