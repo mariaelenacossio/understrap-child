@@ -1,7 +1,25 @@
 //Global Styles
 
 //Buttons
-.btn-primary {background-color: $primary-color;}
+.btn-primary {
+  background-color: $primary-color;
+  border-color: #010125;
+}
+.btn-primary:hover{
+  background-color: $accent-color;
+  border-color: $accent-color;
+}
+
+.btn-outline-secondary{
+  background-color: $background-color;
+  border-color: $primary-color;
+  color: $primary-color;
+}
+.btn-outline-secondary:hover{
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+  color: $background-color;
+}
 
 // Color Palette
 $primary-color: #010125;
