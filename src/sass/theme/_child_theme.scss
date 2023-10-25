@@ -308,6 +308,13 @@ and (min-width: 1250px){
 }
 
 
+//Portfolio Section
+//...Cards
+.card {transition: transform 0.3s;}
+
+.card:hover {transform: scale(1.05);}
+
+
 //About me Section (Test)
 .section-container{
   display: grid;
