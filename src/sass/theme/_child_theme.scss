@@ -226,6 +226,12 @@ and (max-width: 477px){
   .py-5 {padding-top: 1rem!important;}  
 }
 
+@media only screen //Medium Screens
+and (min-width: 768px){
+.container.hero.col-xxl-8.px-4.py-5 {
+  margin-bottom: 6rem!important;}
+}
+
 //About me Section
 .img-fluid-profile{
   max-width: 100%;
@@ -258,6 +264,13 @@ h2 {
   gap: 1rem;
 }
 }
+
+@media only screen //Medium Screens
+and (min-width: 768px){
+.about-me.bg-light.container.mt-4.img-shadow {
+  margin-right: 1rem;}
+}
+
 @media only screen //Large screen
 and (min-width: 1250px){
   .about-me > .row {padding-bottom: 2rem;}
