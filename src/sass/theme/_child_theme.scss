@@ -125,57 +125,23 @@ svg.home.i-color {fill: $background-color;}
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
 
-//Test icons
-
-//Variables for icons test
-$icon-size    : 60px;
-$border-radius: 0.5;//15% = 0.15, 50% = 0.50 etc.
-
-$background   : #2d2c3e;
-$background-b : #2d2c3e;
-
-// Icon Colors
-$green        : #16A085;
-
-
-// .icon{
-//   cursor: pointer;
-//   position: relative;
-//   display: inline-block;
-//   width: $icon-size;
-//   height: $icon-size;
-//   margin-left: $icon-size/5;
-//   margin-right: $icon-size/5;
-//   border-radius: $icon-size*$border-radius;
-//   overflow: hidden;
-//   &::before, &::after{
-//     content: '';
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     height: 100%;
-//     width: 100%;
-//     transition: all 0.25s ease;
-//     border-radius: $icon-size*$border-radius;
-//   }
-//   i{
-//     position: relative;
-//     color: $white;
-//     font-size: $icon-size/2;
-//     margin-top: $icon-size/4;
-//     transition: all 0.25s ease;
-//   }
-// }
-
-.icon-fill{
-  &::before{
-    transition-duration: 0.5s;
-    box-shadow: inset 0 0 0 1px $green;
-  }
-  &:hover::before{
-    box-shadow: inset 0 0 0 $icon-size $green;
-  }
+//Test icons hover state
+.nav-item.icon-fill a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+
+.nav-item.icon-fill a:hover {
+  background-color: #007bff; /* Change this to your desired hover background color */
+  color: #fff; /* Change this to your desired hover text color */
+  border-color: #0056b3; /* Change this to your desired hover border color */
+}
+
+
 
 
 
