@@ -171,7 +171,7 @@ and (max-width: 477px){
   width: 390px;
   background-color: $background-color;
   /* Adjust the height as needed */
-  height: 100px;
+  // height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,8 +189,15 @@ and (max-width: 477px){
   /* Add any other styles you need */
 }
 
-  
+.btm-bar svg {
+  height: 2rem;
+  fill: $primary-color;
 }
+ 
+}
+
+
+
 
 // Hero section
 
