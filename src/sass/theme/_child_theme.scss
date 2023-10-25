@@ -157,7 +157,7 @@ svg.home.i-color {fill: $background-color;}
   text-decoration: none;
   padding: 10px;
   border-bottom: 2px solid transparent;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: transform 0.3s background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .nav-item.icon-fill a:hover,
@@ -166,6 +166,7 @@ svg.home.i-color {fill: $background-color;}
   color: #fff; /* Change this to your desired hover text color */
   border-color: $secondary-color; /* Change this to your desired hover border color */
   fill: $background-color;
+  transform: scale(1.05);
 }
 // .nav-item.icon-fill svg:hover {
 //   fill: $background-color;
