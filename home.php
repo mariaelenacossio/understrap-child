@@ -126,10 +126,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
 				</div>
 				</div>
-				</div>
+				</div><!--End of card-->
 				<div class="col">
 				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/relocateME-logo.png" class="card-img-top" alt="ux-project, relocateME">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-4.png" class="card-img-top" alt="ux-project, relocateME">
 				<div class="card-body">
 				<h5 class="card-title">Card title</h5>
 				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
