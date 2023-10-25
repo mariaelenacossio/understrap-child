@@ -11,8 +11,9 @@ $background-color: #fffafb;
   border-color: #010125;
 }
 .btn-primary:hover{
-  background-color: $accent-color;
-  border-color: $accent-color;
+  background-color: $background-color;
+  border-color: $primary-color;
+  color: $primary-color;
 }
 
 .btn-outline-secondary{
