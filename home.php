@@ -40,6 +40,29 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 		<!--End of Hero Section-->
 
+<!-- ======= About Section (Test) ======= -->
+
+<div class="section-container">
+<div class="primary-container">
+	<div class="container-wrapper">
+		<div class="block">
+			<p>Mariaelena</p>
+		</div>
+	</div>
+</div>
+<div class="secondary-container">
+	<div class="container-wrapper">
+	<div class="block">
+			<p>Mariaelena</p>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
   <!-- ======= About Section ======= -->
   <div class="about-me bg-light container mt-4 img-shadow">
         <div class="row">
