@@ -267,6 +267,7 @@ and (min-width: 1250px){
   display: flex;
   margin: 0;
   border-radius: 24px;
+  height: 80vh;
   // background-color: $primary-color;
   background: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/codioful-formerly-gradienta-rKv4HduvzIE-unsplash-scaled.webp);
   // background-repeat: ;
@@ -283,8 +284,11 @@ and (min-width: 1250px){
 
 @media only screen //Small screens
   and (max-width: 477px){
-    .primary-container{padding: 32px;}
-
+  .primary-container {
+    padding: 32px;
+    height: 500px;
+  }
+  .section-container {padding: 1rem;}
   }
 @media only screen //Large screens
 and (max-width: 1294px){
