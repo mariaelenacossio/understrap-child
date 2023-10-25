@@ -136,12 +136,17 @@ svg.home.i-color {fill: $background-color;}
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
-.nav-item.icon-fill a:hover {
+.nav-item.icon-fill a:hover,
+.nav-item.icon-fill svg:hover {
   background-color: $secondary-color; /* Change this to your desired hover background color */
   color: #fff; /* Change this to your desired hover text color */
   border-color: $secondary-color; /* Change this to your desired hover border color */
+  fill: $background-color;
 }
-.nav-item.icon-fill svg:hover {fill: $background-color;}
+// .nav-item.icon-fill svg:hover {
+//   fill: $background-color;
+//   transition: 0.3s ;
+// }
 
 
 
