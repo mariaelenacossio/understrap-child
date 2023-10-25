@@ -45,7 +45,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="section-container">
 <div class="primary-container img-shadow">
 	<div class="container-wrapper">
-		<div class="img-container">
+		<div class="img-container img-shadow">
 		<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/profile-hero.png" 
 		alt="profile-img">
 </div>
@@ -54,14 +54,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 	</div>
 </div>
-<div class="secondary-container">
+<!-- <div class="secondary-container">
 	<div class="container-wrapper">
 	<div class="block">
 			<p>Mariaelena</p>
 		</div>
 	</div>
-</div>
-</div>
+</div> -->
+</div><!--Section container-->
 
 
 
