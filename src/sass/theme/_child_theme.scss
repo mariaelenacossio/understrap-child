@@ -136,10 +136,11 @@ svg.home.i-color {fill: $background-color;}
 }
 
 .nav-item.icon-fill a:hover {
-  background-color: #007bff; /* Change this to your desired hover background color */
+  background-color: $secondary-color; /* Change this to your desired hover background color */
   color: #fff; /* Change this to your desired hover text color */
-  border-color: #0056b3; /* Change this to your desired hover border color */
+  border-color: $secondary-color; /* Change this to your desired hover border color */
 }
+.side-bar svg:hover {fill: $background-color;}
 
 
 
