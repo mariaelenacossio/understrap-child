@@ -277,10 +277,10 @@ and (min-width: 1250px){
 }
 .container-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   max-width: 840px;
-  margin-left: 3rem;
+  margin: 0;
 }
 
 //Masked image for about me 
