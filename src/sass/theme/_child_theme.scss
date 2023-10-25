@@ -343,6 +343,7 @@ and (max-width: 1294px){
   justify-content: flex-end;
   padding-right: 1rem;
 }
+.social-links a {color: #615ab7;}
 @media only screen //Small screens
   and (max-width: 477px){
     .social-links{justify-content: center;}
