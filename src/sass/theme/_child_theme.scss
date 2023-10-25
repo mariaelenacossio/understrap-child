@@ -277,7 +277,7 @@ and (min-width: 1250px){
 }
 .container-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   max-width: 840px;
   margin: 0;
@@ -314,10 +314,7 @@ and (max-width: 1294px){
   grid-column: span 2;
   min-height: unset;
   }
-  .container-wrapper {
-    max-width: none;
-    flex-direction: column;
-  }
+  .container-wrapper {max-width: none;}
 } 
 //Social Links//
 .fa{font-size: 4rem;}
