@@ -111,7 +111,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				<div class="col">
 				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-1.png" class="card-img-top" alt="website-project-1, los quequitos">
 				<div class="card-body">
 				<h5 class="card-title">Card title</h5>
 				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -120,7 +120,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				<div class="col">
 				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-2.png" class="card-img-top" alt="website-project-2, beauty by amy">
 				<div class="card-body">
 				<h5 class="card-title">Card title</h5>
 				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -129,7 +129,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				<div class="col">
 				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/relocateME-logo.png" class="card-img-top" alt="ux-project, relocateME">
 				<div class="card-body">
 				<h5 class="card-title">Card title</h5>
 				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
