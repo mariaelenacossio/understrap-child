@@ -42,12 +42,13 @@ margin-top: 6rem;
 margin-left: 1rem;
 }
 //Sidebar icons
-.i-color {
-  vertical-align: -.125em;
-  pointer-events: none;
-  fill: $primary-color;
-  height: 1.5rem;
-}
+// .i-color {
+//   vertical-align: -.125em;
+//   pointer-events: none;
+//   fill: $primary-color;
+//   height: 1.5rem;
+// }
+.nav-item svg {fill: #010125;}
 
 .side-bar svg { height: 1.5rem;} //Icon size
 .side-bar li {
@@ -140,7 +141,7 @@ svg.home.i-color {fill: $background-color;}
   color: #fff; /* Change this to your desired hover text color */
   border-color: $secondary-color; /* Change this to your desired hover border color */
 }
-.nav-item.icon-fill .i-color:hover {fill: $background-color;}
+.nav-item.icon-fill svg:hover {fill: $background-color;}
 
 
 
