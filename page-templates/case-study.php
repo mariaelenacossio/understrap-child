@@ -20,13 +20,19 @@ defined( 'ABSPATH' ) || exit;
 	<?php wp_head(); ?>
 </head>
 <body>
-	<?php
-	while ( have_posts() ) {
-		the_post();
-		get_template_part( 'loop-templates/content', 'blank' );
-	}
-	wp_footer();
-	?>
+<?php 
+while ( have_posts() ) {
+  the_post();
+?>
+    <h1><?php the_title(); ?> </h1>
+    <?php the_content(); ?>
+
+    <p>Some other text</p>
+    <p>Any more understrap...</p>
+<?php 
+
+} // end of "while"
+?>
 	<p>hello world</p>
 </body>
 </html>
