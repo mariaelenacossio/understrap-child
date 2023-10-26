@@ -441,6 +441,8 @@ footer input.form-control {text-align: center;}
   display: flex;
   justify-content: center;
 }
+//Footer wrapper
+footer .wrapper { padding-bottom: 0;}
 .social-btn .col-md-2 {display: flex;} //Align to center
 
 @media only screen //Small screens
