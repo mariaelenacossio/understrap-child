@@ -417,7 +417,7 @@ and (max-width: 1294px){
       flex-flow: column;
       align-items: center;
     }
-    
+    footer > .col-md-3.f-contact-form form {display: flex;}
     // form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
     // form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
   }
