@@ -408,6 +408,7 @@ and (max-width: 1294px){
 @media only screen //Small screens
   and (max-width: 477px){
     footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
-      text-align: center;
+      text-align: center; // Sub-headline to be centered
     }
+    ul.list-unstyled {text-align: center;} //List to be centered
   }
