@@ -431,7 +431,16 @@ width: 100%;
 footer .col-md-3.f-contact-form > h5 {text-align: center;}
 footer .form-group {padding-bottom: 1rem;}
 footer input.form-control {text-align: center;}
-
+//Footer Socials
+.social-btn{
+  display: flex;
+  flex-flow: row;
+  width: auto;
+}
+.social-btn > .col-md-2 a {
+  display: flex;
+  justify-content: center;
+}
 
 @media only screen //Small screens
 and (max-width: 477px){
