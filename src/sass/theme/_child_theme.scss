@@ -326,7 +326,6 @@ and (min-width: 1250px){
   cursor: pointer;
   transition: transform 0.3s;
 }
-
 .card-button:hover {transform: scale(1.1);}
 
 @keyframes bounce { //For card to bounce
@@ -343,7 +342,36 @@ and (min-width: 1250px){
 .card {transition: transform 0.3s;}
 
 .card:hover {transform: scale(1.05);}
+//Cards Structure
+.custom-card {
+  border-radius: 25px;
+  max-width: 300px;
+  margin: 20px auto;
+}
 
+.custom-card img {
+  border-radius: 25px 25px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin: 10px;
+}
 
 
 
@@ -511,33 +539,3 @@ footer .container > .row {justify-content: center;} //To center social btn's
 }
 
 
-//Cards Test
-.custom-card {
-  border-radius: 25px;
-  max-width: 300px;
-  margin: 20px auto;
-}
-
-.custom-card img {
-  border-radius: 25px 25px 0 0;
-  max-width: 100%;
-  height: auto;
-}
-
-.card-body {
-  text-align: center;
-}
-
-.card-buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.card-button {
-  border-radius: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  margin: 10px;
-}
