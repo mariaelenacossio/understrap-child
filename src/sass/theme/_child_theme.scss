@@ -504,11 +504,12 @@ footer .container > .row {justify-content: center;} //To center social btn's
 }
 
 .card-description {
-  display: none;
+  transform: translateY(100%);
+  transition: transform 0.3s;
 }
 
 .card:hover .card-description {
-  display: block;
+  transform: translateY(0);
 }
 
 .card-buttons {
@@ -522,6 +523,7 @@ footer .container > .row {justify-content: center;} //To center social btn's
   color: #fff;
   border: none;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .card-button:hover {
