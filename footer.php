@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <li><a href="#" class="text-light">Contact</a></li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 f-contact-form">
           <!-- Contact form -->
           <h5>Get in Touch</h5>
           <form>
