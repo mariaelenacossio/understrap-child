@@ -21,11 +21,11 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container">
       <div class="row">
         <div class="col-md-3">
+			<!-- Space for your logo -->
+			<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-white-bg-black.png" 
+			alt="logo-bg-black" class="img-fluid">
           <h2>Let's Connect</h2>
           <p>And Work Together</p>
-		  <!-- Space for your logo -->
-          <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-white-bg-black.png" 
-		  alt="logo-bg-black" class="img-fluid">
         </div>
         <!-- <div class="col-md-2"> -->
           <!-- Space for your logo -->
