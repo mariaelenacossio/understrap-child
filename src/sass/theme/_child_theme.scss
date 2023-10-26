@@ -410,7 +410,7 @@ and (max-width: 1294px){
     footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
       text-align: center; // Sub-headline to be centered
     }
-    footer .col-md-2 > .list-unstyled {//List to be centered
+    footer .col-md-2 > .list-unstyled { //List to be centered
       display: flex;
       justify-content: space-between;
       padding-top: 1rem;
@@ -421,6 +421,15 @@ and (max-width: 1294px){
       flex-flow: column;
       align-items: center;
     }
+    footer .col-md-3.f-contact-form form { //Align center form
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+  }
+  footer .col-md-3.f-contact-form h5 { //Center tag and size
+    text-align: center;
+    font-size: 1.5rem;
+}
     // footer > .f-contact-form > .col-md-3 form {display: flex;}
     // form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
     // form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
