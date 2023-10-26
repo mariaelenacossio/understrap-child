@@ -144,7 +144,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row">
             <div class="col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="your-image-1.jpg" class="card-img-top" alt="Card 1">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-4.png" class="card-img-top" alt="ux-project, relocateME">
                     <div class="card-body">
                         <p class="card-description">Short description for Card 1.</p>
                         <div class="card-buttons">
@@ -157,7 +157,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <div class="col-md-6 col-lg-3">
                 <div class="card">
-                    <img src="your-image-2.jpg" class="card-img-top" alt="Card 2">
+				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-4.png" class="card-img-top" alt="ux-project, relocateME">
                     <div class="card-body">
                         <p class="card-description">Short description for Card 2.</p>
                         <div class="card-buttons">
