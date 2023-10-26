@@ -373,6 +373,16 @@ and (min-width: 1250px){
   margin: 10px;
 }
 
+@media only screen and (max-width: 477px) {//Small screens
+  .portfolio-cards .row {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .portfolio-cards .col {
+      margin: 0 auto 20px;
+  }
+}
 
 
 //About me Section (Test)
