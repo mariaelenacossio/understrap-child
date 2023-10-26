@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		  alt="logo-bg-black" class="img-fluid">
         </div>
         </div>
-		<div class="row">
+		<div class="social-btn">
         <div class="col-md-2">
           <!-- Space for social media icons -->
 			<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" target="_blank" itemprop="SameAs" rel="noopener"><br>
