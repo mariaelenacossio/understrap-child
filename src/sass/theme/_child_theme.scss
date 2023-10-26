@@ -437,6 +437,7 @@ footer input.form-control {text-align: center;}
   display: flex;
   justify-content: center;
 }
+.social-btn .col-md-2 {display: flex;} //Align to center
 
 @media only screen //Small screens
 and (max-width: 477px){
