@@ -417,4 +417,5 @@ and (max-width: 1294px){
       align-items: center;
     }
     form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
+    form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
   }
