@@ -133,11 +133,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="card-body">
 				<h5 class="card-title">Card title</h5>
 				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				</div>
 				<div class="card-buttons">
                             <button class="card-button">View Site</button>
                             <button class="card-button">Case Study</button>
-                        </div>
+                        </div>	
+			</div>
 				</div>
 				</div>
 				</div>
