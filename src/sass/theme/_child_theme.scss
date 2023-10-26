@@ -410,8 +410,8 @@ and (max-width: 1294px){
 footer {background-color: $primary-color;} //Footer bg color
 footer.text-light.p-5{color: $accent-color;} //Text color for footer
 footer .col-md-2 > .list-unstyled { //List to be centered
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
 } 
@@ -422,33 +422,33 @@ footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {font-weight: 200
 
 
 @media only screen //Small screens
-  and (max-width: 477px){
-    footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
-      text-align: center; // Sub-headline to be centered
-    }
-    footer .col-md-2 > .list-unstyled { //List to be centered
-      display: flex;
-      justify-content: space-between;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-  } 
-    .f-contact-form > .col-md-3 h5 {text-align: center;}
-    .f-contact-form > .col-md-3 {
-      display: flex;
-      flex-flow: column;
-      align-items: center;
-    }
-    footer .col-md-3.f-contact-form form { //Align center form
-      display: flex;
-      flex-flow: row;
-      justify-content: center;
-  }
-  footer .col-md-3.f-contact-form h5 { //Center tag and size
-    text-align: center;
-    font-size: 1.5rem;
+and (max-width: 477px){
+footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
+  text-align: center; // Sub-headline to be centered
+}
+footer .col-md-2 > .list-unstyled { //List to be centered
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+} 
+.f-contact-form > .col-md-3 h5 {text-align: center;}
+.f-contact-form > .col-md-3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+footer .col-md-3.f-contact-form form { //Align center form
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+footer .col-md-3.f-contact-form h5 { //Center tag and size
+text-align: center;
+font-size: 1.5rem;
 }
 footer .form-group {margin-right: 1rem;} //Add margin between btn's
-    // footer > .f-contact-form > .col-md-3 form {display: flex;}
-    // form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
-    // form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
-  }
+// footer > .f-contact-form > .col-md-3 form {display: flex;}
+// form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
+// form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
+}
