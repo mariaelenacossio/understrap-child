@@ -411,4 +411,10 @@ and (max-width: 1294px){
       text-align: center; // Sub-headline to be centered
     }
     ul.list-unstyled {text-align: center;} //List to be centered
+    .f-contact-form > .col-md-3 {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+    form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
   }
