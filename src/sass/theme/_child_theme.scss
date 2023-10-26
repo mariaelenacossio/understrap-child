@@ -406,7 +406,7 @@ and (max-width: 1294px){
 
 //Footer
 
-//Footer list
+
 footer {background-color: $primary-color;} //Footer bg color
 footer.text-light.p-5{color: $accent-color;} //Text color for footer
 footer .col-md-2 > .list-unstyled { //List to be centered
@@ -415,10 +415,13 @@ footer .col-md-2 > .list-unstyled { //List to be centered
   padding-top: 1rem;
   padding-bottom: 1rem;
 } 
+//Footer list
 footer .col-md-2 > .list-unstyled li {padding-bottom: 0.5rem;} //Padding between links
 footer .col-md-2 > .list-unstyled li > a.text-light {text-decoration: none;} //Remove underline of links
+//Footer Headlines
 footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 h2 {font-size: 3rem;}
 footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {font-weight: 200;}
+
 
 
 @media only screen //Small screens
