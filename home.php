@@ -98,53 +98,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				
 
 				<!--Case Study Cards-->
-				<!-- <section class="portfolio-cards">
-				<div class="row row-cols-1 row-cols-md-2 g-4">
-				<div class="col">
-				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
-				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				</div>
-				</div>
-				</div>
-				<div class="col">
-				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-1.png" class="card-img-top" alt="website-project-1, los quequitos">
-				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				</div>
-				</div>
-				</div>
-				<div class="col">
-				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-2.png" class="card-img-top" alt="website-project-2, beauty by amy">
-				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-				</div>
-				</div>
-				</div>!--End of card-->
-				<!-- <div class="col">
-				<div class="card">
-				<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-4.png" class="card-img-top" alt="ux-project, relocateME">
-				<div class="card-body">
-				<h5 class="card-title">Card title</h5>
-				<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				<div class="card-buttons">
-				<button class="card-button">View Site</button>
-				<button class="card-button">Case Study</button>
-				</div>	
-				</div>
-				</div>
-				</div>
-				</div>
-				</section -->
-				
 
-				<!--This is a Test-->
 				<section class="portfolio-cards">
 				<div class="row row-cols-4 g-4">
 				<div class="col">
