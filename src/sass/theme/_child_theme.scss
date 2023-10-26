@@ -322,9 +322,10 @@ and (min-width: 1250px){
 
 .card-button {
   padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
+  background-color: $primary-color;
+  border-color: #010125;
+  color: #fffafb;
+  border: solid 1px #010125;
   cursor: pointer;
   transition: transform 0.3s;
 }
