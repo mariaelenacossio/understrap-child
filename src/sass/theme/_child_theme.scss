@@ -401,3 +401,13 @@ and (max-width: 1294px){
   and (max-width: 477px){
     .social-links{justify-content: center;}
   }
+
+
+
+//Footer
+@media only screen //Small screens
+  and (max-width: 477px){
+    footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
+      text-align: center;
+    }
+  }
