@@ -407,7 +407,8 @@ and (max-width: 1294px){
 //Footer
 
 //Footer list
-footer {background-color: $primary-color;}
+footer {background-color: $primary-color;} //Footer bg color
+footer.text-light.p-5{color: $accent-color;} //Text color for footer
 footer .col-md-2 > .list-unstyled { //List to be centered
   display: flex;
   justify-content: space-between;
