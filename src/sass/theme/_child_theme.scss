@@ -414,7 +414,7 @@ footer .col-md-2 > .list-unstyled { //List to be centered
   padding-bottom: 1rem;
 } 
 footer .col-md-2 > .list-unstyled li {padding-bottom: 0.5rem;} //Padding between links
-
+footer .col-md-2 > .list-unstyled li > a.text-light {text-decoration: none;} //Remove underline of links
 
 
 
