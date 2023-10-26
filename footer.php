@@ -16,7 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 <div class="wrapper" id="wrapper-footer">
-
+<div class="interface">
 <footer class="text-light p-5">
     <div class="container">
       <div class="row">
@@ -92,6 +92,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php // Closing div#page from header.php. ?>
 <!-- </div>#page -->
+</div><!--Interface .div-->
 
 <?php wp_footer(); ?>
 
