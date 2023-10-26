@@ -436,7 +436,10 @@ footer input.form-control {text-align: center;}
 @media only screen //Small screens
 and (max-width: 477px){
   // Sub-headline to be centered
-footer > .col-md-3 p {text-align: center;}
+footer p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.5rem;}
 footer .col-md-2 > .list-unstyled { //List to be centered
   display: flex;
   justify-content: space-between;
