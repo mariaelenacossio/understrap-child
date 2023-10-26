@@ -26,7 +26,8 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
         <div class="col-md-2">
           <!-- Space for your logo -->
-          <img src="your-logo.png" alt="Your Logo" class="img-fluid">
+          <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-white-bg-black.png" 
+		  alt="logo-bg-black" class="img-fluid">
         </div>
         <div class="col-md-2">
           <!-- Space for social media icons -->
