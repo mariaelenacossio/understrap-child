@@ -269,7 +269,6 @@ and (min-width: 768px){
 .about-me-container.p-4 {margin-top: 2rem;}
 p.lead.fw-light.mb-4{margin-top: 2rem;}
 .about-me > .row>*{align-items: center;}
-.about-me>.row {border-top-left-radius: 25px;}
 .about-me > .row {
 padding-top: 2rem;
 /* Define your gradient background */
@@ -306,6 +305,7 @@ and (min-width: 768px){
 @media only screen //Large screen
 and (min-width: 1250px){
   .about-me > .row {padding-bottom: 2rem;}
+  .about-me>.row {border-top-left-radius: 25px;}
 }
 
 
