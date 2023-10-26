@@ -38,7 +38,8 @@ while ( have_posts() ) {
 } // end of "while"
 ?>
 	<p>hello world</p>
-	<?php wp_footer(); ?>
+	<?php
+get_footer();?>
 
 </body>
 
