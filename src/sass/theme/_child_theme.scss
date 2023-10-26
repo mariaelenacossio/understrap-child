@@ -492,3 +492,38 @@ footer .container > .row {justify-content: center;} //To center social btn's
   padding: 1rem;
 }
 }
+
+//Deck of cards test
+.card {
+  margin: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-description {
+  display: none;
+}
+
+.card:hover .card-description {
+  display: block;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  transform: scale(1.1);
+}
