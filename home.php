@@ -139,23 +139,38 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				</section>
 				
+<!--Deck of cards Test-->
+<div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="your-image-1.jpg" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <p class="card-description">Short description for Card 1.</p>
+                        <div class="card-buttons">
+                            <button class="card-button">View Site</button>
+                            <button class="card-button">Case Study</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-				
-				<!-- <footer class="bg-white py-4 mt-auto">
-				<div class="container px-5">
-				<div class="row align-items-center justify-content-between flex-column flex-sm-row">
-				<div class="col-auto">
-				<div class="small m-0">Copyright © Your Website 2023</div>
-				</div>
-				<div class="col-auto">
-				<a class="small" href="#!">Privacy</a><br>
-				<span class="mx-1">·</span><br>
-				<a class="small" href="#!">Terms</a><br>
-				<span class="mx-1">·</span><br>
-				<a class="small" href="#!">Contact</a></div>
-				</div>
-				</div>
-				</footer> -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="your-image-2.jpg" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <p class="card-description">Short description for Card 2.</p>
+                        <div class="card-buttons">
+                            <button class="card-button">View Site</button>
+                            <button class="card-button">Case Study</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add two more cards with similar structure -->
+        </div>
+    </div>
 
 
 				<!-- ?php
