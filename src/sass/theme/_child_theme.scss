@@ -405,6 +405,20 @@ and (max-width: 1294px){
 
 
 //Footer
+
+//Footer list
+footer .col-md-2 > .list-unstyled { //List to be centered
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+} 
+footer .col-md-2 > .list-unstyled li {padding-bottom: 0.5rem;} //Padding between links
+
+
+
+
+
 @media only screen //Small screens
   and (max-width: 477px){
     footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
