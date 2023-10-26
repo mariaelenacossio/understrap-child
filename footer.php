@@ -34,8 +34,12 @@ $container = get_theme_mod( 'understrap_container_type' );
         <!-- </div> -->
         <div class="col-md-2">
           <!-- Space for social media icons -->
-          <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
-          <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+		<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" target="_blank" itemprop="SameAs" rel="noopener"><br>
+			<i class="fa fa-linkedin-square"></i>
+			</a>
+			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
+			<i class="fa fa-github-square"></i>
+			</a>
         </div>
         <div class="col-md-2">
           <!-- Navigation items -->
