@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Blank Page Template
+ * Template Name: Case Study Page Template
  *
  * Template for displaying a blank page.
  *
@@ -27,5 +27,6 @@ defined( 'ABSPATH' ) || exit;
 	}
 	wp_footer();
 	?>
+	<p>hello world</p>
 </body>
 </html>
