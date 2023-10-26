@@ -410,7 +410,11 @@ and (max-width: 1294px){
     footer.bg-dark.text-light.p-5 >.container > .row > .col-md-3 p {
       text-align: center; // Sub-headline to be centered
     }
-    footer > ul.list-unstyled {text-align: center;} //List to be centered
+    footer .col-md-2 > .list-unstyled {//List to be centered
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1rem;
+  } 
     .f-contact-form > .col-md-3 h5 {text-align: center;}
     .f-contact-form > .col-md-3 {
       display: flex;
