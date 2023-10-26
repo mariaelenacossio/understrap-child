@@ -463,5 +463,8 @@ footer .form-group {margin-right: 1rem;} //Add margin between btn's
 // form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
 // form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
 //Footer btn
-footer button.btn.btn-primary {height: 40px;}
+footer button.btn.btn-primary {
+  height: 40px;
+  width: auto;
+}
 }
