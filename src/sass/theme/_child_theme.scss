@@ -483,6 +483,7 @@ footer button.btn.btn-primary {
 }
 //Footer social btn's
 footer .container > .row {justify-content: center;} //To center social btn's
+.social-btn {flex-flow: row;}
 .social-btn>.col-md-2 a { //Add space between btn's
   display: flex;
   justify-content: center;
