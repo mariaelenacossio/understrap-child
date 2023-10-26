@@ -20,6 +20,10 @@ defined( 'ABSPATH' ) || exit;
 	<?php wp_head(); ?>
 </head>
 <body>
+	<?php
+get_header();
+?>
+
 <?php 
 while ( have_posts() ) {
   the_post();
@@ -34,5 +38,8 @@ while ( have_posts() ) {
 } // end of "while"
 ?>
 	<p>hello world</p>
+	<?php wp_footer(); ?>
+
 </body>
+
 </html>
