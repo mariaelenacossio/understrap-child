@@ -26,6 +26,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 			alt="logo-bg-black" class="img-fluid">
           <h2>Let's Connect</h2>
           <p>And Work Together</p>
+			<!-- Space for social media icons -->
+			<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" target="_blank" itemprop="SameAs" rel="noopener"><br>
+			<i class="fa fa-linkedin-square"></i>
+			</a>
+			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
+			<i class="fa fa-github-square"></i>
+			</a>
         </div>
         <!-- <div class="col-md-2"> -->
           <!-- Space for your logo -->
@@ -34,14 +41,14 @@ $container = get_theme_mod( 'understrap_container_type' );
         <!-- </div> -->
         <div class="col-md-2">
           <!-- Space for social media icons -->
-		<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" target="_blank" itemprop="SameAs" rel="noopener"><br>
+		<!-- <a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" target="_blank" itemprop="SameAs" rel="noopener"><br>
 			<i class="fa fa-linkedin-square"></i>
-			</a>
-			<div class="col-md-2">
+			</a> -->
+			<!-- <div class="col-md-2">
 			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener"><br>
 			<i class="fa fa-github-square"></i>
 			</a>
-</div>
+			</div> -->
         </div>
         <div class="col-md-2">
           <!-- Navigation items -->
