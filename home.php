@@ -86,21 +86,31 @@ HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
     <div class="row gy-2 gy-md-0 justify-content-xxl-center">
       <div class="col-12 order-md-1 col-md-8 col-xxl-6">
         <div class="text-center text-md-start">
-          <h2 class="display-3 fw-bold lh-1">Lucas Henry</h2>
-          <p class="text-secondary fs-4 mb-2">UX/UI Designer</p>
+          <h2 class="display-3 fw-bold lh-1">Mariaelena Cossio Clark</h2>
+          <p class="text-secondary fs-4 mb-2">Web Designer</p>
           <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary">
-          <p>Nam sit amet condimentum arcu. Vestibulum non convallis elit, nec finibus purus. Morbi a tortor vitae mauris volutpat lacinia in vel leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam vel dictum nisi.</p>
-          <p>Duis bibendum lectus vitae posuere euismod. Nunc semper mauris sed justo consequat mollis. Suspendisse eu lectus ornare, pulvinar tortor eget, iaculis libero. Nullam non metus sed lacus luctus posuere. Morbi semper pharetra tortor sit amet mollis.</p>
+          <p>I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
+                    I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Adobe Illustrator, in my creative process. 
+                    Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. 
+                    I thrive in a collaborative team environment, always eager to learn from others. 
+                    Ultimately, my daily inspiration comes from creating meaningful digital experiences.</p>
+          <!-- <p>Duis bibendum lectus vitae posuere euismod. Nunc semper mauris sed justo consequat mollis. Suspendisse eu lectus ornare, pulvinar tortor eget, iaculis libero. Nullam non metus sed lacus luctus posuere. Morbi semper pharetra tortor sit amet mollis.</p> -->
         </div>
       </div>
       <div class="col-12 order-md-0 col-md-4 col-xxl-4">
         <div class="text-center text-md-start me-md-3 me-xl-5">
           <p class="mb-4">
-            <span class="d-block display-6 lh-1">12+</span>
+            <span class="d-block display-6 lh-1">2+</span>
             <span class="fs-4 text-secondary">years of experience</span>
           </p>
           <div class="d-grid">
-            <button class="btn btn-primary btn-lg" type="button">Hire Me</button>
+            <!-- <button class="btn btn-primary btn-lg" type="button">Hire Me</button> -->
+			<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
+            <i class="fa fa-linkedin-square"></i>
+            </a>
+			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
+			<i class="fa fa-github-square"></i>
+			</a>
           </div>
         </div>
       </div>
