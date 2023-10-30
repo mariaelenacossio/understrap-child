@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!--End of Hero Section-->
 
 		<!-- ======= About Section ======= -->
-		<div class="about-me bg-light container mt-4 img-shadow">
+		<!-- <div class="about-me bg-light container mt-4 img-shadow">
     <div class="row">
         <div class="col-lg-4 col-md-6">
             <div class="profile-container">
@@ -70,7 +70,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
     </div>
 </div>
-
+ -->
 
 <!--About me section test-->
 HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
