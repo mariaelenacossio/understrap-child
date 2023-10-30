@@ -78,7 +78,7 @@ HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
   <div class="container mb-4 mb-md-5 mb-xl-6">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-xxl-8">
-        <img class="img-fluid rounded shadow" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="">
+        <img class="img-fluid rounded shadow" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-black-bg-trans-1.png" alt="">
       </div>
     </div>
   </div>
