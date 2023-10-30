@@ -78,7 +78,7 @@ HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
   <div class="container mb-4 mb-md-5 mb-xl-6">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-xxl-8">
-        <img class="img-fluid rounded shadow" loading="lazy" src="./assets/img/about-me/about-me-1/img-1.jpg" alt="">
+        <img class="img-fluid rounded shadow" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="">
       </div>
     </div>
   </div>
