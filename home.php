@@ -112,7 +112,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!--Case Study Cards-->
 
-				<section class="portfolio-cards">
+				<!-- <section class="portfolio-cards">
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
 				<div class="col">
                     <div class="card custom-card">
@@ -127,7 +127,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-                <!-- Add more cards with similar structure here -->
+                !-- Add more cards with similar structure here 
 				<div class="col">
                     <div class="card custom-card">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-1.png" class="card-img-top" alt="website-project-1, los quequitos">
@@ -168,12 +168,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
 
-<!--Portfolio Test-->
-HTML<!-- Blog 1 - HCF Bootstrap 5 Component -->
+<!--Portfolio-->
 <section class="bg-light py-5 py-xl-6">
   <div class="container overflow-hidden">
     <div class="row gy-5">
