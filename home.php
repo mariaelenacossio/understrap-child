@@ -181,17 +181,18 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-xs-12 col-md-6">
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
-                <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">Sports</span>
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="./assets/img/blogs/blog-1/featured-image-1.jpg" alt="">
+                <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="">
               </a>
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
             <div>
-              <p class="text-secondary mb-1">Nov 11, 2022</p>
-              <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Useful Skateboarding Tips For Beginners</a></h2>
-              <p class="mb-4">Learning how to skateboard can be a simultaneously exciting and terrifying experience. Explore the 20 top tips for beginner skaters.</p>
+              <!-- <p class="text-secondary mb-1">Nov 11, 2022</p> -->
+              <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Design System</a></h2>
+              <p class="mb-4">Elevating User Experience with a Design System.</p>
               <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+			  <a class="btn btn-primary" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
             </div>
           </div>
         </div>
