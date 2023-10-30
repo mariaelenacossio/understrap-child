@@ -72,6 +72,25 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
     </div>
 
+
+<!--About me test-->
+<div class="container">
+        <div class="row">
+            <div class="col-md-6 main-div">
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="Responsive Image">
+            </div>
+            <div class="col-md-6 main-div">
+                <div>
+                    <h1>Headline</h1>
+                    <h4>Sub-Headline</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in libero ac nisl consectetur auctor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>

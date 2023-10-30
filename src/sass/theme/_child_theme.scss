@@ -278,6 +278,19 @@ background-repeat: no-repeat;
 border-bottom-left-radius: 25px;
 }
 
+
+//About me Test
+.main-div {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 100%;
+  margin: 20px;
+}
+.main-div img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.2);
+}
+
 @media only screen //Small screens
 and (max-width: 477px){
 h2 {
