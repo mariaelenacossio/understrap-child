@@ -122,8 +122,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="card-buttons">
-                                <button class="card-button">View Site</button>
-                                <button class="card-button">Case Study</button>
+                                <button class="btn btn-primary btn-lg px-4 me-md-2">View Site</button>
+                                <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button>
                             </div>
                         </div>
                     </div>
@@ -135,8 +135,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="card-buttons">
-                                <button class="card-button">View Site</button>
-                                <button class="card-button">Case Study</button>
+                                <button class="btn btn-primary btn-lg px-4 me-md-2">View Site</button>
+                                <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button>
                             </div>
                         </div>
                     </div>
@@ -148,8 +148,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="card-buttons">
-                                <button class="card-button">View Site</button>
-                                <button class="card-button">Case Study</button>
+                                <button class="btn btn-primary btn-lg px-4 me-md-2">View Site</button>
+                                <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button>
                             </div>
                         </div>
                     </div>
