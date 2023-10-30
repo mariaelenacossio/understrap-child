@@ -75,7 +75,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!--About me section test-->
 <!-- About Me 1 - HCF Bootstrap 5 Component -->
 <section class="bg-light py-4 py-md-5 py-xl-6">
-    <div class="container mb-4 mb-md-5 mb-xl-6">
+    <div class="container mb-3 mb-md-4 mb-xl-5">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-xxl-8">
                 <img class="img-fluid rounded shadow" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-desktop-mockup-3@2x.png" alt="">
@@ -86,29 +86,25 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-xxl-6">
                 <div class="text-center text-md-start">
-                    <h2 class="display-4 fw-bold lh-1">Mariaelena Cossio Clark</h2>
-                    <p class="text-secondary fs-5 mb-2">Web Designer</p>
-                    <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary">
+                    <h2 class="display-5 fw-bold lh-1">Mariaelena Cossio Clark</h2>
+                    <p class="text-secondary fs-6 mb-2">Web Designer</p>
+                    <hr class="w-50 mx-auto ms-md-0 mb-3 text-secondary">
                     <p class="fs-6">
-                        I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
-						I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Adobe Illustrator, 
-						in my creative process. Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools 
-						for translating abstract ideas into reality. I thrive in a collaborative team environment, always eager 
-						to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.
+                        I am a passionate and organized individual who loves crafting digital stories through websites and apps. I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Adobe Illustrator, in my creative process. Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. I thrive in a collaborative team environment, always eager to learn from others. Ultimately, my daily inspiration comes from creating meaningful digital experiences.
                     </p>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-xxl-4">
                 <div class="text-center text-md-start me-md-3 me-xl-5">
-                    <p class="mb-4">
+                    <p class="mb-3">
                         <span class="d-block fs-6 lh-1">2+ years of experience</span>
                     </p>
-                    <div class="d-grid">
+                    <div class="d-grid gap-2">
                         <a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
-                            <i class="fa fa-linkedin-square"></i>
+                            <i class="fa fa-linkedin-square fs-5"></i>
                         </a>
                         <a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
-                            <i class="fa fa-github-square"></i>
+                            <i class="fa fa-github-square fs-5"></i>
                         </a>
                     </div>
                 </div>
@@ -116,6 +112,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
     </div>
 </section>
+
 
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
