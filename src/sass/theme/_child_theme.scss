@@ -267,12 +267,16 @@ and (min-width: 768px){
 
 .about-me.bg-light.container.mt-4.img-shadow {
 border-radius: 5rem;
+max-width: 85vw;
 // position: relative
 }
 .profile-container img {
   display: flex;
-  border-top-left-radius: 4.5rem;
-
+  border: 4.5rem 0 0 4.5rem;
+}
+.profile-container img {
+max-width: 30vw;
+height: 68vh;
 }
 .about-me-container.p-4 {margin-top: 2rem;}
 p.lead.fw-light.mb-4{margin-top: 2rem;}
