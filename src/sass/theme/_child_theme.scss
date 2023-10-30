@@ -342,8 +342,12 @@ and (min-width: 1250px){
   --bs-gutter-y: 4.5rem;
 }
 .flex-row > a {padding-right: 2rem;}
+
+@media (min-width: 390px) {
+  .d-flex.flex-row {justify-content: center;}
+}
 @media (min-width: 576px) {
-  .d-flex .flex-row {justify-content: center;}
+
   .g-sm-6,
   .gx-sm-6 {
     --bs-gutter-x: 4.5rem;
