@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!--End of Hero Section-->
 
 		<!-- ======= About Section ======= -->
-		<!-- <div class="about-me bg-light container mt-4 img-shadow">
+		<div class="about-me bg-light container mt-4 img-shadow">
     <div class="row">
         <div class="col-lg-4 col-md-6">
             <div class="profile-container">
@@ -70,10 +70,10 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
     </div>
 </div>
- -->
+
 
 <!--About me section test-->
-<!-- About Me 1 - HCF Bootstrap 5 Component -->
+HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
 <section class="bg-light py-5 py-xl-6">
   <div class="container mb-4 mb-md-5 mb-xl-6">
     <div class="row justify-content-md-center">
@@ -100,17 +100,11 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col-12 order-md-0 col-md-4 col-xxl-4">
         <div class="text-center text-md-start me-md-3 me-xl-5">
           <p class="mb-4">
-            <span class="d-block display-6 lh-1">2+</span>
+            <span class="d-block display-6 lh-1">12+</span>
             <span class="fs-4 text-secondary">years of experience</span>
           </p>
-			<div class="d-grid">
-			<!-- <button class="btn btn-primary btn-lg" type="button">Hire Me</button> -->
-			<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
-			<i class="fa fa-linkedin-square"></i>
-			</a>
-			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
-			<i class="fa fa-github-square"></i>
-			</a>
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="button">Hire Me</button>
           </div>
         </div>
       </div>
