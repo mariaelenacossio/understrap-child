@@ -72,6 +72,42 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 
 
+<!--About me section test-->
+HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
+<section class="bg-light py-5 py-xl-6">
+  <div class="container mb-4 mb-md-5 mb-xl-6">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-xxl-8">
+        <img class="img-fluid rounded shadow" loading="lazy" src="./assets/img/about-me/about-me-1/img-1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container overflow-hidden">
+    <div class="row gy-2 gy-md-0 justify-content-xxl-center">
+      <div class="col-12 order-md-1 col-md-8 col-xxl-6">
+        <div class="text-center text-md-start">
+          <h2 class="display-3 fw-bold lh-1">Lucas Henry</h2>
+          <p class="text-secondary fs-4 mb-2">UX/UI Designer</p>
+          <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary">
+          <p>Nam sit amet condimentum arcu. Vestibulum non convallis elit, nec finibus purus. Morbi a tortor vitae mauris volutpat lacinia in vel leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam vel dictum nisi.</p>
+          <p>Duis bibendum lectus vitae posuere euismod. Nunc semper mauris sed justo consequat mollis. Suspendisse eu lectus ornare, pulvinar tortor eget, iaculis libero. Nullam non metus sed lacus luctus posuere. Morbi semper pharetra tortor sit amet mollis.</p>
+        </div>
+      </div>
+      <div class="col-12 order-md-0 col-md-4 col-xxl-4">
+        <div class="text-center text-md-start me-md-3 me-xl-5">
+          <p class="mb-4">
+            <span class="d-block display-6 lh-1">12+</span>
+            <span class="fs-4 text-secondary">years of experience</span>
+          </p>
+          <div class="d-grid">
+            <button class="btn btn-primary btn-lg" type="button">Hire Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
