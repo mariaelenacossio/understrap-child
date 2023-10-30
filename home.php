@@ -103,20 +103,15 @@ HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
             <span class="d-block display-6 lh-1">2+</span>
             <span class="fs-4 text-secondary">years of experience</span>
           </p>
-		  <div class="container">
-    <div class="row">
-        <div class="col p-0">
-            <a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
-                <i class="fa fa-linkedin-square"></i>
-            </a>
-        </div>
-        <div class="col p-0">
-            <a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
-                <i class="fa fa-github-square"></i>
-            </a>
-        </div>
-    </div>
-</div>
+			<div class="d-grid">
+			<!-- <button class="btn btn-primary btn-lg" type="button">Hire Me</button> -->
+			<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
+			<i class="fa fa-linkedin-square"></i>
+			</a>
+			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
+			<i class="fa fa-github-square"></i>
+			</a>
+          </div>
         </div>
       </div>
     </div>
