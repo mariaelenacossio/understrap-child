@@ -269,9 +269,14 @@ and (min-width: 768px){
 border-radius: 5rem;
 // position: relative
 }
+.profile-container img {
+  display: flex;
+  border-top-left-radius: 4.5rem;
+
+}
 .about-me-container.p-4 {margin-top: 2rem;}
 p.lead.fw-light.mb-4{margin-top: 2rem;}
-.about-me > .row>*{align-items: center;}
+.about-me > .row>*{padding-left: 2rem;}
 .about-me > .row {
 padding-top: 2rem;
 /* Define your gradient background */
