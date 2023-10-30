@@ -105,12 +105,12 @@ HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
           </p>
 		  <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col p-0">
             <a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
                 <i class="fa fa-linkedin-square"></i>
             </a>
         </div>
-        <div class="col">
+        <div class="col p-0">
             <a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
                 <i class="fa fa-github-square"></i>
             </a>
