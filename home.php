@@ -40,40 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 		<!--End of Hero Section-->
 
-		<!-- ======= About Section ======= -->
-		<div class="about-me bg-light container mt-4 img-shadow">
-    <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <div class="profile-container">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="profile-img" class="img-shadow">
-            </div>
-        </div>
-        <div class="col-lg-8 col-md-6 align-self-center">
-            <div class="about-me-container p-4">
-                <h2>About me</h2>
-                <p class="lead fw-light mb-4">
-                    I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
-                    I have a keen eye for detail and utilize Adobe Creative Cloud, particularly Xd and Adobe Illustrator, in my creative process. 
-                    Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. 
-                    I thrive in a collaborative team environment, always eager to learn from others. 
-                    Ultimately, my daily inspiration comes from creating meaningful digital experiences.
-                </p>
-                <div class="social-links d-flex fs-2 gap-4">
-                    <a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
-                        <i class="fa fa-linkedin-square"></i>
-                    </a>
-                    <a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
-                        <i class="fa fa-github-square"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!--About me section test-->
-HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
+<!-- About Me -->
 <section class="bg-light py-5 py-xl-6">
   <div class="container mb-4 mb-md-5 mb-xl-6">
     <div class="row justify-content-md-center">
@@ -94,17 +61,16 @@ HTML<!-- About Me 1 - HCF Bootstrap 5 Component -->
                     Overcoming programming challenges, HTML, CSS, and JS have become my go-to tools for translating abstract ideas into reality. 
                     I thrive in a collaborative team environment, always eager to learn from others. 
                     Ultimately, my daily inspiration comes from creating meaningful digital experiences.</p>
-          <!-- <p>Duis bibendum lectus vitae posuere euismod. Nunc semper mauris sed justo consequat mollis. Suspendisse eu lectus ornare, pulvinar tortor eget, iaculis libero. Nullam non metus sed lacus luctus posuere. Morbi semper pharetra tortor sit amet mollis.</p> -->
         </div>
       </div>
       <div class="col-12 order-md-0 col-md-4 col-xxl-4">
         <div class="text-center text-md-start me-md-3 me-xl-5">
           <p class="mb-4">
-            <span class="d-block display-6 lh-1">12+</span>
+            <span class="d-block display-6 lh-1">2+</span>
             <span class="fs-4 text-secondary">years of experience</span>
           </p>
           <div class="d-grid">
-            <button class="btn btn-primary btn-lg" type="button">Hire Me</button>
+            <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">Hire Me</button>
           </div>
         </div>
       </div>
