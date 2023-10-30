@@ -316,7 +316,7 @@ and (min-width: 768px){
 .profile-container img {height: 40vh;}
 .about-me-container.p-4 {
   height: 50vh;
-  padding: 0;
+  padding: 0!important;
   margin-top: 0;
   // width: 50%;
 }
