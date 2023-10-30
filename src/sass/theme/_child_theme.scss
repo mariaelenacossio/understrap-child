@@ -318,7 +318,9 @@ and (min-width: 768px){
   height: 50vh;
   padding: 0;
   margin-top: 0;
+  width: 50%;
 }
+.about-me>.row>* {width: 50%;}
 p.lead.fw-light.mb-4 {font-size: 0.8rem;}
 // .about-me>.row>* >.profile-container {
 //   width: 30%;
