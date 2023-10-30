@@ -100,7 +100,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<!--Case Study Cards-->
 
 				<section class="portfolio-cards">
-				<div class="row row-cols-4 g-4">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
 				<div class="col">
                     <div class="card custom-card">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" class="card-img-top" alt="...">
