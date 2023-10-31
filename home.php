@@ -244,17 +244,18 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-xs-12 col-md-6">
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
-                <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">Food</span>
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="./assets/img/blogs/blog-1/featured-image-4.jpg" alt="">
+                <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">UX/UI</span>
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-4.png" alt="">
               </a>
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
             <div>
-              <p class="text-secondary mb-1">Aug 23, 2022</p>
-              <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Benefits of Having a Heavy Breakfast Every Morning</a></h2>
-              <p class="mb-4">Running late for work or school? "Let’s skip the breakfast!" Well, this might sound like the most ideal idea to save time when you are on the run.</p>
+              <!-- <p class="text-secondary mb-1">Aug 23, 2022</p> -->
+              <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Web App</a></h2>
+              <p class="mb-4">Seamless Journeys, Crafted with UX/UI Excellence.</p>
               <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+			  <a class="btn btn-primary" href="https://xd.adobe.com/view/ef8d82b4-5695-4dfa-847f-2f7955ed59ef-bade/" target="_blank">View Site</a>
             </div>
           </div>
         </div>
