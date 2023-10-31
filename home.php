@@ -285,7 +285,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <!--Grid column for the form-->
             <div class="col-md-6 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST" style="border: 1px solid #ccc; border-radius: 25px; padding: 15px;">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                     <!--Grid row-->
                     <div class="row">
