@@ -265,7 +265,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 
 <!--Section: Contact v.3-->
-<section class="mb-4">
+<section class="contact-form mb-4">
     <div class="container">
 
         <!--Section heading-->
@@ -278,7 +278,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <!--Grid column for image-->
             <div class="col-md-6 mb-4">
-                <div class="contact-image" style="background-image: url('http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg'); border: 1px solid #ccc; border-radius: 25px;"></div>
+                <div class="contact-image">
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+				src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="">
+			</div>
             </div>
 
             <!--Grid column for the form-->
