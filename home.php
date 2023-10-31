@@ -191,14 +191,10 @@ $container = get_theme_mod( 'understrap_container_type' );
               <!-- <p class="text-secondary mb-1">Nov 11, 2022</p> -->
               <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Design System</a></h2>
               <p class="mb-4">Elevating User Experience with a Design System.</p>
-			  <div class="text-center mt-3 d-md-none"> <!-- This code will apply only for screens not bigger than 390px -->
+			  <div class="text-center mt-3"> <!-- This code will apply only for screens not bigger than 390px -->
 				<a class="btn btn-primary mb-2" href="#!" target="_self">Read More</a>
-				<a class="btn btn-primary" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
-			 </div>
-				<div class="text-center mt-3 d-none d-md-block"> <!-- This code will apply for screens larger than 390px -->
-					<a class="btn btn-primary" href="#!" target="_self">Read More</a>
-					<a class="btn btn-primary" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
-			    </div>
+				<a class="btn btn-primary mb-2" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
+				</div>
 			</div>
           </div>
         </div>
