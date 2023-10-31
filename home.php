@@ -266,7 +266,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <!--Section: Contact v.4-->
 <section class="contact-form mb-4">
-    <div class="container mb-3 mb-md-4 mb-xl-5">
+    <div class="container overflow-hidden">
 
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
