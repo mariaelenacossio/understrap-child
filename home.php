@@ -264,7 +264,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </section>
 
-<!--Section: Contact v.4-->
+<!--Section: Contact v.5-->
 <section class="contact-form mb-4">
     <div class="container overflow-hidden">
 
@@ -274,12 +274,12 @@ $container = get_theme_mod( 'understrap_container_type' );
         <!--Section description-->
         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
 
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
 
             <!--Grid column for image-->
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 text-center">
                 <div class="contact-image">
-                    <img class="img-fluid rounded w-100" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="">
+                    <img class="img-fluid rounded" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" alt="">
                 </div>
             </div>
 
@@ -287,9 +287,8 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="col-md-6 mb-md-0 mb-5">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST" style="border: 1px solid #ccc; border-radius: 25px; padding: 15px;">
 
-                    <!--Grid row-->
+                    <!--Grid row for name and email-->
                     <div class="row">
-
                         <!--Grid column for name-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
@@ -306,7 +305,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <!--Grid row-->
+                    <!--Grid row for name and email-->
 
                     <!--Grid row for subject-->
                     <div class="row">
@@ -317,7 +316,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <!--Grid row for subject-->
 
                     <!--Grid row for message-->
                     <div class="row">
@@ -328,7 +326,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div>
                         </div>
                     </div>
-                    <!--Grid row for message-->
                 </form>
 
                 <div class="text-center text-md-left">
