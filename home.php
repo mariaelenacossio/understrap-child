@@ -85,9 +85,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 </section>
 
 <!--End of About Me -->
-<?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
+<!-- ?php if ( is_front_page() && is_home() ) : ?>
+	?php get_template_part( 'global-templates/hero' ); ?>
+?php endif; ?-->
 
 <div class="wrapper" id="index-wrapper">
 
