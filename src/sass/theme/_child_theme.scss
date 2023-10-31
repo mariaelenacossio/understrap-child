@@ -47,6 +47,7 @@ and (max-width:447px){
     margin-left: 0px;
     display: inline-block;
     transition: 0.3s ease;
+    padding-right: 0;
     }
     .side-bar.active~.interface {
     width: calc(100% - 270px);
