@@ -879,7 +879,12 @@ footer .container > .row {justify-content: center;} //To center social btn's
 
 //Contact form
 .contact-image img {height: 500px;}
-form#contact-form {height: 500px;}
+form#contact-form {
+  height: 500px;
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+  padding: 15px
+}
 
 // @media only screen //Small screens
 // and (max-width: 477px),(max-width: 390px){
