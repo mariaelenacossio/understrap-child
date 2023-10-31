@@ -453,7 +453,12 @@ and (min-width: 1250px){
 }
 
 //Portfolio Test
-CSS.g-6,
+//Card Buttons
+.portfolio-btn {
+  display: flex;
+  justify-items: center;
+}
+.g-6,
 .gx-6 {
   --bs-gutter-x: 4.5rem;
 }
