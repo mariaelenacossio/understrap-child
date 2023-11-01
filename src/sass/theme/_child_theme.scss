@@ -40,6 +40,7 @@ $background-color: #fffafb;
   position: absolute;
   padding-right: 1rem;
   }
+  .interface:not(div#wrapper-footer){padding-right: 0;}
   
 @media only screen //Small screens
 and (max-width:447px){
