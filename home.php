@@ -174,7 +174,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <!--Portfolio-->
 <section class="bg-light py-5 py-xl-6">
-  <div class="container overflow-hidden">
+  <div class="portfolio-cards container overflow-hidden">
     <div class="row gy-5">
       <div class="col-12">
         <div class="row align-items-center gy-3 gy-md-0 gx-xl-5">
