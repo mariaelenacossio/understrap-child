@@ -469,7 +469,10 @@ and (min-width: 1250px){
 }
 @media only screen //smaller screens
 and (max-width:477px){
-  .portfolio-cards {text-align: center;}
+  .portfolio-cards .mt-3 {
+    text-align: center;
+    margin-top: 1rem!important;
+  }
 }
 @media (min-width: 576px) {
   .g-sm-6,
