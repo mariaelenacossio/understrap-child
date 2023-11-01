@@ -187,7 +187,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
-            <div>
+            <div class="portfolio-body">
               <!-- <p class="text-secondary mb-1">Nov 11, 2022</p> -->
               <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Design System</a></h2>
               <p class="mb-4">Elevating User Experience with a Design System.</p>
