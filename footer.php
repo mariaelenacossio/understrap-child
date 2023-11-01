@@ -93,9 +93,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php // Closing div#page from header.php. ?>
 <!-- </div>#page -->
 
+<?php wp_footer(); ?>
 
 </body>
-<?php wp_footer(); ?>
 
 </html>
 

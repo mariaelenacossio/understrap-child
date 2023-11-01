@@ -375,11 +375,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- </div>#content -->
 
 <!-- </div>#index-wrapper -->
-
-			</div><!--End Interface-->
-			<?php
+<?php
 get_footer();
 ?>
+			</div><!--End Interface-->
+			
 
 
 
