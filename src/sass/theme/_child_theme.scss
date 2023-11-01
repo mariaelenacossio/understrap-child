@@ -455,10 +455,7 @@ and (min-width: 1250px){
 //Portfolio Test
 //Card Buttons
 
-// .portfolio-btn {
-//   display: flex;
-//   justify-items: center;
-// }
+.portfolio-btn {text-align: inherit;}
 .g-6,
 .gx-6 {
   --bs-gutter-x: 4.5rem;
@@ -466,6 +463,11 @@ and (min-width: 1250px){
 .g-6,
 .gy-6 {
   --bs-gutter-y: 4.5rem;
+}
+
+@media only screen //Small screens
+and (max-width: 477px){
+.portfolio-btn {text-align: center;}
 }
 
 @media (min-width: 576px) {
