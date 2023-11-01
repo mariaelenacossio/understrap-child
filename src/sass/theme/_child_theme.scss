@@ -468,7 +468,7 @@ and (min-width: 1250px){
   --bs-gutter-y: 4.5rem;
 }
 @media only screen //smaller screens
-and (max-width:477px){
+and (min-width:477px){
   .portfolio-cards .mt-3 {
     text-align: center;
     margin-top: 1rem!important;
