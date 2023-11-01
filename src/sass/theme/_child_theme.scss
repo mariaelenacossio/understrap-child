@@ -454,6 +454,7 @@ and (min-width: 1250px){
 
 //Portfolio Test
 //Card Buttons
+
 // .portfolio-btn {
 //   display: flex;
 //   justify-items: center;
@@ -466,6 +467,7 @@ and (min-width: 1250px){
 .gy-6 {
   --bs-gutter-y: 4.5rem;
 }
+
 @media (min-width: 576px) {
   .g-sm-6,
   .gx-sm-6 {
@@ -474,6 +476,10 @@ and (min-width: 1250px){
   .g-sm-6,
   .gy-sm-6 {
     --bs-gutter-y: 4.5rem;
+  }
+  .portfolio-cards{
+    text-align: center;
+    margin-top: 1rem!important;
   }
 }
 @media (min-width: 768px) {
