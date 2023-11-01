@@ -174,7 +174,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <!--Portfolio-->
 <section class="bg-light py-5 py-xl-6">
-  <div class="portfolio-cards container overflow-hidden">
+  <div class="container overflow-hidden">
     <div class="row gy-5">
       <div class="col-12">
         <div class="row align-items-center gy-3 gy-md-0 gx-xl-5">
@@ -191,7 +191,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <!-- <p class="text-secondary mb-1">Nov 11, 2022</p> -->
               <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Design System</a></h2>
               <p class="mb-4">Elevating User Experience with a Design System.</p>
-			  <div class="portfolio-btn mt-3"> <!-- This code will apply only for screens not bigger than 390px -->
+			  <div class="mt-3"> <!-- This code will apply only for screens not bigger than 390px -->
 				<a class="btn btn-primary mb-2" href="#!" target="_self">Read More</a>
 				<a class="btn btn-primary mb-2" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
 				</div>
