@@ -187,11 +187,11 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
-            <div class="portfolio-body">
+            <div>
               <!-- <p class="text-secondary mb-1">Nov 11, 2022</p> -->
               <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Design System</a></h2>
               <p class="mb-4">Elevating User Experience with a Design System.</p>
-			  <div class="mt-3"> <!-- This code will apply only for screens not bigger than 390px -->
+			  <div class="text-sm-center mt-3"> <!-- This code will apply only for screens not bigger than 390px -->
 				<a class="btn btn-primary mb-2" href="#!" target="_self">Read More</a>
 				<a class="btn btn-primary mb-2" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
 				</div>
