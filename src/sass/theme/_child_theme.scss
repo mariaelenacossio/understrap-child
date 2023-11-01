@@ -467,13 +467,7 @@ and (min-width: 1250px){
 .gy-6 {
   --bs-gutter-y: 4.5rem;
 }
-@media only screen //smaller screens
-and (min-width:477px){
-  .portfolio-body > .mt-3 {
-    margin-top: 1rem!important;
-    text-align: center;
-}
-}
+
 @media (min-width: 576px) {
   .g-sm-6,
   .gx-sm-6 {
