@@ -166,7 +166,7 @@ get_header();
                       <p>The final step was to test the usability and 
                         functionality with tools such as GTmetrix and WebAim in order to 
                         identify the weak points to improve and refine them.</p>
-                      <a href="#" class="more hover link-green">See Project</a>
+                      <!-- <a href="#" class="more hover link-green">See Project</a> -->
                     </div>
                     <!-- /.post-content -->
                   </div>
