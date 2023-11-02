@@ -1,31 +1,34 @@
 // Add your custom JS here.
 "use strict";
-$(document).ready(function () {
-  $('#contact-form').submit(function (e) {
-    e.preventDefault(); // Prevent the default form submission
+function validateForm() {
+    // Your validation logic here
+    // Return true if the form is valid, or false if it's not
+}
 
-    document.getElementById('status').innerHTML = "Sending...";
-
+jQuery(document).ready(function () {
+    jQuery('#status').html("Sending...");
     var formData = {
-      'name': $('input[name=name]').val(),
-      'email': $('input[name=email]').val(),
-      'subject': $('input[name=subject]').val(),
-      'message': $('textarea[name=message]').val()
+        'name': jQuery('input[name=name]').val(),
+        'email': jQuery('input[name=email]').val(),
+        'subject': jQuery('input[name=subject]').val(),
+        'message': jQuery('textarea[name=message]').val()
     };
 
-    $.ajax({
-      url: "mail.php",
-      type: "POST",
-      data: formData,
-      success: function (data) {
-        $('#status').text(data.message);
-        if (data.code === 1) {
-          $('#contact-form')[0].reset(); // Reset the form if the email was sent successfully
-        }
-      },
-      error: function (jqXHR, textStatus, errorThrown) {
-        $('#status').text('Error: ' + errorThrown);
-      }
-    });
-  });
+    // Call the validateForm function
+    if (validateForm()) {
+        jQuery.ajax({
+            url: "mail.php",
+            type: "POST",
+            data: formData,
+            success: function (data, textStatus, jqXHR) {
+                jQuery('#status').text(data.message);
+                if (data.code) {
+                    jQuery('#contact-form').closest('form').find("input[type=text], textarea").val("");
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                jQuery('#status').text(jqXHR);
+            }
+        });
+    }
 });
