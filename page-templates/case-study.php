@@ -124,7 +124,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/mariaelena-cossio-social-media-mockup-mobile-1@2x.png" alt="" /></figure>
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/code-sample.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 12%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -179,7 +179,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/DS-test.png" alt="" /></figure>
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/ds-dashboard.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -207,7 +207,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
+              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/sample-website.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
