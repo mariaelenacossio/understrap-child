@@ -56,7 +56,7 @@ get_header();
                     <div class="post-content">
                       <p>BEYOND skincare brand's design system emphasizes brand identity, 
                         sustainability, and consistency in color, typography, and user experience.</p>
-                      <a href="#" class="more hover link-purple">See Project</a>
+                      <!-- <a href="#" class="more hover link-purple">See Project</a> -->
                     </div>
                     <!-- /.post-content -->
                   </div>
@@ -83,7 +83,7 @@ get_header();
                     <div class="post-content">
                       <p>In this step, I identified the needs and goals that the system will serve the target audience, 
                         and the elements and components required to meet the user needs and brand identity.</p>
-                      <a href="#" class="more hover link-leaf">See Project</a>
+                      <!-- <a href="#" class="more hover link-leaf">See Project</a> -->
                     </div>
                     <!-- /.post-content -->
                   </div>
@@ -109,7 +109,7 @@ get_header();
                     <!-- /.post-header -->
                     <div class="post-content">
                       <p>I used Adobe Xd to create the layout of mobile and desktop screens for the design system and the sample website based on the mood board I put together to convey the overall look, feel, and style.</p>
-                      <a href="#" class="more hover link-violet">Xd Wireframes</a>
+                      <a href="https://xd.adobe.com/view/c382503b-c117-4a2c-b978-6a2a01edd463-96d1/" class="more hover link-violet">Xd Wireframes</a>
                     </div>
                     <!-- /.post-content -->
                   </div>
@@ -139,32 +139,6 @@ get_header();
                         showcased the guidelines and format of the components and layout. 
                         Ultimately, I displayed the finished product on the sample website.</p>
                       <a href="https://github.com/mariaelenacossio/DGL-309-design-system" class="more hover link-yellow">Github Repository</a>
-                    </div>
-                    <!-- /.post-content -->
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.card -->
-              </div>
-              <!-- /.project-details -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.project -->
-          <div class="project item">
-            <div class="row">
-              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
-              <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
-                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
-                  <div class="card-body">
-                    <div class="post-header">
-                      <div class="post-category text-line text-orange mb-3">Product</div>
-                      <h2 class="post-title mb-3">Inceptos Euismod Egestas</h2>
-                    </div>
-                    <!-- /.post-header -->
-                    <div class="post-content">
-                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula.</p>
-                      <a href="#" class="more hover link-orange">See Project</a>
                     </div>
                     <!-- /.post-content -->
                   </div>
@@ -247,22 +221,6 @@ get_footer();?>
   
 
 </div><!--.div interface-->
-
-
-<!-- ?php 
-while ( have_posts() ) {
-  the_post();
-?>
-    <h1>?php the_title(); ?> </h1>
-    ?php the_content(); ?>
-
-    <p>Some other text</p>
-    <p>Any more understrap...</p>
-?php 
-
-} // end of "while"
-?> -->
-	<!-- <p>hello world</p> -->
 
 </body>
 
