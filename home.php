@@ -259,8 +259,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container overflow-hidden">
 
         <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Let's Connect</h2>
-
+        <div class="headings">
+        <h2 class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Blog</span></h2>
+        <hr>
+        </div>
         <!--Section description-->
         <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to send a message, and I will get back to you.</p>
 
