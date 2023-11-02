@@ -198,8 +198,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<section class="portfolio-cards">
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
 				<div class="col">
-                    <div class="card custom-card">
-					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/javier-garcia-chavez-bdZ3bzRde5g-unsplash-scaled.jpg" class="card-img-top" alt="...">
+                    <div class="card custom-card h-100">
+					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/javier-garcia-chavez-bdZ3bzRde5g-unsplash-scaled.jpg" class="card h-100-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -211,7 +211,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
 				<div class="col">
-                    <div class="card custom-card">
+                    <div class="card custom-card h-100">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/igor-miske-JVSgcV8_vb4-unsplash-scaled.jpg" class="card-img-top" alt="website-project-1, los quequitos">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -224,7 +224,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
 				<div class="col">
-                    <div class="card custom-card">
+                    <div class="card custom-card h-100">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/domenico-loia-hGV2TfOh0ns-unsplash-scaled.jpg" class="card-img-top" alt="website-project-2, beauty by amy">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -237,7 +237,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
 				<div class="col">
-                    <div class="card custom-card">
+                    <div class="card custom-card h-100">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/lee-campbell-DtDlVpy-vvQ-unsplash-scaled.jpg" class="card-img-top" alt="ux-project, relocateME">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
