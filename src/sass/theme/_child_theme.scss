@@ -901,6 +901,14 @@ form#contact-form {
   padding: 15px
 }
 
+textarea.form-control {height: 250px;}
+@media only screen //Small screens
+and (max-width: 477px){
+textarea.form-control {
+  height: 230px;
+}
+}
+
 //Case Studies
 //First section
 .main-container {
