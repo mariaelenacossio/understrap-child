@@ -41,7 +41,8 @@ $background-color: #fffafb;
   padding-right: 1rem;
   }
   // .interface:not(div#wrapper-footer){padding-right: 0;}
-  @media (max-width: 1024px) {
+  @media only screen
+  and (max-width: 1024px) {
     .interface:not(div#wrapper-footer) {
       padding-right: 0;
     }
