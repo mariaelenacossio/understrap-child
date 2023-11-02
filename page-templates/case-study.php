@@ -18,11 +18,12 @@ defined( 'ABSPATH' ) || exit;
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
-</head>
-<body>
-	<?php
+    <?php
 get_header();
 ?>
+</head>
+<body>
+
 <div class="interface">
     <section class="wrapper bg-light">
       <div class="container pt-10 pt-md-14 text-center">
@@ -232,10 +233,10 @@ get_header();
   </div>
   <!-- /.content-wrapper -->
   
-  <?php
-get_footer();?>
-</div><!--.div interface-->
 
+</div><!--.div interface-->
+<?php
+get_footer();?>
 
 <!-- ?php 
 while ( have_posts() ) {
