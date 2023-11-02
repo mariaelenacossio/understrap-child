@@ -271,10 +271,10 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container overflow-hidden">
 
         <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Let's Connect</h2>
 
         <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to send a message, and I will get back to you.</p>
 
         <div class="row">
 
