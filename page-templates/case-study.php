@@ -69,7 +69,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded"> <img src="./assets/img/photos/cs17.jpg" alt="" /></figure>
+              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -95,7 +95,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded"> <img src="./assets/img/photos/cs18.jpg" alt="" /></figure>
+              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -121,7 +121,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> <img src="./assets/img/photos/cs19.jpg" alt="" /></figure>
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 12%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -147,7 +147,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="./assets/img/photos/cs20.jpg" alt="" /></figure>
+              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -173,7 +173,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> <img src="./assets/img/photos/cs21.jpg" alt="" /></figure>
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -199,7 +199,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="./assets/img/photos/cs22.jpg" alt="" /></figure>
+              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -225,25 +225,6 @@ get_header();
           <!-- /.project -->
         </div>
         <!-- /.projects-overflow -->
-        <nav class="d-flex justify-content-center" aria-label="pagination">
-          <ul class="pagination">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true"><i class="uil uil-arrow-left"></i></span>
-              </a>
-            </li>
-            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true"><i class="uil uil-arrow-right"></i></span>
-              </a>
-            </li>
-          </ul>
-          <!-- /.pagination -->
-        </nav>
-        <!-- /nav -->
       </div>
       <!-- /.container -->
     </section>
