@@ -280,7 +280,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <!--Grid column for image-->
             <div class="col-md-6 mb-4">
-                <div class="contact-image">
+                <div class="contact-image rounded">
                     <img class="img-fluid rounded w-100" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-white-bg-black.png" alt="">
                 </div>
             </div>
