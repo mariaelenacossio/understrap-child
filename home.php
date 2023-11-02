@@ -331,11 +331,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                     <!--Grid row for message-->
-                </form>
-
-                <div class="text-center text-md-left">
+                    <div class="text-center text-md-left">
                 <a class="btn btn-primary" onclick="validateForm();">Send</a>
                 </div>
+                </form>
+
                 <div class="status"></div>
             </div>
         </div>
