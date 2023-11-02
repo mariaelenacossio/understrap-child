@@ -1,25 +1,32 @@
 // Add your custom JS here.
 "use strict";
-document.getElementById('status').innerHTML = "Sending...";
-formData = {
-  'name': $('input[name=name]').val(),
-  'email': $('input[name=email]').val(),
-  'subject': $('input[name=subject]').val(),
-  'message': $('textarea[name=message]').val()
-};
+"use strict";
+$(document).ready(function () {
+  $('#contact-form').submit(function (e) {
+    e.preventDefault(); // Prevent the default form submission
 
+    document.getElementById('status').innerHTML = "Sending...";
 
-$.ajax({
-  url: "mail.php",
-  type: "POST",
-  data: formData,
-  success: function (data, textStatus, jqXHR) {
+    var formData = {
+      'name': $('input[name=name]').val(),
+      'email': $('input[name=email]').val(),
+      'subject': $('input[name=subject]').val(),
+      'message': $('textarea[name=message]').val()
+    };
 
-    $('#status').text(data.message);
-    if (data.code) //If mail was sent successfully, reset the form.
-      $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-  },
-  error: function (jqXHR, textStatus, errorThrown) {
-    $('#status').text(jqXHR);
-  }
+    $.ajax({
+      url: "mail.php",
+      type: "POST",
+      data: formData,
+      success: function (data) {
+        $('#status').text(data.message);
+        if (data.code === 1) {
+          $('#contact-form')[0].reset(); // Reset the form if the email was sent successfully
+        }
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        $('#status').text('Error: ' + errorThrown);
+      }
+    });
+  });
 });
