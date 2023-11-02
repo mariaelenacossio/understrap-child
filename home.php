@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!--End of Hero Section-->
 
 <!-- About Me -->
-<section class="bg-light py-4 py-md-5 py-xl-6">
+<section id="about" class="bg-light py-4 py-md-5 py-xl-6">
   <div class="container mb-4 mb-md-5 mb-xl-6">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-xxl-8">
