@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<p class="lead">Hi there, this is Mariaelena</p>
 			<h1 class="display-5 fw-bold lh-1 mb-3">I am a Web Designer</h1>
 			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-      <a href="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" download="mcc-resume.pdf">
+      <a href="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" download="mcc-resume.pdf">
       <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
       </a>
 				<button type="button" class="btn btn-outline-secondary btn-lg px-4" href="">Projects</button>
