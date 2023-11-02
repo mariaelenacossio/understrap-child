@@ -260,7 +260,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         <!--Section heading-->
         <div class="headings">
-        <h2 class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Blog</span></h2>
+        <h2 class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Let's Connect</span></h2>
         <hr>
         </div>
         <!--Section description-->
