@@ -1,6 +1,5 @@
 // Add your custom JS here.
 "use strict";
-"use strict";
 $(document).ready(function () {
   $('#contact-form').submit(function (e) {
     e.preventDefault(); // Prevent the default form submission
