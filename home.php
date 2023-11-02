@@ -36,7 +36,7 @@ $container = get_theme_mod( 'understrap_container_type' );
       <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
       </a>
       <a href="#portfolio">
-      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
       </a>
 			</div>
 			</div>
