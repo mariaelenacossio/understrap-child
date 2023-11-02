@@ -334,7 +334,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </form>
 
                 <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a class="btn btn-primary" onclick="validateForm();">Send</a>
                 </div>
                 <div class="status"></div>
             </div>
