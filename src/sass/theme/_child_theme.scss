@@ -893,6 +893,14 @@ footer .container > .row {justify-content: center;} //To center social btn's
 }
 
 //Contact form
+.contact-image{
+  background: rgb(1,1,37);
+background: radial-gradient(circle, 
+rgba(1,1,37,0.8590029761904762) 21%, 
+rgba(97,90,183,0.9066220238095238) 48%, 
+rgba(76,61,124,0.9486388305322129) 77%);
+border: 1px solid $accent-color;
+}
 .contact-image img {height: 500px;}
 form#contact-form {
   height: 500px;
