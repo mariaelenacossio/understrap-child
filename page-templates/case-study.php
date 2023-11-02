@@ -251,10 +251,10 @@ get_header();
   </div>
   <!-- /.content-wrapper -->
   
-	<?php
-get_footer();?>
-</div><!--.div interface-->
 
+</div><!--.div interface-->
+<?php
+get_footer();?>
 
 <!-- ?php 
 while ( have_posts() ) {
