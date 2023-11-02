@@ -271,7 +271,6 @@ while ( have_posts() ) {
 ?> -->
 	<!-- <p>hello world</p> -->
 
-
 </body>
 
 </html>
