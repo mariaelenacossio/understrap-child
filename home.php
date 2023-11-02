@@ -33,7 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<h1 class="display-5 fw-bold lh-1 mb-3">I am a Web Designer</h1>
 			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
 				<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-				<button type="button" class="btn btn-outline-secondary btn-lg px-4">Projects</button>
+				<button type="button" class="btn btn-outline-secondary btn-lg px-4" href="">Projects</button>
 			</div>
 			</div>
 		</div>
@@ -106,6 +106,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div class="headings">
 				<h2 class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Portfolio</span></h2>
+        <a name="portfolio" id="portfolio"></a>
 				<hr>
 				</div>
 				
