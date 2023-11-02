@@ -214,7 +214,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <!-- <p class="text-secondary mb-1">Oct 9, 2022</p> -->
               <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Local E-commerce</a></h2>
               <p class="mb-4">User-friendly website, built with Bootstrap, offers a seamless and secure shopping experience</p>
-              <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+              <a class="btn btn-primary" href="https://mariaelena-cossioclark.com/los-quequitos-mx/" target="_self">Read More</a>
 			  <a class="btn btn-primary" href="https://mariaelenacossio.github.io/losquequitosmx.github.io/" target="_blank">View Site</a>
             </div>
           </div>
