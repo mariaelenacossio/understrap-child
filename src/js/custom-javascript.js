@@ -4,7 +4,7 @@
  function validateForm() {
     // Your validation logic here
     // Return true if the form is valid, or false if it's not
-    function validateForm() {
+   
         var name =  document.getElementById('name').value;
         if (name == "") {
             document.querySelector('.status').innerHTML = "Name cannot be empty";
@@ -33,7 +33,7 @@
         }
         document.querySelector('.status').innerHTML = "Sending...";
       }
-}
+
 
 jQuery(document).ready(function () {
     jQuery('#status').html("Sending...");
