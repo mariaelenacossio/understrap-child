@@ -43,7 +43,7 @@ get_header();
         <div class="projects-overflow mt-md-10 mb-10 mb-lg-15">
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded"> <img src="./assets/img/photos/cs16.jpg" alt="" /></figure>
+              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="" /></figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 10%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
