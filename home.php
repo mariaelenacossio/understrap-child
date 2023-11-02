@@ -86,26 +86,6 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </section>
 
-<!--End of About Me -->
-<!-- ?php if ( is_front_page() && is_home() ) : ?>
-	?php get_template_part( 'global-templates/hero' ); ?>
-?php endif; ?-->
-
-<!-- <div class="wrapper" id="index-wrapper"> -->
-
-
-	<!-- <div class="?php echo esc_attr( $container ); ?>" id="content" tabindex="-1"> -->
-
-		<!-- <div class="row"> -->
-
-			<!-- ?php -->
-			<!-- // Do the left sidebar check and open div#primary.
-			// get_template_part( 'global-templates/left-sidebar-check' );
-			// ? -->
-
-			
-		<!-- <main class="site-main" id="main"> -->
-
 				<div class="headings">
 				<h2 id="portfolio" class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Portfolio</span></h2>
 				<hr>
