@@ -295,16 +295,16 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <!--Grid column for name-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
                                 <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Your name</label>
                             </div>
                         </div>
 
                         <!--Grid column for email-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
                                 <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="">Your email</label>
                             </div>
                         </div>
                     </div>
@@ -314,8 +314,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="row">
                         <div class="col-md-12">
                             <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
                                 <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" class="">Subject</label>
                             </div>
                         </div>
                     </div>
@@ -325,8 +325,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="row">
                         <div class="col-md-12">
                             <div class="md-form">
+                            <label for="message">Your message</label>
                                 <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Your message</label>
                             </div>
                         </div>
                     </div>
