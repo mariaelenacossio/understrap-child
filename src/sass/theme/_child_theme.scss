@@ -250,6 +250,10 @@ and (max-width: 477px){
     height: 250px;
     border-radius: 25px;
   }
+  .d-grid.gap-2.d-md-flex.justify-content-md-start{
+    display: flex;
+    justify-content: center;
+  }
   .img-shadow{box-shadow: none;}
   p.lead{
     text-align: center;
