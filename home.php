@@ -210,7 +210,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-                !-- Add more cards with similar structure here 
 				<div class="col">
                     <div class="card custom-card">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/igor-miske-JVSgcV8_vb4-unsplash-scaled.jpg" class="card-img-top" alt="website-project-1, los quequitos">
