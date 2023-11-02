@@ -230,11 +230,12 @@ get_header();
       <!-- /.container -->
     </section>
     <!-- /section -->
+    <?php
+get_footer();?>
   </div>
   <!-- /.content-wrapper -->
   
-  <?php
-get_footer();?>
+
 </div><!--.div interface-->
 
 
