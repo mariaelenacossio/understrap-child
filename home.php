@@ -111,7 +111,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div>
               <!-- <p class="text-secondary mb-1">Nov 11, 2022</p> -->
               <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Design System</a></h2>
-              <p class="mb-4">Elevating User Experience with a Design System.</p>
+              <p class="mb-4 text-truncate" style="max-height: 3.6em; overflow: hidden;">Elevating User Experience with a Design System.</p>
 			  <div class="portfolio-btn mt-3"> <!-- This code will apply only for screens not bigger than 390px -->
 				<a class="btn btn-primary mb-2" href="https://mariaelena-cossioclark.com/beyond-skincare/" target="_self">Read More</a>
 				<a class="btn btn-primary mb-2" href="https://mariaelenacossio.github.io/DGL-309-design-system/" target="_blank">View Site</a>
