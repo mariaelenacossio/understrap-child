@@ -29,8 +29,8 @@ get_header();
       <div class="container pt-10 pt-md-14 text-center">
         <div class="row">
           <div class="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
-            <h1 class="display-1 mb-3">Projects</h1>
-            <p class="lead fs-lg px-lg-10 px-xxl-8">Check out some of our awesome projects with creative ideas and great design.</p>
+            <h1 class="display-1 mb-3">Case Study</h1>
+            <p class="lead fs-lg px-lg-10 px-xxl-8">Design System.</p>
           </div>
           <!-- /column -->
         </div>
@@ -49,12 +49,20 @@ get_header();
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
                     <div class="post-header">
-                      <div class="post-category text-line text-purple mb-3">Cosmetic</div>
-                      <h2 class="post-title mb-3">Cras Fermentum Sem</h2>
+                      <div class="post-category text-line text-purple mb-3">Introduction</div>
+                      <h2 class="post-title mb-3">BEYOND Skincare</h2>
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                      <p>BEYOND is a skincare brand. Its identity is embodied in its design system. 
+                         The  colour palette reflects the brand’s identity by establishing consistent 
+                         visual language and user experience across different pages and components. 
+                         Typography ensures readability and legibility across all platforms as well, 
+                         the guidelines established are based on the company values which are sustainability, 
+                         transparency, and ethical practices of products with a purpose for your skin as well, 
+                         as the environment.
+                         The website sample maintains a consistent resemblance to the elements, components,
+                         and materials that were constructed solely using HTML, CSS, and JS.</p>
                       <a href="#" class="more hover link-purple">See Project</a>
                     </div>
                     <!-- /.post-content -->
