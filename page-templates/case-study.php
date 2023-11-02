@@ -73,6 +73,8 @@ get_header();
             <p>Your key takeaways and design principles description goes here...</p>
         </section>
     </div>
+	<?php
+get_footer();?>
 </div><!--.div interface-->
 
 
@@ -90,8 +92,7 @@ while ( have_posts() ) {
 } // end of "while"
 ?> -->
 	<!-- <p>hello world</p> -->
-	<?php
-get_footer();?>
+
 
 </body>
 
