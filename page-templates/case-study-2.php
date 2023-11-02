@@ -112,7 +112,7 @@ get_header();
                       <p>This phase was all about translating the bakery's delightful treats into a captivating visual identity. 
                         Using HTML, CSS, and Bootstrap, we designed a site that mirrored the bakery's warmth and coziness. 
                         The color palette was carefully selected to evoke feelings of comfort and joy, while the typography maintained readability and elegance.</p>
-                      <a href="https://xd.adobe.com/view/c382503b-c117-4a2c-b978-6a2a01edd463-96d1/" class="more hover link-violet">Xd Wireframes</a>
+                      <a href="#!" class="more hover link-violet">Wireframes</a>
                     </div>
                     <!-- /.post-content -->
                   </div>
