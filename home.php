@@ -237,13 +237,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 </div>
 				<div class="col">
-                    <div class="card custom-card h-100 d-flex flex-column">
+                    <div class="card custom-card h-100">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/lee-campbell-DtDlVpy-vvQ-unsplash-scaled.jpg" class="card-img-top" alt="ux-project, relocateME">
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="flex-grow-1"></div> <!-- This pushes the button to the bottom -->
-                            <div class="card-buttons mt-auto text-center">
+                            <div class="card-buttons">
                                 <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
                             </div>
