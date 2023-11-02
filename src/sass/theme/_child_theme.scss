@@ -2,9 +2,12 @@
 //Fonts
 @font-face {
   font-family: "Unicons";
-  src: url('path-to-unicons.woff2') format('woff2');
-  /* Include other formats for better browser compatibility */
+  src: url('path-to-unicons.eot') format('eot'),      /* IE */
+       url('path-to-unicons.woff2') format('woff2'),   /* Modern browsers */
+       url('path-to-unicons.woff') format('woff'),     /* Older browsers */
+       url('path-to-unicons.ttf') format('truetype');  /* Fallback for legacy support */
 }
+
 // Color Palette
 $primary-color: #010125;
 $secondary-color: #615ab7;
