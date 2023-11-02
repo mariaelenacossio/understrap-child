@@ -900,13 +900,13 @@ form#contact-form {
   border: 1px solid #ccc; 
   padding: 15px
 }
+.text-center.text-md-left {padding: 1.5rem;}
 
 textarea.form-control {height: 250px;}
 @media only screen //Small screens
 and (max-width: 477px){
-textarea.form-control {
-  height: 230px;
-}
+textarea.form-control {height: 200px;}
+.text-center.text-md-left {padding: 1rem;}
 }
 
 //Case Studies
