@@ -1,4 +1,10 @@
 //Global Styles
+//Fonts
+@font-face {
+  font-family: "Unicons";
+  src: url('path-to-unicons.woff2') format('woff2');
+  /* Include other formats for better browser compatibility */
+}
 // Color Palette
 $primary-color: #010125;
 $secondary-color: #615ab7;
