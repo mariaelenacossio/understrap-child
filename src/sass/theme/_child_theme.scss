@@ -1564,3 +1564,13 @@ textarea.form-control {height: 200px;}
   .hover-scale:hover img {
     transform: scale(1.05);
   }
+
+  .blockquote-footer {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.6rem;
+    color: #aab0bc;
+  }
+  .blockquote-footer::before {
+    content: "\2014\a0";
+  }
