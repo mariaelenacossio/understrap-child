@@ -331,8 +331,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <button type="submit" name="submit" class="btn btn-primary">Send</button>
                 </div>
                 </form>
-
                 <div class="status"></div>
+                <?php echo $msg; ?>
             </div>
         </div>
     </div>
