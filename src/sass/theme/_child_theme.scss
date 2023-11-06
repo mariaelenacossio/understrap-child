@@ -2501,3 +2501,23 @@ textarea.form-control {height: 200px;}
   .social.text-center>a {
     margin: 0 0.35rem;
   }
+
+  .btn-red.btn-circle.ripple::before,
+.btn-red.btn-circle.ripple::after {
+  background: #e2626b;
+}
+.btn-icon.btn-sm,
+.btn-group-sm>.btn-icon.btn {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.btn-icon.btn-sm i,
+.btn-group-sm>.btn-icon.btn i {
+  font-size: 0.8rem;
+}
+.btn-icon.btn-icon-start i {
+  margin-right: 0.3rem;
+}
+.btn-icon.btn-icon-end i {
+  margin-left: 0.3rem;
+}
