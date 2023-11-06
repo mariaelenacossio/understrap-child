@@ -10,7 +10,9 @@ $accent-color: #e3daff;
 $background-color: #fffafb;
 
 //Text
-.text-primary {color: $primary-color;}
+.text-primary {
+  color: $primary-color!important;
+  opacity: 2;}
 
 //Buttons
 .btn-primary {
