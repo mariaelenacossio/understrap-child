@@ -1528,6 +1528,18 @@ textarea.form-control {height: 200px;}
   }
   .author-info h6,
 .author-info .h6 {margin-bottom: 0.2rem;}
+.user-avatar {
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  border-radius: 100%;
+}
+@media (max-width: 767px) {
+  #comments .user-avatar {display: none;}
+  #comments ul.children {padding-left: 1.5rem;}
+  #comments ul.children li.comment:before {display: none;}
+}
   @media (min-width: 768px) {
     .classic-view article .card-body {padding: 2rem 2.5rem 1.25rem;}
     .classic-view article .card-footer {padding: 1.25rem 2.5rem 1.25rem;}
