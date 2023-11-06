@@ -1536,9 +1536,7 @@ textarea.form-control {height: 200px;}
   border-radius: 100%;
 }
 @media (max-width: 767px) {
-  #comments .user-avatar {display: none;}
-  #comments ul.children {padding-left: 1.5rem;}
-  #comments ul.children li.comment:before {display: none;}
+.user-avatar {display: none;}
 }
   @media (min-width: 768px) {
     .classic-view article .card-body {padding: 2rem 2.5rem 1.25rem;}
