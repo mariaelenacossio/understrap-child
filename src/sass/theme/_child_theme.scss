@@ -1451,3 +1451,52 @@ textarea.form-control {height: 200px;}
   .link-gray:focus {
     color: #f6f7f9;
   }
+
+  //Blog Posts
+  .bg-soft-primary {background-color: #f1f5fd !important;}
+  .post-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.7rem;
+    color: #aab0bc;
+  }
+  .post-meta li {display: inline-block;}
+  .post-meta li a {color: #aab0bc;}
+  .post-meta li a:hover {
+    color: #3f78e0;
+    border-color: #3f78e0;
+  }
+  .post-meta li:before {
+    content: "";
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 100%;
+    margin: 0 0.6rem 0;
+    vertical-align: 0.15rem;
+    background: #aab0bc;
+    opacity: 0.5;
+  }
+  .post-meta li i {
+    padding-right: 0.2rem;
+    vertical-align: -0.05rem;
+  }
+  .post-meta.text-white li:before {background: #fff;}
+  .post-header .post-meta {font-size: 0.8rem;}
+  .post-header .post-meta li:before {margin: 0 0.6rem 0 0.4rem;}
+  .post-meta li:first-child:before,
+  article .post-meta li.ms-auto:before {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    .post-meta li.post-author,
+    .post-meta li.post-comments span {
+      display: none;
+    }
+    .post-header .post-meta li.post-author,
+    .post-header .post-meta li.post-comments span,
+    .post-header .post-meta li.post-likes span {
+      display: none;
+    }
+  }
