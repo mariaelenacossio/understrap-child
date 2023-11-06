@@ -1574,3 +1574,23 @@ textarea.form-control {height: 200px;}
   .blockquote-footer::before {
     content: "\2014\a0";
   }
+  .tag-list li {
+    display: inline-block;
+    margin-right: 0.2rem;
+    margin-bottom: 0.1rem;
+  }
+  .tag-list li a:before {
+    font-style: normal;
+    content: "#";
+    font-weight: normal;
+    padding-right: 0.2rem;
+  }
+  .widget .tag-list li,
+  .blog.single .post .tag-list li {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+  }
+  .widget .tag-list li a {
+    display: flex;
+    align-items: center;
+  }
