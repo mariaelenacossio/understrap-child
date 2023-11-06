@@ -25,25 +25,12 @@ get_header();
 <body>
 
 <div class="interface">
-<section class="wrapper bg-soft-primary">
-      <div class="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
+    <section class="wrapper bg-light">
+      <div class="container pt-10 pt-md-14 text-center">
         <div class="row">
-          <div class="col-md-10 col-xl-8 mx-auto">
-            <div class="post-header">
-              <div class="post-category text-line">
-                <a href="#" class="hover" rel="category">Teamwork</a>
-              </div>
-              <!-- /.post-category -->
-              <h1 class="display-1 mb-4">Commodo Dolor Bibendum Parturient Cursus Mollis</h1>
-              <ul class="post-meta mb-5">
-                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>Nov 5 2023</span></li>
-                <li class="post-author"><a href="#"><i class="fa-regular fa-calendar"></i><span>Mariaelena C</span></a></li>
-                <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3<span> Comments</span></a></li>
-                <li class="post-likes"><a href="#"><i class="uil uil-heart-alt"></i>3<span> Likes</span></a></li>
-              </ul>
-              <!-- /.post-meta -->
-            </div>
-            <!-- /.post-header -->
+          <div class="col-md-8 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
+            <h1 class="display-1 mb-3">Case Study</h1>
+            <p class="lead fs-lg px-lg-10 px-xxl-8">Web App/Landing Page</p>
           </div>
           <!-- /column -->
         </div>
@@ -53,370 +40,179 @@ get_header();
     </section>
     <!-- /section -->
     <section class="wrapper bg-light">
-      <div class="container pb-14 pb-md-16">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <div class="blog single mt-n17">
-              <div class="card">
-                <figure class="card-img-top"><img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-1-top-scaled.jpg" alt="" /></figure>
-                <div class="card-body">
-                  <div class="classic-view">
-                    <article class="post">
-                      <div class="post-content mb-5">
-                        <h2 class="h1 mb-4">Cras mattis consectetur purus fermentum</h2>
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget porta ac consectetur vestibulum.</p>
-                        <p>Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.</p>
-                        <div class="row g-6 mt-3 mb-10">
-                          <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox="title: Heading; description: Purus Vulputate Sem Tellus Quam" data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-1-scaled.jpg" alt="" /></a></figure>
-                          </div>
-                          <!--/column -->
-                          <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-2.jpg" alt="" /></a></figure>
-                          </div>
-                          <!--/column -->
-                          <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-3-scaled.jpg" alt="" /></a></figure>
-                          </div>
-                          <!--/column -->
-                          <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-1-gal-5-scaled.jpg" alt="" /></a></figure>
-                          </div>
-                          <!--/column -->
-                        </div>
-                        <!-- /.row -->
-                        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna.</p>
-                        <blockquote class="fs-lg my-8">
-                          <p>Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula lacinia odio sem nec elit purus.</p>
-                          <footer class="blockquote-footer">Very important person</footer>
-                        </blockquote>
-                        <h3 class="h2 mb-4">Sit Vulputate Bibendum Purus</h3>
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper.</p>
-                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                      </div>
-                      <!-- /.post-content -->
-                      <div class="post-footer d-md-flex flex-md-row justify-content-md-between align-items-center mt-8">
-                        <div>
-                          <ul class="list-unstyled tag-list mb-0">
-                            <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill mb-0">Still Life</a></li>
-                            <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill mb-0">Urban</a></li>
-                            <li><a href="#" class="btn btn-soft-ash btn-sm rounded-pill mb-0">Nature</a></li>
-                          </ul>
-                        </div>
-                        <div class="mb-0 mb-md-2">
-                          <div class="dropdown share-dropdown btn-group">
-                            <button class="btn btn-sm btn-red rounded-pill btn-icon btn-icon-start dropdown-toggle mb-0 me-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              <i class="uil uil-share-alt"></i> Share </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#"><i class="uil uil-twitter"></i>Twitter</a>
-                              <a class="dropdown-item" href="#"><i class="uil uil-facebook-f"></i>Facebook</a>
-                              <a class="dropdown-item" href="#"><i class="uil uil-linkedin"></i>Linkedin</a>
-                            </div>
-                            <!--/.dropdown-menu -->
-                          </div>
-                          <!--/.share-dropdown -->
-                        </div>
-                      </div>
-                      <!-- /.post-footer -->
-                    </article>
-                    <!-- /.post -->
+      <div class="container pt-9 pt-md-11 pb-14 pb-md-16">
+        <div class="projects-overflow mt-md-10 mb-10 mb-lg-15">
+          <div class="project item">
+            <div class="row">
+              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-4.png" alt="" /></figure>
+              <div class="project-details d-flex justify-content-center flex-column" style="right: 10%; bottom: 25%;">
+                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line text-purple mb-3">Introduction</div>
+                      <h2 class="post-title mb-3">relocateME</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <p>For this college project, I had to create an accommodation app, 
+                        which seemed simple at first but held more complexity beneath the surface. 
+                        It involved understanding not just design principles but also user psychology, 
+                        technical feasibility, and the nuances of the accommodation industry.</p>
+                      <!-- <a href="#" class="more hover link-purple">See Project</a> -->
+                    </div>
+                    <!-- /.post-content -->
                   </div>
-                  <!-- /.classic-view -->
-                  <hr />
-                  <div class="author-info d-md-flex align-items-center mb-3">
-                    <div class="d-flex align-items-center">
-                      <figure class="user-avatar"><img class="rounded-circle" alt="" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" /></figure>
-                      <div>
-                        <h6><a href="#" class="link-dark">Nikolas Brooten</a></h6>
-                        <span class="post-meta fs-15">Sales Manager</span>
-                      </div>
-                    </div>
-                    <div class="mt-3 mt-md-0 ms-auto">
-                      <a href="#" class="btn btn-sm btn-soft-ash rounded-pill btn-icon btn-icon-start mb-0"><i class="uil uil-file-alt"></i> All Posts</a>
-                    </div>
-                  </div>
-                  <!-- /.author-info -->
-                  <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac. Maecenas faucibus mollis interdum.</p>
-                  <nav class="nav social">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                  </nav>
-                  <!-- /.social -->
-                  <hr />
-                  <h3 class="mb-6">You Might Also Like</h3>
-                  <div class="swiper-container blog grid-view mb-16" data-margin="30" data-dots="true" data-items-md="2" data-items-xs="1">
-                    <div class="swiper">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <article>
-                            <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="./assets/img/photos/b4.jpg" alt="" /></a>
-                              <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
-                              </figcaption>
-                            </figure>
-                            <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category">Coding</a>
-                              </div>
-                              <!-- /.post-category -->
-                              <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">Ligula tristique quis risus</a></h2>
-                            </div>
-                            <!-- /.post-header -->
-                            <div class="post-footer">
-                              <ul class="post-meta mb-0">
-                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
-                                <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>4</a></li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /.post-footer -->
-                          </article>
-                          <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                          <article>
-                            <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="./assets/img/photos/b5.jpg" alt="" /></a>
-                              <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
-                              </figcaption>
-                            </figure>
-                            <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category">Workspace</a>
-                              </div>
-                              <!-- /.post-category -->
-                              <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">Nullam id dolor elit id nibh</a></h2>
-                            </div>
-                            <!-- /.post-header -->
-                            <div class="post-footer">
-                              <ul class="post-meta mb-0">
-                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
-                                <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>3</a></li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /.post-footer -->
-                          </article>
-                          <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                          <article>
-                            <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="./assets/img/photos/b6.jpg" alt="" /></a>
-                              <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
-                              </figcaption>
-                            </figure>
-                            <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category">Meeting</a>
-                              </div>
-                              <!-- /.post-category -->
-                              <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">Ultricies fusce porta elit</a></h2>
-                            </div>
-                            <!-- /.post-header -->
-                            <div class="post-footer">
-                              <ul class="post-meta mb-0">
-                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
-                                <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>6</a></li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /.post-footer -->
-                          </article>
-                          <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                          <article>
-                            <figure class="overlay overlay-1 hover-scale rounded mb-5"><a href="#"> <img src="./assets/img/photos/b7.jpg" alt="" /></a>
-                              <figcaption>
-                                <h5 class="from-top mb-0">Read More</h5>
-                              </figcaption>
-                            </figure>
-                            <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category">Business Tips</a>
-                              </div>
-                              <!-- /.post-category -->
-                              <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">Morbi leo risus porta eget</a></h2>
-                            </div>
-                            <div class="post-footer">
-                              <ul class="post-meta mb-0">
-                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
-                                <li class="post-comments"><a href="#"><i class="uil uil-comment"></i>2</a></li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /.post-footer -->
-                          </article>
-                          <!-- /article -->
-                        </div>
-                        <!--/.swiper-slide -->
-                      </div>
-                      <!--/.swiper-wrapper -->
-                    </div>
-                    <!-- /.swiper -->
-                  </div>
-                  <!-- /.swiper-container -->
-                  <hr />
-                  <div id="comments">
-                    <h3 class="mb-6">5 Comments</h3>
-                    <ol id="singlecomments" class="commentlist">
-                      <li class="comment">
-                        <div class="comment-header d-md-flex align-items-center">
-                          <div class="d-flex align-items-center">
-                            <figure class="user-avatar"><img class="rounded-circle" alt="" src="./assets/img/avatars/u1.jpg" /></figure>
-                            <div>
-                              <h6 class="comment-author"><a href="#" class="link-dark">Connor Gibson</a></h6>
-                              <ul class="post-meta">
-                                <li><i class="uil uil-calendar-alt"></i>14 Jan 2022</li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /div -->
-                          </div>
-                          <!-- /div -->
-                          <div class="mt-3 mt-md-0 ms-auto">
-                            <a href="#" class="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0"><i class="uil uil-comments"></i> Reply</a>
-                          </div>
-                          <!-- /div -->
-                        </div>
-                        <!-- /.comment-header -->
-                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis integer posuere erat ante.</p>
-                      </li>
-                      <li class="comment">
-                        <div class="comment-header d-md-flex align-items-center">
-                          <div class="d-flex align-items-center">
-                            <figure class="user-avatar"><img class="rounded-circle" alt="" src="./assets/img/avatars/u2.jpg" /></figure>
-                            <div>
-                              <h6 class="comment-author"><a href="#" class="link-dark">Nikolas Brooten</a></h6>
-                              <ul class="post-meta">
-                                <li><i class="uil uil-calendar-alt"></i>21 Feb 2022</li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /div -->
-                          </div>
-                          <!-- /div -->
-                          <div class="mt-3 mt-md-0 ms-auto">
-                            <a href="#" class="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0"><i class="uil uil-comments"></i> Reply</a>
-                          </div>
-                          <!-- /div -->
-                        </div>
-                        <!-- /.comment-header -->
-                        <p>Quisque tristique tincidunt metus non aliquam. Quisque ac risus sit amet quam sollicitudin vestibulum vitae malesuada libero. Mauris magna elit, suscipit non ornare et, blandit a tellus. Pellentesque dignissim ornare faucibus mollis.</p>
-                        <ul class="children">
-                          <li class="comment">
-                            <div class="comment-header d-md-flex align-items-center">
-                              <div class="d-flex align-items-center">
-                                <figure class="user-avatar"><img class="rounded-circle" alt="" src="./assets/img/avatars/u3.jpg" /></figure>
-                                <div>
-                                  <h6 class="comment-author"><a href="#" class="link-dark">Pearce Frye</a></h6>
-                                  <ul class="post-meta">
-                                    <li><i class="uil uil-calendar-alt"></i>22 Feb 2022</li>
-                                  </ul>
-                                  <!-- /.post-meta -->
-                                </div>
-                                <!-- /div -->
-                              </div>
-                              <!-- /div -->
-                              <div class="mt-3 mt-md-0 ms-auto">
-                                <a href="#" class="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0"><i class="uil uil-comments"></i> Reply</a>
-                              </div>
-                              <!-- /div -->
-                            </div>
-                            <!-- /.comment-header -->
-                            <p>Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis.</p>
-                            <ul class="children">
-                              <li class="comment">
-                                <div class="comment-header d-md-flex align-items-center">
-                                  <div class="d-flex align-items-center">
-                                    <figure class="user-avatar"><img class="rounded-circle" alt="" src="./assets/img/avatars/u2.jpg" /></figure>
-                                    <div>
-                                      <h6 class="comment-author"><a href="#" class="link-dark">Nikolas Brooten</a></h6>
-                                      <ul class="post-meta">
-                                        <li><i class="uil uil-calendar-alt"></i>4 Apr 2022</li>
-                                      </ul>
-                                      <!-- /.post-meta -->
-                                    </div>
-                                    <!-- /div -->
-                                  </div>
-                                  <!-- /div -->
-                                  <div class="mt-3 mt-md-0 ms-auto">
-                                    <a href="#" class="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0"><i class="uil uil-comments"></i> Reply</a>
-                                  </div>
-                                  <!-- /div -->
-                                </div>
-                                <!-- /.comment-header -->
-                                <p>Nullam id dolor id nibh ultricies vehicula ut id. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia aenean bibendum nulla consectetur.</p>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="comment">
-                        <div class="comment-header d-md-flex align-items-center">
-                          <div class="d-flex align-items-center">
-                            <figure class="user-avatar"><img class="rounded-circle" alt="" src="./assets/img/avatars/u4.jpg" /></figure>
-                            <div>
-                              <h6 class="comment-author"><a href="#" class="link-dark">Lou Bloxham</a></h6>
-                              <ul class="post-meta">
-                                <li><i class="uil uil-calendar-alt"></i>3 May 2022</li>
-                              </ul>
-                              <!-- /.post-meta -->
-                            </div>
-                            <!-- /div -->
-                          </div>
-                          <!-- /div -->
-                          <div class="mt-3 mt-md-0 ms-auto">
-                            <a href="#" class="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0"><i class="uil uil-comments"></i> Reply</a>
-                          </div>
-                          <!-- /div -->
-                        </div>
-                        <!-- /.comment-header -->
-                        <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                      </li>
-                    </ol>
-                  </div>
-                  <!-- /#comments -->
-                  <hr />
-                  <h3 class="mb-3">Would you like to share your thoughts?</h3>
-                  <p class="mb-7">Your email address will not be published. Required fields are marked *</p>
-                  <form class="comment-form">
-                    <div class="form-floating mb-4">
-                      <input type="text" class="form-control" placeholder="Name*" id="c-name">
-                      <label for="c-name">Name *</label>
-                    </div>
-                    <div class="form-floating mb-4">
-                      <input type="email" class="form-control" placeholder="Email*" id="c-email">
-                      <label for="c-email">Email*</label>
-                    </div>
-                    <div class="form-floating mb-4">
-                      <input type="text" class="form-control" placeholder="Website" id="c-web">
-                      <label for="c-web">Website</label>
-                    </div>
-                    <div class="form-floating mb-4">
-                      <textarea name="textarea" class="form-control" placeholder="Comment" style="height: 150px"></textarea>
-                      <label>Comment *</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary rounded-pill mb-0">Submit</button>
-                  </form>
-                  <!-- /.comment-form -->
+                  <!-- /.card-body -->
                 </div>
-                <!-- /.card-body -->
+                <!-- /.card -->
               </div>
-              <!-- /.card -->
+              <!-- /.project-details -->
             </div>
-            <!-- /.blog -->
+            <!-- /.row -->
           </div>
-          <!-- /column -->
+          <!-- /.project -->
+          <div class="project item">
+            <div class="row">
+              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/User-Persona.png" alt="" /></figure>
+              <div class="project-details d-flex justify-content-center flex-column" style="left: 18%; bottom: 25%;">
+                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line text-leaf mb-3">Research and Discovery</div>
+                      <h2 class="post-title mb-3">Finding the Perfect Fit</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <p>Extensive research became the cornerstone. I analyzed market trends, surveyed potential users, 
+                        and identified their pain points. Crafting detailed user personas was crucial to understand their 
+                        diverse needs. Task flows were mapped out to ensure that the app could serve as a one-stop solution.</p>
+                      <!-- <a href="#" class="more hover link-leaf">See Project</a> -->
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.project-details -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.project -->
+          <div class="project item">
+            <div class="row">
+              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/wireframe-landing-page-1.png" alt="" /></figure>
+              <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
+                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line text-violet mb-3">Ideation and Design</div>
+                      <h2 class="post-title mb-3">Brushing on the Creativity</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <p>Ideas were brainstormed, and wireframes were drafted. The landing page design was meticulously created, 
+                        keeping user experience and branding in focus. This stage demanded striking a balance between creativity 
+                        and practicality.</p>
+                      <a href="#!" class="more hover link-violet">Wireframes</a>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.project-details -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.project -->
+          <div class="project item">
+            <div class="row">
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <div class="project-details d-flex justify-content-center flex-column" style="left: 12%; bottom: 25%;">
+                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line text-yellow mb-3">Prototyping</div>
+                      <h2 class="post-title mb-3">From Concept to Clickable</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <p>The transformation from static designs to a clickable prototype was intriguing. 
+                        The complexity lay in making sure that every interaction felt intuitive, ensuring a seamless experience. 
+                        Adobe XD proved invaluable in bringing our ideas to life.</p>
+                      <a href="https://xd.adobe.com/view/750b48dd-e710-43ea-9533-4016c88f3f66-2058/" class="more hover link-yellow">Adobe Xd Prototype</a>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.project-details -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.project -->
+          <div class="project item">
+            <div class="row">
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/task-flow-relocate-ME.png" alt="" /></figure>
+              <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
+                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line text-green mb-3">Testing and Iteration</div>
+                      <h2 class="post-title mb-3">Perfecting the Polish</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <p>User testing was where the real adventure began. Complex scenarios and real-time user 
+                        feedback highlighted areas for improvement. It was a continuous process of refinement, 
+                        with iterations becoming more polished, one after another.</p>
+                      <!-- <a href="#" class="more hover link-green">See Project</a> -->
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.project-details -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.project -->
+          <div class="project item">
+            <div class="row">
+              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
+                <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
+                  <div class="card-body">
+                    <div class="post-header">
+                      <div class="post-category text-line text-red mb-3">Conclusion</div>
+                      <h2 class="post-title mb-3">Polished and Ready to Shine</h2>
+                    </div>
+                    <!-- /.post-header -->
+                    <div class="post-content">
+                      <p>The project culminated in an app that not only met the initial assignment but surpassed it. 
+                        It had evolved from a mere concept to a fully functional, user-centered solution. 
+                        From complexities to simplicities, it was a journey of learning, innovation, and perseverance.</p>
+                      <a href="https://xd.adobe.com/view/ef8d82b4-5695-4dfa-847f-2f7955ed59ef-bade/" class="more hover link-red">See Project Landing Page</a>
+                    </div>
+                    <!-- /.post-content -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+              <!-- /.project-details -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.project -->
         </div>
-        <!-- /.row -->
+        <!-- /.projects-overflow -->
       </div>
       <!-- /.container -->
     </section>
@@ -424,10 +220,8 @@ get_header();
     <?php
 get_footer();?>
   </div>
-
-  </div>
   <!-- /.content-wrapper -->
-
+  
 
 </div><!--.div interface-->
 
