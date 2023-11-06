@@ -1,7 +1,7 @@
 <?php
 // Include WordPress functions, including wp_mail()
 define('get_theme_mod', false);
-require('wp-load.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/stack/wordpress/wp-content/wp-load.php');
 
 if (isset($_POST['submit'])) {
     $name = sanitize_text_field($_POST['name']);
