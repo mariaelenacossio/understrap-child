@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Case Study Page (4) Template
+ * Template Name: Blog Post (1) Template
  *
  * Template for displaying a blank page.
  *
