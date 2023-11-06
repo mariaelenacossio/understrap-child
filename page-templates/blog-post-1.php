@@ -125,7 +125,7 @@ get_header();
                   <hr />
                   <div class="author-info d-md-flex align-items-center mb-3">
                     <div class="d-flex align-items-center">
-                      <figure class="user-avatar"><img class="rounded-circle" alt="" src="./assets/img/avatars/u5.jpg" /></figure>
+                      <figure class="user-avatar"><img class="rounded-circle" alt="" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" /></figure>
                       <div>
                         <h6><a href="#" class="link-dark">Nikolas Brooten</a></h6>
                         <span class="post-meta fs-15">Sales Manager</span>
