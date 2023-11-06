@@ -1505,7 +1505,28 @@ textarea.form-control {height: 200px;}
     border-top-left-radius: 0.4rem;
     border-top-right-radius: 0.4rem;
   }
+  .plyr {
+    border-radius: 0.4rem;
+    position: relative;
+    z-index: 2;
+  }
   .card-img-top .plyr {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+  }
+  .classic-view .post {margin-bottom: 2rem;}
+  .classic-view .post-header {margin-bottom: 0.9rem;}
+  .blog.single .post {margin-bottom: 0;}
+  .post-content {position: relative;}
+  .blog.single .post .tag-list li {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+  }
+  @media (min-width: 768px) {
+    .classic-view article .card-body {padding: 2rem 2.5rem 1.25rem;}
+    .classic-view article .card-footer {padding: 1.25rem 2.5rem 1.25rem;}
+  }
+  @media (max-width: 767px) {
+    .classic-view article .card-body,
+    .grid-view article .card-body {padding-bottom: 1rem;}
   }
