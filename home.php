@@ -210,7 +210,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="card-buttons d-flex justify-content-center">
-                                <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
+                            <a href="https://mariaelena-cossioclark.com/blog-post-1/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
                             </div>
                         </div>
