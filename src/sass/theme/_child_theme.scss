@@ -1913,3 +1913,591 @@ textarea.form-control {height: 200px;}
     width: 100%;
     transform: translateY(-80%);
   }
+
+  //Social icons in blog post
+  .social a:not(.btn-circle) {
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .social a:not(.btn-circle) {
+      transition: none;
+    }
+  }
+  .social a:not(.btn-circle):hover {
+    transform: translateY(-0.15rem);
+  }
+  .social a:not(.btn-circle) i {
+    font-size: 1rem;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=dropbox] {
+    color: #007bdf;
+  }
+  .social a.btn-circle[class*=dropbox] {
+    color: #fff;
+    background-color: #007bdf;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=dribbble] {
+    color: #d07ead;
+  }
+  .social a.btn-circle[class*=dribbble] {
+    color: #fff;
+    background-color: #d07ead;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=google-drive-alt] {
+    color: #1b9f5e;
+  }
+  .social a.btn-circle[class*=google-drive-alt] {
+    color: #fff;
+    background-color: #1b9f5e;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=facebook-f] {
+    color: #4470cf;
+  }
+  .social a.btn-circle[class*=facebook-f] {
+    color: #fff;
+    background-color: #4470cf;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=instagram] {
+    color: #d53581;
+  }
+  .social a.btn-circle[class*=instagram] {
+    color: #fff;
+    background-color: #d53581;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=line] {
+    color: #0fab10;
+  }
+  .social a.btn-circle[class*=line] {
+    color: #fff;
+    background-color: #0fab10;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=facebook-messenger] {
+    color: #007ff8;
+  }
+  .social a.btn-circle[class*=facebook-messenger] {
+    color: #fff;
+    background-color: #007ff8;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=black-berry] {
+    color: #272727;
+  }
+  .social a.btn-circle[class*=black-berry] {
+    color: #fff;
+    background-color: #272727;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=linkedin] {
+    color: #3393c1;
+  }
+  .social a.btn-circle[class*=linkedin] {
+    color: #fff;
+    background-color: #3393c1;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=intercom] {
+    color: #2e88f8;
+  }
+  .social a.btn-circle[class*=intercom] {
+    color: #fff;
+    background-color: #2e88f8;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=facebook] {
+    color: #4470cf;
+  }
+  .social a.btn-circle[class*=facebook] {
+    color: #fff;
+    background-color: #4470cf;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=youtube] {
+    color: #c8312b;
+  }
+  .social a.btn-circle[class*=youtube] {
+    color: #fff;
+    background-color: #c8312b;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=apple] {
+    color: #1a1919;
+  }
+  .social a.btn-circle[class*=apple] {
+    color: #fff;
+    background-color: #1a1919;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=visual-studio] {
+    color: #6b61be;
+  }
+  .social a.btn-circle[class*=visual-studio] {
+    color: #fff;
+    background-color: #6b61be;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=twitter] {
+    color: #5daed5;
+  }
+  .social a.btn-circle[class*=twitter] {
+    color: #fff;
+    background-color: #5daed5;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=snapchat-ghost] {
+    color: #f7c31a;
+  }
+  .social a.btn-circle[class*=snapchat-ghost] {
+    color: #fff;
+    background-color: #f7c31a;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=slack] {
+    color: #d4135c;
+  }
+  .social a.btn-circle[class*=slack] {
+    color: #fff;
+    background-color: #d4135c;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=tumblr-square] {
+    color: #5d82a4;
+  }
+  .social a.btn-circle[class*=tumblr-square] {
+    color: #fff;
+    background-color: #5d82a4;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=medium-m] {
+    color: #00c364;
+  }
+  .social a.btn-circle[class*=medium-m] {
+    color: #fff;
+    background-color: #00c364;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=tumblr] {
+    color: #5d82a4;
+  }
+  .social a.btn-circle[class*=tumblr] {
+    color: #fff;
+    background-color: #5d82a4;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=adobe] {
+    color: #e61f26;
+  }
+  .social a.btn-circle[class*=adobe] {
+    color: #fff;
+    background-color: #e61f26;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=whatsapp] {
+    color: #00a859;
+  }
+  .social a.btn-circle[class*=whatsapp] {
+    color: #fff;
+    background-color: #00a859;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*="500-px"] {
+    color: #00a6df;
+  }
+  .social a.btn-circle[class*="500-px"] {
+    color: #fff;
+    background-color: #00a6df;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=snapchat-square] {
+    color: #f7c31a;
+  }
+  .social a.btn-circle[class*=snapchat-square] {
+    color: #fff;
+    background-color: #f7c31a;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=behance] {
+    color: #098ffa;
+  }
+  .social a.btn-circle[class*=behance] {
+    color: #fff;
+    background-color: #098ffa;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=instagram-alt] {
+    color: #d53581;
+  }
+  .social a.btn-circle[class*=instagram-alt] {
+    color: #fff;
+    background-color: #d53581;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=github-alt] {
+    color: #4073a6;
+  }
+  .social a.btn-circle[class*=github-alt] {
+    color: #fff;
+    background-color: #4073a6;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=linkedin-alt] {
+    color: #3393c1;
+  }
+  .social a.btn-circle[class*=linkedin-alt] {
+    color: #fff;
+    background-color: #3393c1;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=slack-alt] {
+    color: #d4135c;
+  }
+  .social a.btn-circle[class*=slack-alt] {
+    color: #fff;
+    background-color: #d4135c;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=google] {
+    color: #e44134;
+  }
+  .social a.btn-circle[class*=google] {
+    color: #fff;
+    background-color: #e44134;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=google-play] {
+    color: #e44134;
+  }
+  .social a.btn-circle[class*=google-play] {
+    color: #fff;
+    background-color: #e44134;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=google-drive] {
+    color: #1b9f5e;
+  }
+  .social a.btn-circle[class*=google-drive] {
+    color: #fff;
+    background-color: #1b9f5e;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=vuejs-alt] {
+    color: #3fb37f;
+  }
+  .social a.btn-circle[class*=vuejs-alt] {
+    color: #fff;
+    background-color: #3fb37f;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=google-hangouts] {
+    color: #109956;
+  }
+  .social a.btn-circle[class*=google-hangouts] {
+    color: #fff;
+    background-color: #109956;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=vuejs] {
+    color: #3fb37f;
+  }
+  .social a.btn-circle[class*=vuejs] {
+    color: #fff;
+    background-color: #3fb37f;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=java-script] {
+    color: #f0d91d;
+  }
+  .social a.btn-circle[class*=java-script] {
+    color: #fff;
+    background-color: #f0d91d;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=paypal] {
+    color: #0089cc;
+  }
+  .social a.btn-circle[class*=paypal] {
+    color: #fff;
+    background-color: #0089cc;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=reddit-alien-alt] {
+    color: #f84300;
+  }
+  .social a.btn-circle[class*=reddit-alien-alt] {
+    color: #fff;
+    background-color: #f84300;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=android-alt] {
+    color: #97c03d;
+  }
+  .social a.btn-circle[class*=android-alt] {
+    color: #fff;
+    background-color: #97c03d;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=github] {
+    color: #4073a6;
+  }
+  .social a.btn-circle[class*=github] {
+    color: #fff;
+    background-color: #4073a6;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=android] {
+    color: #97c03d;
+  }
+  .social a.btn-circle[class*=android] {
+    color: #fff;
+    background-color: #97c03d;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=amazon] {
+    color: #f79400;
+  }
+  .social a.btn-circle[class*=amazon] {
+    color: #fff;
+    background-color: #f79400;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=adobe-alt] {
+    color: #e61f26;
+  }
+  .social a.btn-circle[class*=adobe-alt] {
+    color: #fff;
+    background-color: #e61f26;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=master-card] {
+    color: #f0931d;
+  }
+  .social a.btn-circle[class*=master-card] {
+    color: #fff;
+    background-color: #f0931d;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=opera-alt] {
+    color: #e33737;
+  }
+  .social a.btn-circle[class*=opera-alt] {
+    color: #fff;
+    background-color: #e33737;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=css3-alt] {
+    color: #006db6;
+  }
+  .social a.btn-circle[class*=css3-alt] {
+    color: #fff;
+    background-color: #006db6;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=opera] {
+    color: #e33737;
+  }
+  .social a.btn-circle[class*=opera] {
+    color: #fff;
+    background-color: #e33737;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=css3] {
+    color: #006db6;
+  }
+  .social a.btn-circle[class*=css3] {
+    color: #fff;
+    background-color: #006db6;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=twitter-alt] {
+    color: #5daed5;
+  }
+  .social a.btn-circle[class*=twitter-alt] {
+    color: #fff;
+    background-color: #5daed5;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=intercom-alt] {
+    color: #2e88f8;
+  }
+  .social a.btn-circle[class*=intercom-alt] {
+    color: #fff;
+    background-color: #2e88f8;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=swiggy] {
+    color: #f88a2d;
+  }
+  .social a.btn-circle[class*=swiggy] {
+    color: #fff;
+    background-color: #f88a2d;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=snapchat-alt] {
+    color: #f7c31a;
+  }
+  .social a.btn-circle[class*=snapchat-alt] {
+    color: #fff;
+    background-color: #f7c31a;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=tumblr-alt] {
+    color: #5d82a4;
+  }
+  .social a.btn-circle[class*=tumblr-alt] {
+    color: #fff;
+    background-color: #5d82a4;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=facebook-messenger-alt] {
+    color: #007ff8;
+  }
+  .social a.btn-circle[class*=facebook-messenger-alt] {
+    color: #fff;
+    background-color: #007ff8;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=bitcoin-alt] {
+    color: #f38633;
+  }
+  .social a.btn-circle[class*=bitcoin-alt] {
+    color: #fff;
+    background-color: #f38633;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=google-hangouts-alt] {
+    color: #109956;
+  }
+  .social a.btn-circle[class*=google-hangouts-alt] {
+    color: #fff;
+    background-color: #109956;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=blogger] {
+    color: #e86733;
+  }
+  .social a.btn-circle[class*=blogger] {
+    color: #fff;
+    background-color: #e86733;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=blogger-alt] {
+    color: #e86733;
+  }
+  .social a.btn-circle[class*=blogger-alt] {
+    color: #fff;
+    background-color: #e86733;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=bitcoin] {
+    color: #f38633;
+  }
+  .social a.btn-circle[class*=bitcoin] {
+    color: #fff;
+    background-color: #f38633;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=behance-alt] {
+    color: #098ffa;
+  }
+  .social a.btn-circle[class*=behance-alt] {
+    color: #fff;
+    background-color: #098ffa;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=apple-alt] {
+    color: #1a1919;
+  }
+  .social a.btn-circle[class*=apple-alt] {
+    color: #fff;
+    background-color: #1a1919;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=react] {
+    color: #00d1f7;
+  }
+  .social a.btn-circle[class*=react] {
+    color: #fff;
+    background-color: #00d1f7;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=telegram] {
+    color: #2caef0;
+  }
+  .social a.btn-circle[class*=telegram] {
+    color: #fff;
+    background-color: #2caef0;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=vk-alt] {
+    color: #4f7db3;
+  }
+  .social a.btn-circle[class*=vk-alt] {
+    color: #fff;
+    background-color: #4f7db3;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=vk] {
+    color: #4f7db3;
+  }
+  .social a.btn-circle[class*=vk] {
+    color: #fff;
+    background-color: #4f7db3;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=skype] {
+    color: #2ebbf0;
+  }
+  .social a.btn-circle[class*=skype] {
+    color: #fff;
+    background-color: #2ebbf0;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=skype-alt] {
+    color: #2ebbf0;
+  }
+  .social a.btn-circle[class*=skype-alt] {
+    color: #fff;
+    background-color: #2ebbf0;
+    border-color: transparent;
+  }
+  .social a:not([class*=link-]):not(.btn-circle) .uil[class*=telegram-alt] {
+    color: #2caef0;
+  }
+  .social a.btn-circle[class*=telegram-alt] {
+    color: #fff;
+    background-color: #2caef0;
+    border-color: transparent;
+  }
+  .social.social-muted a:not(.btn-circle):not([class*=link-]) i {
+    color: #343f52 !important;
+  }
+  .social.social-white a i,
+  .social.social-white a:hover i,
+  .navbar-dark .social.social-muted a:not(.btn-circle):not([class*=link-]) i,
+  .navbar-dark .social.social-muted a:not(.btn-circle):not([class*=link-]) uıy:hover i {
+    color: #fff !important;
+  }
+  .social>a {
+    margin: 0 0.7rem 0 0;
+  }
+  [class*=text-end] .social>a,
+  .social[class*=text-end]>a {
+    margin: 0 0 0 0.7rem;
+  }
+  @media (min-width: 768px) {
+    [class*=text-md-end] .social>a,
+    .social[class*=text-md-end]>a {
+      margin: 0 0 0 0.7rem;
+    }
+  }
+  .text-center .social>a,
+  .social.text-center>a {
+    margin: 0 0.35rem;
+  }
