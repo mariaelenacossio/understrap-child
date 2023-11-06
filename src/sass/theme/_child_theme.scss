@@ -1466,6 +1466,7 @@ textarea.form-control {height: 200px;}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; /* Center the image both horizontally and vertically */
+    opacity: 60%;
 }
 @media (max-width: 468px) {
   .bg-with-image {
