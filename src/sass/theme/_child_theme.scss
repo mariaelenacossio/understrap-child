@@ -568,7 +568,7 @@ and (max-width: 477px){
   right: 10px !important;
 }
 .hcf-of-cover {
-  object-fit: cover !important;
+  object-fit: unset !important;
 }
 .hcf-op-center {
   object-position: center !important;
