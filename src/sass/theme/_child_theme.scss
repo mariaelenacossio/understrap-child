@@ -1594,3 +1594,33 @@ textarea.form-control {height: 200px;}
     display: flex;
     align-items: center;
   }
+
+  .btn-soft-ash {
+    --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.05) !important;
+    --bs-btn-color: #9499a3;
+    --bs-btn-bg: #eeeff0;
+    --bs-btn-border-color: #eeeff0;
+    --bs-btn-hover-color: #9499a3;
+    --bs-btn-hover-bg: #eeeff0;
+    --bs-btn-hover-border-color: #eeeff0;
+    --bs-btn-focus-shadow-rgb: 225, 226, 228;
+    --bs-btn-active-color: #9499a3;
+    --bs-btn-active-bg: #eeeff0;
+    --bs-btn-active-border-color: #eeeff0;
+    --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
+    --bs-btn-disabled-color: #9499a3;
+    --bs-btn-disabled-bg: #eeeff0;
+    --bs-btn-disabled-border-color: #eeeff0;
+  }
+  .btn-soft-ash.btn-expand {
+    color: #9499a3;
+  }
+  .btn-soft-ash.btn-expand i,
+  .btn-soft-ash.btn-expand:before,
+  .btn-soft-ash.btn-expand:hover,
+  .btn-soft-ash.btn-expand:hover:before {
+    color: #9499a3;
+  }
+  .btn-soft-ash.btn-expand:before {
+    background-color: #eeeff0;
+  }
