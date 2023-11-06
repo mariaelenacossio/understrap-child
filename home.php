@@ -328,7 +328,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <!--Grid row for message-->
                     <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="validateForm();">Send</a>
+                    <button type="submit" name="submit" class="btn btn-primary">Send</button>
                 </div>
                 </form>
 
