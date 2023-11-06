@@ -1518,10 +1518,16 @@ textarea.form-control {height: 200px;}
   .classic-view .post-header {margin-bottom: 0.9rem;}
   .blog.single .post {margin-bottom: 0;}
   .post-content {position: relative;}
+  .image-list .post-content {
+    margin-left: 4.25rem;
+    margin-bottom: 0;
+  }
   .blog.single .post .tag-list li {
     margin-top: 0;
     margin-bottom: 0.45rem;
   }
+  .author-info h6,
+.author-info .h6 {margin-bottom: 0.2rem;}
   @media (min-width: 768px) {
     .classic-view article .card-body {padding: 2rem 2.5rem 1.25rem;}
     .classic-view article .card-footer {padding: 1.25rem 2.5rem 1.25rem;}
