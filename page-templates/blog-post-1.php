@@ -80,7 +80,7 @@ get_header();
                           </div>
                           <!--/column -->
                           <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-4-scaled.jpg" alt="" /></a></figure>
+                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-1-gal-5-scaled.jpg" alt="" /></a></figure>
                           </div>
                           <!--/column -->
                         </div>
