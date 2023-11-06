@@ -1462,11 +1462,22 @@ textarea.form-control {height: 200px;}
   //Blog Posts
   //Top Image
   .bg-with-image {
+    position: relative; /* Position the container relative to allow for the pseudo-element */
+}
+
+.bg-with-image::before {
+    content: '';
     background-image: url('http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-1-top-scaled.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; /* Center the image both horizontally and vertically */
-    opacity: 60%;
+    background-position: center center;
+    background-size: cover;
+    position: absolute; /* Position the pseudo-element absolutely within the container */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5; /* Adjust the opacity (0.5 for 50% opacity) */
+    z-index: -1; /* Place it behind the content */
 }
 @media (max-width: 468px) {
   .bg-with-image {
