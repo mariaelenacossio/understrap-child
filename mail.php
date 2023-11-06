@@ -1,7 +1,7 @@
 <?php
 // Include WordPress functions, including wp_mail()
 define('WP_USE_THEMES', false);
-require('wp-load.php');
+require('wp-mail.php');
 
 if (isset($_POST['submit'])) {
     $name = sanitize_text_field($_POST['name']);
