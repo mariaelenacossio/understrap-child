@@ -92,3 +92,15 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+
+// To call the mail.php file
+function send_contact_form_email() {
+    $mail_php_file = get_template_directory() . '/mail.php'; // Adjust the path as needed
+
+    if (file_exists($mail_php_file)) {
+        ob_start();
+        include($mail_php_file);
+        ob_get_clean();
+    }
+}
