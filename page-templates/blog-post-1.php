@@ -26,13 +26,14 @@ get_header();
 
 <div class="interface">
 <main class="container">
-  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+<div class="p-4 p-md-5 mb-4 text-white rounded" style="background-image: url('http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/igor-miske-JVSgcV8_vb4-unsplash-scaled.jpg'); background-size: cover;">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+        <h1 class="display-4">Title of a longer featured blog post</h1>
+        <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
     </div>
-  </div>
+</div>
+
 
   <div class="row mb-2">
     <div class="col-md-6">
