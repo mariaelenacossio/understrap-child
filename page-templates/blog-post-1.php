@@ -58,7 +58,7 @@ get_header();
           <div class="col-lg-10 mx-auto">
             <div class="blog single mt-n17">
               <div class="card">
-                <figure class="card-img-top"><img src="./assets/img/photos/b1.jpg" alt="" /></figure>
+                <figure class="card-img-top"><img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-1-top-scaled.jpg" alt="" /></figure>
                 <div class="card-body">
                   <div class="classic-view">
                     <article class="post">
