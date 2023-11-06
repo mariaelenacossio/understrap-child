@@ -1,4 +1,8 @@
 <?php
+// Include WordPress functions, including wp_mail()
+define('get_theme_mod', false);
+require('wp-load.php');
+
 if (isset($_POST['submit'])) {
     $name = sanitize_text_field($_POST['name']);
     $email = sanitize_email($_POST['email']);
@@ -18,7 +22,7 @@ if (isset($_POST['submit'])) {
     $email_message_owner .= "Subject: $subject<br>";
     $email_message_owner .= "Message:<br>$message";
 
-    // Send the email to the owner
+    // Send the email to the owner using wp_mail()
     $success_owner = wp_mail($to, "Contact Form Submission: $subject", $email_message_owner, $headers);
 
     if ($success_owner) {
@@ -37,7 +41,5 @@ if (isset($_POST['submit'])) {
     } else {
         echo 'Email to website owner could not be sent.';
     }
-} else {
-    echo 'Form was not submitted.';
 }
 ?>
