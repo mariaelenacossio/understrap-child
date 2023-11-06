@@ -1730,3 +1730,186 @@ textarea.form-control {height: 200px;}
   .swiper-container.dots-closer .swiper-pagination {
     bottom: -2rem;
   }
+
+  .swiper-slide .caption-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+  .swiper-slide .caption-wrapper .caption {
+    display: flex;
+  }
+  @media (max-width: 767px) {
+    .caption-wrapper {
+      display: none !important;
+    }
+  }
+  .swiper-hero,
+  .swiper-hero .swiper-slide {
+    height: 750px !important;
+  }
+  .swiper-hero .swiper-slide {
+    background-size: cover;
+    background-position: center center;
+  }
+  @media (max-width: 767px) {
+    .swiper-hero,
+    .swiper-hero .swiper-slide {
+      height: 500px !important;
+    }
+    .swiper-hero .swiper-navigation {
+      display: none;
+    }
+  }
+  .swiper-fullscreen {
+    height: 100vh;
+  }
+  .swiper-fullscreen .swiper:not(.swiper-thumbs) .swiper-slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  .swiper-fullscreen .swiper-thumbs {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+  }
+  .swiper-fullscreen .swiper-thumbs .swiper-slide {
+    cursor: pointer;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+  .swiper-fullscreen .swiper-thumbs .swiper-slide img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+  }
+  .swiper-fullscreen .swiper-thumbs .swiper-slide:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    z-index: 2;
+    transition: all 150ms ease-in-out;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 100%;
+  }
+  .swiper-fullscreen .swiper-thumbs .swiper-slide.swiper-slide-thumb-active:after {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+  .swiper-thumbs-container:not(.swiper-fullscreen):not(.swiper-fullscreen) .swiper-thumbs .swiper-slide {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  @media (max-width: 1199.98px) {
+    .swiper-fullscreen,
+    .swiper-fullscreen .swiper:not(.swiper-thumbs) .swiper-slide {
+      height: 750px !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .swiper-fullscreen,
+    .swiper-fullscreen .swiper:not(.swiper-thumbs) .swiper-slide {
+      height: 500px !important;
+    }
+  }
+  @media (min-width: 1024px) {
+    .swiper-auto .swiper-slide {
+      width: 850px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023.98px) {
+    .swiper-auto .swiper-slide {
+      width: 600px;
+    }
+  }
+  .overlay {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  .overlay figcaption,
+  .overlay .figcaption {
+    padding: 0.5rem;
+    z-index: 5;
+    pointer-events: none;
+  }
+  .overlay * {
+    transition: all 0.4s ease;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .overlay * {
+      transition: none;
+    }
+  }
+  .overlay img {
+    transition: none;
+  }
+  .overlay:not(.caption-overlay) i {
+    display: block;
+    font-size: calc(1.265rem + 0.18vw);
+  }
+  @media (min-width: 1200px) {
+    .overlay:not(.caption-overlay) i {
+      font-size: 1.4rem;
+    }
+  }
+  .overlay a {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    cursor: pointer !important;
+  }
+  .overlay span.bg {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    cursor: pointer !important;
+    opacity: 0;
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 34, 40, 0.6);
+  }
+  .overlay-1 * {
+    box-sizing: border-box;
+  }
+  .overlay-1 figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem 1rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    text-align: center;
+  }
+  .overlay-1 .from-top {
+    position: absolute;
+    padding: 0.75rem 1rem;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-80%);
+  }
