@@ -7,6 +7,9 @@ $secondary-color: #615ab7;
 $accent-color: #e3daff;
 $background-color: #fffafb;
 
+//Text
+.text-primary {color: $primary-color;}
+
 //Buttons
 .btn-primary {
   background-color: $primary-color;
