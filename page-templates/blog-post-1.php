@@ -68,19 +68,19 @@ get_header();
                         <p>Donec sed odio dui consectetur adipiscing elit. Etiam adipiscing tincidunt elit, eu convallis felis suscipit ut. Phasellus rhoncus tincidunt auctor. Nullam eu sagittis mauris. Donec non dolor ac elit aliquam tincidunt at at sapien. Aenean tortor libero, condimentum ac laoreet vitae, varius tempor nisi. Duis non arcu vel lectus urna mollis ornare vel eu leo.</p>
                         <div class="row g-6 mt-3 mb-10">
                           <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-1-scaled.jpg" data-glightbox="title: Heading; description: Purus Vulputate Sem Tellus Quam" data-gallery="post"> <img src="./assets/img/photos/b8.jpg" alt="" /></a></figure>
+                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox="title: Heading; description: Purus Vulputate Sem Tellus Quam" data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-1-scaled.jpg" alt="" /></a></figure>
                           </div>
                           <!--/column -->
                           <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-2.jpg" data-glightbox data-gallery="post"> <img src="./assets/img/photos/b9.jpg" alt="" /></a></figure>
+                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-2.jpg" alt="" /></a></figure>
                           </div>
                           <!--/column -->
                           <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-3-scaled.jpg" data-glightbox data-gallery="post"> <img src="./assets/img/photos/b10.jpg" alt="" /></a></figure>
+                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-3-scaled.jpg" alt="" /></a></figure>
                           </div>
                           <!--/column -->
                           <div class="col-md-6">
-                            <figure class="hover-scale rounded cursor-dark"><a href="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-4-scaled.jpg" data-glightbox data-gallery="post"> <img src="./assets/img/photos/b11.jpg" alt="" /></a></figure>
+                            <figure class="hover-scale rounded cursor-dark"><a href="#!" data-glightbox data-gallery="post"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/post-gal-4-scaled.jpg" alt="" /></a></figure>
                           </div>
                           <!--/column -->
                         </div>
