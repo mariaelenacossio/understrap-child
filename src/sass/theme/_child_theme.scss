@@ -1548,3 +1548,16 @@ textarea.form-control {height: 200px;}
     .classic-view article .card-body,
     .grid-view article .card-body {padding-bottom: 1rem;}
   }
+
+  .hover-scale {
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    transform: translateY(0);
+  }
+  .hover-scale img {
+    transition: all 0.35s ease-in-out;
+  }
+  .hover-scale:hover img {
+    transform: scale(1.05);
+  }
