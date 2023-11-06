@@ -1,7 +1,7 @@
 <?php
 // Include WordPress functions, including wp_mail()
-define('get_theme_mod', false);
-require($_SERVER['DOCUMENT_ROOT'] . '/stack/wordpress/wp-content/wp-load.php');
+define('WP_USE_THEMES', false);
+require('wp-load.php');
 
 if (isset($_POST['submit'])) {
     $name = sanitize_text_field($_POST['name']);
@@ -16,21 +16,16 @@ if (isset($_POST['submit'])) {
     $headers = "Content-Type: text/html\r\n";
     $headers .= "From: $name <$email>\r\n";
 
-    // Compose the email message to the owner
-    $email_message_owner = "Name: $name<br>";
-    $email_message_owner .= "Email: $email<br>";
-    $email_message_owner .= "Subject: $subject<br>";
-    $email_message_owner .= "Message:<br>$message";
-
-    // Send the email to the owner using wp_mail()
-    $success_owner = wp_mail($to, "Contact Form Submission: $subject", $email_message_owner, $headers);
+    // Call the custom wp_mail() function
+    $success_owner = custom_wp_mail($to, "Contact Form Submission: $subject", $message, $headers);
 
     if ($success_owner) {
         // Send a confirmation email to the user
         $user_email = $email; // User's email
         $confirmation_message = "Thank you for contacting us. We will get back to you soon.";
 
-        $success_user = wp_mail($user_email, "Confirmation: $subject", $confirmation_message, $headers);
+        // Call the custom wp_mail() function for the user confirmation email
+        $success_user = custom_wp_mail($user_email, "Confirmation: $subject", $confirmation_message, $headers);
 
         // Display a success message
         if ($success_user) {
