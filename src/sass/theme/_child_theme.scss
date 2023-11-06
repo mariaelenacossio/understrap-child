@@ -1500,3 +1500,12 @@ textarea.form-control {height: 200px;}
       display: none;
     }
   }
+
+  .card-img-top img {
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+  .card-img-top .plyr {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
