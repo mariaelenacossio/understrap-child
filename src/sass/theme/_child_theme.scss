@@ -227,7 +227,7 @@ and (max-width: 477px){
   fill: $primary-color;
 }
 .nav-link.active:hover {
-  border-top: 2px solid $primary-color; /* Blue 2px top border */
+  border-top: 3px solid $primary-color; /* Blue 2px top border */
   border-radius: 4px; /* Rounded corners */
 }
  
