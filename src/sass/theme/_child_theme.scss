@@ -114,6 +114,7 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 .py-3 { padding-top: 0.7rem!important;}
 //Target home svg color
 svg.home.i-color {fill: $background-color;}
+svg.home.i-color:hover {fill: $primary-color!important;}
 
 .nav-link {padding: 0;}
 
