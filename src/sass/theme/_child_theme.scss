@@ -177,7 +177,7 @@ svg.home.i-color {fill: $background-color;}
   background-color: $background-color;
   border-bottom: 3px solid $secondary-color;  
 }
-.nav-item svg:hover {fill: $secondary-color;}
+.nav-item svg:hover {fill: $secondary-color!important;}
 .border-bottom:hover {border-bottom: 3px solid $secondary-color!important;}
 
 
