@@ -73,8 +73,9 @@ get_header();
       </h3>
 
       <article class="blog-post">
-        <h2 class="blog-post-title">Mobile-First Design: Optimizing UX for Smartphone Users</h2>
-        <p class="blog-post-meta">November 6th, 2023 by <a href="#">Mark</a></p>
+        <h2 class="blog-post-title">Mobile-First Design:</h2>
+        <p class="lead my-3">Optimizing UX for Smartphone Users</p>
+        <p class="blog-post-meta">November 6th, 2023 by <a href="#">Mariaelena C.</a></p>
 
         <p>Mobile-first design is a design strategy that flips the traditional approach on its head. 
           Instead of starting with the desktop version of a website or application and then trying 
