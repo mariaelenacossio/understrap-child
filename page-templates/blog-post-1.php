@@ -69,8 +69,8 @@ get_header();
   <div class="row g-5">
     <div class="col-md-12">
       <article class="blog-post">
-        <h2 class="blog-post-title">Mobile-First Design:</h2>
-        <p class="lead my-3">Optimizing UX for Smartphone Users</p>
+        <h2 class="blog-post-title display-1 text-center">Mobile-First Design</h2>
+        <p class="lead my-3 text-center">Optimizing UX for Smartphone Users</p>
         <p class="blog-post-meta">November 6th, 2023 by <a href="#">Mariaelena C.</a></p>
 
         <p>Mobile-first design is a design strategy that flips the traditional approach on its head. 
