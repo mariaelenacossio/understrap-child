@@ -28,8 +28,8 @@ get_header();
 <main class="container">
 <div class="p-4 p-md-5 mb-4 rounded bg-with-image">
     <div class="col-md-6 px-0">
-        <h1 class="display-4 text primary">Mobile-First Design</h1>
-        <p class="lead my-3">Optimizing UX for Smartphone Users</p>
+        <h1 class="display-1 text-primary text-center">Mobile-First Design</h1>
+        <p class="lead text-center my-3">Optimizing UX for Smartphone Users</p>
     </div>
 </div>
 
