@@ -81,8 +81,8 @@ get_header();
           devices and screen sizes in use today.</p>
         
           <div class="headings">
-				<h2 id="blog-post-1" class="display-5 fw-bolder pt-5">
-          <span class="text-gradient d-inline">Key Principles of Mobile-First Design</span></h2>
+				<h3 id="blog-post-1" class="display-5 fw-bolder pt-5">
+          <span class="text-gradient d-inline">Key Principles of Mobile-First Design</span></h3>
 				<hr>
 				</div>
 
