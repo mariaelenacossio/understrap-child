@@ -67,11 +67,7 @@ get_header();
   </div>
 
   <div class="row g-5">
-    <div class="col-md-8">
-      <h3 class="pb-4 mb-4 fst-italic border-bottom">
-        From the Firehose
-      </h3>
-
+    <div class="col-md-12">
       <article class="blog-post">
         <h2 class="blog-post-title">Mobile-First Design:</h2>
         <p class="lead my-3">Optimizing UX for Smartphone Users</p>
