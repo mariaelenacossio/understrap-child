@@ -307,7 +307,7 @@ padding-top: 2rem;
 // background-repeat: no-repeat;
 // border-bottom-left-radius: 25px;
 }
-
+.d-flex.flex-row {justify-content: start;}
 @media only screen //Small screens
 and (max-width: 477px){
 h2 {
