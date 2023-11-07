@@ -42,7 +42,7 @@ get_header();
         <p class="lead my-3 text-center">Optimizing UX for Smartphone Users</p> -->
         <p class="blog-post-meta text-end">November 6th, 2023 by <a href="#">Mariaelena C.</a></p>
 
-        <p>Mobile-first design is a design strategy that flips the traditional approach on its head. 
+        <p class="p">Mobile-first design is a design strategy that flips the traditional approach on its head. 
           Instead of starting with the desktop version of a website or application and then trying 
           to make it work on smaller screens, mobile-first design begins with the mobile user experience 
           and then scales up to larger screens. This approach ensures that smartphone users receive the 
