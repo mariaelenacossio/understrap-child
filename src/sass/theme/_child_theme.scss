@@ -187,15 +187,6 @@ svg.home.i-color {fill: $background-color;}
 //   transition: 0.3s ;
 // }
 
-.nav-link.active:hover {
-  border-top: 2px solid blue; /* Blue 2px top border */
-  border-radius: 4px; /* Rounded corners */
-}
-
-
-
-
-
 
 //Bottom bar
 .btm-bar {display: none;}
@@ -234,6 +225,10 @@ and (max-width: 477px){
 .btm-bar svg {
   height: 1.5rem;
   fill: $primary-color;
+}
+.nav-link.active:hover {
+  border-top: 2px solid $primary-color; /* Blue 2px top border */
+  border-radius: 4px; /* Rounded corners */
 }
  
 }
