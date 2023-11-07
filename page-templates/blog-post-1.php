@@ -28,8 +28,8 @@ get_header();
 <main class="container">
 <div class="p-4 p-md-5 mb-4 rounded bg-with-image">
     <div class="col-md-6 px-0">
-        <h1 class="display-4 text primary">Title of a longer featured blog post</h1>
-        <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        <h1 class="display-4 text primary">Mobile-First Design</h1>
+        <p class="lead my-3">Optimizing UX for Smartphone Users</p>
     </div>
 </div>
 
@@ -37,10 +37,10 @@ get_header();
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">World</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <strong class="d-inline-block mb-2 text-primary">Inclusive Design</strong><!--Category-->
+          <h3 class="mb-0">Designing for All</h3>
+          <div class="mb-1 text-muted">Nov 06</div>
+          <p class="card-text mb-auto">How to create interfaces that accommodate users with disabilities, fostering inclusivity in design.</p>
           <a href="#" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
@@ -73,11 +73,36 @@ get_header();
       </h3>
 
       <article class="blog-post">
-        <h2 class="blog-post-title">Sample blog post</h2>
-        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+        <h2 class="blog-post-title">Mobile-First Design: Optimizing UX for Smartphone Users</h2>
+        <p class="blog-post-meta">November 6th, 2023 by <a href="#">Mark</a></p>
 
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
-        <hr>
+        <p>Mobile-first design is a design strategy that flips the traditional approach on its head. 
+          Instead of starting with the desktop version of a website or application and then trying 
+          to make it work on smaller screens, mobile-first design begins with the mobile user experience 
+          and then scales up to larger screens. This approach ensures that smartphone users receive the 
+          best possible experience, which is particularly crucial considering the diverse range of 
+          devices and screen sizes in use today.</p>
+        
+          <div class="headings">
+				<h2 id="blog-post-1" class="display-5 fw-bolder pt-5">
+          <span class="text-gradient d-inline">Key Principles of Mobile-First Design</span></h2>
+				<hr>
+				</div>
+
+        <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget purus id lectus
+                    hendrerit facilisis. Fusce ac justo eu orci tristique hendrerit. Suspendisse potenti.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="your-image.jpg" alt="Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
         <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <h2>Blockquotes</h2>
         <p>This is an example blockquote in action:</p>
