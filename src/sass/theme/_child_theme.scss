@@ -101,6 +101,11 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 
 //Side navbar pills
 .nav-pills .nav-link.active { background-color: $primary-color;}
+.nav-pills .nav-link.nav-link.active:hover{
+  color: $primary-color;
+  background-color: $background-color;
+  border-bottom: 3px solid $primary-color!important;
+}
 .nav-flush .nav-link {
   border-radius: 3rem;
   width: 50px;
