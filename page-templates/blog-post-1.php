@@ -56,7 +56,7 @@ get_header();
         <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <p>
+                <p class="p">
                 In a world where our smartphones are practically an extension of ourselves, 
                 it's time to ensure that the digital landscape caters to your needs seamlessly. 
                 Mobile-First Design isn't just a trend; it's a revolution that puts you at the 
@@ -75,8 +75,6 @@ get_header();
     </div><!--.container mt-5-->
 
     <div class="container mt-5">
-    <h3 id="#!" class="display-4 text-center pt-5">
-    <span class="text-gradient d-inline">Say Goodbye to Pinch and Zoom, Hello to Smooth Sailing!</span></h3>
         <div class="row">
         <div class="col-md-6">
                 <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-2-scaled.jpg" 
@@ -85,7 +83,9 @@ get_header();
                 class="img-fluid" loading="eager">
             </div><!--.col-md-6-->
             <div class="col-md-6">
-                <p>
+            <h3 id="#!" class="display-4 text-center pt-5">
+              <span class="text-gradient d-inline">Say Goodbye to Pinch and Zoom, Hello to Smooth Sailing!</span></h3>
+                <p class="p">
                 Remember those frustrating days of constantly pinching and zooming just to read a webpage on your phone?
                 Well, say goodbye to that headache! Mobile-First Design is all about breaking free from the constraints 
                 of traditional design, offering you an effortlessly fluid and enjoyable navigation experience.
