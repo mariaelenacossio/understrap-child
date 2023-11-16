@@ -44,7 +44,11 @@ get_header();
         <div class="projects-overflow mt-md-10 mb-10 mb-lg-15">
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-2.png" alt="" /></figure>
+              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded" loading="eager">
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-2-scaled-e1700103130812.jpg" 
+                  alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots, 
+                  responsive design mockups, landing page designs, prototype wireframes, interactive web design" />
+              </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 10%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -72,7 +76,11 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded" loading="eager">
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/beauty-by-amy-user-persona.png" 
+                  alt="online behavior, purchasing behavior, brand loyalty, decision-making process, 
+                  frequent social media users, budget-conscious, loyal to specific brands" />
+              </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -100,7 +108,10 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded" loading="eager">
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
+                  alt="" />
+                </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -128,7 +139,10 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded" loading="eager">
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
+                alt="" />
+              </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 12%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -156,7 +170,10 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded" loading="eager">
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
+                  alt="" />
+              </figure>
               <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
@@ -184,7 +201,10 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" alt="" /></figure>
+              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded" loading="eager">
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
+                  alt="" />
+                </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
                   <div class="card-body">
