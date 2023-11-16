@@ -264,7 +264,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p class="card-text">In this blog post, we're not just talking about menus and buttons 
                               – we're navigating the UX seas to create an experience that feels like a breezy cruise.</p>
                             <div class="card-buttons d-flex justify-content-center">
-                                <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
+                            <a href="https://mariaelena-cossioclark.com/blog-post-3/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
                             </div>
                         </div>
