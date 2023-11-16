@@ -9,6 +9,8 @@ $secondary-color: #615ab7;
 $accent-color: #e3daff;
 $background-color: #fffafb;
 
+::root { --bs-body-font-family: monospace; }
+
 //Text
 .text-primary {
   color: $primary-color!important;
