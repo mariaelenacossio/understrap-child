@@ -249,7 +249,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p class="card-text">Intrigued? Let's uncover the magic of Color Psychology in Web Design 
                               – where every shade tells a story!</p>
                             <div class="card-buttons d-flex justify-content-center">
-                                <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
+                            <a href="https://mariaelena-cossioclark.com/blog-post-2-2/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
                             </div>
                         </div>
