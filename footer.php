@@ -83,7 +83,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <div class="col-md-6">
                                     <div class="cta-cards">
                                         <h2 class="heading-6">
-                                            Looking for a<br/>hectic designer?
+                                            Looking for a<br/>Web designer?
                                         </h2>
                                         <a href="mailto:mariaelena.cossio@outlook.com?subject=Enquiry" 
                                            class="btn btn-primary">mariaelena.cossio@outlook.com</a>
