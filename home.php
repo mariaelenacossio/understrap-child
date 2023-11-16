@@ -243,10 +243,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
 				<div class="col">
                     <div class="card custom-card h-100">
-					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/igor-miske-JVSgcV8_vb4-unsplash-scaled.jpg" class="card-img-top" alt="website-project-1, los quequitos">
+					<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-2-scaled.jpg" class="card-img-top" 
+                alt="e-commerce website design, corporate website mockups, startup landing page design, 
+                    mobile app ux/ui, technology website design, health and wellness website mockups">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Color Psychology in Web Design: A Palette for Emotions</h5>
+                            <p class="card-text">Intrigued? Let's uncover the magic of Color Psychology in Web Design – where every shade tells a story!.</p>
                             <div class="card-buttons d-flex justify-content-center">
                                 <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
