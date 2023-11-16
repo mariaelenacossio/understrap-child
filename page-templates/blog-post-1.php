@@ -148,11 +148,7 @@ get_header();
               width="200" height="250" 
               alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                     navigation patterns, app prototyping, app prototyping, design trends" 
-              loading="eager">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#55595c"/>
-          <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-        </svg>
+              loading="eager" />
         </div>
       </div>
     </div>
