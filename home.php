@@ -248,7 +248,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     mobile app ux/ui, technology website design, health and wellness website mockups">
                         <div class="card-body">
                             <h5 class="card-title">Color Psychology in Web Design: A Palette for Emotions</h5>
-                            <p class="card-text">Intrigued? Let's uncover the magic of Color Psychology in Web Design – where every shade tells a story!.</p>
+                            <p class="card-text">Intrigued? Let's uncover the magic of Color Psychology in Web Design 
+                              – where every shade tells a story!.</p>
                             <div class="card-buttons d-flex justify-content-center">
                                 <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
@@ -258,10 +259,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
 				<div class="col">
                     <div class="card custom-card h-100">
-					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/domenico-loia-hGV2TfOh0ns-unsplash-scaled.jpg" class="card-img-top" alt="website-project-2, beauty by amy">
+					<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-3-scaled.jpg" class="card-img-top" 
+               alt="responsive design, user experience, mobile-friendly ui, interaction design, navigation patterns, app prototyping, app prototyping, design trends">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Navigating the UX Seas: A Guide to Intuitive Navigation Design</h5>
+                            <p class="card-text">In this blog post, we're not just talking about menus and buttons 
+                              – we're navigating the UX seas to create an experience that feels like a breezy cruise.</p>
                             <div class="card-buttons d-flex justify-content-center">
                                 <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
@@ -271,10 +274,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
 				<div class="col">
                     <div class="card custom-card h-100">
-					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/lee-campbell-DtDlVpy-vvQ-unsplash-scaled.jpg" class="card-img-top" alt="ux-project, relocateME">
+					<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-4-scaled.jpg" class="card-img-top" 
+               alt="responsive design, user experience, mobile-friendly ui, interaction design, navigation patterns, app prototyping, app prototyping, design trends">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Microinteractions: The Small Details That Make a Big Impact</h5>
+                            <p class="card-text">Join us on a journey where small becomes mighty, and every click, hover, 
+                              and scroll turns into a delightful experience for your users.</p>
                             <div class="card-buttons d-flex justify-content-center">
                                 <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
