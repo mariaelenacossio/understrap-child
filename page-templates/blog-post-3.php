@@ -145,7 +145,7 @@ get_header();
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="card-text mb-auto">Intrigued? Let's uncover the magic of 
             Color Psychology in Web Design – where every shade tells a story!</p>
-          <a href="#/post-1" class="stretched-link">Continue reading</a>
+          <a href="https://mariaelena-cossioclark.com/blog-post-2-2/" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" 
@@ -168,7 +168,7 @@ get_header();
           <p class="mb-auto">Join us on a journey where small becomes mighty, 
             and every click, hover, and scroll turns into a delightful experience 
             for your users.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
+          <a href="https://mariaelena-cossioclark.com/blog-post-4/" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
