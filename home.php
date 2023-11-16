@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
 			alt="profile-img, web design, website mockups, ux/ui design, portfolio design, digital design, 
       responsive design, creative web design, user interface design" class="d-block mx-lg-auto img-fluid-hero img-shadow" 
-      width="850" height="450" loading="lazy">
+      width="850" height="450" loading="eager">
 			</div>
 			<div class="col-lg-6">
 			<p class="lead">Hi there, this is Mariaelena</p>
@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <div class="container mb-4 mb-md-5 mb-xl-6">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-xxl-8">
-        <img class="img-fluid rounded shadow" loading="lazy" 
+        <img class="img-fluid rounded shadow" loading="eager" 
         src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-desktop-mockup-3@2x.jpg" 
         alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
         creative web design, user interface design">
@@ -109,7 +109,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <a href="#!">
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
                 <!--Design System Case Study-->
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
                 alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
                 creative web design, user interface design">
@@ -136,7 +136,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <a href="#!">
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">HTML/CSS/Bootstrap</span>
                 <!--Los Quequitos Case Study-->
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-1-scaled.jpg" 
                 alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
                 responsive design mockups, landing page designs, prototype wireframes, interactive web design">
@@ -163,7 +163,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <a href="#!">
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
                 <!--Beauty by Amy Case Study-->
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-2-scaled-e1700103130812.jpg" 
                 alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
                 responsive design mockups, landing page designs, prototype wireframes, interactive web design">
@@ -190,7 +190,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <a href="#!">
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">UX/UI</span>
                 <!--RelocateME Case Study-->
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-4-scaled-e1700103740850.jpg" 
                 alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
                 responsive design mockups, landing page designs, prototype wireframes, interactive web design">
@@ -298,7 +298,8 @@ $container = get_theme_mod( 'understrap_container_type' );
             <!--Grid column for image-->
             <div class="col-md-6 mb-4">
                 <div class="contact-image rounded">
-                    <img class="img-fluid rounded w-100" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-white-bg-black.png" alt="">
+                    <img class="img-fluid rounded w-100" loading="eager" 
+                    src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/logo-white-bg-black.png" alt="">
                 </div>
             </div>
 
