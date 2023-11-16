@@ -267,7 +267,7 @@ and (max-width: 477px){
 }
 @media only screen //Small screens
 and (max-width: 477px){
-  // .hero {height: 88vh;}
+  .hero {height: auto;}
   img.d-block.mx-lg-auto.img-fluid-hero {
     width: 345px;
     height: 250px;
