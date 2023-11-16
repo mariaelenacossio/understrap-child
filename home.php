@@ -52,7 +52,9 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-xxl-8">
         <img class="img-fluid rounded shadow" loading="lazy" 
-        src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-desktop-mockup-3@2x.jpg" alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, creative web design, user interface design">
+        src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-desktop-mockup-3@2x.jpg" 
+        alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
+        creative web design, user interface design">
       </div>
     </div>
   </div>
@@ -106,7 +108,10 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-phone-mockup-5.png" alt="">
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+                src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
+                alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
+                creative web design, user interface design">
               </a>
             </div>
           </div>
