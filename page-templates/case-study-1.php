@@ -44,7 +44,7 @@ get_header();
         <div class="projects-overflow mt-md-10 mb-10 mb-lg-15">
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded"> 
+              <figure class="col-lg-8 col-xl-7 offset-xl-1 rounded" loading="eager"> 
                 <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
                 alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
                 creative web design, user interface design" />
@@ -75,7 +75,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded">
+              <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded" loading="eager">
                  <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-desktop-mockup-3@2x.jpg" 
                   alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
                   creative web design, user interface design" />
@@ -106,7 +106,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded"> 
+              <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded" loading="eager"> 
                 <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/Desktop-Home-1.jpg" 
                   alt="adobe XD designs, sketch app wireframes, figma design mockups, photoshop web design, 
                   illustrator ui screenshots, invision prototype designs, responsive design tools, design collaboration tools" />
@@ -136,7 +136,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded"> 
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded" loading="eager"> 
                 <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/ds-code-sample-1.jpg" 
                   alt="html, css, semantic html, css grid layouts, responsive web design, cross-browser 
                   compatibility, html/css best practices, web standards compliance" />
@@ -169,7 +169,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded"> 
+              <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded" loading="eager"> 
                 <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/ds-dashboard-e1700107305725.jpg" 
                   alt="bootstrap framework, responsive design with bootstrap, bootstrap components, 
                   customizing bootstrap themes, bootstrap grid system, bootstrap ui/ux integration, 
@@ -201,7 +201,7 @@ get_header();
           <!-- /.project -->
           <div class="project item">
             <div class="row">
-              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded"> 
+              <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded" loading="eager"> 
                 <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/ds-sample-website.jpg" 
                   alt="design ideation process, wireframing and prototyping, user experience design, 
                   iterative design process, design mockup phases, ui testing and refinement, 
