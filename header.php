@@ -50,7 +50,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 				</a>
 				</li>
 				<li class="nav-item icon-fill">
-				<a href="#portfolio" class="nav-link py-3 border-bottom" title="Portfolio" data-bs-toggle="tooltip" data-bs-placement="right">
+				<a href="https://mariaelena-cossioclark.com/#portfolio" class="nav-link py-3 border-bottom" title="Portfolio" data-bs-toggle="tooltip" data-bs-placement="right">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Portfolio">
 					<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
 					<path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM96 96H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
