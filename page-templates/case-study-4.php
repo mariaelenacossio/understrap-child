@@ -173,8 +173,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/task-flow-relocate-ME.png"
-                    alt="" />
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/relocateme-prototype-2.jpg"
+                    alt="usability testing, user feedback, user experience testing, a/b testing, prototype testing, 
+                    remote user testing, in-person testing, task analysis" />
                   </figure>
               <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -204,8 +205,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png"
-                  alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/relocateme-mockup-mobile-1.jpg"
+                  alt="adobe XD designs, sketch app wireframes, figma design mockups, photoshop web design, 
+                  illustrator ui screenshots, invision prototype designs, responsive design tools, design collaboration tools" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
