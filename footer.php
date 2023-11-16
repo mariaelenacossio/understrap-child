@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             Want a more in-depth<br/>look at my history?
                                         </h2>
                                         <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" 
-                                           class="btn btn-primary">View Resume</a>
+                                           class="btn btn-primary" target="_blank">View Resume</a>
                                     </div>
                                 </div>
                             </div>
