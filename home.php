@@ -229,10 +229,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/javier-garcia-chavez-bdZ3bzRde5g-unsplash-scaled.jpg" class="card h-100-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Embrace the Future: Crafting an Enjoyable Mobile Experience</h5>
-                            <p class="card-text">Unlocking the Delight of Mobile-First Design for Smoother User Journeys.
-                            Welcome to our digital realm where we're diving headfirst into the vibrant world of Mobile-First Design. 
-                            Today, let's embark on a journey of discovery as we unravel the secrets behind optimizing user experiences 
-                            for our beloved smartphone users.
+                            <p class="card-text">Let's embark on a journey of discovery as we unravel the secrets 
+                            behind optimizing user experiences for our beloved smartphone users.
                             </p>
                             <div class="card-buttons d-flex justify-content-center">
                             <a href="https://mariaelena-cossioclark.com/blog-post-1/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
