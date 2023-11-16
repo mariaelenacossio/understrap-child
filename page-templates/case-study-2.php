@@ -107,8 +107,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded" loading="eager"> 
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                  alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/User-Persona-1.jpg" 
+                  alt="online behavior, purchasing behavior, brand loyalty, decision-making process, 
+                  frequent social media users, budget-conscious, loyal to specific brands" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -151,7 +152,7 @@ get_header();
                     </div>
                     <!-- /.post-header -->
                     <div class="post-content">
-                      <p>With the design in place, we delved into the practical aspect. 
+                      <p>With the design in place, we developed into the practical aspect. 
                         We structured the website using HTML for content, CSS for styling, 
                         and Bootstrap to ensure responsiveness across various devices. 
                         The brand colors and logo were incorporated cohesively.</p>
@@ -171,8 +172,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                alt="" />
+                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/los-quequitos-mockup-mobile-1.jpg" 
+                alt="adobe XD designs, sketch app wireframes, figma design mockups, photoshop web design, 
+                illustrator ui screenshots, invision prototype designs, responsive design tools, design collaboration tools" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -202,8 +204,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/los-quequitos-mockup-desktop-1.jpg" 
+                alt="adobe XD designs, sketch app wireframes, figma design mockups, photoshop web design, 
+                illustrator ui screenshots, invision prototype designs, responsive design tools, design collaboration tools" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
