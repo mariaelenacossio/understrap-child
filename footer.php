@@ -45,10 +45,10 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="col-md-2">
           <!-- Navigation items -->
           <ul class="list-unstyled">
-            <li><a href="#" class="text-light">Home</a></li>
-            <li><a href="#" class="text-light">Portfolio</a></li>
+            <li><a href="#home" class="text-light">Home</a></li>
+            <li><a href="#portfolio" class="text-light">Portfolio</a></li>
             <li><a href="#" class="text-light">Resume</a></li>
-            <li><a href="#" class="text-light">Contact</a></li>
+            <li><a href="#contact" class="text-light">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-3 f-contact-form">
@@ -69,10 +69,11 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/6523bf250c86631325684972_Lets%20Work%20Together.svg" loading="lazy" alt="" class="img-fluid">
+                <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/6523bf250c86631325684972_Lets%20Work%20Together.svg" 
+                     loading="eager" alt="" class="img-fluid"><!--The img is from a third-party site--> 
                 <div class="mt-3">
                     <h5>Looking for a hectic designer?</h5>
-                    <a href="mailto:gm@tylerpixel.com?subject=Enquiry" class="btn btn-primary">gm@tylerpixel.com</a>
+                    <a href="mailto:mariaelena.cossio@outlook.com?subject=Enquiry" class="btn btn-primary">mariaelena.cossio@outlook.com</a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -83,18 +84,18 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
             <div class="col-md-4">
                 <div class="mt-3">
-                    <div class="footer-based">Based in Wellington, New Zealand</div>
+                    <div class="footer-based">Based in Vancouver, Canada</div>
                     <div class="socials">
                         <a href="https://instagram.tylerpixel.com" class="btn btn-link"><i class="fab fa-instagram"></i></a>
                         <a href="https://linkedin.com/in/tylerpixel" class="btn btn-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://x.tylerpixel.com" class="btn btn-link"><i class="fab fa-xing"></i></a>
+                        <a href="#!" class="btn btn-link"><i class="fab fa-xing"></i></a><!--Icon for your website-->
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="text-center mt-3">
-        <p>&copy; 2023 TYLER PIXEL</p>
+        <p>&copy; 2023 Mariaelena Cossio</p>
     </div>
 </footer>
 
