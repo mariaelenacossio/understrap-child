@@ -145,7 +145,7 @@ get_header();
         </div>
         <div class="col-auto d-none d-lg-block">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-2-scaled.jpg"
-              width="200" height="250" 
+              width="200" height="400" 
               alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                     navigation patterns, app prototyping, app prototyping, design trends" 
               loading="eager" />
