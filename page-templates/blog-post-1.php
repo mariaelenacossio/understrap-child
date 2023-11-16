@@ -120,6 +120,7 @@ get_header();
                 and your satisfaction is our top priority. It's time to embrace the future, where mobile is not just first 
                 but fabulous!.
                 So, what are you waiting for? Let's make your smartphone experience the best it can be – because you deserve it!
+                <br>
                 Happy scrolling! 📱✨
                 </p>
             </div><!--.col-md-6-->
