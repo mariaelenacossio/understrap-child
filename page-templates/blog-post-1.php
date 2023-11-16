@@ -97,7 +97,7 @@ get_header();
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
             <h3 id="#!" class="display-6 text-center pt-5">
               <span class="text-gradient d-inline">Fun, Friendly, and Fast – The Triple 'F' Mantra</span></h3>
                 <p class="p">
@@ -105,13 +105,16 @@ get_header();
                 That's the magic of our Mobile-First approach – it's not just functional; it's downright fun! 
                 Friendly interfaces, intuitive gestures, and lightning-fast loading times are the cornerstones 
                 of a design that puts a smile on your face.
-
-                <h4>It's All About You – The Smartphone Superhero!</h4>
+                </p>
+                <h4 class="display-6 text-center pt-5">It's All About You – The Smartphone Superhero!</h4>
+                <p class="p">
                 Your smartphone is not just a device; it's a superhero in your pocket, ready to rescue you from boredom, 
                 connect you with loved ones, and entertain you on the go. Mobile-First Design pays homage to this superhero
                 by ensuring that every digital interaction is a delightful experience, whether you're checking out the 
                 latest news, shopping for goodies, or simply exploring the vastness of the internet.
-                <h5>The Journey Begins – Let's Dive In!</h5>
+                </p>
+                <h5 class="display-6 text-center pt-5">The Journey Begins – Let's Dive In!</h5>
+                <p class="p">
                 Ready to explore the wonders of Mobile-First Design together? Buckle up, 
                 fellow smartphone enthusiasts, as we take a joyous ride into a realm where user experience reigns supreme, 
                 and your satisfaction is our top priority. It's time to embrace the future, where mobile is not just first 
