@@ -685,6 +685,7 @@ and (max-width: 477px){
 //Header for section
 .headings h2 {text-align: center;}
 .headings {padding-top: 5rem;}
+@media (max-width: 768px){ .headings {padding: 1rem;}}
 //...Cards
 
 //Card btn's
