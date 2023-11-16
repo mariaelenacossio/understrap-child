@@ -191,7 +191,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">UX/UI</span>
                 <!--RelocateME Case Study-->
                 <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
-                src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-4-scaled-e1700103302641.jpg" 
+                src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-4-scaled-e1700103740850.jpg" 
                 alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
                 responsive design mockups, landing page designs, prototype wireframes, interactive web design">
               </a>
