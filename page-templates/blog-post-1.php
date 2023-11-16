@@ -83,7 +83,7 @@ get_header();
                 class="img-fluid" loading="eager">
             </div><!--.col-md-6-->
             <div class="col-md-6">
-            <h3 id="#!" class="display-4 text-center pt-5">
+            <h3 id="#!" class="display-6 text-center pt-5">
               <span class="text-gradient d-inline">Say Goodbye to Pinch and Zoom, Hello to Smooth Sailing!</span></h3>
                 <p class="p">
                 Remember those frustrating days of constantly pinching and zooming just to read a webpage on your phone?
