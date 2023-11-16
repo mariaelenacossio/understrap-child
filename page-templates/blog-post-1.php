@@ -144,7 +144,7 @@ get_header();
           <a href="#blog-post-2" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
-        <img class="img-fluid" width="200" height="250" 
+        <img class="img-fluid" width="200" height="auto" 
               src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-2-scaled.jpg"
               alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                     navigation patterns, app prototyping, app prototyping, design trends" 
