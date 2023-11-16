@@ -95,6 +95,36 @@ get_header();
         </div><!--.row-->
     </div><!--.container mt-5-->
 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+            <h3 id="#!" class="display-6 text-center pt-5">
+              <span class="text-gradient d-inline">Fun, Friendly, and Fast – The Triple 'F' Mantra</span></h3>
+                <p class="p">
+                Picture this: You open a website on your smartphone, and it feels like you're on a joy ride. 
+                That's the magic of our Mobile-First approach – it's not just functional; it's downright fun! 
+                Friendly interfaces, intuitive gestures, and lightning-fast loading times are the cornerstones 
+                of a design that puts a smile on your face.
+
+                <h4>It's All About You – The Smartphone Superhero!</h4>
+                Your smartphone is not just a device; it's a superhero in your pocket, ready to rescue you from boredom, 
+                connect you with loved ones, and entertain you on the go. Mobile-First Design pays homage to this superhero
+                by ensuring that every digital interaction is a delightful experience, whether you're checking out the 
+                latest news, shopping for goodies, or simply exploring the vastness of the internet.
+                <h5>The Journey Begins – Let's Dive In!</h5>
+                Ready to explore the wonders of Mobile-First Design together? Buckle up, 
+                fellow smartphone enthusiasts, as we take a joyous ride into a realm where user experience reigns supreme, 
+                and your satisfaction is our top priority. It's time to embrace the future, where mobile is not just first 
+                but fabulous!.
+                So, what are you waiting for? Let's make your smartphone experience the best it can be – because you deserve it!
+                Happy scrolling! 📱✨
+                </p>
+            </div><!--.col-md-6-->
+      </div><!--.row-->
+      </div><!--.container mt-5-->
+
+
+
         <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <h2>Blockquotes</h2>
         <p>This is an example blockquote in action:</p>
