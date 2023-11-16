@@ -751,22 +751,22 @@ and (max-width: 477px){
 }
 
 //Blog cards
-.section.blog-cards > .card.custom-card {
+.card.custom-card.h-100 {
   max-height: 500px;
   overflow: hidden;
 }
 
-.section.blog-cards > .card-body {
+.card.custom-card.h-100 > .card-body {
   overflow: hidden;
 }
 
-.section.blog-cards > .card-title {
+.card.custom-card.h-100 > .card-body .card-title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.section.blog-cards > .card-text {
+.card.custom-card.h-100 > .card-body .card-title > .card-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
