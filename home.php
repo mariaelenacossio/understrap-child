@@ -222,7 +222,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<hr>
 				</div>
 
-				<section class="portfolio-cards">
+				<section class="blog-cards">
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
 				<div class="col">
                     <div class="card custom-card h-100">

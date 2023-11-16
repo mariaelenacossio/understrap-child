@@ -750,25 +750,15 @@ and (max-width: 477px){
   object-fit: cover;
 }
 
-//Cards comment on home.php
-// .card-body {
-//   text-align: center;
-// }
-
-// .card-buttons {
-//   display: flex;
-//   justify-content: center;
-// }
-
 
 @media only screen and (max-width: 477px) {//Small screens
-  .portfolio-cards .row {
+  .blog-cards .row {
       display: flex;
       flex-direction: column;
   }
-  .portfolio-cards .row > .col {padding-right: 0;}
+  .blog-cards .row > .col {padding-right: 0;}
 
-  .portfolio-cards .col {
+  .blog-cards .col {
       margin: 0 auto 20px;
   }
   .row-cols-4>* {
@@ -850,6 +840,7 @@ and (max-width: 1294px){
     .social-links{justify-content: center;}
   }
 
+  .
 
 
 //Footer
