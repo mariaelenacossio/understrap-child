@@ -138,7 +138,7 @@ get_header();
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
           <strong class="d-inline-block mb-2 text-line text-purple">Inclusive Design</strong><!--Category-->
-          <h3 class="mb-0">Color Psychology in Web Design: A Palette for Emotions</h3>
+          <h3 class="mb-0">Color Psychology in Web Design</h3>
           <div class="mb-1 text-muted">Nov 06</div>
           <p class="card-text mb-auto">Intrigued? Let's uncover the magic of Color Psychology 
                     in Web Design – where every shade tells a story!.</p>
