@@ -65,40 +65,71 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div>
   </footer>
   <!-- Footer Section -->
-<footer class="footer page bg-dark text-light">
+  <section class="section footer-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/6523bf250c86631325684972_Lets%20Work%20Together.svg" 
-                     loading="eager" alt="" class="img-fluid"><!--The img is from a third-party site--> 
-                <div class="mt-3">
-                    <h5>Looking for a hectic designer?</h5>
-                    <a href="mailto:mariaelena.cossio@outlook.com?subject=Enquiry" class="btn btn-primary">mariaelena.cossio@outlook.com</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="mt-3">
-                    <h5>Want a more in-depth look at my history?</h5>
-                    <a href="https://tylerpixel.com/resume" class="btn btn-primary">View Resume</a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="mt-3">
-                    <div class="footer-based">Based in Vancouver, Canada</div>
-                    <div class="socials">
-                        <a href="https://instagram.tylerpixel.com" class="btn btn-link"><i class="fab fa-instagram"></i></a>
-                        <a href="https://linkedin.com/in/tylerpixel" class="btn btn-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#!" class="btn btn-link"><i class="fab fa-xing"></i></a><!--Icon for your website-->
+            <div class="col-md-12">
+                <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/652502e0451fd47fd23d04e5_Footer-Shape.svg" 
+                     loading="eager" alt="" class="img-fluid"/>
+                <div class="footer page">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/6523bf250c86631325684972_Lets%20Work%20Together.svg" 
+                                 loading="eager" id="w-node-_1014c88c-965d-27a4-5b9f-a995e247ef9c-e247ef96" alt="" class="img-fluid"/>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="cta-cards">
+                                        <h2 class="heading-6">
+                                            Looking for a<br/>hectic designer?
+                                        </h2>
+                                        <a href="mailto:mariaelena.cossio@outlook.com?subject=Enquiry" 
+                                           class="cta-block footer-button">mariaelena.cossio@outlook.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="cta-cards">
+                                        <h2 class="heading-6">
+                                            Want a more in-depth<br/>look at my history?
+                                        </h2>
+                                        <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" 
+                                           class="cta-block footer-button">View Resume</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="brand-socials">
+                        <div class="footer-based">Vancouver, Canada</div>
+                        <div class="socials">
+                            <a href="https://instagram.tylerpixel.com" class="social-symbol w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <!-- Instagram SVG code here -->
+                                </div>
+                            </a>
+                            <a href="https://linkedin.com/in/tylerpixel" class="social-symbol w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <!-- LinkedIn SVG code here -->
+                                </div>
+                            </a>
+                            <a href="https://x.tylerpixel.com" class="social-symbol w-inline-block">
+                                <div class="social-icon w-embed">
+                                    <!-- X SVG code here -->
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="/" aria-current="page" class="brand dark w-inline-block w--current">
+                        <div class="footer-logo w-embed">
+                            <!-- Your logo SVG code here -->
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="text-center mt-3">
-        <p>&copy; 2023 Mariaelena Cossio</p>
-    </div>
-</footer>
-
+</section>
   
 
 
