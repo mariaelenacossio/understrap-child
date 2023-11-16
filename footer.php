@@ -68,7 +68,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <section class="section footer-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 w-layout-grid grid-9">
                 <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/652502e0451fd47fd23d04e5_Footer-Shape.svg" 
                      loading="eager" alt="" class="img-fluid"/>
                 <div class="footer page">
