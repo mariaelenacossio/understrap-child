@@ -262,8 +262,7 @@ and (max-width: 477px){
 }
 .hero {height: 100vh;}
 .py-5 { // Add padding to center the content
-  padding-top: 5rem!important;
-  padding-bottom: 3rem!important;
+padding: 1rem 0 1rem 0!important;
 }
 @media only screen //Small screens
 and (max-width: 477px){
