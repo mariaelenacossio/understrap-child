@@ -25,51 +25,6 @@ get_header();
 <body>
 
 <div class="interface">
-  <!-- Header -->
-  <header class="jumbotron text-center">
-    <h1 class="display-4">Your Blog Title</h1>
-    <p class="lead">Subtitle or Tagline for Your Blog</p>
-  </header>
-
-  <!-- Main Content -->
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-lg-8">
-        <!-- Blog Post Content -->
-        <article>
-          <h2 class="mb-3">Blog Post Title</h2>
-          <p class="text-muted">Published on January 1, 2023</p>
-          <img src="image1.jpg" alt="Image 1" class="img-fluid mb-3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-          <img src="image2.jpg" alt="Image 2" class="img-fluid mb-3">
-          <p>Proin at semper velit, non dignissim ipsum...</p>
-          <!-- Add more paragraphs and images as needed -->
-        </article>
-      </div>
-
-      <!-- Sidebar (Optional) -->
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Recent Posts</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Post 1</a></li>
-              <li><a href="#">Post 2</a></li>
-              <li><a href="#">Post 3</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
 <main class="container">
 <div class="p-4 p-md-5 mb-4 rounded bg-with-image">
     <div class="col-md-12 px-0">
