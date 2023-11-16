@@ -110,7 +110,7 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/wireframe-landing-page-1.png" 
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/wireframe-landing-page-1.png" 
                   alt="" />
                 </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
@@ -173,7 +173,7 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/relocateme-prototype-2.jpg"
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/relocateme-prototype-2.jpg"
                     alt="usability testing, user feedback, user experience testing, a/b testing, prototype testing, 
                     remote user testing, in-person testing, task analysis" />
                   </figure>
