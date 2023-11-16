@@ -973,7 +973,10 @@ grid-row-gap: 32px;
 }
 }
 .footer-square.row {text-align: center;}
-
+.cta-cards {
+  border-radius: 0.375rem;
+  border: 1px solid $secondary-color;  
+}
 
 //Contact form
 .contact-image img {height: 500px;}
