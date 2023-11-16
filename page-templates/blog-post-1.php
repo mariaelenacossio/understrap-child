@@ -49,13 +49,15 @@ get_header();
         
           <div class="headings">
 				<h2 id="blog-post-1" class="display-4 text-center pt-5">
-          <span class="text-gradient d-inline">Why Mobile-First? Because It's All About You!</span></h2>
+          <span class="text-gradient d-inline">Why Mobile-First?</span></h2>
 				<hr>
 				</div>
 
         <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
+            <h3 id="#!" class="display-6 text-center pt-5">
+              <span class="text-gradient d-inline">Because It's All About You!</span></h3>
                 <p class="p">
                 In a world where our smartphones are practically an extension of ourselves, 
                 it's time to ensure that the digital landscape caters to your needs seamlessly. 
