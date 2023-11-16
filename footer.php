@@ -69,8 +69,9 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/652502e0451fd47fd23d04e5_Footer-Shape.svg" 
-                     loading="eager" alt="" class="img-fluid"/>
+              <!--Add a new divider with the primary color-->
+                <!-- <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/652502e0451fd47fd23d04e5_Footer-Shape.svg" 
+                     loading="eager" alt="" class="img-fluid"/> -->
                 <div class="footer page">
                     <div class="row">
                         <div class="col-md-3">
