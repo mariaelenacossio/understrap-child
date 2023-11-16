@@ -109,8 +109,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                  alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/beauty-by-amy-code-sample-1-scaled.jpg" 
+                  alt="full-stack development, front-end development, back-end development, web development tools, 
+                  code version control, API integration, continuous integration and deployment" />
                 </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -140,8 +141,10 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-4 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/beauty-by-amy-wireframe-desktop-1.jpg" 
+                alt="design ideation process, wireframing and prototyping, user experience design, 
+                iterative design process, design mockup phases, ui testing and refinement, 
+                design concept evolution, design revision history" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 12%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -171,8 +174,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 offset-lg-3 col-xl-7 offset-xl-5 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                  alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/beauty-by-amy-mockup-desktop-1.jpg" 
+                  alt="adobe XD designs, sketch app wireframes, figma design mockups, photoshop web design, 
+                illustrator ui screenshots, invision prototype designs, responsive design tools, design collaboration tools" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column ms-lg-n150 ms-xl-0" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -202,8 +206,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-8 col-xl-6 offset-xl-1 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                  alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/beauty-by-amy-mockup-desktop-2-scaled.jpg" 
+                  alt="adobe XD designs, sketch app wireframes, figma design mockups, photoshop web design, 
+                  illustrator ui screenshots, invision prototype designs, responsive design tools, design collaboration tools" />
                 </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 15%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
