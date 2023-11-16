@@ -247,7 +247,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="card-body">
                             <h5 class="card-title">Color Psychology in Web Design: A Palette for Emotions</h5>
                             <p class="card-text">Intrigued? Let's uncover the magic of Color Psychology in Web Design 
-                              – where every shade tells a story! We're diving deep into the world of hues, shades, and vibes.</p>
+                              – where every shade tells a story!</p>
                             <div class="card-buttons d-flex justify-content-center">
                                 <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
                                 <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
