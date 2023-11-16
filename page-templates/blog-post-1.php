@@ -28,8 +28,8 @@ get_header();
 <main class="container">
 <div class="p-4 p-md-5 mb-4 rounded bg-with-image">
     <div class="col-md-12 px-0">
-        <h1 class="display-1 text-primary text-center">Mobile-First Design</h1>
-        <p class="lead text-center my-3">Optimizing UX for Smartphone Users</p>
+        <h1 class="display-1 text-primary text-center">Crafting an Enjoyable Mobile Experience</h1>
+        <p class="lead text-center my-3">Unlocking the Delight of Mobile-First Design for Smoother User Journeys</p>
     </div>
 </div>
 
@@ -42,16 +42,14 @@ get_header();
         <p class="lead my-3 text-center">Optimizing UX for Smartphone Users</p> -->
         <p class="blog-post-meta text-end">November 6th, 2023 by <a href="#">Mariaelena C.</a></p>
 
-        <p class="p">Mobile-first design is a design strategy that flips the traditional approach on its head. 
-          Instead of starting with the desktop version of a website or application and then trying 
-          to make it work on smaller screens, mobile-first design begins with the mobile user experience 
-          and then scales up to larger screens. This approach ensures that smartphone users receive the 
-          best possible experience, which is particularly crucial considering the diverse range of 
-          devices and screen sizes in use today.</p>
+        <p class="p">Hey there, tech enthusiasts! 🚀 Welcome to our digital realm where we're 
+          diving headfirst into the vibrant world of Mobile-First Design. Today, let's embark
+          on a journey of discovery as we unravel the secrets behind optimizing user experiences 
+          for our beloved smartphone users.</p>
         
           <div class="headings">
 				<h2 id="blog-post-1" class="display-4 text-center pt-5">
-          <span class="text-gradient d-inline">Key Principles of Mobile-First Design</span></h2>
+          <span class="text-gradient d-inline">Why Mobile-First? Because It's All About You!</span></h2>
 				<hr>
 				</div>
 
@@ -59,15 +57,41 @@ get_header();
         <div class="row">
             <div class="col-md-6">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget purus id lectus
-                    hendrerit facilisis. Fusce ac justo eu orci tristique hendrerit. Suspendisse potenti.
+                In a world where our smartphones are practically an extension of ourselves, 
+                it's time to ensure that the digital landscape caters to your needs seamlessly. 
+                Mobile-First Design isn't just a trend; it's a revolution that puts you at the 
+                heart of the digital experience. We're talking about a design philosophy that 
+                prioritizes the small screen but packs a punch when it comes to delivering user 
+                satisfaction.
                 </p>
-            </div>
+            </div><!--.col-md-6-->
             <div class="col-md-6">
-                <img src="your-image.jpg" alt="Image" class="img-fluid">
-            </div>
-        </div>
-    </div>
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends" 
+                class="img-fluid" loading="eager">
+            </div><!--.col-md-6-->
+        </div><!--.row-->
+    </div><!--.container mt-5-->
+
+    <div class="container mt-5">
+    <h3 id="#!" class="display-4 text-center pt-5">
+    <span class="text-gradient d-inline">Say Goodbye to Pinch and Zoom, Hello to Smooth Sailing!</span></h3>
+        <div class="row">
+        <div class="col-md-6">
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-2-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends" 
+                class="img-fluid" loading="eager">
+            </div><!--.col-md-6-->
+            <div class="col-md-6">
+                <p>
+                Remember those frustrating days of constantly pinching and zooming just to read a webpage on your phone?
+                Well, say goodbye to that headache! Mobile-First Design is all about breaking free from the constraints 
+                of traditional design, offering you an effortlessly fluid and enjoyable navigation experience.
+                </p>
+        </div><!--.row-->
+    </div><!--.container mt-5-->
 
         <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <h2>Blockquotes</h2>
