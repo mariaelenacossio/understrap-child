@@ -379,6 +379,12 @@ and (min-width: 1250px){
 
 @media (max-width: 468px) {
   .d-flex.flex-row {justify-content: center;}
+  //To adjust icons to be centered
+  .flex-row > a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
 }
 @media (min-width: 576px) {
 
