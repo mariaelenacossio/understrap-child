@@ -77,8 +77,9 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-7 offset-lg-5 col-xl-6 offset-xl-5 rounded" loading="eager">
-                <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
-                alt="" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/User-Persona-1.jpg" 
+                alt="online behavior, purchasing behavior, brand loyalty, decision-making process, 
+                  frequent social media users, budget-conscious, loyal to specific brands" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="left: 18%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
@@ -107,9 +108,10 @@ get_header();
           <div class="project item">
             <div class="row">
               <figure class="col-lg-9 col-xl-7 offset-xl-2 rounded" loading="eager"> 
-                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/User-Persona-1.jpg" 
-                  alt="online behavior, purchasing behavior, brand loyalty, decision-making process, 
-                  frequent social media users, budget-conscious, loyal to specific brands" />
+                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/los-quequitos-code-sample-1-scaled.jpg" 
+                  alt="full-stack development, front-end development, 
+                  back-end development, web development tools, code version control, 
+                  API integration, continuous integration and deployment" />
               </figure>
               <div class="project-details d-flex justify-content-center flex-column" style="right: 3%; bottom: 25%;">
                 <div class="card shadow rellax" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
