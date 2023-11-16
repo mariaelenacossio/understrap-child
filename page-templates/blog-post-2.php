@@ -145,7 +145,7 @@ get_header();
           <div class="mb-1 text-muted">Nov 06</div>
           <p class="card-text mb-auto">Let's embark on a journey of discovery as we unravel the secrets 
                             behind optimizing user experiences for our beloved smartphone users.</p>
-          <a href="#/post-1" class="stretched-link">Continue reading</a>
+          <a href="https://mariaelena-cossioclark.com/blog-post-1/" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" 
@@ -166,7 +166,7 @@ get_header();
           <h3 class="mb-0">Navigating the UX Seas</h3>
           <div class="mb-1 text-muted">Nov 11</div>
           <p class="mb-auto">Smooth navigation is the wind in their sails, guiding them effortlessly through your digital waters. .</p>
-          <a href="#" class="stretched-link">Continue reading</a>
+          <a href="https://mariaelena-cossioclark.com/blog-post-3/" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>

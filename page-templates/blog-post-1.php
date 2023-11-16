@@ -142,7 +142,7 @@ get_header();
           <div class="mb-1 text-muted">Nov 06</div>
           <p class="card-text mb-auto">Intrigued? Let's uncover the magic of Color Psychology 
                     in Web Design – where every shade tells a story!.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
+          <a href="https://mariaelena-cossioclark.com/blog-post-2-2/" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
           <svg class="bd-placeholder-img" width="200" height="250" 
