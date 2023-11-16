@@ -162,7 +162,11 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
                 <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
-                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/website-project-2.png" alt="">
+                <!--Beauty by Amy Case Study-->
+                <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" 
+                src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-2-scaled-e1700103130812.jpg" 
+                alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
+                responsive design mockups, landing page designs, prototype wireframes, interactive web design">
               </a>
             </div>
           </div>
