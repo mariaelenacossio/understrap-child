@@ -9,7 +9,7 @@ $secondary-color: #615ab7;
 $accent-color: #e3daff;
 $background-color: #fffafb;
 
-::root { --bs-body-font-family: monospace; }
+$font-family-sans-serif: “DM Sans”;
 
 //Text
 .text-primary {
