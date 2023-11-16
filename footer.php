@@ -78,7 +78,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                  loading="eager" id="w-node-_1014c88c-965d-27a4-5b9f-a995e247ef9c-e247ef96" alt="" class="img-fluid"/>
                         </div>
                         <div class="col-md-9">
-                            <div class="row">
+                            <div class="footer-square row">
                                 <div class="col-md-6">
                                     <div class="cta-cards">
                                         <h2 class="heading-6">
