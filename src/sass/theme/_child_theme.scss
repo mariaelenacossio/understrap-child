@@ -756,6 +756,7 @@ and (max-width: 477px){
       display: flex;
       flex-direction: column;
   }
+  .portfolio-cards .row > .col {padding-right: 0;}
 
   .portfolio-cards .col {
       margin: 0 auto 20px;
