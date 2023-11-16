@@ -52,7 +52,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-xxl-8">
         <img class="img-fluid rounded shadow" loading="lazy" 
-        src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/design-system-desktop-mockup-3@2x.png" alt="">
+        src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-desktop-mockup-3@2x.jpg" alt="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, creative web design, user interface design">
       </div>
     </div>
   </div>
