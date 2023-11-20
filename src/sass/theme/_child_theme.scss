@@ -1584,3 +1584,108 @@ textarea.form-control {height: 200px;}
   }
   .container.mt-5 {margin-top: 0.5rem!important;}  
 }
+
+//Test for blog post cards
+.box {
+  width: 1107px;
+  height: 1053px;
+}
+
+.box .group {
+  position: fixed;
+  width: 1113px;
+  height: 1053px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 1107px;
+  height: 1053px;
+}
+
+.box .rectangle {
+  width: 945px;
+  height: 945px;
+  top: 108px;
+  left: 162px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  position: absolute;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.box .div {
+  width: 324px;
+  height: 324px;
+  top: 28px;
+  left: 0;
+  background-color: #fcbc2a;
+  border-radius: 25px;
+  position: absolute;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.box .lightbulb {
+  position: absolute;
+  width: 192px;
+  height: 192px;
+  top: 94px;
+  left: 66px;
+  object-fit: cover;
+}
+
+.box .rectangle-2 {
+  width: 138px;
+  height: 57px;
+  top: 0;
+  left: 36px;
+  background-color: #ffffff;
+  border-radius: 55.5px;
+  position: absolute;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 77px;
+  top: 12px;
+  left: 72px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .lorem-ipsum-is {
+  position: absolute;
+  width: 676px;
+  top: 275px;
+  left: 359px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  width: 161px;
+  top: 166px;
+  left: 359px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
