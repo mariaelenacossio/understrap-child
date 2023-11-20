@@ -179,7 +179,7 @@ get_header();
         <div class="overlap-group">
           <div class="rectangle"></div>
           <div class="div"></div>
-          <img class="lightbulb" src="img/lightbulb-1.png" />
+          <img class="lightbulb" src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-icon-1.jpg" />
           <div class="rectangle-2"></div>
           <div class="text-wrapper">Step 1</div>
           <p class="lorem-ipsum-is">
