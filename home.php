@@ -270,21 +270,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-				<div class="col">
-                    <div class="card custom-card h-100">
-					<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-4-scaled.jpg" class="card-img-top" 
-               alt="responsive design, user experience, mobile-friendly ui, interaction design, navigation patterns, app prototyping, app prototyping, design trends">
-                        <div class="card-body">
-                            <h5 class="card-title">Microinteractions: The Small Details That Make a Big Impact</h5>
-                            <p class="card-text">Join us on a journey where small becomes mighty, and every click, hover, 
-                              and scroll turns into a delightful experience for your users.</p>
-                            <div class="card-buttons d-flex justify-content-center">
-                                <button class="btn btn-primary btn-lg px-4 me-md-2">Read More</button>
-                                <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         
