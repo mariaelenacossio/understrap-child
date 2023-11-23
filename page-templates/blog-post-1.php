@@ -39,7 +39,9 @@ get_header();
     <!-- First Column -->
     <div class="col-lg-6">
       <div class="card mb-4">
-        <img src="path/to/article-image-1.jpg" class="card-img-top" alt="Article Image 1">
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
         <div class="card-body">
           <p class="card-text text-muted mb-1">Published on: <span class="font-weight-bold">Monday</span></p>
           <p class="card-text text-muted mb-1">Time to Read: <span class="font-weight-bold">10 minutes</span></p>
@@ -59,7 +61,9 @@ get_header();
     <div class="col-lg-6">
       <!-- First Card -->
       <div class="card mb-4">
-        <img src="path/to/article-image-2.jpg" class="card-img-top" alt="Article Image 2">
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
         <div class="card-body">
           <p class="card-text text-muted mb-1">Published on: <span class="font-weight-bold">Tuesday</span></p>
           <p class="card-text text-muted mb-1">Time to Read: <span class="font-weight-bold">12 minutes</span></p>
@@ -73,7 +77,9 @@ get_header();
 
       <!-- Second Card -->
       <div class="card mb-4">
-        <img src="path/to/article-image-3.jpg" class="card-img-top" alt="Article Image 3">
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
         <div class="card-body">
           <p class="card-text text-muted mb-1">Published on: <span class="font-weight-bold">Wednesday</span></p>
           <p class="card-text text-muted mb-1">Time to Read: <span class="font-weight-bold">8 minutes</span></p>
