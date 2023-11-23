@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row gy-2 gy-md-0 justify-content-xxl-center">
       <div class="col-12 order-md-1 col-md-8 col-xxl-6">
         <div class="text-center text-md-start">
-          <h2 class="display-3 fw-bold lh-1">Mariaelena Cossio Clark</h2>
+          <h2 class="display-3 h2 fw-bold lh-1">Mariaelena Cossio Clark</h2>
           <p class="text-secondary fs-4 mb-2">Web Designer</p>
           <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary">
           <p>I am a passionate and organized individual who loves crafting digital stories through websites and apps. 
