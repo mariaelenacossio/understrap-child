@@ -1701,7 +1701,7 @@ textarea.form-control {height: 200px;}
 
 .first-column {
   overflow-y: auto;
-  max-height: calc(100vh - 100px); /* Adjust based on your navbar height */
+  max-height: calc(100vh - -250px); /* Adjust based on your navbar height */
   padding-right: 15px; /* Add padding to avoid scrollbar overlap */
 }
 
