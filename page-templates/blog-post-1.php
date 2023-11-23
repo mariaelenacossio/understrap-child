@@ -38,9 +38,11 @@ get_header();
   <div class="row">
     <!-- First Column (Scrollable) -->
     <div class="col-lg-8 first-column">
+    <div class="banner-container">
       <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
-                navigation patterns, app prototyping, app prototyping, design trends" class="img-fluid mb-3">
+                navigation patterns, app prototyping, app prototyping, design trends" class="banner-img">
+</div>
                 <div class="article-details">
         <p class="text-muted mb-0"><span class="font-weight-bold">Nov 06, 2023</span></p>
         <p class="text-muted mb-0"><span class="font-weight-bold">5 minute read</span></p>

@@ -1732,6 +1732,18 @@ textarea.form-control {height: 200px;}
   border-top-right-radius: 0!important;
 }
 
+.banner-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 468px) and (max-width: 600px) {
   .first-column{
   overflow-y: visible; /* or overflow-y: initial; or remove it entirely */
