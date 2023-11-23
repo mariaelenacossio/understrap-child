@@ -133,6 +133,28 @@ get_header();
       </nav>
 
 
+
+  <!--Test-->
+  <div class="container-blog">
+      <div class="content">
+        <div class="div">
+          <div class="section-title">
+            <div class="subheading">Capturing</div>
+            <div class="content-2">
+              <p class="heading">Unforgettable Moments with Our Photography Services</p>
+              <p class="text">
+                Welcome to our photography portfolio website. We specialize in capturing beautiful moments that last a
+                lifetime. With our professional photography services, you can trust us to capture the essence of your
+                special occasions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="placeholder-image" src="img/placeholder-image.png" />
+    </div>    
+
+
   <div class="row mb-2">
     <div class="col-md-6">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
