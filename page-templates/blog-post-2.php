@@ -136,7 +136,7 @@ get_header();
 </div>
 
       <nav class="blog-pagination" aria-label="Pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
+        <a class="btn btn-outline-primary" href="https://mariaelena-cossioclark.com/blog-post-1/">Older</a>
         <a class="btn btn-outline-secondary disabled" href="https://mariaelena-cossioclark.com/blog-post-3/" 
         tabindex="-1" aria-disabled="true">Newer</a>
       </nav>
