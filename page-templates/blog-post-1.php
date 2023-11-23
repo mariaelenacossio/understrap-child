@@ -33,7 +33,11 @@ get_header();
     </div>
 </div>
 
-
+<div class="image-hero-blog">
+  <img class="placeholder-image" src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends"/>
+</div><!--.hero/blog-->
 
   <div class="row g-5">
     <div class="col-md-12">

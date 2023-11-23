@@ -1715,3 +1715,18 @@ textarea.form-control {height: 200px;}
   margin-top: 20px;
   border-radius: 25px;
 }
+
+//Test for hero/blog
+.image-hero-blog {
+  width: 1312px;
+  height: 738px;
+}
+
+.image-hero-blog .placeholder-image {
+  position: fixed;
+  width: 1312px;
+  height: 738px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
