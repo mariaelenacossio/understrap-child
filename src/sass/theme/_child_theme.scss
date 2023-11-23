@@ -1733,12 +1733,11 @@ textarea.form-control {height: 200px;}
 }
 
 @media (max-width: 468px) {
-.first-column{
-  overflow: auto;
-  max-height: fit-content;
-  padding: auto;
-}
-
+  .first-column{
+  overflow-y: visible; /* or overflow-y: initial; or remove it entirely */
+  max-height: none; /* or max-height: initial; or remove it entirely */
+  padding-right: 0; /* or remove it entirely */
+  }
     .d-sm-flex {
       display: block !important;
     }
