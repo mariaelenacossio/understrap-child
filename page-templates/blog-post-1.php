@@ -63,9 +63,11 @@ get_header();
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
         <div class="card-body">
-          <p class="card-text text-muted mb-1">Published on: <span class="font-weight-bold">Tuesday</span></p>
-          <p class="card-text text-muted mb-1">Time to Read: <span class="font-weight-bold">12 minutes</span></p>
-          <p class="card-text text-muted mb-3">Author: <span class="font-weight-bold">Jane Smith</span></p>
+        <div class="article-details">
+            <p class="card-text text-muted mb-0">Published on: <span class="font-weight-bold">Tuesday</span></p>
+            <p class="card-text text-muted mb-0">Time to Read: <span class="font-weight-bold">12 minutes</span></p>
+            <p class="card-text text-muted mb-0">Author: <span class="font-weight-bold">Jane Smith</span></p>
+          </div>          
           <h5 class="card-title">Article Headline 2</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua.</p>
@@ -78,9 +80,11 @@ get_header();
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
         <div class="card-body">
-          <p class="card-text text-muted mb-1">Published on: <span class="font-weight-bold">Wednesday</span></p>
-          <p class="card-text text-muted mb-1">Time to Read: <span class="font-weight-bold">8 minutes</span></p>
-          <p class="card-text text-muted mb-3">Author: <span class="font-weight-bold">Sam Brown</span></p>
+        <div class="article-details">
+            <p class="card-text text-muted mb-0">Published on: <span class="font-weight-bold">Tuesday</span></p>
+            <p class="card-text text-muted mb-0">Time to Read: <span class="font-weight-bold">12 minutes</span></p>
+            <p class="card-text text-muted mb-0">Author: <span class="font-weight-bold">Jane Smith</span></p>
+          </div>
           <h5 class="card-title">Article Headline 3</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua.</p>
