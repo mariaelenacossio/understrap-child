@@ -61,7 +61,7 @@ get_header();
         <div class="section-title">
           <div class="content-2">
             <p class="heading">Because It's All About You!</p>
-            <p class="text">
+            <p class="p">
                 In a world where our smartphones are practically an extension of ourselves, 
                 it's time to ensure that the digital landscape caters to your needs seamlessly. 
                 Mobile-First Design isn't just a trend; it's a revolution that puts you at the 
