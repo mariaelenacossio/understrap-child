@@ -1753,6 +1753,12 @@ nav.blog-pagination {
   padding-right: 1rem;
 }
 
+@media (max-width: 900px){
+  .second-column {border: none;}
+  img.card-img-top.card-img-blog-post {
+    height: 200px;
+  }
+}
 @media (max-width: 468px) and (max-width: 600px) {
   .first-column{
   overflow-y: visible; /* or overflow-y: initial; or remove it entirely */
