@@ -1699,33 +1699,21 @@ textarea.form-control {height: 200px;}
 
 
 //Test for blog cards//
-.container-blog {max-width: 100%;}
-
-.content {padding: 20px;}
-
-.section-title {margin-bottom: 20px;}
-
-.heading {font-size: 24px;}
-
-.text {font-size: 16px;}
-
-.placeholder-image {
+.container-blog {
   max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 25px;
 }
 
-//Test for hero/blog
-.image-hero-blog {
-  width: 1312px;
-  height: 738px;
+.first-column {
+  overflow-y: auto;
+  max-height: calc(100vh - 56px); /* Adjust based on your navbar height */
+  padding-right: 15px; /* Add padding to avoid scrollbar overlap */
 }
 
-.image-hero-blog .placeholder-image-hero-blog {
-  width: 1312px;
-  height: 738px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
+.second-column {
+  position: sticky;
+  top: 56px; /* Adjust based on your navbar height */
+}
+
+.card-blog-post {
+  margin-bottom: 20px;
 }

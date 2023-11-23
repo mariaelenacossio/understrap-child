@@ -34,33 +34,29 @@ get_header();
 </div>
 
 <!--Test for new layout-->
-<div class="container mt-4">
+<div class="container-blog mt-4">
   <div class="row">
-    <!-- First Column -->
-    <div class="col-lg-8">
-      <div class="card mb-4">
-        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+    <!-- First Column (Scrollable) -->
+    <div class="col-lg-6 first-column">
+      <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
-                navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
-        <div class="card-body">
-          <p class="card-text text-muted mb-1">Published on: <span class="font-weight-bold">Monday</span></p>
-          <p class="card-text text-muted mb-1">Time to Read: <span class="font-weight-bold">10 minutes</span></p>
-          <p class="card-text text-muted mb-3">Author: <span class="font-weight-bold">John Doe</span></p>
-          <h5 class="card-title">Article Headline 1</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.</p>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.</p>
-          <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur.</p>
-        </div>
-      </div>
+                navigation patterns, app prototyping, app prototyping, design trends" class="img-fluid mb-3">
+      <p class="text-muted mb-1">Published on: <span class="font-weight-bold">Monday</span></p>
+      <p class="text-muted mb-1">Time to Read: <span class="font-weight-bold">10 minutes</span></p>
+      <p class="text-muted mb-3">Author: <span class="font-weight-bold">John Doe</span></p>
+      <h5>Article Headline 1</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.</p>
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur.</p>
     </div>
 
-    <!-- Second Column -->
-    <div class="col-lg-4">
+    <!-- Second Column (Static) -->
+    <div class="col-lg-4 second-column">
       <!-- First Card -->
-      <div class="card mb-4">
+      <div class="card-blog-post">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
@@ -71,12 +67,11 @@ get_header();
           <h5 class="card-title">Article Headline 2</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua.</p>
-          <!-- Additional paragraphs or content as needed -->
         </div>
       </div>
 
       <!-- Second Card -->
-      <div class="card mb-4">
+      <div class="card-blog-post">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
@@ -87,12 +82,12 @@ get_header();
           <h5 class="card-title">Article Headline 3</h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua.</p>
-          <!-- Additional paragraphs or content as needed -->
         </div>
       </div>
     </div>
   </div>
 </div>
+
 
   <div class="row g-5">
     <div class="col-md-12">
