@@ -23,11 +23,7 @@ $background-color: #fffafb;
   color: $primary-color!important;
   opacity: 2;}
 
-.p {
-  font-size: 1.5rem;
-  font-weight: 200;
-  text-align: justify;
-}
+.p {text-align: justify;}
 
 //Buttons
 .btn-primary {
@@ -1714,6 +1710,9 @@ textarea.form-control {height: 200px;}
   top: 56px; /* Adjust based on your navbar height */
   border-left: 1px solid $primary-color;
 }
+img.card-img-top.card-img-blog-post {
+  height: 150px;
+}
 
 .card-blog-post {
   margin-bottom: 20px;
@@ -1736,6 +1735,7 @@ textarea.form-control {height: 200px;}
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
+  height: 400px;
 }
 
 .banner-img {
@@ -1754,3 +1754,8 @@ textarea.form-control {height: 200px;}
       display: block !important;
     }
   }
+  @media (max-width: 468px){
+  .banner-container {
+    height: 200px;
+  }
+}
