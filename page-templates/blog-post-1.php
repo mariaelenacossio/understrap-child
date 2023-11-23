@@ -40,7 +40,7 @@ get_header();
         <p class="text-muted mb-0"><span class="font-weight-bold">5 minute read</span></p>
         <p class="text-muted mb-0">-<span class="font-weight-bold">Mariaelena C</span></p>
       </div>      
-      <h1 class="text-center">Crafting an Enjoyable Mobile Experience</h1>
+      <h1 class="text-center pt-4">Crafting an Enjoyable Mobile Experience</h1>
       <p class="lead my-3">Unlocking the Delight of Mobile-First Design for Smoother User Journeys</p>
       <p class="p">Hey there, tech enthusiasts! 🚀 Welcome to our digital realm where we're 
           diving headfirst into the vibrant world of Mobile-First Design. Today, let's embark
