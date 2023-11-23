@@ -1699,100 +1699,18 @@ textarea.form-control {height: 200px;}
 
 
 //Test for blog cards//
-.container-blog {
-  display: flex;
-  align-items: center;
-  gap: 80px;
-  position: relative;
-}
+.container-blog {max-width: 100%;}
 
-.container-blog .content {
-  gap: 24px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
+.content {padding: 20px;}
 
-.container-blog .div {
-  gap: 32px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
+.section-title {margin-bottom: 20px;}
 
-.container-blog .section-title {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
+.heading {font-size: 24px;}
 
-.container-blog .subheading {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: var(--text-regular-semi-bold-font-family);
-  font-weight: var(--text-regular-semi-bold-font-weight);
-  color: var(--black);
-  font-size: var(--text-regular-semi-bold-font-size);
-  text-align: center;
-  letter-spacing: var(--text-regular-semi-bold-letter-spacing);
-  line-height: var(--text-regular-semi-bold-line-height);
-  white-space: nowrap;
-  font-style: var(--text-regular-semi-bold-font-style);
-}
+.text {font-size: 16px;}
 
-.container-blog .content-2 {
-  gap: 24px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.container-blog .heading {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: var(--heading-h2-font-family);
-  font-weight: var(--heading-h2-font-weight);
-  color: var(--black);
-  font-size: var(--heading-h2-font-size);
-  letter-spacing: var(--heading-h2-letter-spacing);
-  line-height: var(--heading-h2-line-height);
-  font-style: var(--heading-h2-font-style);
-}
-
-.container-blog .text {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--text-medium-normal-font-family);
-  font-weight: var(--text-medium-normal-font-weight);
-  color: var(--black);
-  font-size: var(--text-medium-normal-font-size);
-  letter-spacing: var(--text-medium-normal-letter-spacing);
-  line-height: var(--text-medium-normal-line-height);
-  font-style: var(--text-medium-normal-font-style);
-}
-
-.container-blog .placeholder-image {
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-  height: 640px;
-  object-fit: cover;
+.placeholder-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
