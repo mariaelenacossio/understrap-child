@@ -59,13 +59,15 @@ get_header();
     <div class="row">
       <div class="col-lg-6">
         <div class="section-title">
-          <div class="subheading">Capturing</div>
           <div class="content-2">
-            <p class="heading">Unforgettable Moments with Our Photography Services</p>
+            <p class="heading">Because It's All About You!</p>
             <p class="text">
-              Welcome to our photography portfolio website. We specialize in capturing beautiful moments that last a
-              lifetime. With our professional photography services, you can trust us to capture the essence of your
-              special occasions.
+                In a world where our smartphones are practically an extension of ourselves, 
+                it's time to ensure that the digital landscape caters to your needs seamlessly. 
+                Mobile-First Design isn't just a trend; it's a revolution that puts you at the 
+                heart of the digital experience. We're talking about a design philosophy that 
+                prioritizes the small screen but packs a punch when it comes to delivering user 
+                satisfaction.
             </p>
           </div>
         </div>
