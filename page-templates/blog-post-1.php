@@ -37,7 +37,7 @@ get_header();
 <div class="container-blog mt-4">
   <div class="row">
     <!-- First Column (Scrollable) -->
-    <div class="col-lg-10 first-column">
+    <div class="col-lg-9 first-column">
       <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="img-fluid mb-3">
@@ -54,7 +54,7 @@ get_header();
     </div>
 
     <!-- Second Column (Static) -->
-    <div class="col-lg-2 second-column">
+    <div class="col-lg-3 second-column">
       <!-- First Card -->
       <div class="card card-blog-post">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
