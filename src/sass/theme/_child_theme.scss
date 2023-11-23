@@ -1762,16 +1762,18 @@ nav.blog-pagination {
   img.card-img-top.card-img-blog-post {
     height: 200px;
   }
+  .first-column{
+    overflow-y: visible; /* or overflow-y: initial; or remove it entirely */
+    max-height: none; /* or max-height: initial; or remove it entirely */
+    padding-right: 0; /* or remove it entirely */
+    }
 }
-@media (max-width: 468px) and (max-width: 980px) {
+@media (max-width: 468px){
   .first-column{
   overflow-y: visible; /* or overflow-y: initial; or remove it entirely */
   max-height: none; /* or max-height: initial; or remove it entirely */
   padding-right: 0; /* or remove it entirely */
   }
-    .d-sm-flex {
-      display: block !important;
-    }
   }
   @media (max-width: 468px){
   .banner-container {
