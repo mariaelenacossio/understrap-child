@@ -46,7 +46,7 @@ get_header();
         <p class="text-muted mb-0"><span class="font-weight-bold">5 minute read</span></p>
         <p class="text-muted mb-0">-<span class="font-weight-bold">Mariaelena C</span></p>
       </div>      
-      <h5>Crafting an Enjoyable Mobile Experience</h5>
+      <h1>Crafting an Enjoyable Mobile Experience</h1>
       <p class="lead my-3">Unlocking the Delight of Mobile-First Design for Smoother User Journeys</p>
       <p>Hey there, tech enthusiasts! 🚀 Welcome to our digital realm where we're 
           diving headfirst into the vibrant world of Mobile-First Design. Today, let's embark
@@ -92,6 +92,8 @@ get_header();
 
     <!-- Second Column (Static) -->
     <div class="col-lg-4 second-column">
+      <!-- Display cards side by side on screens smaller than 1024px -->
+      <div class="d-md-flex flex-md-row flex-wrap">
       <!-- First Card -->
       <div class="card card-blog-post">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
@@ -127,6 +129,7 @@ get_header();
       </div>
     </div>
   </div>
+</div>
 </div>
 
 
