@@ -71,7 +71,9 @@ get_header();
         </div>
       </div>
       <div class="col-lg-6">
-        <img class="placeholder-image" src="img/placeholder-image.png" alt="Placeholder Image">
+        <img class="placeholder-image" src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+                alt="responsive design, user experience, mobile-friendly ui, interaction design, 
+                navigation patterns, app prototyping, app prototyping, design trends">
       </div>
     </div>
   </div>
