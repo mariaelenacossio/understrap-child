@@ -1735,4 +1735,8 @@ textarea.form-control {height: 200px;}
 @media (max-width: 468px) {
   .second-column{
     max-height: fit-content;}
+
+    .d-sm-flex {
+      display: block !important;
+    }
   }
