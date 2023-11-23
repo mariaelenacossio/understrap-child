@@ -1727,4 +1727,7 @@ textarea.form-control {height: 200px;}
   display: flex;
   justify-content: space-between;
 }
-.card-img-blog-post {border: none;}
+.card-img-blog-post {
+  border-top-left-radius: 0!important;
+  border-top-right-radius: 0!important;
+}
