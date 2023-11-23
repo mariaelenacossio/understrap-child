@@ -1712,8 +1712,13 @@ textarea.form-control {height: 200px;}
 .second-column {
   position: sticky;
   top: 56px; /* Adjust based on your navbar height */
+  border-right: 1px solid $primary-color;
 }
 
 .card-blog-post {
   margin-bottom: 20px;
+}
+.article-details {
+  display: flex;
+  justify-content: space-between;
 }
