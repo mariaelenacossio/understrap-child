@@ -196,7 +196,7 @@ get_header();
   </div>
   
   <!--Test for a card-->
-  <div class="box">
+  <!-- <div class="box">
       <div class="group">
         <div class="overlap-group">
           <div class="rectangle"></div>
@@ -215,7 +215,7 @@ get_header();
           <div class="text-wrapper-2">Title</div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 </main>
