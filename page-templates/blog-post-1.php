@@ -41,9 +41,11 @@ get_header();
       <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="img-fluid mb-3">
-      <p class="text-muted mb-1">Published on: <span class="font-weight-bold">Monday</span></p>
-      <p class="text-muted mb-1">Time to Read: <span class="font-weight-bold">10 minutes</span></p>
-      <p class="text-muted mb-3">Author: <span class="font-weight-bold">John Doe</span></p>
+                <div class="article-details">
+        <p class="text-muted mb-0">Published on: <span class="font-weight-bold">Monday</span></p>
+        <p class="text-muted mb-0">Time to Read: <span class="font-weight-bold">10 minutes</span></p>
+        <p class="text-muted mb-0">Author: <span class="font-weight-bold">John Doe</span></p>
+      </div>      
       <h5>Article Headline 1</h5>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua.</p>
