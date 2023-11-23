@@ -93,7 +93,7 @@ get_header();
     <!-- Second Column (Static) -->
     <div class="col-lg-4 second-column">
       <!-- Display cards side by side on screens smaller than 1024px -->
-      <div class="d-sm-flex">
+      <div class="d-md-flex flex-md-row flex-wrap">
       <!-- First Card -->
       <div class="card card-blog-post">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
