@@ -1733,8 +1733,11 @@ textarea.form-control {height: 200px;}
 }
 
 @media (max-width: 468px) {
-  .second-column{
-    max-height: fit-content;}
+.first-column{
+  overflow: auto;
+  max-height: fit-content;
+  padding: auto;
+}
 
     .d-sm-flex {
       display: block !important;
