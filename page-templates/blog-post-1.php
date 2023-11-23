@@ -37,7 +37,7 @@ get_header();
 <div class="container mt-4">
   <div class="row">
     <!-- First Column -->
-    <div class="col-lg-6">
+    <div class="col-lg-8">
       <div class="card mb-4">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
@@ -58,7 +58,7 @@ get_header();
     </div>
 
     <!-- Second Column -->
-    <div class="col-lg-6">
+    <div class="col-lg-4">
       <!-- First Card -->
       <div class="card mb-4">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
