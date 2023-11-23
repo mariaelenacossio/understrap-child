@@ -37,7 +37,7 @@ get_header();
 <div class="container-blog mt-4">
   <div class="row">
     <!-- First Column (Scrollable) -->
-    <div class="col-lg-12 first-column">
+    <div class="col-lg-8 first-column">
       <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="img-fluid mb-3">
