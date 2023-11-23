@@ -61,7 +61,7 @@ get_header();
       <div class="card card-blog-post">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
-                navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top">
+                navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top card-img-blog-post">
         <div class="card-body">
         <div class="article-details">
             <p class="card-text text-muted mb-0">Published on: <span class="font-weight-bold">Tuesday</span></p>
