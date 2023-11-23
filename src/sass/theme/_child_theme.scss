@@ -1754,7 +1754,10 @@ nav.blog-pagination {
 }
 
 @media (max-width: 900px){
-  .second-column {border-left: none;}
+  .second-column {
+    border-left: none;
+    padding-top: 1.5rem;
+  }
   img.card-img-top.card-img-blog-post {
     height: 200px;
   }
