@@ -25,7 +25,6 @@ get_header();
 <body>
 
 <div class="interface">
-<div class="interface">
 <!--Test for new layout-->
 <div class="container-blog mt-4">
   <div class="row">
