@@ -1731,3 +1731,8 @@ textarea.form-control {height: 200px;}
   border-top-left-radius: 0!important;
   border-top-right-radius: 0!important;
 }
+
+@media (max-width: 468px) {
+  .second-column{
+    max-height: fit-content;}
+  }
