@@ -1745,6 +1745,12 @@ img.card-img-top.card-img-blog-post {
   display: block;
 }
 
+nav.blog-pagination {
+  display: flex!important;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
 @media (max-width: 468px) and (max-width: 600px) {
   .first-column{
   overflow-y: visible; /* or overflow-y: initial; or remove it entirely */
