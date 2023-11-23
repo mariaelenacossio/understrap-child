@@ -290,9 +290,6 @@ $container = get_theme_mod( 'understrap_container_type' );
         
 
         <!--Test-->
-
-
-
 <!--Section: Contact v.4-->
 <section id="contact" class="contact-form mb-4">
     <div class="container overflow-hidden">
