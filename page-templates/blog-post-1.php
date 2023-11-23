@@ -89,36 +89,41 @@ get_header();
       <!-- Display cards side by side on screens smaller than 1024px -->
       <div class="d-md-flex flex-md-row flex-wrap">
       <!-- First Card -->
+      <!--Blog post 2-->
       <div class="card card-blog-post">
-        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+      <a href="https://mariaelena-cossioclark.com/blog-post-2-2/">
+        <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-2-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top card-img-blog-post">
+      </a>
         <div class="card-body">
         <div class="article-details">
-            <p class="card-text text-muted mb-0"><span class="font-weight-bold">Nov 06, 2023</span></p>
+            <p class="card-text text-muted mb-0"><span class="font-weight-bold">Nov 11, 2023</span></p>
             <p class="card-text text-muted mb-0"><span class="font-weight-bold">5 minutes read</span></p>
             <p class="card-text text-muted mb-0">-<span class="font-weight-bold">Mariaelena C</span></p>
           </div>          
-          <h5 class="card-title">Article Headline 2</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.</p>
+          <h5 class="card-title">Color Psychology in Web Design</h5>
+          <p class="card-text">Explore the vivid realm of color in web design, 
+                              where hues and shades craft user emotions. Dive in!</p>
         </div>
       </div>
 
       <!-- Second Card -->
+      <!--Blog post 3-->
       <div class="card card-blog-post">
-        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+      <a href="https://mariaelena-cossioclark.com/blog-post-3/">
+        <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-3-scaled.jpg" 
                 alt="responsive design, user experience, mobile-friendly ui, interaction design, 
                 navigation patterns, app prototyping, app prototyping, design trends" class="card-img-top card-img-blog-post">
+        </a>
         <div class="card-body">
         <div class="article-details">
-            <p class="card-text text-muted mb-0">Published on: <span class="font-weight-bold">Tuesday</span></p>
-            <p class="card-text text-muted mb-0">Time to Read: <span class="font-weight-bold">12 minutes</span></p>
-            <p class="card-text text-muted mb-0">Author: <span class="font-weight-bold">Jane Smith</span></p>
+            <p class="card-text text-muted mb-0"><span class="font-weight-bold">Nov 12th, 2023</span></p>
+            <p class="card-text text-muted mb-0"><span class="font-weight-bold">5 minute</span></p>
+            <p class="card-text text-muted mb-0">-<span class="font-weight-bold">Mariaelena C</span></p>
           </div>
-          <h5 class="card-title">Article Headline 3</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.</p>
+          <h5 class="card-title">Navigating the UX Seas</h5>
+          <p class="card-text">Embark on UX adventures! Navigate the high seas of design with smooth navigation as your compass.</p>
         </div>
       </div>
     </div>
@@ -129,13 +134,10 @@ get_header();
 
   
       <nav class="blog-pagination" aria-label="Pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
-        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+        <a class="btn btn-outline-primary" href="https://mariaelena-cossioclark.com/blog-post-3/">Older</a>
+        <a class="btn btn-outline-secondary disabled" href="https://mariaelena-cossioclark.com/blog-post-2-2/" tabindex="-1" aria-disabled="true">Newer</a>
       </nav>
 
-
-
-</main>
 <?php
 get_footer();
 ?>
