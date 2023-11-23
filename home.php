@@ -287,6 +287,88 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div>
             </div>
         </section>
+        
+
+        <!--Test-->
+        <section class="blog-cards">
+        <div class="blog">
+      <div class="title">
+        <div class="section-title">
+          <div class="subheading">Articles</div>
+          <div class="content">
+            <div class="heading">Discover the Latest Resources</div>
+            <p class="text">Explore our collection of valuable resources for customers.</p>
+          </div>
+        </div>
+        <div class="style-secondary"><div class="text-wrapper">Button</div></div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <img class="placeholder-image" src="img/placeholder-image-2.png" />
+          <div class="div">
+            <div class="content-2">
+              <div class="text-wrapper-2">Category</div>
+              <p class="heading-2">10 Tips for Stunning Photography</p>
+              <p class="p">Learn how to capture breathtaking photos with these expert tips.</p>
+            </div>
+            <div class="avatar">
+              <img class="img" src="img/placeholder-image-5.png" />
+              <div class="content-3">
+                <div class="text-wrapper-2">John Doe</div>
+                <div class="time">
+                  <div class="text-2">11 Jan 2022</div>
+                  <div class="text-wrapper-3">•</div>
+                  <div class="text-2">5 min read</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-2">
+          <img class="placeholder-image" src="img/placeholder-image-3.png" />
+          <div class="div">
+            <div class="content-2">
+              <div class="text-wrapper-2">Category</div>
+              <div class="heading-2">The Art of Composition</div>
+              <p class="p">Master the art of composition to create visually stunning photographs.</p>
+            </div>
+            <div class="avatar">
+              <img class="img" src="img/placeholder-image-4.png" />
+              <div class="content-3">
+                <div class="text-wrapper-2">Jane Smith</div>
+                <div class="time">
+                  <div class="text-2">11 Jan 2022</div>
+                  <div class="text-wrapper-3">•</div>
+                  <div class="text-2">5 min read</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-3">
+          <img class="placeholder-image" src="img/image.png" />
+          <div class="div">
+            <div class="content-2">
+              <div class="text-wrapper-2">Category</div>
+              <div class="heading-2">Mastering Natural Lighting</div>
+              <p class="p">Learn how to use natural lighting to enhance your photography skills.</p>
+            </div>
+            <div class="avatar">
+              <img class="img" src="img/placeholder-image.png" />
+              <div class="content-3">
+                <div class="text-wrapper-2">John Doe</div>
+                <div class="time">
+                  <div class="text-2">11 Jan 2022</div>
+                  <div class="text-wrapper-3">•</div>
+                  <div class="text-2">5 min read</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
 
 
 
