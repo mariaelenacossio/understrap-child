@@ -756,7 +756,9 @@ and (max-width: 477px){
 }
 
 //Blog cards
-.blog-cards > .row-cols-lg-4>* {width: 33.33%;}
+.row.row-cols-1.row-cols-sm-2.row-cols-md-2.row-cols-lg-4.g-4.justify-content-center.align-items-stretch > .col {
+  width: 33.33%;
+}
 
 .card.custom-card.h-100 {
   max-height: 500px;
