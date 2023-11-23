@@ -48,39 +48,39 @@ get_header();
         <p class="text-muted mb-0"><span class="font-weight-bold">5 minute read</span></p>
         <p class="text-muted mb-0">-<span class="font-weight-bold">Mariaelena C</span></p>
       </div>      
-      <h1>Crafting an Enjoyable Mobile Experience</h1>
+      <h1 class="text-center">Crafting an Enjoyable Mobile Experience</h1>
       <p class="lead my-3">Unlocking the Delight of Mobile-First Design for Smoother User Journeys</p>
-      <p>Hey there, tech enthusiasts! 🚀 Welcome to our digital realm where we're 
+      <p class="p">Hey there, tech enthusiasts! 🚀 Welcome to our digital realm where we're 
           diving headfirst into the vibrant world of Mobile-First Design. Today, let's embark
           on a journey of discovery as we unravel the secrets behind optimizing user experiences 
           for our beloved smartphone users.</p>
           <p class="lead my-3">Why Mobile-First?</p>
           <p class="text-gradient d-inline">Because It's All About You!</p>
-             <p>In a world where our smartphones are practically an extension of ourselves, 
+             <p class="p">In a world where our smartphones are practically an extension of ourselves, 
                 it's time to ensure that the digital landscape caters to your needs seamlessly. 
                 Mobile-First Design isn't just a trend; it's a revolution that puts you at the 
                 heart of the digital experience. We're talking about a design philosophy that 
                 prioritizes the small screen but packs a punch when it comes to delivering user 
                 satisfaction.</p>
       <span class="text-gradient d-inline">Say Goodbye to Pinch and Zoom, Hello to Smooth Sailing!</span></h3>
-              <p>Remember those frustrating days of constantly pinching and zooming just to read a webpage on your phone?
+              <p class="p">Remember those frustrating days of constantly pinching and zooming just to read a webpage on your phone?
                 Well, say goodbye to that headache! Mobile-First Design is all about breaking free from the constraints 
                 of traditional design, offering you an effortlessly fluid and enjoyable navigation experience.
                 </p>
       <span class="text-gradient d-inline">Fun, Friendly, and Fast – The Triple 'F' Mantra</span></h3>
-                <p>Picture this: You open a website on your smartphone, and it feels like you're on a joy ride. 
+                <p class="p">Picture this: You open a website on your smartphone, and it feels like you're on a joy ride. 
                 That's the magic of our Mobile-First approach – it's not just functional; it's downright fun! 
                 Friendly interfaces, intuitive gestures, and lightning-fast loading times are the cornerstones 
                 of a design that puts a smile on your face.
                 </p>
                 <h4 class="display-6 text-center pt-5">It's All About You – The Smartphone Superhero!</h4>
-                <p>Your smartphone is not just a device; it's a superhero in your pocket, ready to rescue you from boredom, 
+                <p class="p">Your smartphone is not just a device; it's a superhero in your pocket, ready to rescue you from boredom, 
                 connect you with loved ones, and entertain you on the go. Mobile-First Design pays homage to this superhero
                 by ensuring that every digital interaction is a delightful experience, whether you're checking out the 
                 latest news, shopping for goodies, or simply exploring the vastness of the internet.
                 </p>
                 <h5 class="display-6 text-center pt-5">The Journey Begins – Let's Dive In!</h5>
-                <p>Ready to explore the wonders of Mobile-First Design together? Buckle up, 
+                <p class="p">Ready to explore the wonders of Mobile-First Design together? Buckle up, 
                 fellow smartphone enthusiasts, as we take a joyous ride into a realm where user experience reigns supreme, 
                 and your satisfaction is our top priority. It's time to embrace the future, where mobile is not just first 
                 but fabulous!.
