@@ -226,7 +226,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
 				<div class="col">
                     <div class="card custom-card h-100">
-					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/javier-garcia-chavez-bdZ3bzRde5g-unsplash-scaled.jpg" class="card h-100-img-top" alt="...">
+					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" class="card h-100-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Embrace the Future: Crafting an Enjoyable Mobile Experience</h5>
                             <p class="card-text">Let's embark on a journey of discovery as we unravel the secrets 
