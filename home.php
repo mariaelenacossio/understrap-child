@@ -223,7 +223,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 
 				<section class="blog-cards">
-				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 row-cols-lg-12 g-4">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
 				<div class="col">
                     <div class="card custom-card h-100">
 					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" class="card h-100-img-top" alt="...">
