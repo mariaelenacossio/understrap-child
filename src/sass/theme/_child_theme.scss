@@ -864,7 +864,10 @@ and (max-width: 1294px){
   .container-wrapper {max-width: none;}
 } 
 //Social Links//
-.fa{font-size: 4rem;}
+.fa{
+  font-size: 3.55rem;
+}
+
 .social-links {
   justify-content: flex-end;
   padding-right: 1rem;
@@ -877,6 +880,10 @@ and (max-width: 1294px){
 
 
   //Glassy icons
+  background-color: rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+  border: 1px solid gray;
+  border-radius: 8px;
   
 
 
