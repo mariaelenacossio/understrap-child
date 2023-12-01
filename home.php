@@ -84,7 +84,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <i class="fa fa-linkedin-square"></i>
             </a>
 			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
-                <i class="fa fa-github-square glassy-icon"></i>
+                <i class="fa fa-github-square"></i>
             </a>
           </div>
         </div>
