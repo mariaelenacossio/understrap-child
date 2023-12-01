@@ -876,6 +876,38 @@ and (max-width: 1294px){
   }
 
 
+  //Glassy icons
+  .glassy-icon {
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Set the desired height */
+    position: relative;
+    border-radius: 45px;
+    background: rgba(255, 255, 255, 0.01); /* Opacity set to 1% */
+  
+    /* First inner shadow */
+    box-shadow: inset 10px 10px 15px 0 rgba(255, 255, 255, 0.1);
+  
+    /* Second inner shadow (primary color) */
+    box-shadow: inset 0 -10px 25px 0 #0C86DF, inset 10px 10px 15px 0 rgba(255, 255, 255, 0.1);
+  
+    /* Gradient vector */
+    background: linear-gradient(45deg, #0C86DF, #FFFFFF);
+  
+    /* Layer blur */
+    filter: blur(75px);
+  
+    /* Frame and clip content */
+    clip-path: inset(0);
+  }
+  
+  /* Add hover effect if needed */
+  .glassy-icon:hover {
+    filter: blur(0); /* Remove blur on hover if needed */
+    transform: scale(1.05); /* Add a slight scale effect on hover if needed */
+  }
+  
+
+
 
 //Footer
 
