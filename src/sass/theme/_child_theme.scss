@@ -45,20 +45,6 @@ box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15
   /* Use #e5efff in the box-shadow property */
   box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
 }
-.btn-primary::after{
-  content:"";
-  height:100%;
-  width:100%;
-  padding:4px;
-  position: absolute;
-  bottom:-15px;
-  left:-4px;
-  z-index:-1;
-  background-color:#2B1800;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
 
 .btn-outline-secondary{
   background-color: $background-color;
