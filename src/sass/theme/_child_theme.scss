@@ -12,7 +12,7 @@ background-size: cover;
   --bs-body-font-family: 'Poppins', sans-serif;
   --bs-font-sans-serif: 'Poppins', sans-serif;
 }
-
+.bg-light {--bs-bg-opacity: 10%!important;}
 
 
 
@@ -22,8 +22,6 @@ $secondary-color: #1b2fff;
 $variant-color: #000cff;
 $accent-color: #e3daff;
 $background-color: #e5efff;
-
-// $font-family-sans-serif: “DM Sans”;
 
 //Text
 .text-primary {
