@@ -133,6 +133,36 @@ svg.home.i-color:hover {fill: $primary-color!important;}
 
 .nav-link {padding: 0;}
 
+//Glassy Effect for Nav
+/* Style the navbar container */
+.side-bar {
+  background: rgba(255, 255, 255, 0.2); /* Adjust the transparency as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur effect as needed */
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Style the navbar items */
+.side-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Change text color on hover */
+.side-bar a:hover {
+  color: #f0f0f0;
+}
+
+
+
+
 // .dropdown-toggle { outline: 0; }
 
 
