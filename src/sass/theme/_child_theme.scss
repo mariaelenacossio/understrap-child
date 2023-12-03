@@ -47,6 +47,20 @@ box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15
   /* Use #e5efff in the box-shadow property */
   box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
 }
+.button-.btn-primary{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
 
 .btn-outline-secondary{
   background-color: transparent;
@@ -95,15 +109,16 @@ and (max-width:447px){
 
 //Sidebar
 .side-bar{
-position: fixed;
-top: auto;
-overflow-y: scroll;
-border-right: 1px solid #fffafb;
-// height: 90vh;
-border-radius: 40px;
-margin-top: 6rem;
-margin-left: 1rem;
-background-color: $background-color;
+  position: fixed;
+  top: auto;
+  overflow-y: scroll;
+  border: 1px solid transparent;
+  backdrop-filter: blur(16px);
+  border-radius: 40px;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  background-color: transparent;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 16px 32px rgba(0, 0, 0, 0.3);
 }
 //Sidebar icons
 // .i-color {
@@ -136,6 +151,11 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   color: $primary-color;
   background-color: $background-color;
   border-bottom: 3px solid $primary-color!important;
+}
+//Bg color of nav-items
+li.nav-item.icon-fill > a {
+  background-color: #e5efff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 16px 32px rgba(0, 0, 0, 0.3);
 }
 .nav-flush .nav-link {
   border-radius: 3rem;
