@@ -276,13 +276,12 @@ and (max-width: 477px){
 
 .img-fluid-hero{ 
   max-width: fit-content;
-  height: auto;
+  height: 80vh;
   border-radius: 0.375rem
 }
+//To remove margin from hero section
+.col-10.col-sm-8.col-lg-6 {margin-top: 0;}
 .hero {height: 100vh;}
-// .py-5 { // Add padding to center the content
-// padding: 1rem 0 1rem 0!important;
-// }
 @media only screen //Small screens
 and (max-width: 477px){
   .hero {height: auto;}
