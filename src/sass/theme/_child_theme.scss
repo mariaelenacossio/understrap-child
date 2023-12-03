@@ -70,9 +70,9 @@ box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15
 box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
 }
 .btn-outline-secondary:hover{
-  background-color: $secondary-color;
-  border-color: $secondary-color;
-  color: $background-color;
+  background-color: $background-color;
+  border-color: $background-color;
+  color: $secondary-color;
 }
 a {text-decoration: none;}
 
@@ -128,12 +128,6 @@ and (max-width:447px){
 //   height: 1.5rem;
 // }
 .nav-item svg {fill: #010125;}
-
-//Nav icons shadow
-a.nav-link.py-3.border-bottom {
-  box-shadow: 0 4px 4px 0 rgba(116, 79, 168, 0.75);
-}
-
 .side-bar svg { height: 1.5rem;} //Icon size
 .side-bar li {
   padding-bottom: 1.5rem;
