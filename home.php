@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="container hero col-xxl-8 px-4 py-5">
 		<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 			<div class="col-10 col-sm-8 col-lg-6">
-			<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
+			<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-2.jpg" 
 			alt="profile-img, web design, website mockups, ux/ui design, portfolio design, digital design, 
       responsive design, creative web design, user interface design" class="d-block mx-lg-auto img-fluid-hero img-shadow" 
       width="850" height="450" loading="eager">
