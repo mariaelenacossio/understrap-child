@@ -45,7 +45,7 @@ box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15
   /* Use #e5efff in the box-shadow property */
   box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
 }
-.button-.btn-primary{
+.btn-primary:after{
   content:"";
   height:100%;
   width:100%;
