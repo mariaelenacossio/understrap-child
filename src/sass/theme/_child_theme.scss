@@ -20,7 +20,7 @@ background-size: cover;
 $primary-color: #010125;
 $secondary-color: #615ab7;
 $accent-color: #e3daff;
-$background-color: #fffafb;
+$background-color: #e5efff;
 
 // $font-family-sans-serif: “DM Sans”;
 
@@ -95,6 +95,7 @@ border-right: 1px solid #fffafb;
 border-radius: 40px;
 margin-top: 6rem;
 margin-left: 1rem;
+background-color: $background-color;
 }
 //Sidebar icons
 // .i-color {
