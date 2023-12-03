@@ -327,8 +327,9 @@ and (max-width: 477px){
   }
   .row.flex-lg-row-reverse.align-items-center.g-5.py-5 {padding-bottom: 1rem!important;}
   .col-10.col-sm-8.col-lg-6 {
-    width: unset;
-    margin-top: 0.5rem;
+    // width: unset;
+    // margin-top: 0.5rem;
+    display: none;
   }  
 }
 
