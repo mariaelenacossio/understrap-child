@@ -29,6 +29,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 			alt="profile-img, web design, website mockups, ux/ui design, portfolio design, digital design, 
       responsive design, creative web design, user interface design" class="d-block mx-lg-auto img-fluid-hero" 
       width="850" height="450" loading="eager">
+      <div class="col-10 col-sm-8 col-lg-6 hero-img-2">
+      <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
+			alt="profile-img, web design, website mockups, ux/ui design, portfolio design, digital design, 
+      responsive design, creative web design, user interface design" class="d-block mx-lg-auto img-fluid-hero" 
+      width="850" height="450" loading="eager">
+      </div>
 			</div>
 			<div class="col-lg-6">
 			<p class="lead">Hi there, this is Mariaelena</p>
