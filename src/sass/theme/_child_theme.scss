@@ -131,7 +131,7 @@ and (max-width:447px){
   transform: perspective(7px) scale3d(1.100, 1.100, 1) translateZ(0) rotate(360deg)!important;
   transition: transform 0.5s ease; /* Optional: Add a smooth transition effect */
 }
-.nav-item svg:hover{fill: $primary-color;}
+.nav-item svg:hover{fill: $background-color;}
 
 ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   align-content: center;
@@ -155,7 +155,7 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 .py-3 { padding-top: 0.7rem!important;}
 
 //Target home svg color
-svg.home.i-color {fill: $secondary-color;}
+svg.home.i-color {fill: $background-color;}
 svg.home.i-color:hover {fill: $background-color!important;}
 
 .nav-link {padding: 0;}
