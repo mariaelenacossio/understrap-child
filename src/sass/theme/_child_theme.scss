@@ -236,21 +236,25 @@ and (max-width: 477px){
 .col-10.col-sm-8.col-lg-6 {margin-top: 0;}
 .hero {height: 100vh;}
 //Animation 
-.container.hero {transition: opacity 0.8s ease, transform 0.8s ease;}
-
-.container.hero-hide {
+.container.hero {
   opacity: 0;
   transform: translateX(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.img-fluid-hero {transition: transform 0.8s ease;}
+.img-fluid-hero {
+  transform: translateX(100%); /* Initially position the image outside the container */
+  transition: transform 0.8s ease;
+}
 
 .container.hero.show {
   opacity: 1;
   transform: translateX(0);
 }
 
+/* Move the image back into the container */
 .container.hero.show .img-fluid-hero {transform: translateX(0);}
+
 
 
 
