@@ -236,24 +236,22 @@ and (max-width: 477px){
 .col-10.col-sm-8.col-lg-6 {margin-top: 0;}
 .hero {height: 100vh;}
 //Animation 
-.container.hero {
+.container.hero {transition: opacity 0.8s ease, transform 0.8s ease;}
+
+.container.hero-hide {
   opacity: 0;
   transform: translateX(50px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
+.img-fluid-hero {transition: transform 0.8s ease;}
 
 .container.hero.show {
   opacity: 1;
   transform: translateX(0);
 }
 
-.img-fluid-hero {
-  transition: transform 0.8s ease;
-}
+.container.hero.show .img-fluid-hero {transform: translateX(0);}
 
-.container.hero.show .img-fluid-hero {
-  transform: translateX(0);
-}
 
 
 @media only screen //Small screens
