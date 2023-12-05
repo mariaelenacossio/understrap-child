@@ -31,3 +31,21 @@ jQuery(document).ready(function($) {
     }, 900); // Adjust the delay according to your needs
 });
 
+//Parallax effect for hero section
+jQuery(document).ready(function($) {
+    var parallaxContainer = $(".parallax-container");
+
+    $(window).scroll(function() {
+        var scrollPos = $(this).scrollTop();
+        var translateY = -scrollPos * 0.3;
+
+        parallaxContainer.find('.parallax-image').css("transform", "translateY(" + translateY + "px)");
+    });
+
+    // Wait for the image to load
+    $(".parallax-image").on('load', function() {
+        // Add the 'show' class to the container
+        parallaxContainer.addClass('show');
+    });
+});
+
