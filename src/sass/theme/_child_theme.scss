@@ -136,7 +136,12 @@ and (max-width:447px){
   transform: perspective(7px) scale3d(1.100, 1.100, 1) translateZ(0) rotate(360deg)!important;
   transition: transform 0.5s ease; /* Optional: Add a smooth transition effect */
 }
-// .nav-item svg:hover{fill: $background-color!important;}
+.nav-item.home{
+  border-radius: 50px;
+  border: 1px solid $primary-color;
+  background-color: $primary-color;
+  height: 50px;
+}
 
 ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   align-content: center;
@@ -147,11 +152,7 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 
 //Side navbar pills
 .nav-pills .nav-link.active { background-color: $primary-color;}
-.nav-pills .nav-link.nav-link.active:hover{
-  color: $primary-color;
-  background-color: $background-color;
-  border-bottom: 3px solid $primary-color!important;
-}
+
 .nav-flush .nav-link {
   border-radius: 50px;
   width: 50px;
@@ -160,17 +161,16 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 .py-3 { padding-top: 0.7rem!important;}
 
 //Target home svg color
-svg.home.i-color {fill: $background-color;}
-svg.home.i-color:hover {fill: $background-color!important;}
+.nav-item.home svg {fill: $background-color;}
 
 .nav-link {padding: 0;}
 
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
 
-.icon-fill {background-color: $background-color;}
+// .icon-fill {background-color: $background-color;}
 
-.border-bottom:hover {border-bottom: 3px solid $secondary-color!important;}
+// .border-bottom:hover {border-bottom: 3px solid $secondary-color!important;}
 
 
 //Bottom bar
