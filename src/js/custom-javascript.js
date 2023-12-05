@@ -33,24 +33,25 @@ jQuery(document).ready(function($) {
 
 //Parallax effect for hero section and typing script for the roles
 jQuery(document).ready(function($) {
-        var roleText = $(".role");
-        var roles = ["Front-end Developer", "Content Creator", "UX/UI Designer"];
-        var currentRoleIndex = 0;
-    
-        function typeRole(role, index, callback) {
-            var typedRole = "";
-            var roleInterval = setInterval(function() {
-                typedRole += role[index];
-                roleText.text("Web Designer " + typedRole);
-                index++;
-                if (index >= role.length) {
-                    clearInterval(roleInterval);
-                    callback();
-                }
-            }, 100); // You can adjust the typing speed (milliseconds per character)
-        }
-    
-        function changeRole() {
+    var roleText = $(".role");
+    var roles = ["Front-end Developer", "Content Creator", "UX/UI Designer"];
+    var currentRoleIndex = 0;
+
+    function typeRole(role, index, callback) {
+        var typedRole = "";
+        var roleInterval = setInterval(function() {
+            typedRole += role[index];
+            roleText.text("Web Designer " + typedRole);
+            index++;
+            if (index >= role.length) {
+                clearInterval(roleInterval);
+                callback();
+            }
+        }, 100); // You can adjust the typing speed (milliseconds per character)
+    }
+
+    function changeRole() {
+        typeRole("", 0, function() {
             roleText.fadeOut(400, function() {
                 typeRole(roles[currentRoleIndex], 0, function() {
                     roleText.fadeIn(400, function() {
@@ -59,17 +60,19 @@ jQuery(document).ready(function($) {
                     });
                 });
             });
-        }
-    
-        // Set an interval to change the role every 3000 milliseconds (3 seconds)
-        setInterval(changeRole, 3000);
-    
-        // Wait for the image to load
-        $(".parallax-image").on('load', function() {
-            // Add the 'show' class to the container
-            $(".parallax-container").addClass('show');
         });
+    }
+
+    // Set an interval to change the role every 3000 milliseconds (3 seconds)
+    setInterval(changeRole, 3000);
+
+    // Wait for the image to load
+    $(".parallax-image").on('load', function() {
+        // Add the 'show' class to the container
+        $(".parallax-container").addClass('show');
     });
+});
+
     
     
 
