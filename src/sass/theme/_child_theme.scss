@@ -5,12 +5,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
-//To remove scrollbar in mobile
-@media (max-width: 767px) {
-  body {
-      overflow: hidden;
-  }
-}
+
 //Fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 //Font Face 'Poppins'
