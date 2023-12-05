@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!-- ======= Hero Section ======= -->
     <div class="parallax-container">
     <div class="parallax-layer">
-        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-3.png" 
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-5.png" 
             alt="Web Design" class="parallax-image">
         <div class="parallax-overlay">
             <div class="container">
