@@ -46,7 +46,6 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
         </div>
     </div>
-</div>
 
 
 		<!--End of Hero Section-->
