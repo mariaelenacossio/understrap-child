@@ -28,6 +28,6 @@ jQuery(document).ready(function($) {
     // Remove the 'hero-hide' class after a delay to trigger the animation
     setTimeout(function() {
         container.removeClass('hero-hide');
-    }, 500); // Adjust the delay according to your needs
+    }, 900); // Adjust the delay according to your needs
 });
 
