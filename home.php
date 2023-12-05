@@ -22,28 +22,31 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="interface">
 		<!-- ======= Hero Section ======= -->
-		<div class="container hero show col-xxl-8 px-4 py-5">
-		<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-			<div class="col-10 col-sm-8 col-lg-6">
-			<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-3.png" 
-			alt="profile-img, web design, website mockups, ux/ui design, portfolio design, digital design, 
-      responsive design, creative web design, user interface design" class="d-block mx-lg-auto img-fluid-hero" 
-      width="850" height="450" loading="eager">
-			</div>
-			<div class="col-lg-6">
-			<p class="lead">Hi there, this is Mariaelena</p>
-			<h1 class="display-5 fw-bold lh-1 mb-3">I am a Web Designer</h1>
-			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-      <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" download="mcc-resume.pdf">
-      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-      </a>
-      <a href="#portfolio">
-      <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
-      </a>
-			</div>
-			</div>
-		</div>
-		</div>
+		<div class="parallax-container">
+    <div class="parallax-layer">
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-3.png" 
+            alt="Web Design" class="parallax-image">
+    </div>
+    <div class="parallax-content">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="lead">Hi there, this is Mariaelena</p>
+                    <h1 class="display-5 fw-bold lh-1 mb-3">I am a Web Designer</h1>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" download="mcc-resume.pdf">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                        </a>
+                        <a href="#portfolio">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 		<!--End of Hero Section-->
 
 <!-- About Me -->
