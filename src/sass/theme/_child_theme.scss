@@ -270,10 +270,11 @@ and (max-width: 477px){
 }
 
 .role-container {
-  z-index: 2;
-  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .role-container p {
   font-size: 3rem;
   padding: 0.5rem;
@@ -282,12 +283,10 @@ and (max-width: 477px){
   text-align: center;
   overflow: hidden;
 }
-
-.role-container p span.role {
+.role-container p span.typed-text {
   font-weight: normal;
   color: #dd7732;
 }
-
 .role-container p span.cursor {
   display: inline-block;
   background-color: #ccc;
@@ -295,11 +294,9 @@ and (max-width: 477px){
   width: 3px;
   animation: blink 1s infinite;
 }
-
 .role-container p span.cursor.typing {
   animation: none;
 }
-
 @keyframes blink {
   0%  { background-color: #ccc; }
   49% { background-color: #ccc; }
