@@ -21,5 +21,13 @@ jQuery(document).ready(function($) {
         // Add the 'show' class to the container
         container.addClass('show');
     });
+
+    // Add the 'hero-hide' class initially to set up the animation
+    container.addClass('hero-hide');
+
+    // Remove the 'hero-hide' class after a delay to trigger the animation
+    setTimeout(function() {
+        container.removeClass('hero-hide');
+    }, 500); // Adjust the delay according to your needs
 });
 
