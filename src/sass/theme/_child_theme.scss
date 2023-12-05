@@ -235,6 +235,27 @@ and (max-width: 477px){
 //To remove margin from hero section
 .col-10.col-sm-8.col-lg-6 {margin-top: 0;}
 .hero {height: 100vh;}
+//Animation 
+.container.hero {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.container.hero.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.img-fluid-hero {
+  transition: transform 0.8s ease;
+}
+
+.container.hero.show .img-fluid-hero {
+  transform: translateX(0);
+}
+
+
 @media only screen //Small screens
 and (max-width: 477px){
   .hero {height: auto;}
