@@ -31,8 +31,7 @@ jQuery(document).ready(function($) {
     }, 900); // Adjust the delay according to your needs
 });
 
-//Parallax effect for hero section and typing script for the roles
-// jQuery(document).ready(function($) {
+//Typing script for the roles
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
     
@@ -75,5 +74,11 @@ jQuery(document).ready(function($) {
       if(textArray.length) setTimeout(type, newTextDelay + 250);
     });    
     
-    
+//Parallax effect for the hero img
+jQuery(document).ready(function($) {
+    $(window).scroll(function () {
+        var scrollPosition = $(this).scrollTop();
+        $('.parallax-image').css('transform', 'translate3d(0, ' + scrollPosition / 2 + 'px, 0)');
+    });
+});
 
