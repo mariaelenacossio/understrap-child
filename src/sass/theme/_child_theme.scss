@@ -238,7 +238,7 @@ and (max-width: 477px){
 //Animation 
 .container.hero {
   opacity: 0;
-  transform: translateX(50px);
+  transform: translateX(0);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
@@ -252,8 +252,10 @@ and (max-width: 477px){
   transform: translateX(0);
 }
 
-/* Move the image back into the container */
-.container.hero.show .img-fluid-hero {transform: translateX(0);}
+.container.hero.show .img-fluid-hero {
+  transform: translateX(0); /* Move the image back into the container */
+}
+
 
 
 
