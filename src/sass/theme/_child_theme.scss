@@ -239,7 +239,10 @@ and (max-width: 477px){
 //To remove margin from hero section
 .col-10.col-sm-8.col-lg-6 {margin-top: 0;}
 .hero {height: 100vh;}
-
+p.lead{
+  text-align: center;
+  color: $background-color;
+}
 //Parallax effect test
 .parallax-container {
   position: relative;
@@ -318,10 +321,7 @@ and (max-width: 477px){
   .parallax-image {padding-left: 0;}
   .parallax-overlay {padding-left: 0;}
   .role-container p {font-size: 1.5rem;}
-  p.lead{
-    text-align: center;
-    color: $background-color;
-  }
+  .parallax-overlay .h-100 {height: 50%!important;}
 }
 
 
