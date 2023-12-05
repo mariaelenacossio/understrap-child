@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
                 clearInterval(roleInterval);
                 callback();
             }
-        }, 100); // You can adjust the typing speed (milliseconds per character)
+        }, 400); // You can adjust the typing speed (milliseconds per character)
     }
 
     function changeRole() {
