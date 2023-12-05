@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="interface">
 		<!-- ======= Hero Section ======= -->
-		<div class="container hero col-xxl-8 px-4 py-5">
+		<div class="container hero show col-xxl-8 px-4 py-5">
 		<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 			<div class="col-10 col-sm-8 col-lg-6">
 			<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-3.png" 
