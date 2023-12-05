@@ -85,7 +85,7 @@ jQuery(document).ready(function($) {
 //To hide the text when scrolling up
 jQuery(document).ready(function($) {
     var lastScrollTop = 0;
-    var mobileThreshold = 468; // Adjust this value based on your needs
+    var mobileThreshold = 900; // Adjust this value based on your needs
 
     $(window).scroll(function () {
         if ($(window).width() > mobileThreshold) {
