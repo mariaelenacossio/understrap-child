@@ -125,6 +125,12 @@ and (max-width:447px){
   box-shadow: 0 8px 16px rgba(0,0,0,.2), 0 16px 32px rgba(0,0,0,.3);
 } //Style for each item
 .nav-item svg {fill: $primary-color;}
+.nav-item:hover{
+  background-color: $secondary-color;
+  border: $secondary-color;
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+.nav-item svg:hover{fill: $background-color;}
 
 ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   align-content: center;
@@ -146,9 +152,10 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   height: 50px;
 } //This is for the circle shape of the icon pills
 .py-3 { padding-top: 0.7rem!important;}
+
 //Target home svg color
-svg.home.i-color {fill: $background-color;}
-svg.home.i-color:hover {fill: $primary-color!important;}
+svg.home.i-color {fill: $secondary-color;}
+svg.home.i-color:hover {fill: $background-color!important;}
 
 .nav-link {padding: 0;}
 
