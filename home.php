@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="parallax-overlay">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
-                    <div class="col-lg-12 mx-auto text-center">
+                    <div class="col-sm-2 col-lg-12 mx-auto text-center">
                         <p class="lead">Hi there, this is Mariaelena</p>
                         <div class="role-container">
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>

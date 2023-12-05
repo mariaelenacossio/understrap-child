@@ -310,8 +310,10 @@ and (max-width: 477px){
 
 @media screen and (max-width: 477px){
   .role-container {width: 350px;}
+  .parallax-overlay > .container {width: 300px;}
   .parallax-image {padding-left: 0;}
   .parallax-overlay {padding-left: 0;}
+  .role-container p {font-size: 1.5rem;}
 }
 
 
