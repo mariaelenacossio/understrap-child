@@ -255,6 +255,7 @@ and (max-width: 477px){
   height: auto;
   transform-origin: center center;
   transition: transform 0.4s ease-out;
+  padding-left: 5rem;
 }
 
 .parallax-overlay {
@@ -267,6 +268,7 @@ and (max-width: 477px){
   align-items: center;
   justify-content: center;
   z-index: 1;
+  padding-left: 5rem;
 }
 
 .role-container {
