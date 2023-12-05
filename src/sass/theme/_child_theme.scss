@@ -112,9 +112,13 @@ and (max-width:447px){
 //   height: 1.5rem;
 // }
 .nav-item a svg {fill: #010125;}
-.nav-item:hover svg, .nav-item.active {
+.nav-item:hover svg {
   fill: $background-color;
   transition: fill 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+.nav-item.active svg {
+  /* Style for the SVG in the active state */
+  fill: $background-color /* Your desired color for the active state */;
 }
 
 .side-bar svg { height: 1.5rem;} //Icon size
