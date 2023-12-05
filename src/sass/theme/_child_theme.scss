@@ -114,13 +114,23 @@ and (max-width:447px){
 .nav-item svg {fill: #010125;}
 .side-bar svg { height: 1.5rem;} //Icon size
 .side-bar li {
-  padding-bottom: 1.5rem;
-  padding-top: 0.5rem;
-} //Padding between icons
+  border-radius: 50px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.2), 0 16px 32px rgba(0,0,0,.3);
+}
+.nav-item {
+  border-radius: 50px;
+  border: 1px solid #e5efff;
+  background-color: #e5efff;
+  height: 50px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.2), 0 16px 32px rgba(0,0,0,.3);
+} //Style for each item
+.nav-item svg {fill: $primary-color;}
 
 ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
-  padding-top: 2rem;
   align-content: center;
+  display: flex;
+  height: 60vh;
+  justify-content: space-evenly;
 } //Add padding for first icon
 
 //Side navbar pills
@@ -130,13 +140,8 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   background-color: $background-color;
   border-bottom: 3px solid $primary-color!important;
 }
-//Bg color of nav-items
-li.nav-item.icon-fill > a {
-  background-color: #e5efff;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 16px 32px rgba(0, 0, 0, 0.3);
-}
 .nav-flush .nav-link {
-  border-radius: 3rem;
+  border-radius: 50px;
   width: 50px;
   height: 50px;
 } //This is for the circle shape of the icon pills
@@ -147,87 +152,16 @@ svg.home.i-color:hover {fill: $primary-color!important;}
 
 .nav-link {padding: 0;}
 
-// .dropdown-toggle { outline: 0; }
-
-
-// .btn-toggle {
-//   display: inline-flex;
-//   align-items: center;
-//   padding: .25rem .5rem;
-//   font-weight: 600;
-//   color: rgba(0, 0, 0, .65);
-//   background-color: transparent;
-//   border: 0;
-// }
-// .btn-toggle:hover,
-// .btn-toggle:focus {
-//   color: rgba(0, 0, 0, .85);
-//   background-color: #d2f4ea;
-// }
-
-// .btn-toggle::before {
-//   width: 1.25em;
-//   line-height: 0;
-//   content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
-//   transition: transform .35s ease;
-//   transform-origin: .5em 50%;
-// }
-
-// .btn-toggle[aria-expanded="true"] {
-//   color: rgba(0, 0, 0, .85);
-// }
-// .btn-toggle[aria-expanded="true"]::before {
-//   transform: rotate(90deg);
-// }
-
-// .btn-toggle-nav a {
-//   display: inline-flex;
-//   padding: .1875rem .5rem;
-//   margin-top: .125rem;
-//   margin-left: 1.25rem;
-//   text-decoration: none;
-// }
-// .btn-toggle-nav a:hover,
-// .btn-toggle-nav a:focus {
-//   background-color: #d2f4ea;
-// }
-
-// .scrollarea {
-//   overflow-y: auto;
-// }
-
 .fw-semibold { font-weight: 600; }
 .lh-tight { line-height: 1.25; }
 
-//Test icons hover state
-.nav-item.icon-fill a {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px;
-  border-bottom: 2px solid transparent;
-  transition: transform 0.3s background-color 0.3s, color 0.3s, border-color 0.3s;
-}
+.icon-fill {background-color: $background-color;}
 .nav-item.icon-fill a:hover {
   background-color: $background-color;
   border-bottom: 3px solid $secondary-color;  
 }
 .nav-item svg:hover {fill: $secondary-color!important;}
 .border-bottom:hover {border-bottom: 3px solid $secondary-color!important;}
-
-
-// .nav-item.icon-fill a:hover,
-// .nav-item.icon-fill svg:hover {
-//   background-color: $secondary-color; /* Change this to your desired hover background color */
-//   color: #fff; /* Change this to your desired hover text color */
-//   border-color: $secondary-color; /* Change this to your desired hover border color */
-//   fill: $background-color;
-//   transform: scale(1.05);
-// }
-// .nav-item.icon-fill svg:hover {
-//   fill: $background-color;
-//   transition: 0.3s ;
-// }
 
 
 //Bottom bar
