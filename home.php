@@ -25,12 +25,13 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-5.png" 
             alt="Web Design" class="parallax-image">
         <div class="parallax-overlay">
-        <div class="row align-items-center h-100 pt-5">
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
                     <div class="col-lg-12 mx-auto text-center">
                         <p class="lead">Hi there, this is Mariaelena</p>
                         <div class="role-container">
-                        <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                      </div><!--.role-container-->
+                            <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                        </div><!--.role-container-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" download="mcc-resume.pdf">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
@@ -41,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div>
                     </div>
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
     </div>
 </div>
