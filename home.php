@@ -20,15 +20,12 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<div class="interface">
-		<!-- ======= Hero Section ======= -->
-
 <div class="parallax-container">
     <div class="parallax-layer">
-    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-5.png" 
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-5.png" 
             alt="Web Design" class="parallax-image">
         <div class="parallax-overlay">
-            <div class="role-container">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mx-auto text-center">
                         <p class="lead">Hi there, this is Mariaelena</p>
