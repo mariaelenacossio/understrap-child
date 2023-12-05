@@ -131,7 +131,7 @@ and (max-width:447px){
   transform: perspective(7px) scale3d(1.100, 1.100, 1) translateZ(0) rotate(360deg)!important;
   transition: transform 0.5s ease; /* Optional: Add a smooth transition effect */
 }
-.nav-item svg:hover{fill: $background-color;}
+.nav-item svg:hover{fill: $background-color!important;}
 
 ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   align-content: center;
@@ -164,11 +164,7 @@ svg.home.i-color:hover {fill: $background-color!important;}
 .lh-tight { line-height: 1.25; }
 
 .icon-fill {background-color: $background-color;}
-.nav-item.icon-fill a:hover {
-  background-color: $background-color;
-  border-bottom: 3px solid $secondary-color;  
-}
-.nav-item svg:hover {fill: $secondary-color!important;}
+
 .border-bottom:hover {border-bottom: 3px solid $secondary-color!important;}
 
 
