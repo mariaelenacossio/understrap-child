@@ -130,7 +130,7 @@ and (max-width:447px){
   box-shadow: 0 8px 16px rgba(0,0,0,.2), 0 16px 32px rgba(0,0,0,.3);
 } //Style for each item
 .nav-item svg {fill: $primary-color;}
-.nav-item:hover{
+.nav-item:hover, .nav-item.active{
   background-color: $secondary-color;
   border: $secondary-color;
   transform: perspective(7px) scale3d(1.100, 1.100, 1) translateZ(0) rotate(360deg)!important;
