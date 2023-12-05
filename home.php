@@ -25,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-5.png" 
             alt="Web Design" class="parallax-image">
         <div class="parallax-overlay">
-            <div class="container">
+            <div class="role-container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mx-auto text-center">
                         <p class="lead">Hi there, this is Mariaelena</p>
