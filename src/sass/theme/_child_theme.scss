@@ -309,11 +309,15 @@ and (max-width: 477px){
 
 
 @media screen and (max-width: 477px){
-  .role-container {width: 350px;}
+  .role-container {width: 268px;}
   .parallax-overlay > .container {width: 300px;}
   .parallax-image {padding-left: 0;}
   .parallax-overlay {padding-left: 0;}
   .role-container p {font-size: 1.5rem;}
+  p.lead{
+    text-align: center;
+    color: $background-color;
+  }
 }
 
 
@@ -335,10 +339,7 @@ and (max-width: 477px){
     justify-content: center;
   }
   // .img-shadow{box-shadow: none;}
-  p.lead{
-    text-align: center;
-    padding-top: 2rem;
-  }
+
   h1.display-5.fw-bold.lh-1.mb-3 {text-align: center;}
   // .py-5 {padding-top: 1rem!important;}
   .container.hero.col-xxl-8.px-4.py-5 {
