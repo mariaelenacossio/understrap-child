@@ -276,6 +276,10 @@ p.lead{
   padding-left: 5rem;
 }
 
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
 .role-container {
   display: flex;
   justify-content: center;
