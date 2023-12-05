@@ -266,7 +266,6 @@ and (max-width: 477px){
   display: flex;
   align-items: center;
   justify-content: center;
-  // background: rgba(0, 0, 0, 0.5); /* Add an overlay for better readability */
   z-index: 1;
 }
 
@@ -275,9 +274,7 @@ and (max-width: 477px){
   text-align: center;
 }
 
-.role-container h1, .container p, .container .btn {
-  color: #fff;
-}
+.role-container h1, .role-container p, .role-container .btn {color: #fff;}
 
 .role-container .btn-outline-secondary {
   color: #fff;
@@ -289,9 +286,8 @@ and (max-width: 477px){
   color: #1b2fff;
 }
 
-.parallax-container.show .parallax-image {
-  transform: translateY(-50%);
-}
+.parallax-container.show .parallax-image {transform: translateY(-50%);}
+
 
 @media screen and (max-width: 948px){
   .role-container {width: 350px};
