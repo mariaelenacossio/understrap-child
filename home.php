@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-lg-6 mx-auto text-center">
                         <p class="lead">Hi there, this is Mariaelena</p>
                         <div class="role-container">
-                        <p>Coding is <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                        <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                       </div><!--.role-container-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                             <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" download="mcc-resume.pdf">
