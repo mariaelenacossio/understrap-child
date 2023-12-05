@@ -270,7 +270,6 @@ and (max-width: 477px){
 }
 
 .role-container {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,10 +281,11 @@ and (max-width: 477px){
   letter-spacing: 0.1rem;
   text-align: center;
   overflow: hidden;
+  color: $background-color;
 }
 .role-container p span.typed-text {
   font-weight: normal;
-  color: #dd7732;
+  color: $secondary-color;
 }
 .role-container p span.cursor {
   display: inline-block;
@@ -306,7 +306,7 @@ and (max-width: 477px){
 }
 
 
-@media screen and (max-width: 948px){
+@media screen and (max-width: 477px){
   .role-container {width: 350px};
 }
 
