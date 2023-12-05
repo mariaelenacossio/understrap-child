@@ -111,7 +111,12 @@ and (max-width:447px){
 //   fill: $primary-color;
 //   height: 1.5rem;
 // }
-.nav-item svg {fill: #010125;}
+.nav-item a svg {fill: #010125;}
+.nav-item:hover svg {
+  fill: $background-color;
+  transition: fill 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
 .side-bar svg { height: 1.5rem;} //Icon size
 .side-bar li {
   border-radius: 50px;
@@ -131,7 +136,7 @@ and (max-width:447px){
   transform: perspective(7px) scale3d(1.100, 1.100, 1) translateZ(0) rotate(360deg)!important;
   transition: transform 0.5s ease; /* Optional: Add a smooth transition effect */
 }
-.nav-item svg:hover{fill: $background-color!important;}
+// .nav-item svg:hover{fill: $background-color!important;}
 
 ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   align-content: center;
