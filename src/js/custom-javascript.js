@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
     
-    const textArray = ["hard", "fun", "a journey", "LIFE"];
+    const textArray = ["Web Designer", "Web Developer", "Front end Developer", "UX/UI Designer"];
     const typingDelay = 200;
     const erasingDelay = 100;
     const newTextDelay = 2000; // Delay between current and next text
