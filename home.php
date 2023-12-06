@@ -91,12 +91,12 @@ $container = get_theme_mod( 'understrap_container_type' );
           <ul>
       <li class="social-icon">
         <a href="https://github.com/mariaelenacossio">
-          <i class="fa-brands fa-instagram icon" target="_blank" itemprop="SameAs" rel="noopener"></i>
+          <i class="fa-brands fa-github" target="_blank" itemprop="SameAs" rel="noopener"></i>
         </a>
       </li>
       <li class="social-icon">
         <a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b">
-          <i class="fa-brands fa-linkedin icon" target="_blank" itemprop="SameAs" rel="noopener"></i>
+          <i class="fa-brands fa-linkedin-in" target="_blank" itemprop="SameAs" rel="noopener"></i>
         </a>
       </li>
     </ul>
