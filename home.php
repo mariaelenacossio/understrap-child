@@ -85,18 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <span class="d-block display-6 lh-1">2+</span>
             <span class="fs-4 text-secondary">years of experience</span>
           </p>
-          <div class="icon-test">
-          <ul>
-      <li class="social-icon">
-        <a href="#"><i class="fa-brands fa-instagram icon"></i>
-        </a>
-      </li>
-      <li class="social-icon">
-        <a href="#"><i class="fa-brands fa-linkedin icon"></i>
-        </a>
-      </li>
-    </ul>
-</div>
+          
           <!-- <div class="d-flex flex-row"> -->
           <div class="icon-test">
           <ul>
