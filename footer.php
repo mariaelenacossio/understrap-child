@@ -96,7 +96,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <div class="col-md-6">
                                     <div class="cta-cards">
                                         <h2 class="heading-6">
-                                            Want a more in-depth<br/>look at my history?
+                                            An insight<br/>to my experience? 
                                         </h2><!--.h2-->
                                         <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" 
                                            class="btn btn-outline-secondary btn-lg px-4" target="_blank">View Resume</a>
