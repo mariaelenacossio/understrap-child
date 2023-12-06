@@ -1381,6 +1381,16 @@ section.section.footer-section {
     padding: 32px;
   }
 }
+//Align social icons in footer width:468px
+@media screen and (max-width: 468px) {
+  .col-md-3 > .icon-test {
+    justify-content: center;
+  }
+  .cta-cards {
+    margin-bottom: 2rem;
+  }
+}
+
 .footer-square.row {
   text-align: center;
 }
