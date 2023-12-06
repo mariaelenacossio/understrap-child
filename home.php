@@ -87,11 +87,11 @@ $container = get_theme_mod( 'understrap_container_type' );
           </p>
           <div class="icon-test">
           <ul>
-      <li class="item">
+      <li class="social-icon">
         <a href="#"><i class="fa-brands fa-instagram icon"></i>
         </a>
       </li>
-      <li class="item">
+      <li class="social-icon">
         <a href="#"><i class="fa-brands fa-linkedin icon"></i>
         </a>
       </li>
