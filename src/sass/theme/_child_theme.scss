@@ -5,8 +5,10 @@
   display: none;
 }
 //Fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 //Font Face 'Poppins'
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+//Font Face 'Shalma'
+@import url('https://www.fontspace.com/shalma-font-f45374');
 :root {
   --bs-body-font-family: 'Poppins', sans-serif;
   --bs-font-sans-serif: 'Poppins', sans-serif;
@@ -243,8 +245,10 @@ and (max-width: 477px){
 .col-10.col-sm-8.col-lg-6 {margin-top: 0;}
 .hero {height: 100vh;}
 p.lead{
+  font-family: 'Shalma', sans-serif;
   text-align: center;
-    background-color: transparent;
+  color: $background-color;
+    // background-color: transparent;
     // border-color: transparent;
     // color: #e3daff;
     // font-weight: bold;
