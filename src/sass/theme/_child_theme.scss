@@ -1360,6 +1360,9 @@ section.section.footer-section {
   background-color: $background-color;
   height: 200px;
 }
+section.section.footer-section > .container {
+  padding-bottom: 1.5rem;
+}
 .footer.page > .row {
   height: 100px;
 }
