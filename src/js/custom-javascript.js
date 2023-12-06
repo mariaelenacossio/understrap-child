@@ -123,11 +123,16 @@ jQuery(document).ready(function($) {
 });
 
 
-//Page Loader
 // Page Loader
 jQuery(window).on('load', function() {
-    // Hide the loader once the page is fully loaded
-    jQuery('#page-loader').fadeOut('slow');
+    // Show the loader
+    jQuery('#page-loader').fadeIn('slow');
+
+    // Set a timeout to hide the loader after 3 seconds (adjust as needed)
+    setTimeout(function() {
+        jQuery('#page-loader').fadeOut('slow');
+    }, 3000);
 });
+
 
 
