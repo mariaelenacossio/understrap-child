@@ -17,6 +17,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="footer wrapper" id="wrapper-footer">
   <!-- Footer Section -->
+
+
+  <section class="section footer-section">
   <div class="row red">
   <div><!--Divider-->
     <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep1" viewBox="0 0 1600 100" style="" data-height="100">
@@ -53,8 +56,6 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
 </svg>
   </div>
 </div><!--.divider-->
-
-  <section class="section footer-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
