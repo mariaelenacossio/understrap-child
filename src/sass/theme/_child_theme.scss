@@ -402,8 +402,8 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   display: none;
 }
 
-@media only screen {
-  //Small Screens and (max-width: 477px) {
+@media (max-width: 468px) {
+  //Small Screens and  {
   .side-bar {
     display: none;
   }
@@ -588,7 +588,7 @@ p.lead {
 }
 
 //Small screens and (max-width: 477px)
-@media only screen {
+@media screen and (max-width: 477px) {
   .hero {
     height: auto;
   }
@@ -601,12 +601,9 @@ p.lead {
     display: flex !important;
     justify-content: center;
   }
-  // .img-shadow{box-shadow: none;}
-
   h1.display-5.fw-bold.lh-1.mb-3 {
     text-align: center;
   }
-  // .py-5 {padding-top: 1rem!important;}
   .container.hero.col-xxl-8.px-4.py-5 {
     padding-bottom: 1rem !important;
     padding-top: 1rem !important;
@@ -618,23 +615,11 @@ p.lead {
   .col-lg-6 {
     margin-top: 0;
   }
-  // .col-10.col-sm-8.col-lg-6 {
-  //   width: unset;
-  //   margin-top: 0.5rem;
-  // }
 }
-
-//About me Section
-// .img-fluid-profile{
-//   max-width: 100%;
-//   height: 50vh;
-//   border-radius: 25px;
-// }
 
 .about-me.bg-light.container.mt-4.img-shadow {
   border-radius: 5rem;
   max-width: 85vw;
-  // position: relative
 }
 .profile-container img {
   display: flex;
@@ -655,17 +640,13 @@ p.lead.fw-light.mb-4 {
 }
 .about-me > .row {
   padding-top: 2rem;
-  /* Define your gradient background */
-  // background: linear-gradient(to bottom, #010125, #615ab7, #e3daff, #fffafb);
-  /* Optionally, you can set the background to repeat */
-  // background-repeat: no-repeat;
-  // border-bottom-left-radius: 25px;
 }
 .d-flex.flex-row {
   justify-content: start;
 }
+
 //Small screens and (max-width: 477px)
-@media only screen {
+@media screen and (max-width: 477px) {
   .h2 {
     text-align: center;
     font-size: 3rem;
@@ -687,7 +668,7 @@ p.lead.fw-light.mb-4 {
 }
 
 //Medium Screens and (min-width: 768px)
-@media only screen {
+@media screen and (min-width: 768px) {
   .about-me h2 {
     text-align: center;
   }
@@ -704,7 +685,7 @@ p.lead.fw-light.mb-4 {
 }
 
 //Large screen and (min-width: 1250px)
-@media only screen {
+@media screen and (min-width: 1250px) {
   .about-me > .row {
     padding-bottom: 2rem;
   }
@@ -719,6 +700,7 @@ p.lead.fw-light.mb-4 {
 .gx-6 {
   --bs-gutter-x: 4.5rem;
 }
+
 .g-6,
 .gy-6 {
   --bs-gutter-y: 4.5rem;
@@ -727,7 +709,7 @@ p.lead.fw-light.mb-4 {
   padding-right: 2rem;
 }
 
-@media (max-width: 468px) {
+@media screen and (max-width: 468px) {
   .d-flex.flex-row {
     justify-content: center;
   }
@@ -737,7 +719,7 @@ p.lead.fw-light.mb-4 {
     padding-left: 0.5rem;
   }
 }
-@media (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .g-sm-6,
   .gx-sm-6 {
     --bs-gutter-x: 4.5rem;
@@ -747,7 +729,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .g-md-6,
   .gx-md-6 {
     --bs-gutter-x: 4.5rem;
@@ -757,7 +739,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .g-lg-6,
   .gx-lg-6 {
     --bs-gutter-x: 4.5rem;
@@ -767,7 +749,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .g-xl-6,
   .gx-xl-6 {
     --bs-gutter-x: 4.5rem;
@@ -777,7 +759,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .g-xxl-6,
   .gx-xxl-6 {
     --bs-gutter-x: 4.5rem;
@@ -787,6 +769,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
+
 .mb-6 {
   margin-bottom: 4.5rem !important;
 }
@@ -794,7 +777,7 @@ p.lead.fw-light.mb-4 {
   padding-top: 4.5rem !important;
   padding-bottom: 4.5rem !important;
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .mb-sm-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -803,7 +786,7 @@ p.lead.fw-light.mb-4 {
     padding-bottom: 4.5rem !important;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .mb-md-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -812,7 +795,7 @@ p.lead.fw-light.mb-4 {
     padding-bottom: 4.5rem !important;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .mb-lg-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -821,7 +804,7 @@ p.lead.fw-light.mb-4 {
     padding-bottom: 4.5rem !important;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .mb-xl-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -830,7 +813,7 @@ p.lead.fw-light.mb-4 {
     padding-bottom: 4.5rem !important;
   }
 }
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .mb-xxl-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -856,13 +839,13 @@ p.lead.fw-light.mb-4 {
 }
 
 //Small screens and (max-width: 477px)
-@media only screen {
+@media screen and (max-width: 477px) {
   .portfolio-btn {
     text-align: center;
   }
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .g-sm-6,
   .gx-sm-6 {
     --bs-gutter-x: 4.5rem;
@@ -872,7 +855,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .g-md-6,
   .gx-md-6 {
     --bs-gutter-x: 4.5rem;
@@ -882,7 +865,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .g-lg-6,
   .gx-lg-6 {
     --bs-gutter-x: 4.5rem;
@@ -892,7 +875,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .g-xl-6,
   .gx-xl-6 {
     --bs-gutter-x: 4.5rem;
@@ -902,7 +885,7 @@ p.lead.fw-light.mb-4 {
     --bs-gutter-y: 4.5rem;
   }
 }
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .g-xxl-6,
   .gx-xxl-6 {
     --bs-gutter-x: 4.5rem;
@@ -955,7 +938,8 @@ p.lead.fw-light.mb-4 {
 .hcf-ih-400 {
   height: 400px !important;
 }
-@media (min-width: 576px) {
+
+@media screen and (min-width: 576px) {
   .mb-sm-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -970,7 +954,7 @@ p.lead.fw-light.mb-4 {
     height: 400px !important;
   }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .mb-md-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -985,7 +969,7 @@ p.lead.fw-light.mb-4 {
     height: 400px !important;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .mb-lg-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -1000,7 +984,7 @@ p.lead.fw-light.mb-4 {
     height: 400px !important;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .mb-xl-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -1015,7 +999,7 @@ p.lead.fw-light.mb-4 {
     height: 400px !important;
   }
 }
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .mb-xxl-6 {
     margin-bottom: 4.5rem !important;
   }
@@ -1047,7 +1031,7 @@ p.lead.fw-light.mb-4 {
 .headings {
   padding-top: 5rem;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .headings {
     padding: 1rem;
   }
@@ -1102,7 +1086,7 @@ p.lead.fw-light.mb-4 {
   margin: 20px auto;
 }
 //Adjust blog card width
-@media (max-width: 468px) {
+@media screen and (max-width: 468px) {
   .custom-card {
     max-width: 350px;
     border-radius: 0.375rem;
@@ -1181,11 +1165,7 @@ p.lead.fw-light.mb-4 {
   margin: 0;
   border-radius: 24px;
   height: 80vh;
-  // background-color: $primary-color;
   background: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/codioful-formerly-gradienta-rKv4HduvzIE-unsplash-scaled.webp);
-  // background-repeat: ;
-  // background-position: 0 50%;
-  // background-size: ;
 }
 .container-wrapper {
   display: flex;
@@ -1204,16 +1184,10 @@ p.lead.fw-light.mb-4 {
 .img-container img {
   border-radius: 25px;
   border-color: 1px solid $primary-color;
-  // width: 100%;  ......To mask an image (shape)
-  // height: 100%;
-  // -webkit-mask-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/Untitled-design-5.png);
-  // mask-image: url(http://mariaelena-cossioclark.com/wp-content/uploads/2023/10/Untitled-design-5.png);
-  // -webkit-mask-repeat: no-repeat;
-  // mask-repeat: no-repeat;
 }
 
 //Small screens and (max-width: 477px)
-@media only screen {
+@media screen and (max-width: 477px) {
   .primary-container {
     padding: 32px;
     height: 500px;
@@ -1223,7 +1197,7 @@ p.lead.fw-light.mb-4 {
   }
 }
 //Large screens and (max-width: 1294px)
-@media only screen {
+@media screen and (max-width: 1294px) {
   .primary-container {
     grid-column: span 2;
     min-height: unset;
@@ -1246,7 +1220,7 @@ p.lead.fw-light.mb-4 {
 }
 
 //Small screens and (max-width: 477px)
-@media only screen {
+@media screen and (max-width: 477px) {
   .social-links {
     justify-content: center;
   }
@@ -1261,9 +1235,6 @@ footer.text-light.p-5 {
   color: $accent-color;
 } //Text color for footer
 footer .col-md-2 > .list-unstyled {
-  //List to be centered
-  // display: flex;
-  // justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -1317,7 +1288,7 @@ div#wrapper-footer {
 } //Align to center
 
 //Small screens and (max-width: 477px)
-@media only screen {
+@media screen and (max-width: 477px) {
   // Sub-headline to be centered
   footer p {
     text-align: center;
@@ -1354,9 +1325,6 @@ div#wrapper-footer {
   footer .form-group {
     margin-right: 1rem;
   } //Add margin between btn's
-  // footer > .f-contact-form > .col-md-3 form {display: flex;}
-  // form > button.btn.btn-primary {margin-left: 4rem;} //Btn to display centered
-  // form > .form-group > input {margin-bottom: 0.5rem;} //Add margin bottom to input
   //Footer btn
   footer button.btn.btn-primary {
     height: 40px;
@@ -1405,34 +1373,6 @@ div#wrapper-footer {
   padding: 1rem;
 }
 
-//Contact form
-.contact-image img {
-  height: 500px;
-}
-form#contact-form {
-  height: 500px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  padding: 15px;
-}
-.text-center.text-md-left {
-  padding: 1.5rem;
-}
-
-textarea.form-control {
-  height: 250px;
-}
-
-//Small screens and (max-width: 477px)
-@media only screen {
-  textarea.form-control {
-    height: 200px;
-  }
-  .text-center.text-md-left {
-    padding: 1rem;
-  }
-}
-
 //Case Studies
 //First section
 .main-container {
@@ -1445,7 +1385,7 @@ textarea.form-control {
   padding: 112px 20px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .main-container {
     max-width: 100%;
   }
@@ -1458,7 +1398,7 @@ textarea.form-control {
   max-width: 1312px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .header {
     max-width: 100%;
     margin-bottom: 10px;
@@ -1470,7 +1410,7 @@ textarea.form-control {
   display: flex;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .content {
     flex-direction: column;
     align-items: stretch;
@@ -1486,7 +1426,7 @@ textarea.form-control {
   margin-left: 0px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .article {
     width: 100%;
   }
@@ -1501,7 +1441,7 @@ textarea.form-control {
   gap: 8px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .author-info {
     justify-content: center;
   }
@@ -1527,7 +1467,7 @@ textarea.form-control {
   gap: 8px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .article-meta {
     justify-content: center;
   }
@@ -1574,7 +1514,7 @@ textarea.form-control {
   gap: 8px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .share-icons {
     justify-content: center;
   }
@@ -1608,7 +1548,7 @@ textarea.form-control {
   margin-left: 20px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .sidebar {
     width: 100%;
   }
@@ -1623,7 +1563,7 @@ textarea.form-control {
   flex: 1;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .sidebar-image {
     max-width: 100%;
     margin-top: 40px;
