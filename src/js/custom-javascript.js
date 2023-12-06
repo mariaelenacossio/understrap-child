@@ -76,23 +76,17 @@ jQuery(document).ready(function($) {
     
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
-    $(window).scroll(function () {
-        var scrollPosition = $(this).scrollTop();
-        $('.parallax-image').css('transform', 'translate3d(0, ' + scrollPosition / 2 + 'px, 0)');
-    });
-});
-
-//To hide the text when scrolling up
-jQuery(document).ready(function($) {
     var lastScrollTop = 0;
-    var mobileThreshold = 768; // Adjust this value based on your needs
+    var mobileThreshold = 768;
 
     // Set initial state (remove 'hidden' class)
     $('.parallax-overlay').removeClass('hidden');
 
-    $(window).scroll(function () {
+    function updateParallax() {
+        var scrollPosition = $(window).scrollTop();
+        $('.parallax-image').css('transform', 'translate3d(0, ' + scrollPosition / 2 + 'px, 0)');
+
         if ($(window).width() > mobileThreshold) {
-            var scrollPosition = $(this).scrollTop();
             var overlay = $('.parallax-overlay');
 
             if (scrollPosition > lastScrollTop) {
@@ -105,7 +99,27 @@ jQuery(document).ready(function($) {
 
             lastScrollTop = scrollPosition;
         }
+    }
+
+    // Call updateParallax on scroll using requestAnimationFrame
+    var ticking = false;
+    $(window).scroll(function() {
+        if (!ticking) {
+            window.requestAnimationFrame(function() {
+                updateParallax();
+                ticking = false;
+            });
+            ticking = true;
+        }
     });
+
+    // Call updateParallax on window resize
+    $(window).resize(function() {
+        updateParallax();
+    });
+
+    // Initial call to set the initial state
+    updateParallax();
 });
 
 
