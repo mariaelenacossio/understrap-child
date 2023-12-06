@@ -39,9 +39,9 @@ body {
   text-align: justify;
 }
 hr {
-  border: 0;
-  border-top: 3px solid #010125;
-  width: 50%;
+  border: 0 !important;
+  border-top: 3px solid #010125 !important;
+  width: 60% !important;
 }
 
 //Buttons
