@@ -88,7 +88,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="d-flex flex-row">
             <!-- <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">Hire Me</button> -->
 			<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b" target="_blank" itemprop="SameAs" rel="noopener">
-                <i class="fa fa-linkedin-square"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
             </a>
 			<a href="https://github.com/mariaelenacossio" target="_blank" itemprop="SameAs" rel="noopener">
                 <i class="fa fa-github-square"></i>
