@@ -151,11 +151,21 @@ a {text-decoration: none;}
   transform: rotateY(360deg);
 }
 
+/* Define linear gradient for GitHub icon */
 .social-icon:nth-child(1) {
-  --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
-  color: #24292e;
+  --bg-color: linear-gradient(to bottom, #24292e, #2e3338, #363b40, #3e4348, #464b50);
+  color: #24292e; /* GitHub's primary color */
 }
-.social-icon:nth-child(1):hover i {color: $primary-color;}
+
+/* Apply linear gradient to GitHub icon */
+.social-icon:nth-child(1) svg path {
+  fill: var(--bg-color);
+}
+
+/* Styles on hover */
+.social-icon:nth-child(1):hover i {
+  color: #fff; /* Change to desired color on hover */
+}
 .social-icon:nth-child(2) {
   --bg-color: #0077b5;
 }
