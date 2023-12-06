@@ -1358,11 +1358,12 @@ div#wrapper-footer {
 }
 section.section.footer-section {
   background-color: $background-color;
+  height: 250px;
 }
 .footer.page > .row {
   height: 100px;
 }
-.footer-based {
+.col-md-3 > .icon-test {
   padding-top: 1rem;
 }
 
