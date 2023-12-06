@@ -87,6 +87,9 @@ jQuery(document).ready(function($) {
     var lastScrollTop = 0;
     var mobileThreshold = 768; // Adjust this value based on your needs
 
+    // Set initial state (remove 'hidden' class)
+    $('.parallax-overlay').removeClass('hidden');
+
     $(window).scroll(function () {
         if ($(window).width() > mobileThreshold) {
             var scrollPosition = $(this).scrollTop();
@@ -104,4 +107,5 @@ jQuery(document).ready(function($) {
         }
     });
 });
+
 
