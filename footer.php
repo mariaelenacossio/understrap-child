@@ -91,7 +91,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             Looking for a<br/>Web designer?
                                         </h2><!--.h2-->
                                         <a href="mailto:mariaelena.cossio@outlook.com?subject=Enquiry" 
-                                           class="btn btn-outline-secondary btn-lg px-4 me-md-2">Email me</a>
+                                           class="btn btn-outline-secondary btn-lg px-4">Email me</a>
                                     </div><!--.cta-cards-->
                                 </div><!--.col-md-6-->
                                 <div class="col-md-6">
@@ -100,7 +100,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             Want a more in-depth<br/>look at my history?
                                         </h2><!--.h2-->
                                         <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" 
-                                           class="btn btn-outline-secondary btn-lg px-4 me-md-2" target="_blank">View Resume</a>
+                                           class="btn btn-outline-secondary btn-lg px-4" target="_blank">View Resume</a>
                                     </div><!--.cta-cards-->
                                 </div><!--.col-md-6-->
                             </div><!--.footer-square row-->
