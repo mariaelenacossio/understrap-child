@@ -96,7 +96,7 @@ a {text-decoration: none;}
 //icons test
 .icon-test {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -104,6 +104,7 @@ a {text-decoration: none;}
   display: flex;
   list-style: none;
   gap: 2.5rem;
+  padding-left: 0;
 }
 
 .social-icon a {
