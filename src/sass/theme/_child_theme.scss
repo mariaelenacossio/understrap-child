@@ -138,14 +138,14 @@ a {text-decoration: none;}
   scale: 1 1;
 }
 
-.social-icon i {
+.social-icon svg {
   font-size: 2rem;
   color: hsl(203, 92%, 8%);
   transition: 0.5s ease;
   z-index: 2;
 }
 
-.social-btn a:hover i {
+.social-btn a:hover svg {
   color: #fff;
   transform: rotateY(360deg);
 }
