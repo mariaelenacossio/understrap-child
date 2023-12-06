@@ -38,6 +38,11 @@ body {
 .p {
   text-align: justify;
 }
+hr {
+  border: 0;
+  border-top: 3px solid #010125;
+  width: 50%;
+}
 
 //Buttons
 .btn-primary {
@@ -1030,6 +1035,7 @@ p.lead.fw-light.mb-4 {
 }
 .headings {
   padding-top: 5rem;
+  color: $primary-color;
 }
 @media screen and (max-width: 768px) {
   .headings {
