@@ -34,31 +34,36 @@ body{background-color: $background-color-2 ;}
 
 //Buttons
 .btn-primary {
-  background-color: $secondary-color;
-  border-color: $secondary-color;
-  /* Use #e5efff in the box-shadow property */
-box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
-
-}
-.btn-primary:hover{
-  background-color: $background-color;
-  border-color: $variant-color;
-  color: $variant-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  color: $background-color;
+  border-radius: 50px;
   /* Use #e5efff in the box-shadow property */
   box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.btn-primary:hover {
+  background-color: $background-color; /* Change this to the desired hover background color */
+  border: $background-color;
+  color: $primary-color; /* Change this to the desired hover text color */
+  transform: scale(1.1); /* Change this to the desired scale factor */
 }
 
 .btn-outline-secondary{
   background-color: $background-color;
-  border-color: $variant-color;
-  color: $variant-color;
-}
-.btn-outline-secondary:hover{
-  background-color: $background-color;
   border-color: $secondary-color;
   color: $secondary-color;
+  border-radius: 50px;
   /* Use #e5efff in the box-shadow property */
-box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
+  box-shadow: rgba(229, 239, 255, 0.3) 0 19px 38px, rgba(229, 239, 255, 0.22) 0 15px 12px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  
+}
+.btn-outline-secondary:hover{
+  background-color: $secondary-color;
+  border-color: $background-color;
+  color: $background-color;
+  transform: scale(1.1); /* Change this to the desired scale factor */
 }
 a {text-decoration: none;}
 
@@ -273,6 +278,7 @@ p.lead{
   justify-content: center;
   z-index: 1;
 }
+.parallax-overlay p {color: $primary-color;}
 
 
 .hidden {
