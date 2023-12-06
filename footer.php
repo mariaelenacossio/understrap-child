@@ -105,62 +105,37 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
                             </div>
                         </div>
                     </div>
-                    <div class="brand-socials">
+                    <!-- <div class="brand-socials"> -->
                         <div class="footer-based">Vancouver, Canada</div>
-                        <div class="socials">
+                        <!-- <div class="socials">
                             <a href="https://instagram.tylerpixel.com" class="social-symbol w-inline-block">
-                                <div class="social-icon w-embed">
+                                <div class="social-icon w-embed"> -->
                                     <!-- Instagram SVG code here -->
-                                </div>
+                                <!-- </div>
                             </a>
                             <a href="https://linkedin.com/in/tylerpixel" class="social-symbol w-inline-block">
-                                <div class="social-icon w-embed">
+                                <div class="social-icon w-embed"> -->
                                     <!-- LinkedIn SVG code here -->
-                                </div>
-                            </a>
+                                <!-- </div> -->
+                            <!-- </a>
                             <a href="https://x.tylerpixel.com" class="social-symbol w-inline-block">
-                                <div class="social-icon w-embed">
+                                <div class="social-icon w-embed"> -->
                                     <!-- X SVG code here -->
-                                </div>
+                                <!-- </div>
                             </a>
-                        </div>
-                    </div>
-                    <a href="/" aria-current="page" class="brand dark w-inline-block w--current">
-                        <div class="footer-logo w-embed">
+                        </div> -->
+                    <!-- </div> -->
+                    <!-- <a href="/" aria-current="page" class="brand dark w-inline-block w--current">
+                        <div class="footer-logo w-embed"> -->
                             <!-- Your logo SVG code here -->
                         </div>
-                    </a>
+                    <!-- </a> -->
                 </div>
             </div>
         </div>
     </div>
 </section>
   
-
-
-	<!-- <div class="?php echo esc_attr( $container ); ?">
-
-		<div class="row">
-
-			<div class="col-md-12">
-
-				<footer class="site-footer" id="colophon">
-
-					<div class="site-info"> -->
-
-						<!-- ?php understrap_site_info(); ?> -->
-
-					<!-- </div>.site-info -->
-
-				<!-- </footer>#colophon -->
-
-			<!-- </div>col -->
-
-		<!-- </div>.row -->
-
-	<!-- </div>.container(-fluid).. -->
-
-<!-- </div>#wrapper-footer -->
 
 <?php // Closing div#page from header.php. ?>
 <!-- </div>#page -->
