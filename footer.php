@@ -109,7 +109,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.col-md-12-->
         </div><!--.row-->
     </div><!--.container-->
-    <div class="footer-based">Vancouver, Canada</div>
+    <div class="footer-based">© 2023 Mariaelena Cossio Clark. All rights reserved.</div>
 </section><!--.section footer-section-->
 </div><!--.div-wrapper-->  
 
