@@ -100,13 +100,13 @@ a {text-decoration: none;}
   align-items: center;
 }
 
-ul {
+.icon-test ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
 }
 
-.item a {
+.social-icon a {
   text-decoration: none;
   width: 4.8rem;
   height: 4.8rem;
@@ -121,7 +121,7 @@ ul {
   overflow: hidden;
 }
 
-.item a::before {
+.social-icon a::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -133,7 +133,7 @@ ul {
   transition: scale 0.5s ease;
 }
 
-.item:hover a::before {
+.social-icon:hover a::before {
   scale: 1 1;
 }
 
@@ -144,21 +144,21 @@ ul {
   z-index: 2;
 }
 
-.item a:hover .icon {
+.social-btn a:hover .icon {
   color: #fff;
   transform: rotateY(360deg);
 }
 
-.item:nth-child(1) {
+.social-icon:nth-child(1) {
   --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
 }
-.item:nth-child(2) {
+.social-icon:nth-child(2) {
   --bg-color: #0077b5;
 }
-.item:nth-child(3) {
+.social-icon:nth-child(3) {
   --bg-color: #ff0000;
 }
-.item:nth-child(4) {
+.social-icon:nth-child(4) {
   --bg-color: #000;
 }
 
