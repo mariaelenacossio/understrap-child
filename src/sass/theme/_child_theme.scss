@@ -1418,8 +1418,10 @@ a.btn.btn-outline-secondary.btn-lg.px-4.me-md-2 {
   transform: translateY(-100%) translateY(2px) scale(1, 1);
   transform-origin: top;
 }
-.red {
-  background-color: #d24d57;
+.footer-separator {
+  position: absolute;
+  width: 100vw;
+  left: 12px;
 }
 
 //Case Studies
