@@ -134,27 +134,6 @@ jQuery(window).on('load', function() {
     }, 3000);
 });
 
-//To fetch the footer SVG (Setup CORS)
-jQuery(document).ready(function($) {
-    $.ajax({
-        url: 'https://drive.google.com/file/d/1dgTbMyc3NckDBGnU4rgeD_DIIuZUWivN/view?usp=sharing',
-        type: 'GET',
-        dataType: 'xml',
-        success: function (svgData) {
-            // Convert XML data to string
-            var svgString = new XMLSerializer().serializeToString(svgData);
-
-            // Create a new img element and set the src attribute
-            var img = $('<img>').attr('src', 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgString));
-
-            // Append the img element to the container
-            $('#footer-svg').append(img);
-        },
-        error: function (xhr, status, error) {
-            console.error('Failed to fetch SVG:', status, error);
-        }
-    });
-});
 
 
 
