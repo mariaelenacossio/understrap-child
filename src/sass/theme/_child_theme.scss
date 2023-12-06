@@ -140,7 +140,7 @@ a {text-decoration: none;}
 
 .social-icon svg {
   // font-size: 2rem;
-  color: hsl(203, 92%, 8%);
+  fill: $primary-color;
   transition: 0.5s ease;
   z-index: 2;
   padding: 0.375rem;
@@ -151,12 +151,12 @@ a {text-decoration: none;}
   transform: rotateY(360deg);
 }
 
-.social-icon:nth-child(1) {
+.social-icon:nth-child(1) .github-icon {
   --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
   color: #24292e;
 }
 .social-icon:nth-child(1):hover i {color: $primary-color;}
-.social-icon:nth-child(2) {
+.social-icon:nth-child(2) .linkedin-icon {
   --bg-color: #0077b5;
 }
 
