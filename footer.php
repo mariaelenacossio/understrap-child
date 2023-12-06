@@ -80,8 +80,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     </a>
                                     </li><!--.li-->
                                 </ul><!--.ul-->
-                                <div class="footer-based">Vancouver, Canada</div>
                                 </div><!--.icon-test-->
+                                <div class="footer-based">Vancouver, Canada</div>
                         </div><!--.col-md-3-->
                         <div class="col-md-9">
                             <div class="footer-square row">
