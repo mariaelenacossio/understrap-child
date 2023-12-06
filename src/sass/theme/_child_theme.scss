@@ -1363,6 +1363,9 @@ section.section.footer-section {
 .footer.page > .row {
   height: 100px;
 }
+.footer-based {
+  padding-top: 1rem;
+}
 
 @media screen and (max-width: 991px) {
   .footer.page {
@@ -1385,9 +1388,8 @@ section.section.footer-section {
   height: 100px;
 }
 .footer h2.heading-6 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: $primary-color;
-  padding-top: 1rem;
 }
 //To target footer btn's
 a.btn.btn-outline-secondary.btn-lg.px-4.me-md-2 {
