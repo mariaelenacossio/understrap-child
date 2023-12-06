@@ -270,14 +270,14 @@ a {
   position: absolute;
   padding-right: 1rem;
 }
-@media only screen {
+@media screen and (min-width: 768px) {
   //Medium Screens and (min-width: 768px)
   .interface:not(div#wrapper-footer) {
     padding-right: 0;
   }
 }
 
-@media only screen {
+@media screen and (max-width: 477px) {
   //Small screens and (max-width: 447px)
   .interface {
     width: 100%;
