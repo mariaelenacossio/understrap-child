@@ -123,3 +123,11 @@ jQuery(document).ready(function($) {
 });
 
 
+//Page Loader
+// Page Loader
+jQuery(window).on('load', function() {
+    // Hide the loader once the page is fully loaded
+    jQuery('#page-loader').fadeOut('slow');
+});
+
+
