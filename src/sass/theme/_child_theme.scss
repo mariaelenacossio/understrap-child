@@ -1358,13 +1358,19 @@ div#wrapper-footer {
 }
 section.section.footer-section {
   background-color: $background-color;
-  height: 250px;
+  height: 200px;
 }
 .footer.page > .row {
   height: 100px;
 }
 .col-md-3 > .icon-test {
   padding-top: 1rem;
+}
+.footer-based {
+  padding: 0.375rem;
+  background-color: #010125;
+  color: #e5efff;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
