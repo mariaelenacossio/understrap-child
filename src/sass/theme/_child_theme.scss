@@ -1357,6 +1357,9 @@ section.section.footer-section {
   background-color: #0408ab;
   border-top-left-radius: 5px;
 }
+.footer.page > .row {
+  height: 100px;
+}
 
 @media screen and (max-width: 991px) {
   .footer.page {
@@ -1374,7 +1377,49 @@ section.section.footer-section {
   border: 1px solid $secondary-color;
   display: flex;
   flex-flow: column;
+  align-items: center;
   padding: 1rem;
+  height: 100px;
+}
+.footer h2.heading-6 {
+  font-size: 1rem;
+  color: $background-color;
+}
+//To target footer btn's
+a.btn.btn-outline-secondary.btn-lg.px-4.me-md-2 {
+  height: 35px;
+  width: 160px;
+  font-size: 1rem;
+  box-shadow: none;
+  padding: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//Divider for footer
+.svg-separator {
+  display: block;
+  background: 0 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  -webkit-transform: translateY(-100%) translateY(2px);
+  transform: translateY(-100%) translateY(2px);
+  width: 100%;
+}
+.svg-separator.bottom {
+  top: auto;
+  bottom: 0;
+}
+.sep1 {
+  transform: translateY(-100%) translateY(2px) scale(1, 1);
+  transform-origin: top;
+}
+.red {
+  background-color: #d24d57;
 }
 
 //Case Studies
