@@ -1346,6 +1346,9 @@ div#wrapper-footer {
 }
 
 //New layout for footer
+div#wrapper-footer {
+  padding: 7rem 0 0;
+}
 .footer.page {
   grid-row-gap: 32px;
   border-radius: 0;
@@ -1374,7 +1377,7 @@ section.section.footer-section {
 }
 .cta-cards {
   border-radius: 0.375rem;
-  border: 1px solid $primary-color;
+  border: 1px solid $secondary-color;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -1383,7 +1386,8 @@ section.section.footer-section {
 }
 .footer h2.heading-6 {
   font-size: 1rem;
-  color: $background-color;
+  color: $primary-color;
+  padding-top: 1rem;
 }
 //To target footer btn's
 a.btn.btn-outline-secondary.btn-lg.px-4.me-md-2 {
