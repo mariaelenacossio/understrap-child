@@ -1354,7 +1354,7 @@ div#wrapper-footer {
   padding: 32px;
 }
 section.section.footer-section {
-  background-color: #0408ab;
+  background-color: $background-color;
   border-top-left-radius: 5px;
 }
 .footer.page > .row {
@@ -1374,7 +1374,7 @@ section.section.footer-section {
 }
 .cta-cards {
   border-radius: 0.375rem;
-  border: 1px solid $secondary-color;
+  border: 1px solid $primary-color;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -1421,7 +1421,7 @@ a.btn.btn-outline-secondary.btn-lg.px-4.me-md-2 {
 .footer-separator {
   position: absolute;
   width: 100vw;
-  left: 12px;
+  left: 0;
 }
 
 //Case Studies
