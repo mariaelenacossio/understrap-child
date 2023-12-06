@@ -109,8 +109,8 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.col-md-12-->
         </div><!--.row-->
     </div><!--.container-->
+    <div class="footer-based">Vancouver, Canada</div>
 </section><!--.section footer-section-->
-<div class="footer-based">Vancouver, Canada</div>
 </div><!--.div-wrapper-->  
 
 <?php // Closing div#page from header.php. ?>
