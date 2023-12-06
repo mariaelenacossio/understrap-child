@@ -1398,15 +1398,15 @@ section.section.footer-section {
   color: $primary-color;
 }
 //To target footer btn's
-.cta-cards > .btn.btn-outline-secondary.btn-lg.px-4.me-md-2 {
-  height: 35px !important;
-  width: 160px !important;
-  font-size: 1rem !important;
-  box-shadow: none !important;
-  padding: 0.375rem !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+.cta-cards > .btn.btn-outline-secondary.btn-lg.px-4 {
+  height: 35px;
+  width: 160px;
+  font-size: 1rem;
+  box-shadow: none;
+  padding: 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 //Divider for footer
