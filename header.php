@@ -24,14 +24,16 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
-<!--Page Loader-->
+<div class="site" id="page">
+	<!--Page Loader-->
 <div id="page-loader">
     <div class="loader-container">
+        <div class="intro-animation"></div>
         <div class="loader"></div>
         <div class="loading-text">Loading...</div>
     </div>
 </div>
-<div class="site" id="page">
+
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<header  class="side-bar img-shadow" id="wrapper-navbar">
