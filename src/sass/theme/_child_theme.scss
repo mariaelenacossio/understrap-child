@@ -1228,122 +1228,122 @@ p.lead.fw-light.mb-4 {
 
 //Footer
 
-footer {
-  background-color: $primary-color;
-} //Footer bg color
-footer.text-light.p-5 {
-  color: $accent-color;
-} //Text color for footer
-footer .col-md-2 > .list-unstyled {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-//Footer list
-footer .col-md-2 > .list-unstyled li {
-  padding-bottom: 0.5rem;
-} //Padding between links
-footer .col-md-2 > .list-unstyled li > a.text-light {
-  text-decoration: none;
-} //Remove underline of links
-//Footer Headlines
-footer.bg-dark.text-light.p-5 > .container > .row > .col-md-3 h2 {
-  font-size: 3rem;
-}
-footer.bg-dark.text-light.p-5 > .container > .row > .col-md-3 p {
-  font-weight: 200;
-}
-//Form button
-footer button.btn.btn-primary {
-  background-color: #e3daff;
-  color: #010125;
-  width: 100%;
-}
-//Footer contact
-footer .col-md-3.f-contact-form > h5 {
-  text-align: center;
-}
-footer .form-group {
-  padding-bottom: 1rem;
-}
-footer input.form-control {
-  text-align: center;
-}
-//Footer Socials
-.social-btn {
-  width: auto;
-  display: flex;
-  flex-flow: column;
-  margin-top: 1rem;
-}
-.social-btn > .col-md-2 a {
-  display: flex;
-  justify-content: center;
-}
+// footer {
+//   background-color: $primary-color;
+// } //Footer bg color
+// footer.text-light.p-5 {
+//   color: $accent-color;
+// } //Text color for footer
+// footer .col-md-2 > .list-unstyled {
+//   padding-top: 1rem;
+//   padding-bottom: 1rem;
+// }
+// //Footer list
+// footer .col-md-2 > .list-unstyled li {
+//   padding-bottom: 0.5rem;
+// } //Padding between links
+// footer .col-md-2 > .list-unstyled li > a.text-light {
+//   text-decoration: none;
+// } //Remove underline of links
+// //Footer Headlines
+// footer.bg-dark.text-light.p-5 > .container > .row > .col-md-3 h2 {
+//   font-size: 3rem;
+// }
+// footer.bg-dark.text-light.p-5 > .container > .row > .col-md-3 p {
+//   font-weight: 200;
+// }
+// //Form button
+// footer button.btn.btn-primary {
+//   background-color: #e3daff;
+//   color: #010125;
+//   width: 100%;
+// }
+// //Footer contact
+// footer .col-md-3.f-contact-form > h5 {
+//   text-align: center;
+// }
+// footer .form-group {
+//   padding-bottom: 1rem;
+// }
+// footer input.form-control {
+//   text-align: center;
+// }
+// //Footer Socials
+// .social-btn {
+//   width: auto;
+//   display: flex;
+//   flex-flow: column;
+//   margin-top: 1rem;
+// }
+// .social-btn > .col-md-2 a {
+//   display: flex;
+//   justify-content: center;
+// }
 //Footer wrapper
-div#wrapper-footer {
-  padding: 1.5rem 0 0;
-}
-.social-btn .col-md-2 {
-  display: flex;
-} //Align to center
+// div#wrapper-footer {
+//   padding: 1.5rem 0 0;
+// }
+// .social-btn .col-md-2 {
+//   display: flex;
+// } //Align to center
 
 //Small screens and (max-width: 477px)
-@media screen and (max-width: 477px) {
-  // Sub-headline to be centered
-  footer p {
-    text-align: center;
-    font-weight: 200;
-    font-size: 1.5rem;
-  }
-  footer .col-md-2 > .list-unstyled {
-    //List to be centered
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 100%;
-  }
-  .f-contact-form > .col-md-3 h5 {
-    text-align: center;
-  }
-  .f-contact-form > .col-md-3 {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
-  footer .col-md-3.f-contact-form form {
-    //Align center form
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-  }
-  footer .col-md-3.f-contact-form h5 {
-    //Center tag and size
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  footer .form-group {
-    margin-right: 1rem;
-  } //Add margin between btn's
-  //Footer btn
-  footer button.btn.btn-primary {
-    height: 40px;
-    width: auto;
-  }
-  //Footer social btn's
-  footer .container > .row {
-    justify-content: center;
-  } //To center social btn's
-  .social-btn {
-    flex-flow: row;
-  }
-  .social-btn > .col-md-2 a {
-    //Add space between btn's
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-  }
-}
+// @media screen and (max-width: 477px) {
+//   // Sub-headline to be centered
+//   footer p {
+//     text-align: center;
+//     font-weight: 200;
+//     font-size: 1.5rem;
+//   }
+//   footer .col-md-2 > .list-unstyled {
+//     //List to be centered
+//     display: flex;
+//     justify-content: space-between;
+//     padding-top: 1rem;
+//     padding-bottom: 1rem;
+//     width: 100%;
+//   }
+//   .f-contact-form > .col-md-3 h5 {
+//     text-align: center;
+//   }
+//   .f-contact-form > .col-md-3 {
+//     display: flex;
+//     flex-flow: column;
+//     align-items: center;
+//   }
+//   footer .col-md-3.f-contact-form form {
+//     //Align center form
+//     display: flex;
+//     flex-flow: row;
+//     justify-content: center;
+//   }
+//   footer .col-md-3.f-contact-form h5 {
+//     //Center tag and size
+//     text-align: center;
+//     font-size: 1.5rem;
+//   }
+//   footer .form-group {
+//     margin-right: 1rem;
+//   } //Add margin between btn's
+//   //Footer btn
+//   footer button.btn.btn-primary {
+//     height: 40px;
+//     width: auto;
+//   }
+//   //Footer social btn's
+//   footer .container > .row {
+//     justify-content: center;
+//   } //To center social btn's
+//   .social-btn {
+//     flex-flow: row;
+//   }
+//   .social-btn > .col-md-2 a {
+//     //Add space between btn's
+//     display: flex;
+//     justify-content: center;
+//     padding: 1rem;
+//   }
+// }
 
 //New layout for footer
 div#wrapper-footer {
