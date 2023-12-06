@@ -81,8 +81,6 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
       </li>
     </ul>
 </div>
-<div class="footer-based">Vancouver, Canada</div>
-
                         </div>
                         <div class="col-md-9">
                             <div class="footer-square row">
@@ -108,7 +106,7 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
                         </div>
                     </div>
                     <!-- <div class="brand-socials"> -->
-                        <!-- <div class="footer-based">Vancouver, Canada</div> -->
+                        <div class="footer-based">Vancouver, Canada</div>
                         <!-- <div class="socials">
                             <a href="https://instagram.tylerpixel.com" class="social-symbol w-inline-block">
                                 <div class="social-icon w-embed"> -->
