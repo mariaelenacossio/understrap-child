@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             Looking for a<br/>Web designer?
                                         </h2>
                                         <a href="mailto:mariaelena.cossio@outlook.com?subject=Enquiry" 
-                                           class="btn btn-primary btn-lg px-4 me-md-2">mariaelena.cossio@outlook.com</a>
+                                           class="btn btn-primary btn-lg px-4 me-md-2">Email me</a>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
