@@ -161,6 +161,10 @@ a {text-decoration: none;}
 .social-icon:nth-child(1) svg path {
   fill: var(--bg-color);
 }
+/* Rotate SVG path on hover */
+.social-icon:nth-child(1):hover svg path {
+  transform: rotate(360deg);
+}
 
 /* Styles on hover */
 .social-icon:nth-child(1):hover i {
