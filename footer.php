@@ -80,8 +80,9 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
                                     </a>
                                     </li>
                                 </ul>
-                                </div>
-                        </div>
+                                </div><!--.icon-test-->
+                                <div class="footer-based">Vancouver, Canada</div>
+                        </div><!--.col-md-3-->
                         <div class="col-md-9">
                             <div class="footer-square row">
                                 <div class="col-md-6">
@@ -105,7 +106,6 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
                             </div>
                         </div>
                     </div>
-                        <div class="footer-based">Vancouver, Canada</div>
                         </div>
                 </div>
             </div>
