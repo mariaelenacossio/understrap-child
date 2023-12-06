@@ -105,11 +105,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </div><!--.footer-square row-->
                         </div><!--.col-md-9-->
                     </div><!--.row-->
+                    <div class="footer-based">© 2023 Mariaelena Cossio Clark. All rights reserved.</div>
                 </div><!--.footer-page-->
             </div><!--.col-md-12-->
         </div><!--.row-->
     </div><!--.container-->
-    <div class="footer-based">© 2023 Mariaelena Cossio Clark. All rights reserved.</div>
 </section><!--.section footer-section-->
 </div><!--.div-wrapper-->  
 
