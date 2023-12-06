@@ -1353,6 +1353,10 @@ div#wrapper-footer {
   margin-bottom: 0;
   padding: 32px;
 }
+section.section.footer-section {
+  background-color: #0408ab;
+  border-top-left-radius: 5px;
+}
 
 @media screen and (max-width: 991px) {
   .footer.page {
