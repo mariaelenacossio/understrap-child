@@ -245,13 +245,15 @@ a {
   position: absolute;
   padding-right: 1rem;
 }
-@media only screen //Medium Screens and (min-width: 768px) {
+@media only screen {
+  //Medium Screens and (min-width: 768px)
   .interface:not(div#wrapper-footer) {
     padding-right: 0;
   }
 }
 
-@media only screen //Small screens and (max-width: 447px) {
+@media only screen {
+  //Small screens and (max-width: 447px)
   .interface {
     width: 100%;
     margin-left: 0px;
@@ -375,7 +377,8 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   display: none;
 }
 
-@media only screen //Small Screens and (max-width: 477px) {
+@media only screen {
+  //Small Screens and (max-width: 477px) {
   .side-bar {
     display: none;
   }
@@ -559,7 +562,8 @@ p.lead {
   }
 }
 
-@media only screen //Small screens and (max-width: 477px) {
+//Small screens and (max-width: 477px)
+@media only screen {
   .hero {
     height: auto;
   }
@@ -635,7 +639,8 @@ p.lead.fw-light.mb-4 {
 .d-flex.flex-row {
   justify-content: start;
 }
-@media only screen //Small screens and (max-width: 477px) {
+//Small screens and (max-width: 477px)
+@media only screen {
   .h2 {
     text-align: center;
     font-size: 3rem;
@@ -656,8 +661,8 @@ p.lead.fw-light.mb-4 {
   }
 }
 
-@media only screen //Medium Screens and (min-width: 768px) {
-  // .about-me.bg-light.container.mt-4.img-shadow {margin-right: 1rem;}
+//Medium Screens and (min-width: 768px)
+@media only screen {
   .about-me h2 {
     text-align: center;
   }
@@ -673,7 +678,8 @@ p.lead.fw-light.mb-4 {
   }
 }
 
-@media only screen //Large screen and (min-width: 1250px) {
+//Large screen and (min-width: 1250px)
+@media only screen {
   .about-me > .row {
     padding-bottom: 2rem;
   }
@@ -824,7 +830,8 @@ p.lead.fw-light.mb-4 {
   --bs-gutter-y: 4.5rem;
 }
 
-@media only screen //Small screens and (max-width: 477px) {
+//Small screens and (max-width: 477px)
+@media only screen {
   .portfolio-btn {
     text-align: center;
   }
@@ -1180,7 +1187,8 @@ p.lead.fw-light.mb-4 {
   // mask-repeat: no-repeat;
 }
 
-@media only screen //Small screens and (max-width: 477px) {
+//Small screens and (max-width: 477px)
+@media only screen {
   .primary-container {
     padding: 32px;
     height: 500px;
@@ -1189,7 +1197,8 @@ p.lead.fw-light.mb-4 {
     padding: 1rem;
   }
 }
-@media only screen //Large screens and (max-width: 1294px) {
+//Large screens and (max-width: 1294px)
+@media only screen {
   .primary-container {
     grid-column: span 2;
     min-height: unset;
@@ -1210,17 +1219,13 @@ p.lead.fw-light.mb-4 {
 .social-links a {
   color: #615ab7;
 }
-@media only screen //Small screens and (max-width: 477px) {
+
+//Small screens and (max-width: 477px)
+@media only screen {
   .social-links {
     justify-content: center;
   }
 }
-
-//Glassy icons
-// background-color: rgba(255, 255, 255, 0.5);
-// filter: blur(10px);
-// border: 1px solid gray;
-// border-radius: 8px;
 
 //Footer
 
@@ -1286,7 +1291,8 @@ div#wrapper-footer {
   display: flex;
 } //Align to center
 
-@media only screen //Small screens and (max-width: 477px) {
+//Small screens and (max-width: 477px)
+@media only screen {
   // Sub-headline to be centered
   footer p {
     text-align: center;
@@ -1391,7 +1397,9 @@ form#contact-form {
 textarea.form-control {
   height: 250px;
 }
-@media only screen //Small screens and (max-width: 477px) {
+
+//Small screens and (max-width: 477px)
+@media only screen {
   textarea.form-control {
     height: 200px;
   }
