@@ -17,15 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="footer wrapper" id="wrapper-footer">
   <!-- Footer Section -->
-  <section class="section footer-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-              <!--Add a new divider with the primary color-->
-                <!-- <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/652502e0451fd47fd23d04e5_Footer-Shape.svg" 
-                     loading="eager" alt="" class="img-fluid"/> -->
-                <div class="footer page">
-                <div class="row red">
+  <div class="row red">
   <div><!--Divider-->
     <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep1" viewBox="0 0 1600 100" style="" data-height="100">
 <path class="" style="opacity: 1;fill: #bc4565;" d="M1040,56c0.5,0,1,0,1.6,0c-16.6-8.9-36.4-15.7-66.4-15.7c-56,0-76.8,23.7-106.9,41C881.1,89.3,895.6,96,920,96
@@ -61,6 +53,15 @@ s60.2,40,120,40s59.8,0,59.8,0l0.2,143H-60V96L-40,95.6z"></path>
 </svg>
   </div>
 </div><!--.divider-->
+
+  <section class="section footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <!--Add a new divider with the primary color-->
+                <!-- <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/652502e0451fd47fd23d04e5_Footer-Shape.svg" 
+                     loading="eager" alt="" class="img-fluid"/> -->
+                <div class="footer page">
                     <div class="row">
                         <div class="col-md-3">
                             <img src="https://assets-global.website-files.com/5d0445b2e1a868a5489d4aea/6523bf250c86631325684972_Lets%20Work%20Together.svg" 
