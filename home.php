@@ -292,6 +292,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
         </section>
         
+        <div class="card-body-test">
         <div class="blog-card">
   <div class="poster">
     <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg" alt="Sunset" />
@@ -316,6 +317,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     
     <button>Read More</button>
   </div>
+</div>
 </div>
 
 <?php
