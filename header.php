@@ -19,6 +19,8 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="robots" content="noindex, nofollow" />
+	<meta name="keywords" content="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
+                creative web design, user interface design" />
 	<meta name="description" content="Embark on a digital journey through a meticulously crafted professional portfolio. 
 	From the glitz of AWS's Route 53 to the WordPress wonderland, explore a symphony of HTML, CSS, and jQuery woven into 
 	a bespoke Understrap child theme. Join the case studies carnival, showcasing triumphs from learning adventures. 
