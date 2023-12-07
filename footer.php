@@ -112,7 +112,6 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="footer-based">© 2023 Mariaelena Cossio Clark. All rights reserved.</div>
 </section><!--.section footer-section-->
 </div><!--.div-wrapper-->  
-</div>
 
 <?php // Closing div#page from header.php. ?>
 <!-- </div>#page -->
