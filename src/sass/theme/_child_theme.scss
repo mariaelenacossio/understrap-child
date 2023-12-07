@@ -2179,6 +2179,12 @@ nav.blog-pagination {
 }
 
 //blog card test
+.card-body-test {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #151515;
+}
 .blog-card {
   position: relative;
   width: 325px;
