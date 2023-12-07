@@ -2180,10 +2180,10 @@ nav.blog-pagination {
 
 //blog card test
 .card-body-test {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  background: #151515;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 1rem;
 }
 .blog-card {
   position: relative;
@@ -2291,5 +2291,10 @@ nav.blog-pagination {
 
   &:hover .details {
     bottom: 0;
+  }
+}
+@media (max-width: 468px) {
+  .card-body-test {
+    display: grid;
   }
 }
