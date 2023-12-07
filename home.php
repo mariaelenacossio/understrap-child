@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-sm-2 col-md-6 col-lg-8 mx-auto text-center">
-                        <p class="lead">Hi there! I am Mariaelena</p>
+                        <p class="lead">Hi there! I am Mariaelena Cossio</p>
                         <div class="role-container">
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->
