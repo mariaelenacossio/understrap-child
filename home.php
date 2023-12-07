@@ -318,7 +318,34 @@ $container = get_theme_mod( 'understrap_container_type' );
     <button>Read More</button>
   </div>
 </div>
+
+<div class="blog-card">
+  <div class="poster">
+    <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg" alt="Sunset" />
+  </div>
+  
+  <div class="details">
+    <h1>Card Title</h1>
+    <h2>Sub Title</h2>
+    
+    <div class="rating">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      <span>4/5</span>
+    </div>
+    
+    <p class="desc">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    
+    <button>Read More</button>
+  </div>
 </div>
+
+</div><!--.card-body-test-->
 
 <?php
 get_footer();
