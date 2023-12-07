@@ -126,7 +126,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-xs-12 col-md-6">
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
-                <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
+                <span class="badge rounded-pill text-bg-pill position-absolute top-10px start-10px">HTML/CSS</span>
                 <!--Design System Case Study-->
                 <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/design-system-phone-mockup-5.jpg" 
@@ -153,7 +153,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-xs-12 col-md-6">
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
-                <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">HTML/CSS/Bootstrap</span>
+                <span class="badge rounded-pill text-bg-pill position-absolute top-10px end-10px">HTML/CSS/Bootstrap</span>
                 <!--Los Quequitos Case Study-->
                 <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-1-scaled.jpg" 
@@ -180,7 +180,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-xs-12 col-md-6">
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
-                <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">HTML/CSS</span>
+                <span class="badge rounded-pill text-bg-pill position-absolute top-10px start-10px">HTML/CSS</span>
                 <!--Beauty by Amy Case Study-->
                 <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-2-scaled-e1700103130812.jpg" 
@@ -207,7 +207,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <div class="col-xs-12 col-md-6">
             <div class="img-wrapper position-relative hcf-transform">
               <a href="#!">
-                <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">UX/UI</span>
+                <span class="badge rounded-pill text-bg-pill position-absolute top-10px end-10px">UX/UI</span>
                 <!--RelocateME Case Study-->
                 <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="eager" 
                 src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/website-project-4-scaled-e1700103740850.jpg" 
