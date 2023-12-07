@@ -317,8 +317,8 @@ $container = get_theme_mod( 'understrap_container_type' );
         Let's embark on a journey of discovery as we unravel the secrets 
         behind optimizing user experiences for our beloved smartphone users.
     </p>
-    <a href="https://mariaelena-cossioclark.com/blog-post-1/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
-    <button>Read More</button>
+    
+    <button><a href="https://mariaelena-cossioclark.com/blog-post-1/">Read More</a></button>
   </div>
 </div>
 
