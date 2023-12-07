@@ -355,9 +355,9 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
     width: 390px;
     background-color: $background-color;
     /* Adjust the height as needed */
-    // height: 100px;
+    height: 65px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     /* Add any other styles you need */
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
@@ -1235,7 +1235,8 @@ section.section.footer-section {
     padding: 1.5rem 0;
   }
   .footer-based {
-    height: 85px;
+    height: 80px;
+    font-size: 0.9rem;
   }
 }
 
