@@ -24,16 +24,15 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
+<!--Page loader-->
+<div class="body-loader">
+<div class="loader"></div>
+</div><!--.body-loader-->
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<header  class="side-bar img-shadow" id="wrapper-navbar">
 	<div class="d-flex flex-column flex-shrink-0 align-items-center" style="width: 4rem; 60vh;">
-		<!-- <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip" data-bs-placement="right"> -->
-			<!-- <svg class="bi" width="40" height="32"><use xlink:href="#bootstrap"/></svg> -->
-			<!-- <span class="visually-hidden">Icon-only</span> -->
-		<!-- </a> --> <!--Logo icon, add ASAP-->
-
 			<ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
 				<li class="nav-item home">
 				<a href="https://mariaelena-cossioclark.com/" class="nav-link active py-3" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
@@ -78,27 +77,10 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 				</a>
 				</li>
 			</ul>
-		<!-- <div class="dropdown border-top">
-			<a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
-				<img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
-			</a>
-			<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
-			<li><a class="dropdown-item" href="#">New project...</a></li>
-			<li><a class="dropdown-item" href="#">Settings</a></li>
-			<li><a class="dropdown-item" href="#">Profile</a></li>
-			<li><hr class="dropdown-divider"></li>
-			<li><a class="dropdown-item" href="#">Sign out</a></li>
-			</ul>
-		</div> --> <!--Unnecessary Dropdown-->
   </div>
   <!--End Sidebar Large Screens-->
 
 		<!-- <a class="skip-link <?php echo understrap_get_screen_reader_class( true ); ?>" href="#content"> -->
-			<!-- ?php esc_html_e( 'Skip to content', 'understrap' ); ?> -->
-		<!-- </a> -->
-
-		<!-- ?php get_template_part( 'global-templates/navbar', $navbar_type . '-' . $bootstrap_version ); ?> -->
-
 	</header><!-- #wrapper-navbar -->
 	<!--Bottom Navbar for small screens-->
   
