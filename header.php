@@ -26,6 +26,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	a bespoke Understrap child theme. Join the case studies carnival, showcasing triumphs from learning adventures. 
 	With HTTPS secure vibes and continuous refinement, this digital spectacle promises an unforgettable experience. 
 	Welcome to the backstage – where every click is a standing ovation!">
+	<meta name="publisher" content="Mariaelena Cossio Clark" />
 	<link rel="canonical" href="https://mariaelena-cossioclark.com/" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
