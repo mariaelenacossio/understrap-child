@@ -2287,8 +2287,8 @@ nav.blog-pagination {
       border: 1.5px solid rgba(255 255 255 / 0.4);
       border-radius: 50px;
     }
-    a {
-      text-decoration: none;
+    .blog-card .details a {
+      color: $background-color;
     }
   }
 
