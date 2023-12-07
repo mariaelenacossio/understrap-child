@@ -135,15 +135,20 @@ jQuery(window).on('load', function() {
 });
 
 //Blog card carousel test
-const slider = document.querySelector(".slider");
+jQuery(document).ready(function($) {
+    const slider = $(".slider");
 
-function activate(e) {
-  const items = document.querySelectorAll(".item");
-  e.target.matches(".next") && slider.append(items[0]);
-  e.target.matches(".prev") && slider.prepend(items[items.length - 1]);
-}
+    function activate(e) {
+      const items = $(".card-item");
+      if ($(e.target).hasClass("next")) {
+        slider.append(items[0]);
+      } else if ($(e.target).hasClass("prev")) {
+        slider.prepend(items[items.length - 1]);
+      }
+    }
 
-document.addEventListener("click", activate, false);
+    $(document).on("click", ".btn", activate);
+  });
 
 
 
