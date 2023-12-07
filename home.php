@@ -301,22 +301,23 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
   
   <div class="details">
-    <h1>Card Title</h1>
-    <h2>Sub Title</h2>
+    <h1>Embrace the Future: </h1>
+    <h2>Crafting an Enjoyable Mobile Experience</h2>
     
-    <div class="rating">
+    <!-- <div class="rating">
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="fas fa-star"></i>
       <i class="far fa-star"></i>
       <span>4/5</span>
-    </div>
+    </div> -->
     
     <p class="desc">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Let's embark on a journey of discovery as we unravel the secrets 
+        behind optimizing user experiences for our beloved smartphone users.
     </p>
-    
+    <a href="https://mariaelena-cossioclark.com/blog-post-1/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
     <button>Read More</button>
   </div>
 </div>
