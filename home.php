@@ -302,6 +302,25 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div><!--.3rd-card-->
 
+<div class="blog-card">
+  <div class="poster">
+    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/traffic-cone.png" 
+          alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
+                responsive design mockups, landing page designs, prototype wireframes, interactive web design" />
+  </div>
+  
+  <div class="details">
+    <h1>Coming Soon</h1>
+    <h2>New Post</h2>
+        
+    <p class="desc">
+    Update real soon...
+    </p>
+    
+    <button><a href="#!">Read More</a></button>
+  </div>
+</div><!--.4th-card-->
+
 </div><!--.card-body-test-->
 
 <?php
