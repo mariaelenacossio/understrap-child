@@ -134,21 +134,6 @@ jQuery(window).on('load', function() {
     }, 3000);
 });
 
-//Blog card carousel test
-jQuery(document).ready(function($) {
-    const slider = $(".slider");
-
-    function activate(e) {
-      const items = $(".card-item");
-      if ($(e.target).hasClass("next")) {
-        slider.append(items[0]);
-      } else if ($(e.target).hasClass("prev")) {
-        slider.prepend(items[items.length - 1]);
-      }
-    }
-
-    $(document).on("click", ".btn", activate);
-  });
 
 
 
