@@ -295,7 +295,9 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="card-body-test">
         <div class="blog-card">
   <div class="poster">
-    <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg" alt="Sunset" />
+    <img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" 
+          alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
+                responsive design mockups, landing page designs, prototype wireframes, interactive web design" />
   </div>
   
   <div class="details">
@@ -321,7 +323,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="blog-card">
   <div class="poster">
-    <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg" alt="Sunset" />
+    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-2-scaled.jpg" 
+          alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
+                responsive design mockups, landing page designs, prototype wireframes, interactive web design" />
   </div>
   
   <div class="details">
