@@ -18,6 +18,11 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Embark on a digital journey through a meticulously crafted professional portfolio. 
+	From the glitz of AWS's Route 53 to the WordPress wonderland, explore a symphony of HTML, CSS, and jQuery woven into 
+	a bespoke Understrap child theme. Join the case studies carnival, showcasing triumphs from learning adventures. 
+	With HTTPS secure vibes and continuous refinement, this digital spectacle promises an unforgettable experience. 
+	Welcome to the backstage – where every click is a standing ovation!">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 </head>
