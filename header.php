@@ -21,11 +21,10 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<meta name="robots" content="noindex, nofollow" />
 	<meta name="keywords" content="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
                 creative web design, user interface design" />
-	<meta name="description" content="Embark on a digital journey through a meticulously crafted professional portfolio. 
-	From the glitz of AWS's Route 53 to the WordPress wonderland, explore a symphony of HTML, CSS, and jQuery woven into 
-	a bespoke Understrap child theme. Join the case studies carnival, showcasing triumphs from learning adventures. 
-	With HTTPS secure vibes and continuous refinement, this digital spectacle promises an unforgettable experience. 
-	Welcome to the backstage – where every click is a standing ovation!">
+	<meta name="description" content="Embark on a digital journey through a meticulously crafted professional portfolio, 
+	from AWS glitz to WordPress wonderland, showcasing a symphony of HTML, CSS, and jQuery woven into a bespoke
+	 Understrap child theme. Join the case studies carnival for triumphant learning adventures, secured with HTTPS 
+	 vibes and continuous refinement. Welcome to the backstage – where every click is a standing ovation!">
 	<meta name="publisher" content="Mariaelena Cossio Clark" />
 	<link rel="canonical" href="https://mariaelena-cossioclark.com/" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
