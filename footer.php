@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="footer wrapper exclude-padding-right" id="wrapper-footer">
+<div class="footer wrapper" id="wrapper-footer">
   <!-- Footer Section -->
             <div class="footer-separator">
             <div><!--Divider-->
