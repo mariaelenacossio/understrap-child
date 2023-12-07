@@ -124,14 +124,4 @@ jQuery(document).ready(function($) {
 
 
 
-//Function for page loader
-jQuery(document).ready(function($) {
-    const container = $(".loader");
-    for (let i = 1; i <= 100; i++) {
-      const circle = $("<div>").addClass("circle").css("--i", i);
-      container.append(circle);
-    }
-  });
-
-
 
