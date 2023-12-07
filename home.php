@@ -240,57 +240,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<h2 id="blog" class="display-5 fw-bolder pt-5"><span class="text-gradient d-inline">Blog</span></h2>
 				<hr>
 				</div>
-
-				<section class="blog-cards">
-				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center align-items-stretch">
-				<div class="col">
-                    <div class="card custom-card h-100">
-					<img src="http://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-1-scaled.jpg" class="card h-100-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Embrace the Future: Crafting an Enjoyable Mobile Experience</h5>
-                            <p class="card-text">Let's embark on a journey of discovery as we unravel the secrets 
-                            behind optimizing user experiences for our beloved smartphone users.
-                            </p>
-                            <div class="card-buttons d-flex justify-content-center">
-                            <a href="https://mariaelena-cossioclark.com/blog-post-1/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
-                                <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				<div class="col">
-                    <div class="card custom-card h-100">
-					<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-2-scaled.jpg" class="card-img-top" 
-                alt="e-commerce website design, corporate website mockups, startup landing page design, 
-                    mobile app ux/ui, technology website design, health and wellness website mockups">
-                        <div class="card-body">
-                            <h5 class="card-title">Color Psychology in Web Design: A Palette for Emotions</h5>
-                            <p class="card-text">Intrigued? Let's uncover the magic of Color Psychology in Web Design 
-                              – where every shade tells a story!</p>
-                            <div class="card-buttons d-flex justify-content-center">
-                            <a href="https://mariaelena-cossioclark.com/blog-post-2-2/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
-                                <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				<div class="col">
-                    <div class="card custom-card h-100">
-					<img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-3-scaled.jpg" class="card-img-top" 
-               alt="responsive design, user experience, mobile-friendly ui, interaction design, navigation patterns, app prototyping, app prototyping, design trends">
-                        <div class="card-body">
-                            <h5 class="card-title">Navigating the UX Seas: A Guide to Intuitive Navigation Design</h5>
-                            <p class="card-text">In this blog post, we're not just talking about menus and buttons 
-                              – we're navigating the UX seas to create an experience that feels like a breezy cruise.</p>
-                            <div class="card-buttons d-flex justify-content-center">
-                            <a href="https://mariaelena-cossioclark.com/blog-post-3/" class="btn btn-primary btn-lg px-4 me-md-2">Read More</a>
-                                <!-- <button class="btn btn-outline-secondary btn-lg px-4">Case Study</button> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         
         <div class="card-body-test">
         <div class="blog-card">
@@ -303,16 +252,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   <div class="details">
     <h1>Embrace the Future: </h1>
     <h2>Crafting an Enjoyable Mobile Experience</h2>
-    
-    <!-- <div class="rating">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-      <span>4/5</span>
-    </div> -->
-    
+        
     <p class="desc">
         Let's embark on a journey of discovery as we unravel the secrets 
         behind optimizing user experiences for our beloved smartphone users.
@@ -320,7 +260,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     
     <button><a href="https://mariaelena-cossioclark.com/blog-post-1/">Read More</a></button>
   </div>
-</div>
+</div><!--.1st-card-->
 
 <div class="blog-card">
   <div class="poster">
@@ -330,25 +270,37 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
   
   <div class="details">
-    <h1>Card Title</h1>
-    <h2>Sub Title</h2>
-    
-    <div class="rating">
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="far fa-star"></i>
-      <span>4/5</span>
-    </div>
-    
+    <h1>Color Psychology in Web Design:</h1>
+    <h2>A Palette for Emotions</h2>
+        
     <p class="desc">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Intrigued? Let's uncover the magic of Color Psychology in Web Design 
+        – where every shade tells a story!
     </p>
     
-    <button>Read More</button>
+    <button><a href="https://mariaelena-cossioclark.com/blog-post-2-2/">Read More</a></button>
   </div>
-</div>
+</div><!--.2nd-card-->
+
+<div class="blog-card">
+  <div class="poster">
+    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-3-scaled.jpg" 
+          alt="website mockup design, mobile app mockups, wireframe examples, user interface screenshots,
+                responsive design mockups, landing page designs, prototype wireframes, interactive web design" />
+  </div>
+  
+  <div class="details">
+    <h1>Navigating the UX Seas:</h1>
+    <h2>A Guide to Intuitive Navigation Design</h2>
+        
+    <p class="desc">
+    In this blog post, we're not just talking about menus and buttons 
+    – we're navigating the UX seas to create an experience that feels like a breezy cruise.
+    </p>
+    
+    <button><a href="https://mariaelena-cossioclark.com/blog-post-3/">Read More</a></button>
+  </div>
+</div><!--.3rd-card-->
 
 </div><!--.card-body-test-->
 
