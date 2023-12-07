@@ -118,7 +118,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 
 <!--Portfolio-->
-<section class="portfolio bg-light py-5 py-xl-6">
+<section class="portfolio bg-light py-xl-6">
   <div class="container overflow-hidden">
     <div class="row gy-5">
       <div class="col-12">
