@@ -19,6 +19,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="robots" content="noindex, nofollow" />
+	<meta name="google-site-verification" content="_DU1mJxCrU6uJFwnVZVyjIAllt7C9ZRkWuF_PqJNKNM" />
 	<meta name="keywords" content="web design, website mockups, ux/ui design, portfolio design, digital design, responsive design, 
                 creative web design, user interface design" />
 	<meta name="description" content="Crafted portfolio: AWS, WordPress, 
