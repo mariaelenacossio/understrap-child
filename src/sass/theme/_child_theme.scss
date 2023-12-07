@@ -381,6 +381,18 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
     border-top: 3px solid $primary-color; /* Blue 2px top border */
     border-radius: 4px; /* Rounded corners */
   }
+  /* Style the container */
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Style the text */
+  .nav-text {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    margin-top: 0.5rem; /* Adjust the margin as needed */
+  }
 }
 
 // Hero section
