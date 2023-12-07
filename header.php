@@ -24,8 +24,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
-<!--Page loader-->
-<div class="loader"></div>
+
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
