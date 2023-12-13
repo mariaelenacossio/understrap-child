@@ -2232,3 +2232,30 @@ nav.blog-pagination {
     display: grid;
   }
 }
+
+/* Base styles */
+
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+  /* Adjust styles for small screens */
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Adjust styles for medium-sized screens (tablets) */
+}
+
+/* Small laptops and desktops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Adjust styles for larger screens (small laptops and desktops) */
+}
+
+/* Standard desktops and projectors */
+@media screen and (min-width: 1200px) {
+  /* Adjust styles for standard desktop screens and projectors */
+  body {
+    max-width: 1400px; /* Set a maximum width for content */
+    margin: 0 auto; /* Center content on larger screens */
+    font-size: 22px; /* Increase font size for better readability */
+  }
+}
