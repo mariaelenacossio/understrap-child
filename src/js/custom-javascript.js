@@ -4,6 +4,9 @@ jQuery.noConflict();
 
 //Active state for side-bar btn
 jQuery(document).ready(function($) {
+    // Set the first nav-item as active by default
+    $(".nav-item:first-child").addClass("active");
+
     $(".nav-item").click(function() {
         // Remove active class from all nav-items
         $(".nav-item").removeClass("active");
