@@ -40,7 +40,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 	<header  class="side-bar img-shadow" id="wrapper-navbar">
 	<div class="d-flex flex-column flex-shrink-0 align-items-center" style="width: 4rem; 60vh;">
 			<ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-				<li class="nav-item active">
+				<li class="nav-item">
 				<a href="https://mariaelena-cossioclark.com/" class="nav-link active py-3" aria-current="page" title="Home" data-bs-toggle="tooltip" data-bs-placement="right">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" aria-label="Home">
 					<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
