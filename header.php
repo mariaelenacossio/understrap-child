@@ -103,7 +103,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 							</div>
 				</a>
 
-				<a href="#about" class="nav-link py-3" title="About" data-bs-toggle="tooltip" data-bs-placement="right">
+				<a href="#about" class="nav-link py-3 active" title="About" data-bs-toggle="tooltip" data-bs-placement="right">
 				<div class="nav-container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" aria-label="About">
 					<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -112,7 +112,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 							</div>
 				</a>
 
-				<a href="#portfolio" class="nav-link py-3" title="Portfolio" data-bs-toggle="tooltip" data-bs-placement="right">
+				<a href="#portfolio" class="nav-link py-3 active" title="Portfolio" data-bs-toggle="tooltip" data-bs-placement="right">
 				<div class="nav-container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Portfolio">
 					<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -121,7 +121,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 							</div>
 				</a>
 
-				<a href="https://github.com/mariaelenacossio" class="nav-link py-3" title="Github" data-bs-toggle="tooltip" data-bs-placement="right">
+				<a href="https://github.com/mariaelenacossio" class="nav-link py-3 active" title="Github" data-bs-toggle="tooltip" data-bs-placement="right">
 				<div class="nav-container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" aria-label="Github">
 					<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -129,7 +129,7 @@ $navbar_type       = get_theme_mod( 'understrap_navbar_type', 'collapse' );
 					<span class="nav-text">Github</span>
 							</div>
 				</a>
-				<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" class="nav-link py-3" title="Linkedin" data-bs-toggle="tooltip" data-bs-placement="right">
+				<a href="https://www.linkedin.com/in/mariaelena-cossio-clark-320ba416b/" class="nav-link py-3 active" title="Linkedin" data-bs-toggle="tooltip" data-bs-placement="right">
 				<div class="nav-container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" aria-label="Linkedin">
 					<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
