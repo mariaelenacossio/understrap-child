@@ -321,7 +321,9 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 }
 
 .nav-link {
-  padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .fw-semibold {
