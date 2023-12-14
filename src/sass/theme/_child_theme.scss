@@ -241,7 +241,7 @@ a {
   border: 1px solid transparent;
   backdrop-filter: blur(16px);
   border-radius: 40px;
-  margin-top: 6rem;
+  margin-top: 9%;
   margin-left: 1rem;
   background-color: $background-color;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
@@ -459,7 +459,7 @@ p.lead {
   height: 80vh;
   top: 1rem;
   z-index: -1;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 .window-container {
   height: 80vh;
@@ -619,6 +619,9 @@ p.lead {
   .image-container {
     display: none;
   }
+  .hero-container {
+    display: none;
+  }
   img.d-block.mx-lg-auto.img-fluid-hero {
     width: 345px;
     height: 80vh;
@@ -641,6 +644,13 @@ p.lead {
   }
   .col-lg-6 {
     margin-top: 0;
+  }
+}
+
+//Medium Screens and (min-width: 768px)
+@media screen and (min-width: 768px) {
+  .hero-container {
+    display: none;
   }
 }
 
