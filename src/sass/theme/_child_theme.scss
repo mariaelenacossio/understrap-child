@@ -411,9 +411,9 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 .col-10.col-sm-8.col-lg-6 {
   margin-top: 0;
 }
-.hero {
-  height: 100vh;
-}
+// .hero {
+//   height: 100vh;
+// }
 p.lead {
   font-family: "Shalma", sans-serif;
   text-align: center;
@@ -544,9 +544,9 @@ p.lead {
 
 //Small screens and (max-width: 477px)
 @media screen and (max-width: 477px) {
-  .hero {
-    height: auto;
-  }
+  // .hero {
+  //   height: auto;
+  // }
   img.d-block.mx-lg-auto.img-fluid-hero {
     width: 345px;
     height: 80vh;
@@ -559,10 +559,10 @@ p.lead {
   h1.display-5.fw-bold.lh-1.mb-3 {
     text-align: center;
   }
-  .container.hero.col-xxl-8.px-4.py-5 {
-    padding-bottom: 1rem !important;
-    padding-top: 1rem !important;
-  }
+  // .container.hero.col-xxl-8.px-4.py-5 {
+  //   padding-bottom: 1rem !important;
+  //   padding-top: 1rem !important;
+  // }
   .row.flex-lg-row-reverse.align-items-center.g-5.py-5 {
     padding-bottom: 1rem !important;
     padding-top: 1.5rem !important;
