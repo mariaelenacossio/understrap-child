@@ -52,9 +52,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!--.hero-container-->
 
 
-<!--Interface Content-->
-<div class="interface">
-
 <!--Parallax Container-Hero Section Mobile-->
 <div class="parallax-container">
     <div class="parallax-layer">
@@ -83,8 +80,11 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div><!--.parallax-layer-->
 </div><!--.parallax-container-->
 
-
 		<!--End of Hero Section-->
+
+<!--Interface Content-->
+<div class="interface">
+
 
 <!-- About Me -->
 <section id="about" class="bg-light py-4 py-md-5 py-xl-6">
