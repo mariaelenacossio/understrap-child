@@ -452,13 +452,30 @@ p.lead {
   color: $background-color;
 }
 
+//New hero layout for desktop
+
+.hero-container {
+  position: relative;
+  height: 80vh;
+  top: 1rem;
+}
+.window-container {
+  height: 80vh;
+  border-radius: 25px;
+}
+
 .window-header {
   background: #f3f4f6;
   border-bottom: 1px solid #e5e7eb;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 50px;
 }
 .window-content {
   background: #ffffff;
-  height: 500px; /* Example height */
+  height: 80vh; /* Example height */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .control-btn {
   width: 12px;

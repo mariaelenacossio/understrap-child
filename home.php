@@ -23,15 +23,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="interface">
 
 
-<div class="container bg-light">
-  <div class="max-w-4xl mx-auto mt-10 shadow-lg">
+<div class="hero-container bg-light">
+  <div class="window-container max-w-4xl mx-auto mt-10 shadow-lg">
     <div class="window-header p-4 d-flex justify-content-between align-items-center">
       <div class="d-flex gap-2">
         <div class="control-btn minimize-btn"></div>
         <div class="control-btn maximize-btn"></div>
         <div class="control-btn close-btn"></div>
       </div>
-      <div class="text-muted cursor-pointer">✕</div>
+      <!-- <div class="text-muted cursor-pointer">✕</div> -->
     </div>
     <div class="window-content"></div>
   </div>
