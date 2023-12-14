@@ -626,6 +626,9 @@ p.lead {
 
 //Small screens and (max-width: 477px)
 @media screen and (max-width: 477px) {
+  .parallax-container {
+    display: contents;
+  }
   .image-container {
     display: none;
   }
