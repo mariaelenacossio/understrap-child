@@ -1327,11 +1327,11 @@ section.section.footer-section {
   color: #e5efff;
   text-align: center;
 }
-#wrapper-footer .interface {
-  width: initial !important;
-  margin-left: initial !important;
-  position: initial !important;
-  padding-right: initial !important;
+.footer.wrapper:not(.interface) {
+  width: calc(100% - 120px);
+  margin-left: 120px;
+  position: absolute;
+  padding-right: 3rem;
 }
 
 @media screen and (max-width: 991px) {
