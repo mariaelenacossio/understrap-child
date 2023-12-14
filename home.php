@@ -35,8 +35,8 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="image-text">
     <div class="role-container">
       <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                        </div>.role-container
-    </div>.img-text
+                        </div><!--.role-container-->
+    </div><!--.img-text-->
 
     </div><!--.window-content-->
   </div><!--.window-container-->
