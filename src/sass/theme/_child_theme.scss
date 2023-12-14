@@ -413,6 +413,29 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 
 // Hero section
 
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Style for the image */
+.image-container img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the text on the image */
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Set text color */
+  font-size: 24px; /* Set text font size */
+  font-weight: bold; /* Set text font weight */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
 .img-fluid-hero {
   max-width: fit-content;
   height: 80vh;
