@@ -282,6 +282,7 @@ $container = get_theme_mod( 'understrap_container_type' );
   </div>
 </div><!--.2nd-card-->
 
+<div class="grid-item">
 <div class="blog-card">
   <div class="poster">
     <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/blog-post-img-3-scaled.jpg" 
@@ -301,6 +302,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <button><a href="https://mariaelena-cossioclark.com/blog-post-3/">Read More</a></button>
   </div>
 </div><!--.3rd-card-->
+</div><!--.grid-item-->
 
 <div class="blog-card">
   <div class="poster">
