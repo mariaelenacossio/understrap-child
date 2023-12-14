@@ -1364,7 +1364,7 @@ section.section.footer-section {
 
 @media screen and (max-width: 468px) {
   .footer.wrapper:not(.interface) {
-    left: 0px;
+    left: 0px !important;
     bottom: 100px;
   }
 }
