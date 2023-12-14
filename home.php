@@ -23,6 +23,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="interface">
 
 
+<div class="image-container">
+    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-7.png" 
+         alt="bootstrap framework, responsive design with bootstrap, bootstrap components, 
+         customizing bootstrap themes, bootstrap grid system, bootstrap ui/ux integration, 
+         bootstrap web development" load="eager">
+    <div class="image-text">
+    <div class="role-container">
+      <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                        </div><!--.role-container-->
+
+    </div><!--.img-text-->
+  </div>
+
+<!--Parallax Container-Hero Section Mobile-->
 <div class="parallax-container">
     <div class="parallax-layer">
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-6.png" 
