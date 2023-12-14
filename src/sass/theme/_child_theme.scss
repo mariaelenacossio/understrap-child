@@ -2346,6 +2346,12 @@ nav.blog-pagination {
 /* Base styles */
 
 /* Mobile devices */
+@media screen and (max-width: 468pxpx) {
+  .parallax-container {
+    display: contents;
+  }
+}
+
 @media screen and (max-width: 767px) {
   /* Adjust styles for small screens */
   .parallax-container {
