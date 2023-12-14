@@ -35,47 +35,98 @@ jQuery(document).ready(function($) {
 });
 
 //Typing script for the roles
-    const typedTextSpan = document.querySelector(".typed-text");
-    const cursorSpan = document.querySelector(".cursor");
-    
+//Typing script for the roles
+jQuery(document).ready(function($) {
+    const typedTextSpan = $(".typed-text");
+    const cursorSpan = $(".cursor");
+  
     const textArray = ["Web Designer", "Web Developer", "Front end Developer", "UX/UI Designer"];
     const typingDelay = 200;
     const erasingDelay = 100;
     const newTextDelay = 2000; // Delay between current and next text
     let textArrayIndex = 0;
     let charIndex = 0;
-    
+  
     function type() {
       if (charIndex < textArray[textArrayIndex].length) {
-        if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-        typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+        if (!cursorSpan.hasClass("typing")) cursorSpan.addClass("typing");
+        typedTextSpan.text(typedTextSpan.text() + textArray[textArrayIndex].charAt(charIndex));
         charIndex++;
         setTimeout(type, typingDelay);
-      } 
-      else {
-        cursorSpan.classList.remove("typing");
-          setTimeout(erase, newTextDelay);
+      } else {
+        cursorSpan.removeClass("typing");
+        setTimeout(erase, newTextDelay);
       }
     }
-    
+  
     function erase() {
-        if (charIndex > 0) {
-        if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+      if (charIndex > 0) {
+        if (!cursorSpan.hasClass("typing")) cursorSpan.addClass("typing");
+        typedTextSpan.text(textArray[textArrayIndex].substring(0, charIndex - 1));
         charIndex--;
         setTimeout(erase, erasingDelay);
-      } 
-      else {
-        cursorSpan.classList.remove("typing");
+      } else {
+        cursorSpan.removeClass("typing");
         textArrayIndex++;
-        if(textArrayIndex>=textArray.length) textArrayIndex=0;
+        if (textArrayIndex >= textArray.length) textArrayIndex = 0;
         setTimeout(type, typingDelay + 1100);
       }
     }
+  
+    if (textArray.length) setTimeout(type, newTextDelay + 250);
+  
+    // Add touchstart event listener in addition to mousedown
+    $(document).on("mousedown touchstart", function() {
+      if (charIndex === 0) {
+        // Only trigger the animation if it's at the beginning
+        type();
+      }
+    });
+  });
+  
+
+
+    // const typedTextSpan = document.querySelector(".typed-text");
+    // const cursorSpan = document.querySelector(".cursor");
     
-    document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
-      if(textArray.length) setTimeout(type, newTextDelay + 250);
-    });    
+    // const textArray = ["Web Designer", "Web Developer", "Front end Developer", "UX/UI Designer"];
+    // const typingDelay = 200;
+    // const erasingDelay = 100;
+    // const newTextDelay = 2000; // Delay between current and next text
+    // let textArrayIndex = 0;
+    // let charIndex = 0;
+    
+    // function type() {
+    //   if (charIndex < textArray[textArrayIndex].length) {
+    //     if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    //     typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    //     charIndex++;
+    //     setTimeout(type, typingDelay);
+    //   } 
+    //   else {
+    //     cursorSpan.classList.remove("typing");
+    //       setTimeout(erase, newTextDelay);
+    //   }
+    // }
+    
+    // function erase() {
+    //     if (charIndex > 0) {
+    //     if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    //     typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    //     charIndex--;
+    //     setTimeout(erase, erasingDelay);
+    //   } 
+    //   else {
+    //     cursorSpan.classList.remove("typing");
+    //     textArrayIndex++;
+    //     if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    //     setTimeout(type, typingDelay + 1100);
+    //   }
+    // }
+    
+    // document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+    //   if(textArray.length) setTimeout(type, newTextDelay + 250);
+    // });    
     
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
