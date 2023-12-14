@@ -20,6 +20,8 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
+<!--Interface Content-->
+<div class="interface">
 
 <!--Parallax Container-Hero Section Mobile-->
 <div class="parallax-container">
@@ -79,8 +81,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!--.hero-container-->
 
 
-<!--Interface Content-->
-<div class="interface">
 
 
 
