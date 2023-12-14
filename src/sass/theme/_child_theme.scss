@@ -2138,7 +2138,7 @@ nav.blog-pagination {
 }
 .blog-card {
   position: relative;
-  width: 325px;
+  width: auto;
   height: 450px;
   background: #000;
   border-radius: 0.375rem;
@@ -2234,7 +2234,7 @@ nav.blog-pagination {
 }
 @media (max-width: 468px) {
   .card-body-test {
-    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
