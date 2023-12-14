@@ -1102,8 +1102,7 @@ p.lead.fw-light.mb-4 {
     height: 320px;
   }
   .card-body-test {
-    margin: 1rem 1rem 8rem 1rem;
-    grid-template-columns: 1fr;
+    margin: 1rem;
   }
   .blog-cards .row {
     display: flex;
@@ -2241,6 +2240,12 @@ nav.blog-pagination {
   }
   &:hover button a {
     color: $background-color;
+  }
+}
+@media (max-width: 468px) {
+  .card-body-test {
+    grid-template-columns: 1fr;
+    margin-bottom: 8rem;
   }
 }
 
