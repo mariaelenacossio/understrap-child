@@ -76,6 +76,16 @@ jQuery(document).ready(function($) {
     document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
       if(textArray.length) setTimeout(type, newTextDelay + 250);
     });    
+
+    // Add touchstart event listener in addition to mousedown
+    document.addEventListener("mousedown", startAnimation);
+    document.addEventListener("touchstart", startAnimation);
+
+    function startAnimation() {
+        if (charIndex === 0) {
+            type();
+        }
+    }
     
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
