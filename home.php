@@ -37,34 +37,22 @@ $container = get_theme_mod( 'understrap_container_type' );
       <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->
     </div><!--.img-text-->
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                            </a><!--.btn-resume-->
+                            <a href="#portfolio">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                            </a><!--.btn-portfolio-->
+
 
     </div><!--.window-content-->
   </div><!--.window-container-->
 </div><!--.hero-container-->
+
+
+<!--Interface Content-->
 <div class="interface">
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="image-container">
-    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-7.png" 
-         alt="bootstrap framework, responsive design with bootstrap, bootstrap components, 
-         customizing bootstrap themes, bootstrap grid system, bootstrap ui/ux integration, 
-         bootstrap web development" load="eager">
-    <div class="image-text">
-    <div class="role-container">
-      <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p> -->
-                        <!-- </div>.role-container -->
-
-    <!-- </div>.img-text -->
-  <!-- </div> -->
 
 <!--Parallax Container-Hero Section Mobile-->
 <div class="parallax-container">
