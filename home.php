@@ -80,10 +80,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </div><!--.window-container-->
                 </div><!--.hero-container-->
 
-
-
-
-
                   <!--End of Hero Section-->
 
                 <!-- About Me -->
