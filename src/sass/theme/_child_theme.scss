@@ -647,6 +647,23 @@ p.lead {
   }
 }
 
+@media (max-width: 767px) {
+  .hero-container,
+  .window-container,
+  .window-content {
+    height: 60vh;
+  }
+  .hero-container {
+    margin-bottom: 3rem;
+    padding: 1rem;
+  }
+  .side-bar {
+    margin-left: 2.5rem;
+    margin-top: 8rem;
+    height: 50vh;
+  }
+}
+
 .about-me.bg-light.container.mt-4.img-shadow {
   border-radius: 5rem;
   max-width: 85vw;
