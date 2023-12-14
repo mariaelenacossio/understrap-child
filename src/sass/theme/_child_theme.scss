@@ -2362,9 +2362,9 @@ nav.blog-pagination {
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Adjust styles for medium-sized screens (tablets) */
-  // .parallax-container {
-  //   display: none;
-  // }
+  .parallax-container {
+    display: none;
+  }
 }
 
 /* Small laptops and desktops */
