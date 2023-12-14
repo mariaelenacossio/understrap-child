@@ -32,10 +32,10 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div><!--.d-flex-->
     </div><!--.window-header-->
     <div class="window-content">
-    <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-8-scaled.jpg" 
+    <!-- <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-8-scaled.jpg" 
          alt="bootstrap framework, responsive design with bootstrap, bootstrap components, 
          customizing bootstrap themes, bootstrap grid system, bootstrap ui/ux integration, 
-         bootstrap web development" load="eager">
+         bootstrap web development" load="eager"> -->
     </div><!--.window-content-->
   </div><!--.window-container-->
 </div><!--.hero-container-->
