@@ -499,9 +499,6 @@ p.lead {
 }
 
 //Parallax effect for mobile
-// .parallax-container {
-//   display: none;
-// }
 .parallax-container {
   position: relative;
   overflow: hidden;
@@ -726,9 +723,6 @@ p.lead.fw-light.mb-4 {
 
 //Medium Screens and (min-width: 768px)
 @media screen and (min-width: 768px) {
-  .hero-container {
-    display: none;
-  }
   .about-me h2 {
     text-align: center;
   }
