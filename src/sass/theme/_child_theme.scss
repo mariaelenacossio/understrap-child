@@ -1362,6 +1362,14 @@ section.section.footer-section {
   }
 }
 
+@media screen and (max-width: 468px) {
+  .footer.wrapper:not(.interface) {
+    left: 0px;
+    bottom: 100px;
+  }
+}
+
+//Adjust width of footer
 @media (max-width: 768px) {
   .footer.wrapper:not(.interface) {
     width: 100vw;
