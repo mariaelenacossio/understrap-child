@@ -1334,11 +1334,19 @@ section.section.footer-section {
   z-index: -1;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) and (min-width: 1200px) {
   .footer.page {
     border-top: 0 rgba(255, 255, 255, 0);
     margin-top: 0;
     padding: 32px;
+  }
+  .footer.wrapper:not(.interface) {
+    width: 100%;
+    margin-left: 0;
+    position: relative; /* or any other style you want for mobile screens */
+    padding-right: 0;
+    bottom: 100px;
+    left: 0;
   }
 }
 //Align social icons in footer width:468px
@@ -1356,12 +1364,15 @@ section.section.footer-section {
 
 @media (max-width: 768px) {
   .footer.wrapper:not(.interface) {
-    width: 100%;
+    width: 100vw;
     margin-left: 0;
-    position: relative; /* or any other style you want for mobile screens */
+    position: relative;
     padding-right: 0;
-    bottom: 100px;
-    left: 0;
+    left: -120px;
+  }
+  .footer h2.heading-6 {
+    font-size: 1.27rem;
+    color: #010125;
   }
 }
 
