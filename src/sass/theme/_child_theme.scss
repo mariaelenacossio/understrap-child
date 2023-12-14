@@ -483,6 +483,7 @@ p.lead {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem;
 }
 .role-container p {
   font-size: 3rem;
@@ -490,7 +491,6 @@ p.lead {
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-align: center;
-  overflow: hidden;
   color: $background-color;
 }
 .role-container p span.typed-text {
@@ -553,6 +553,9 @@ p.lead {
   }
   .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > .d-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > p.lead {
+    backdrop-filter: blur(10px);
   }
 }
 
