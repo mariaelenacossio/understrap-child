@@ -1359,6 +1359,16 @@ section.section.footer-section {
   }
 }
 
+@media (max-width: 768px) {
+  .footer.wrapper:not(.interface) {
+    width: 100%;
+    margin-left: 0;
+    position: relative; /* or any other style you want for mobile screens */
+    padding-right: 0;
+    bottom: 100px;
+  }
+}
+
 .footer-square.row {
   text-align: center;
 }
