@@ -467,7 +467,9 @@ p.lead {
   height: 50px;
 }
 .window-content {
-  background: #ffffff;
+  background-image: url("https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-8-scaled.jpg");
+  background-position: center;
+  object-fit: cover;
   height: 80vh; /* Example height */
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
