@@ -588,9 +588,9 @@ p.lead {
 }
 
 @media screen and (max-width: 477px) {
-  // .parallax-container {
-  //   display: contents;
-  // }
+  .parallax-container {
+    display: contents;
+  }
   .role-container {
     width: 268px;
     height: 85px;
