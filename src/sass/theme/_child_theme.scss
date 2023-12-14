@@ -454,6 +454,13 @@ p.lead {
   z-index: -1;
   margin-bottom: 5rem;
 }
+
+.hero-cta-btns {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .window-container {
   height: 80vh;
   border-radius: 25px;

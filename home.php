@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
       <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->                    
     </div><!--.img-text-->
-    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+    <div class="hero-cta-btns">
                             <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
                             </a><!--.btn-resume-->
