@@ -532,6 +532,8 @@ p.lead {
   }
   .parallax-overlay > .container {
     width: 300px;
+    position: relative;
+    top: -80px;
   }
   .parallax-image {
     padding-left: 0;
