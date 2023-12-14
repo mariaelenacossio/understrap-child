@@ -1349,11 +1349,6 @@ section.section.footer-section {
   .cta-cards {
     margin-bottom: 2rem;
   }
-  .wrapper {
-    padding: 1.5rem 0;
-    position: relative;
-    bottom: 75px;
-  }
   .footer-based {
     font-size: 0.9rem;
   }
@@ -1366,6 +1361,7 @@ section.section.footer-section {
     position: relative; /* or any other style you want for mobile screens */
     padding-right: 0;
     bottom: 100px;
+    left: 0;
   }
 }
 
