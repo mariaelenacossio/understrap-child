@@ -500,6 +500,9 @@ p.lead {
 
 //Parallax effect for mobile
 .parallax-container {
+  display: none;
+}
+.parallax-container {
   position: relative;
   overflow: hidden;
   height: 100vh;
