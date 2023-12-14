@@ -137,27 +137,27 @@ a {
 }
 
 .social-btn a:hover svg {
-  color: #fff;
+  fill: #6e5494;
   transform: rotateY(360deg);
 }
 
 //Github Icon
 /* Define linear gradient for GitHub icon */
 .social-icon:nth-child(1) {
-  --bg-color: linear-gradient(
-    to bottom,
-    #24292e,
-    #2e3338,
-    #363b40,
-    #3e4348,
-    #464b50
-  );
+  // --bg-color: linear-gradient(
+  //   to bottom,
+  //   #24292e,
+  //   #2e3338,
+  //   #363b40,
+  //   #3e4348,
+  //   #464b50
+  // );
   color: #24292e; /* GitHub's primary color */
 }
 
 /* Apply linear gradient to GitHub icon */
 .social-icon:nth-child(1) svg path {
-  fill: var(--bg-color);
+  fill: #6e5494;
 }
 /* Rotate SVG path on hover */
 .social-icon:nth-child(1):hover svg {
@@ -173,13 +173,13 @@ a {
 //Linkedin icon
 /* Define linear gradient for LinkedIn icon */
 .social-icon:nth-child(2) {
-  --bg-color: linear-gradient(to bottom, #0077b5, #005e8e);
+  // --bg-color: linear-gradient(to bottom, #0077b5, #005e8e);
   color: #0077b5; /* LinkedIn's primary color */
 }
 
 /* Apply linear gradient to LinkedIn icon */
 .social-icon:nth-child(2) svg path {
-  fill: var(--bg-color);
+  fill: #0077b5;
   transition: fill 0.3s ease; /* Add smooth transition for fill color */
 }
 
