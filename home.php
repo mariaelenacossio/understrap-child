@@ -36,19 +36,19 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" download="mcc-resume.pdf">
+                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-                            </a>
+                            </a><!--.btn-resume-->
                             <a href="#portfolio">
                                 <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                            </a><!--.btn-portfolio-->
+                        </div><!--.d-grid-->
+                    </div><!--.col-sm-2-->
+                </div><!--.row-->
+            </div><!--.container-->
+        </div><!--.parallax-overlay-->
+    </div><!--.parallax-layer-->
+</div><!--.parallax-container-->
 
 
 		<!--End of Hero Section-->
