@@ -23,18 +23,38 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="interface">
 
 
-<div class="image-container">
+<div class="container bg-light">
+  <div class="max-w-4xl mx-auto mt-10 shadow-lg">
+    <div class="window-header p-4 d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-2">
+        <div class="control-btn minimize-btn"></div>
+        <div class="control-btn maximize-btn"></div>
+        <div class="control-btn close-btn"></div>
+      </div>
+      <div class="text-muted cursor-pointer">✕</div>
+    </div>
+    <div class="window-content"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- <div class="image-container">
     <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-7.png" 
          alt="bootstrap framework, responsive design with bootstrap, bootstrap components, 
          customizing bootstrap themes, bootstrap grid system, bootstrap ui/ux integration, 
          bootstrap web development" load="eager">
     <div class="image-text">
     <div class="role-container">
-      <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                        </div><!--.role-container-->
+      <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p> -->
+                        <!-- </div>.role-container -->
 
-    </div><!--.img-text-->
-  </div>
+    <!-- </div>.img-text -->
+  <!-- </div> -->
 
 <!--Parallax Container-Hero Section Mobile-->
 <div class="parallax-container">
