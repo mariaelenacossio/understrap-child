@@ -1095,8 +1095,10 @@ p.lead.fw-light.mb-4 {
 @media only screen and (max-width: 477px) {
   //Small screens
   .blog-card {
+    height: 320px;
+  }
+  .card-body-test {
     width: 300px;
-    height: 300px;
   }
   .blog-cards .row {
     display: flex;
