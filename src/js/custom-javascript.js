@@ -76,7 +76,15 @@ jQuery(document).ready(function($) {
     });
 
     // Use a unified event listener for both desktop and mobile
-    document.addEventListener("pointerdown", startAnimation, { passive: true });
+    document.addEventListener("pointerdown", startAnimation);
+
+    // Try to add passive: true to the specific event listener in admin-bar.min.js
+    document.addEventListener("touchstart", function (event) {
+        if (event.target === document.documentElement) {
+            // Check if the target is the document element (main page), not a specific element
+            event.preventDefault();
+        }
+    }, { passive: true });
 
     function startAnimation(event) {
         // Check if it's a touch event
@@ -87,8 +95,7 @@ jQuery(document).ready(function($) {
             type();
         }
     }
-  
-    
+
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
     var lastScrollTop = 0;
