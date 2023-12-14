@@ -2348,6 +2348,9 @@ nav.blog-pagination {
 /* Mobile devices */
 @media screen and (max-width: 767px) {
   /* Adjust styles for small screens */
+  .parallax-container {
+    display: contents;
+  }
 }
 
 /* Tablets */
