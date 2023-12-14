@@ -20,22 +20,25 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<div class="interface">
 
 
 <div class="hero-container bg-light">
   <div class="window-container max-w-4xl mx-auto mt-10 shadow-lg">
     <div class="window-header p-4 d-flex justify-content-between align-items-center">
       <div class="d-flex gap-2">
-        <div class="control-btn minimize-btn"></div>
-        <div class="control-btn maximize-btn"></div>
-        <div class="control-btn close-btn"></div>
-      </div>
-      <!-- <div class="text-muted cursor-pointer">✕</div> -->
-    </div>
-    <div class="window-content"></div>
-  </div>
-</div>
+        <div class="control-btn minimize-btn"></div><!--.control-btn-->
+        <div class="control-btn maximize-btn"></div><!--.control-btn-->
+        <div class="control-btn close-btn"></div><!--.control-btn-->
+      </div><!--.d-flex-->
+    </div><!--.window-header-->
+    <div class="window-content"></div><!--.window-content-->
+  </div><!--.window-container-->
+</div><!--.hero-container-->
+<div class="interface">
+
+
+
+
 
 
 
