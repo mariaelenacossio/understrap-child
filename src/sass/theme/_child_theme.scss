@@ -2238,7 +2238,11 @@ nav.blog-pagination {
 }
 @media (max-width: 468px) {
   .card-body-test {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
