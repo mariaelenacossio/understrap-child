@@ -1328,10 +1328,10 @@ section.section.footer-section {
   text-align: center;
 }
 .footer.wrapper:not(.interface) {
-  width: calc(100% - 120px);
-  margin-left: 120px;
+  width: 100vw;
   position: absolute;
-  padding-right: 3rem;
+  left: -140px;
+  z-index: -1;
 }
 
 @media screen and (max-width: 991px) {
