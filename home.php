@@ -21,6 +21,33 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
+<!--Parallax Container-Hero Section Mobile-->
+<div class="parallax-container">
+    <div class="parallax-layer">
+        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-6.png" 
+            alt="Web Design" class="parallax-image">
+        <div class="parallax-overlay hidden">
+            <div class="container">
+                <div class="row align-items-center h-100">
+                    <div class="col-sm-2 col-md-6 col-lg-8 mx-auto text-center">
+                        <p class="lead">Hi there! I am Mariaelena Cossio</p>
+                        <div class="role-container">
+                            <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                        </div><!--.role-container-->
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                            </a><!--.btn-resume-->
+                            <a href="#portfolio">
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                            </a><!--.btn-portfolio-->
+                        </div><!--.d-grid-->
+                    </div><!--.col-sm-2-->
+                </div><!--.row-->
+            </div><!--.container-->
+        </div><!--.parallax-overlay-->
+    </div><!--.parallax-layer-->
+</div><!--.parallax-container-->
 
 <div class="hero-container bg-light">
   <div class="window-container max-w-4xl mx-auto mt-10 shadow-lg">
@@ -55,33 +82,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!--Interface Content-->
 <div class="interface">
 
-<!--Parallax Container-Hero Section Mobile-->
-<div class="parallax-container">
-    <div class="parallax-layer">
-        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-6.png" 
-            alt="Web Design" class="parallax-image">
-        <div class="parallax-overlay hidden">
-            <div class="container">
-                <div class="row align-items-center h-100">
-                    <div class="col-sm-2 col-md-6 col-lg-8 mx-auto text-center">
-                        <p class="lead">Hi there! I am Mariaelena Cossio</p>
-                        <div class="role-container">
-                            <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                        </div><!--.role-container-->
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-                            </a><!--.btn-resume-->
-                            <a href="#portfolio">
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
-                            </a><!--.btn-portfolio-->
-                        </div><!--.d-grid-->
-                    </div><!--.col-sm-2-->
-                </div><!--.row-->
-            </div><!--.container-->
-        </div><!--.parallax-overlay-->
-    </div><!--.parallax-layer-->
-</div><!--.parallax-container-->
 
 
 		<!--End of Hero Section-->
