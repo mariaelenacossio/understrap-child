@@ -585,9 +585,9 @@ p.lead {
 }
 
 @media screen and (max-width: 477px) {
-  .parallax-container {
-    display: contents;
-  }
+  // .parallax-container {
+  //   display: contents;
+  // }
   .role-container {
     width: 268px;
     height: 85px;
@@ -2348,9 +2348,9 @@ nav.blog-pagination {
 
 /* Mobile devices */
 @media screen and (max-width: 390px) {
-  .parallax-container {
-    display: contents;
-  }
+  // .parallax-container {
+  //   display: contents;
+  // }
 }
 
 @media screen and (max-width: 767px) {
@@ -2360,17 +2360,17 @@ nav.blog-pagination {
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Adjust styles for medium-sized screens (tablets) */
-  .parallax-container {
-    display: none;
-  }
+  // .parallax-container {
+  //   display: none;
+  // }
 }
 
 /* Small laptops and desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   /* Adjust styles for larger screens (small laptops and desktops) */
-  .parallax-container {
-    display: none;
-  }
+  // .parallax-container {
+  //   display: none;
+  // }
 }
 
 /* Standard desktops and projectors */
@@ -2381,7 +2381,7 @@ nav.blog-pagination {
     margin: 0 auto; /* Center content on larger screens */
     font-size: 22px; /* Increase font size for better readability */
   }
-  .parallax-container {
-    display: none;
-  }
+  // .parallax-container {
+  //   display: none;
+  // }
 }
