@@ -1327,6 +1327,12 @@ section.section.footer-section {
   color: #e5efff;
   text-align: center;
 }
+#wrapper-footer .interface {
+  width: initial;
+  margin-left: initial;
+  position: initial;
+  padding-right: initial;
+}
 
 @media screen and (max-width: 991px) {
   .footer.page {
