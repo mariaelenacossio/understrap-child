@@ -359,7 +359,7 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
     left: 50%;
     width: 365px;
     transform: translate(-50%);
-    background-color: $primary-color;
+    background-color: $background-color;
     /* Adjust the height as needed */
     height: 80px;
     display: flex;
@@ -377,7 +377,7 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
     // color: #333;
     border-radius: 50px;
     padding: 1rem;
-    background-color: $background-color;
+    background-color: $primary-color;
     backdrop-filter: blur(3px);
     /* Add any other styles you need */
   }
