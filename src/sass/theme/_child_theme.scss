@@ -786,6 +786,10 @@ p.lead {
 .rounded-circle {
   border-radius: 50%;
 }
+.btn-container {
+  text-align: center;
+  margin-top: 1rem;
+}
 
 //Small screens and (max-width: 477px)
 @media screen and (max-width: 477px) {
