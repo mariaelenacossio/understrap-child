@@ -438,9 +438,9 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 }
 
 p.lead {
-  font-family: "Shalma", sans-serif;
   text-align: center;
   color: $background-color;
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
 }
 
 //New hero layout for desktop
@@ -571,10 +571,17 @@ p.lead {
 .role-container p span.cursor.typing {
   animation: none;
 }
+.col-sm-2.col-md-6.col-lg-8.mx-auto.text-center {
+  position: relative;
+  top: 130px;
+  width: 500px;
+}
 .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > p.lead {
-  backdrop-filter: hue-rotate(45deg);
   border-radius: 50px;
   padding: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
 @keyframes blink {
   0% {
