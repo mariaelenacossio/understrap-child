@@ -445,8 +445,8 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
 
 p.lead {
   text-align: center;
-  color: $background-color;
-  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+  color: $primary-color;
+  // text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
 }
 
 //New hero layout for desktop
@@ -2297,7 +2297,19 @@ nav.blog-pagination {
 }
 @media (max-width: 468px) {
   .banner-container {
-    height: 200px;
+    height: 300px;
+    max-width: 390px;
+    left: 20px;
+  }
+  .article-details {
+    padding-left: 2rem;
+    width: 390px;
+  }
+  p.p {
+    padding: 2rem;
+  }
+  p.text-gradient.d-inline {
+    padding-left: 2rem;
   }
 }
 
