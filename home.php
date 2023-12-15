@@ -175,17 +175,15 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <div class="profile-body">
                             <h5 class="card-title mt-0">John Doe</h5>
                             <p class="card-text mb-0">@johndoe • 2h</p>
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf"
-                                target="_blank">
+                        </div><!--.profile-body-->
+                        <div class="btn-container">
+                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
                             </a><!--.btn-resume-->
                             <a href="#portfolio">
-                                <button type="button"
-                                    class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
                             </a><!--.btn-portfolio-->
-                        </div><!--.d-grid-->
-                        </div><!--.profile-body-->
+                        </div><!--.btn-container-->
                     </div>
                 </div>
             </div><!--.profile-card-->
