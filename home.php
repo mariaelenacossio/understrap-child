@@ -162,8 +162,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         <div class="section-title">
           <h2>Resume</h2>
-\        </div>
-
+       </div>
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
