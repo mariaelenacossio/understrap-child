@@ -168,13 +168,23 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="col-md-6 offset-md-3">
             <div class="card profile-card mb-3">
                 <div class="row no-gutters">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" class="profile-img rounded-circle" alt="User Avatar">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-6">
                         <div class="profile-body">
                             <h5 class="card-title mt-0">John Doe</h5>
                             <p class="card-text mb-0">@johndoe • 2h</p>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf"
+                                target="_blank">
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                            </a><!--.btn-resume-->
+                            <a href="#portfolio">
+                                <button type="button"
+                                    class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                            </a><!--.btn-portfolio-->
+                        </div><!--.d-grid-->
                         </div><!--.profile-body-->
                     </div>
                 </div>
