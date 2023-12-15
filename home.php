@@ -194,7 +194,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row">
         <div class="col-md-6">
             <div class="mt-8">
-                <h2 class="text-2xl font-weight-bold">Education</h2>
+                <h2>Education</h2>
                 <h4>North Island College</h4>
               <p><em>Comox Valley, B.C. Canada</em></p>
               <p><em>Post Graduate / Digital Design and Web Development</em></p>
@@ -205,7 +205,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
         <div class="col-md-6">
             <div class="mt-6">
-                <h2 class="text-2xl font-weight-bold">Work Experience</h2>
+                <h2>Work Experience</h2>
                 <div class="mt-2">
                     <p class="text-gray-700"><span class="font-weight-bold">2015 — 2023</span> Senior Product Designer at Help Scout</p>
                     <p class="text-gray-600">Remote</p>
