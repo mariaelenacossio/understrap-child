@@ -115,17 +115,30 @@ jQuery(document).ready(function ($) {
 
 
 //For smooth transition between sections
-jQuery(document).ready(function ($) {
-    $('a[href*="#"]').on('click', function (event) {
-      event.preventDefault();
-      $('html, body').animate(
-        {
-          scrollTop: $($.attr(this, 'href')).offset().top
-        },
-        500
-      );
+jQuery(document).ready(function($) {
+    // Smooth scrolling for anchor links
+    $('a[href*="#"]').on('click', function(event) {
+        // Prevent default behavior
+        event.preventDefault();
+
+        // Get target section ID from href attribute
+        var target = $(this.hash);
+
+        // Check if the target section exists
+        if (target.length) {
+            // Calculate the offset to scroll to (you can adjust this value)
+            var offset = target.offset().top;
+
+            // Animate the scroll
+            $('html, body').animate({
+                scrollTop: offset
+            }, 800); // You can adjust the duration of the scroll animation
+        }
     });
-  });
+
+    // Your other scripts go here...
+
+});
   
 
 
