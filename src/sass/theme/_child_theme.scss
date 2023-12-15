@@ -484,9 +484,25 @@ p.lead {
   height: 80vh; /* Example height */
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.window-content .container-fluid {
+  width: calc(100% - 120px);
 }
 .window-content img {
   object-fit: cover;
+}
+.container-fluid p.lead {
+  color: $background-color;
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+  border-radius: 50px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .control-btn {
