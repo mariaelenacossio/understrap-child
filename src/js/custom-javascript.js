@@ -24,8 +24,11 @@ jQuery(document).ready(function($) {
         // Add "active" class to the clicked nav link
         $(this).addClass('active');
 
-        // Toggle "active" class on the btm-bar based on the presence of "active" class in any nav link
-        $('#wrapper-nav').toggleClass('active', $('.nav-link.active').length > 0);
+        // Remove "active" class from all icons
+        $('.btm-bar .nav-link').removeClass('active');
+
+        // Add "active" class to the icon in the clicked nav link
+        $('.btm-bar').toggleClass('active', $(this).hasClass('active'));
 
         console.log("Nav link clicked:", $(this).attr("href"));
     });
