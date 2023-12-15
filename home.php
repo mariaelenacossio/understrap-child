@@ -162,8 +162,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+\        </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
@@ -180,40 +179,59 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>North Island College</h4>
+              <p><em>Comox Valley, B.C. Canada</em></p>
+              <p><em>Post Graduate / Digital Design and Web Development</em></p>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>Bachelor of Science in Computer Science</h4>
+              <p><em>Universidad del Desarrollo Profesional</em></p>
+              <p><em>Mazatlan, Sinaloa Mexico</em></p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title">Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Relevant Coursework</h4>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Advanced Web Development</li>
+                <li>User Experience (UX) Design</li>
+                <li>Advanced Web Development</li>
+                <li>Mobile App Design</li>
+                <li>Interactive Media</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Project Experience</h4>
+              <p><em>Professional Portfolio Website</em></p>
+              <p><em>Description</em></p>
+              <p><em>Designed and developed a personal portfolio 
+                website to showcase my skills, projects, and professional 
+                experience. The goal was to create a visually appealing 
+                and user-friendly platform to highlight my expertise in web 
+                development and digital design.</em></p>
+              <p><em>Key Achievements</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Implemented a responsive design to ensure optimal user 
+                  experience across various devices and screen sizes.</li>
+                <li>Utilized HTML5, CSS3, and JavaScript to create an interactive 
+                    and dynamic user interface.</li>
+                <li>Developed a WordPress child theme for enhanced customization 
+                  and seamless integration with the WordPress content management system.</li>
+                <li>Incorporated a clean and modern design aesthetic, reflecting my design principles and attention to detail.</li>
+                <li>Integrated a portfolio section to showcase completed projects, including detailed descriptions and images.</li>
+                <li>Implemented a blog section to share insights, thoughts, and updates related to web development and design.</li>
+                <li>Leveraged Git for version control and regularly updated the website with new projects and content.</li>
+              </ul>
+              <p><em>Technologies Used</em></p>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>Git</li>
               </ul>
             </div>
           </div>
