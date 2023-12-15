@@ -381,14 +381,14 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   .btm-bar svg {
     fill: $background-color;
   }
-  .nav-link.active {
+  .nav-link.active:active {
     background-color: $background-color;
     box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
   }
-  .nav-link.active span.nav-text {
+  .nav-link.active span.nav-text:active {
     color: $primary-color;
   }
-  .nav-link.active svg {
+  .nav-link.active svg:active {
     fill: $primary-color;
   }
   /* Style the container */
