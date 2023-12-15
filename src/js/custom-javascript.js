@@ -35,9 +35,12 @@ jQuery(document).ready(function($) {
 });
 
 //Typing script for the roles
-document.addEventListener("DOMContentLoaded", function () {
-    const typedTextSpan = document.querySelector(".typed-text");
-    const cursorSpan = document.querySelector(".cursor");
+jQuery(document).ready(function ($) {
+    console.log("DOM fully loaded");
+
+    // Your existing code here
+    const typedTextSpan = $(".typed-text");
+    const cursorSpan = $(".cursor");
 
     const textArray = ["Web Designer", "Web Developer", "Front end Developer", "UX/UI Designer"];
     const typingDelay = 200;
@@ -48,24 +51,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function type() {
         if (charIndex < textArray[textArrayIndex].length) {
-            if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-            typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+            if (!cursorSpan.hasClass("typing")) cursorSpan.addClass("typing");
+            typedTextSpan.text(typedTextSpan.text() + textArray[textArrayIndex].charAt(charIndex));
             charIndex++;
             setTimeout(type, typingDelay);
         } else {
-            cursorSpan.classList.remove("typing");
+            cursorSpan.removeClass("typing");
             setTimeout(erase, newTextDelay);
         }
     }
 
     function erase() {
         if (charIndex > 0) {
-            if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
-            typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+            if (!cursorSpan.hasClass("typing")) cursorSpan.addClass("typing");
+            typedTextSpan.text(textArray[textArrayIndex].substring(0, charIndex - 1));
             charIndex--;
             setTimeout(erase, erasingDelay);
         } else {
-            cursorSpan.classList.remove("typing");
+            cursorSpan.removeClass("typing");
             textArrayIndex++;
             if (textArrayIndex >= textArray.length) textArrayIndex = 0;
             setTimeout(type, typingDelay + 1100);
@@ -73,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Start typing animation only if the typedTextSpan is found
-    if (typedTextSpan) {
+    if (typedTextSpan.length) {
         if (textArray.length) setTimeout(type, newTextDelay + 250);
     }
 });
