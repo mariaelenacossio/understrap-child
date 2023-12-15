@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     <div class="row hero-cta-btns">
         <div class="col-12 text-center">
-            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
+            <a href="#resume" target="_blank">
                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
             </a><!--.btn-resume-->
             <a href="#portfolio">
@@ -74,9 +74,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <a href="#resume"
+                        <a class="btn btn-primary btn-lg px-4 me-md-2" href="https://mariaelena-cossioclark.com/#resume" target="_self">Resume
+
+                            <!-- <a href="#resume"
                                 target="_blank">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button> -->
                             </a><!--.btn-resume-->
                             <a href="#portfolio">
                                 <button type="button"
