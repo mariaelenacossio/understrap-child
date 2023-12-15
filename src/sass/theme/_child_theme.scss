@@ -237,6 +237,7 @@ a {
   background-color: $background-color;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
   height: 60vh;
+  z-index: 999;
 }
 //Sidebar icons
 // .i-color {
@@ -456,7 +457,6 @@ p.lead {
   position: relative;
   height: 80vh;
   top: 1rem;
-  z-index: -1;
   margin-bottom: 5rem;
 }
 
