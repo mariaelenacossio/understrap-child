@@ -720,7 +720,7 @@ p.lead {
 .resume-window-container {
   height: 80vh;
   border-radius: 25px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .resume-window-header {
@@ -738,7 +738,8 @@ p.lead {
   height: 80vh; /* Example height */
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  overflow: hidden;
+  overflow-y: auto;
+  padding-right: 17px;
 }
 .resume-window-content img {
   object-fit: cover;
