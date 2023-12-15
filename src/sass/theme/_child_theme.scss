@@ -590,6 +590,7 @@ p.lead {
   text-align: center;
   color: $background-color;
   text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+  margin-bottom: 0;
 }
 @keyframes blink {
   0% {
@@ -682,6 +683,15 @@ p.lead {
   .window-container,
   .window-content {
     height: 60vh;
+  }
+  .window-content > .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center {
+    top: 70px;
+  }
+  .image-text {
+    width: 750px;
+    height: 100px;
+    top: 65%;
+    padding-bottom: 0;
   }
   .hero-container {
     margin-bottom: 3rem;
