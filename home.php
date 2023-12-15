@@ -167,11 +167,17 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <div class="card profile-card mb-3">
-                <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" class="profile-img rounded-circle" alt="User Avatar">
-                <div class="profile-body">
-                    <h5 class="card-title mt-0">John Doe</h5>
-                    <p class="card-text mb-0">@johndoe • 2h</p>
-                </div><!--.profile-body-->
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" class="profile-img rounded-circle" alt="User Avatar">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="profile-body">
+                            <h5 class="card-title mt-0">John Doe</h5>
+                            <p class="card-text mb-0">@johndoe • 2h</p>
+                        </div><!--.profile-body-->
+                    </div>
+                </div>
             </div><!--.profile-card-->
         </div>
     </div>
