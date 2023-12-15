@@ -30,22 +30,32 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.d-flex-->
         </div><!--.window-header-->
         <div class="window-content">
-        <div class="col-sm-2 col-md-6 col-lg-8 mx-auto text-center">
-                        <p class="lead">Hi! I am Mariaelena</p>
-</div><!--.col-sm-2-->
-            <div class="image-text">
-                <div class="role-container">
-                    <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                </div><!--.role-container-->
-            </div><!--.img-text-->
-            <div class="hero-cta-btns">
-                <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-                </a><!--.btn-resume-->
-                <a href="#portfolio">
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
-                </a><!--.btn-portfolio-->
-            </div><!--.hero-cta-btns-->
+        <div class="container-fluid">
+    <div class="row text-center">
+        <div class="col-12 col-md-8 col-lg-10 mx-auto">
+            <p class="lead">Hi! I am Mariaelena</p>
+        </div><!--.col-->
+    </div><!--.row-->
+
+    <div class="row image-text">
+        <div class="col-12 text-center">
+            <div class="role-container">
+                <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+            </div><!--.role-container-->
+        </div><!--.col-->
+    </div><!--.row-->
+
+    <div class="row hero-cta-btns">
+        <div class="col-12 text-center">
+            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+            </a><!--.btn-resume-->
+            <a href="#portfolio">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+            </a><!--.btn-portfolio-->
+        </div><!--.col-->
+    </div><!--.row-->
+</div><!--.container-fluid-->
         </div><!--.window-content-->
     </div><!--.window-container-->
 </div><!--.hero-container-->
