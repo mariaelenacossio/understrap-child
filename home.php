@@ -53,9 +53,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <a href="#portfolio">
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
                         </a>
-                    </div>
-                </div>
-            </div>
+                    </div><!--.col-12-->
+                </div><!--.row .hero-cta-btns-->
+            </div><!--.container-fluid-->
         </div>
     </div>
 </div>
@@ -67,26 +67,32 @@ $container = get_theme_mod( 'understrap_container_type' );
         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-6.png" alt="Web Design"
             class="parallax-image">
         <div class="parallax-overlay hidden">
-            <div class="container">
-                <div class="row align-items-center h-100">
-                    <div class="col-sm-2 col-md-6 col-lg-8 mx-auto text-center">
+        <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-12 col-md-8 col-lg-10 mx-auto">
                         <p class="lead">Hi! I am Mariaelena</p>
+                    </div>
+                </div>
+
+                <div class="row image-text">
+                    <div class="col-12 text-center">
                         <div class="role-container">
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-                        </div><!--.role-container-->
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <a href="#resume"
-                                target="_blank">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-                            </a><!--.btn-resume-->
-                            <a href="#portfolio">
-                                <button type="button"
-                                    class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
-                            </a><!--.btn-portfolio-->
-                        </div><!--.d-grid-->
-                    </div><!--.col-sm-2-->
-                </div><!--.row-->
-            </div><!--.container-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row hero-cta-btns">
+                    <div class="col-12 text-center">
+                        <a href="#resume">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                        </a>
+                        <a href="#portfolio">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                        </a>
+                    </div><!--.col-12-->
+                </div><!--.row .hero-cta-btns-->
+            </div><!--.container-fluid-->
         </div><!--.parallax-overlay-->
     </div><!--.parallax-layer-->
 </div><!--.parallax-container-->
