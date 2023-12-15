@@ -668,10 +668,6 @@ p.lead {
   h1.display-5.fw-bold.lh-1.mb-3 {
     text-align: center;
   }
-  // .container.hero.col-xxl-8.px-4.py-5 {
-  //   padding-bottom: 1rem !important;
-  //   padding-top: 1rem !important;
-  // }
   .row.flex-lg-row-reverse.align-items-center.g-5.py-5 {
     padding-bottom: 1rem !important;
     padding-top: 1.5rem !important;
@@ -707,6 +703,61 @@ p.lead {
   }
 }
 
+//Resume Hero Container
+.resume-container {
+  position: relative;
+  height: 80vh;
+  top: 1rem;
+  z-index: -1;
+  margin-bottom: 5rem;
+}
+
+.hero-cta-btns {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.window-container {
+  height: 80vh;
+  border-radius: 25px;
+}
+
+.window-header {
+  background: #f3f4f6;
+  border-bottom: 1px solid #e5e7eb;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 50px;
+}
+.window-content {
+  background-image: url("https://mariaelena-cossioclark.com/wp-content/uploads/2023/12/hero-img-8-scaled.jpg");
+  background-position: top;
+  object-fit: cover;
+  height: 80vh; /* Example height */
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.window-content img {
+  object-fit: cover;
+}
+
+.control-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.close-btn {
+  background: #ef4444;
+}
+.minimize-btn {
+  background: #facc15;
+}
+.maximize-btn {
+  background: #22c55e;
+}
+
+//About Me
 .about-me.bg-light.container.mt-4.img-shadow {
   border-radius: 5rem;
   max-width: 85vw;

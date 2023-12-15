@@ -145,7 +145,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </section>
 
 <!--Resume Section-->
-<div class="hero-container bg-light">
+<div class="resume-container bg-light">
     <div class="window-container max-w-4xl mx-auto mt-10 shadow-lg">
         <div class="window-header p-4 d-flex justify-content-between align-items-center">
             <div class="d-flex gap-2">
