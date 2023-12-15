@@ -30,6 +30,9 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.d-flex-->
         </div><!--.window-header-->
         <div class="window-content">
+        <div class="col-sm-2 col-md-6 col-lg-8 mx-auto text-center">
+                        <p class="lead">Hi there! I am Mariaelena Cossio</p>
+</div><!--.col-sm-2-->
             <div class="image-text">
                 <div class="role-container">
                     <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
