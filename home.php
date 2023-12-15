@@ -162,7 +162,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </section>
 
 <!--Resume Section-->
-<div class="resume-container bg-light">
+<div class="resume-container bg-light vh-60">
     <div class="resume-window-container max-w-4xl mx-auto mt-10 shadow-lg">
         <div class="resume-window-header p-4 d-flex justify-content-between align-items-center">
             <div class="d-flex gap-2">
@@ -172,85 +172,86 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.d-flex-->
         </div><!--.window-header-->
         <div class="resume-window-content">
-<!--Insert here-->
-<!--Resume Section-->
-<section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-       </div>
-       <div class="profile-container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card profile-card mb-3">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" class="profile-img rounded-circle" alt="User Avatar">
+            <!--Insert here-->
+            <!--Resume Section-->
+            <section id="resume" class="resume">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Resume</h2>
                     </div>
-                    <div class="col-md-8">
-                        <div class="profile-body">
-                            <h5 class="card-title mt-0">Mariaelena Cossio Clark</h5>
-                            <p class="card-text mb-0">@mariaelenacossio</p>
-                        </div><!--.profile-body-->
-                        <div class="btn-container">
-                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" 
-                            class="custom-badge">Resume
-                                <!-- <span class="custom-badge">Resume</span> -->
-                            </a><!--.btn-resume-->
-                            <a href="#portfolio">
-                                <span class="custom-badge">Portfolio</span>
-                            </a><!--.btn-portfolio-->
-                        </div><!--.btn-container-->
+                    <div class="profile-container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card profile-card mb-3">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-4">
+                                            <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg"
+                                                class="profile-img rounded-circle" alt="User Avatar">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="profile-body">
+                                                <h5 class="card-title mt-0">Mariaelena Cossio Clark</h5>
+                                                <p class="card-text mb-0">@mariaelenacossio</p>
+                                            </div><!--.profile-body-->
+                                            <div class="btn-container">
+                                                <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf"
+                                                    target="_blank" class="custom-badge">Resume
+                                                </a><!--.btn-resume-->
+                                                <a href="#portfolio">
+                                                    <span class="custom-badge">Portfolio</span>
+                                                </a><!--.btn-portfolio-->
+                                            </div><!--.btn-container-->
+                                        </div>
+                                    </div>
+                                </div><!--.profile-card-->
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div><!--.profile-card-->
-        </div>
-    </div>
-</div> 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="mt-8">
-                <h2>Education</h2>
-                <h4>North Island College</h4>
-              <p><em>Comox Valley, B.C. Canada</em></p>
-              <p><em>Post Graduate / Digital Design and Web Development</em></p>
-              <h4>Bachelor of Science in Computer Science</h4>
-              <p><em>Universidad del Desarrollo Profesional</em></p>
-              <p><em>Mazatlan, Sinaloa Mexico</em></p>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="mt-6">
-                <h2>Relevant Coursework</h2>
-                <div class="mt-2">
-                    <p class="text-gray-700"><span class="font-weight-bold"></span></p>
-                    <p class="text-gray-600"></p>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mt-8">
+                                    <h2>Education</h2>
+                                    <h4>North Island College</h4>
+                                    <p><em>Comox Valley, B.C. Canada</em></p>
+                                    <p><em>Post Graduate / Digital Design and Web Development</em></p>
+                                    <h4>Bachelor of Science in Computer Science</h4>
+                                    <p><em>Universidad del Desarrollo Profesional</em></p>
+                                    <p><em>Mazatlan, Sinaloa Mexico</em></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mt-6">
+                                    <h2>Relevant Coursework</h2>
+                                    <div class="mt-2">
+                                        <p class="text-gray-700"><span class="font-weight-bold"></span></p>
+                                        <p class="text-gray-600"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    <div class="row mt-6">
-        <div class="col-md-6">
-            <div class="mt-6">
-                <h2 class="text-2xl font-weight-bold">Projects</h2>
-                <div class="mt-2">
-                    <p class="text-gray-700"><span class="font-weight-bold">2023</span> Professional Portfolio</p>
-                    <p class="text-indigo-600 hover:underline"></p>
-                    <!-- <img class="mt-2 rounded-lg shadow-lg" src="https://unsplash.com/photos/hpjSkU2UYSU/download?force=true&w=640" alt="Portfolio Screenshot"> -->
+                        <div class="row mt-6">
+                            <div class="col-md-6">
+                                <div class="mt-6">
+                                    <h2 class="text-2xl font-weight-bold">Projects</h2>
+                                    <div class="mt-2">
+                                        <p class="text-gray-700"><span class="font-weight-bold">2023</span> Professional
+                                            Portfolio</p>
+                                        <p class="text-indigo-600 hover:underline"></p>
+                                        <!-- <img class="mt-2 rounded-lg shadow-lg"
+                                            src="https://unsplash.com/photos/hpjSkU2UYSU/download?force=true&w=640"
+                                            alt="Portfolio Screenshot"> -->
+                                    </div>
+                                </div>
+                            </div><!--.col-md-6-->
+                        </div><!--.row-->
+                    </div><!--.container-->
                 </div>
-            </div>
-        </div><!--.col-md-6-->
-    </div><!--.row-->
-</div><!--.container-->
-
-
-    </section><!-- End Resume Section -->
-        </div><!--.window-content-->
-    </div><!--.window-container-->
-</div><!--.hero-container-->
+            </section><!-- End Resume Section -->
+        </div><!--.resume-window-content-->
+    </div><!--.resume-window-container-->
+</div><!--.resume-container-->
 
 <!-- End Resume Section -->
 

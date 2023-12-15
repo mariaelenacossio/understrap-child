@@ -734,13 +734,27 @@ p.lead {
   }
 }
 
-//Resume Hero Container
-.resume-container {
-  position: relative;
-  height: fit-content;
-  top: 1rem;
-  z-index: -1;
+.vh-60 {
+  height: 60vh;
 }
+
+.resume-window-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.resume-window-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+//Resume Hero Container
+// .resume-container {
+//   position: relative;
+//   height: fit-content;
+//   top: 1rem;
+//   z-index: -1;
+// }
 
 // .hero-cta-btns {
 //   position: absolute;
@@ -748,11 +762,11 @@ p.lead {
 //   left: 50%;
 //   transform: translate(-50%, -50%);
 // }
-.resume-window-container {
-  height: 80vh;
-  border-radius: 25px;
-  overflow: hidden;
-}
+// .resume-window-container {
+//   height: 80vh;
+//   border-radius: 25px;
+//   overflow: hidden;
+// }
 
 .resume-window-header {
   background: #f3f4f6;
