@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
     <div class="row hero-cta-btns">
         <div class="col-12 text-center">
-            <a href="#resume" target="_blank">
+            <a href="#resume">
                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
             </a><!--.btn-resume-->
             <a href="#portfolio">
