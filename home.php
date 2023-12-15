@@ -205,10 +205,10 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
         <div class="col-md-6">
             <div class="mt-6">
-                <h2>Work Experience</h2>
+                <h2>Relevant Coursework</h2>
                 <div class="mt-2">
-                    <p class="text-gray-700"><span class="font-weight-bold">2015 — 2023</span> Senior Product Designer at Help Scout</p>
-                    <p class="text-gray-600">Remote</p>
+                    <p class="text-gray-700"><span class="font-weight-bold"></span></p>
+                    <p class="text-gray-600"></p>
                 </div>
             </div>
         </div>
@@ -219,9 +219,9 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="mt-6">
                 <h2 class="text-2xl font-weight-bold">Projects</h2>
                 <div class="mt-2">
-                    <p class="text-gray-700"><span class="font-weight-bold">2023</span> Portfolio</p>
-                    <p class="text-indigo-600 hover:underline">New year, new portfolio</p>
-                    <img class="mt-2 rounded-lg shadow-lg" src="https://unsplash.com/photos/hpjSkU2UYSU/download?force=true&w=640" alt="Portfolio Screenshot">
+                    <p class="text-gray-700"><span class="font-weight-bold">2023</span> Professional Portfolio</p>
+                    <p class="text-indigo-600 hover:underline"></p>
+                    <!-- <img class="mt-2 rounded-lg shadow-lg" src="https://unsplash.com/photos/hpjSkU2UYSU/download?force=true&w=640" alt="Portfolio Screenshot"> -->
                 </div>
             </div>
         </div><!--.col-md-6-->
