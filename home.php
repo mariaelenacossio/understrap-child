@@ -166,7 +166,7 @@ $container = get_theme_mod( 'understrap_container_type' );
        <div class="profile-container">
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <div class="card mb-3">
+            <div class="card profile-card mb-3">
                 <div class="card-body">
                     <div class="media">
                         <img src="https://placekitten.com/40/40" class="mr-3 rounded-circle" alt="User Avatar">
@@ -179,8 +179,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
         </div>
     </div>
-</div>
-        <div class="row">
+</div>        <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
