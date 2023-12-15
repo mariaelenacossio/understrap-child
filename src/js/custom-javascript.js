@@ -35,6 +35,8 @@ jQuery(document).ready(function($) {
 });
 
 //Typing script for the roles
+// jQuery(document).ready(function($) {
+
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
     
@@ -52,7 +54,7 @@ jQuery(document).ready(function($) {
         charIndex++;
         setTimeout(type, typingDelay);
       } 
-      else {
+    else {
         cursorSpan.classList.remove("typing");
           setTimeout(erase, newTextDelay);
       }
@@ -75,8 +77,11 @@ jQuery(document).ready(function($) {
     
     document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
       if(textArray.length) setTimeout(type, newTextDelay + 250);
-    });    
     
+});    
+
+
+
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
     var lastScrollTop = 0;
