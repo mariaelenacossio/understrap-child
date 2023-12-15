@@ -75,27 +75,6 @@ jQuery(document).ready(function($) {
         if (textArray.length) setTimeout(type, newTextDelay + 250);
     });
 
-    // Use a unified event listener for both desktop and mobile
-    document.addEventListener("pointerdown", startAnimation);
-
-    // Try to add passive: true to the specific event listener in admin-bar.min.js
-    document.addEventListener("touchstart", function (event) {
-        if (event.target === document.documentElement) {
-            // Check if the target is the document element (main page), not a specific element
-            event.preventDefault();
-        }
-    }, { passive: true });
-
-    function startAnimation(event) {
-        // Check if it's a touch event
-        const isTouch = event.type === "touchstart";
-
-        // Start animation only if it's a touch event or the cursor is not typing
-        if (isTouch || charIndex === 0) {
-            type();
-        }
-    }
-
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
     var lastScrollTop = 0;
