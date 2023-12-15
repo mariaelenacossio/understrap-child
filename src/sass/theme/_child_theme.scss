@@ -1546,12 +1546,9 @@ section.section.footer-section {
     padding: 32px;
   }
   .footer.wrapper:not(.interface) {
-    width: 100%;
-    margin-left: 0;
-    position: relative; /* or any other style you want for mobile screens */
-    padding-right: 0;
-    bottom: 100px;
-    left: 0;
+    width: 100vw;
+    position: absolute;
+    left: -120px;
   }
 }
 //Align social icons in footer width:468px
