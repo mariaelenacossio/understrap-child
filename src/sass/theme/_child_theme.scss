@@ -1506,143 +1506,157 @@ p.lead.fw-light.mb-4 {
 
 //Footer
 //New layout for footer
-.wrapper {
-  padding: 7rem 0 0;
-}
-.footer.page {
-  grid-row-gap: 32px;
-  border-radius: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 32px 32px 0 32px;
-}
-section.section.footer-section {
-  background-color: $background-color;
-}
-// section.section.footer-section > .container {padding-bottom: 1.5rem;}
-.footer.page > .row {
-  height: auto;
-}
-.col-md-3 > .icon-test {
-  padding-top: 1rem;
+
+.footer-wrapper {
+  width: 100%;
+  padding: 50px 0;
 }
 .footer-based {
-  padding: 0.375rem;
-  background-color: #010125;
-  color: #e5efff;
   text-align: center;
+  padding: 20px 0;
+  background-color: $primary-color;
+  color: $background-color;
 }
+// .wrapper {
+//   padding: 7rem 0 0;
+// }
+// .footer.page {
+//   grid-row-gap: 32px;
+//   border-radius: 0;
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   padding: 32px 32px 0 32px;
+// }
+// section.section.footer-section {
+//   background-color: $background-color;
+// }
+// section.section.footer-section > .container {padding-bottom: 1.5rem;}
+// .footer.page > .row {
+//   height: auto;
+// }
+// .col-md-3 > .icon-test {
+//   padding-top: 1rem;
+// }
+// .footer-based {
+//   padding: 0.375rem;
+//   background-color: #010125;
+//   color: #e5efff;
+//   text-align: center;
+// }
 .footer.wrapper:not(.interface) {
   width: 100vw;
-  position: absolute;
-  left: -140px;
+  margin-left: 0;
+  position: relative;
+  padding-right: 0;
+  // position: absolute;
+  // left: -140px;
   // z-index: -1;
 }
 
-@media screen and (max-width: 991px) and (min-width: 1200px) {
-  .footer.page {
-    border-top: 0 rgba(255, 255, 255, 0);
-    margin-top: 0;
-    padding: 32px;
-  }
-  .footer.wrapper:not(.interface) {
-    width: 100%;
-    margin-left: 0;
-    position: relative; /* or any other style you want for mobile screens */
-    padding-right: 0;
-    bottom: 100px;
-    left: 0;
-  }
-}
-//Align social icons in footer width:468px
-@media screen and (max-width: 468px) {
-  .col-md-3 > .icon-test {
-    justify-content: center;
-  }
-  .cta-cards {
-    margin-bottom: 2rem;
-  }
-  .footer-based {
-    font-size: 0.9rem;
-  }
-}
+// @media screen and (max-width: 991px) and (min-width: 1200px) {
+//   .footer.page {
+//     border-top: 0 rgba(255, 255, 255, 0);
+//     margin-top: 0;
+//     padding: 32px;
+//   }
+//   .footer.wrapper:not(.interface) {
+//     width: 100%;
+//     margin-left: 0;
+//     position: relative; /* or any other style you want for mobile screens */
+//     padding-right: 0;
+//     bottom: 100px;
+//     left: 0;
+//   }
+// }
+// //Align social icons in footer width:468px
+// @media screen and (max-width: 468px) {
+//   .col-md-3 > .icon-test {
+//     justify-content: center;
+//   }
+//   .cta-cards {
+//     margin-bottom: 2rem;
+//   }
+//   .footer-based {
+//     font-size: 0.9rem;
+//   }
+// }
 
-@media screen and (max-width: 468px) {
-  .footer.wrapper:not(.interface) {
-    left: 0px !important;
-    bottom: 100px;
-  }
-}
+// @media screen and (max-width: 468px) {
+//   .footer.wrapper:not(.interface) {
+//     left: 0px !important;
+//     bottom: 100px;
+//   }
+// }
 
-//Adjust width of footer
-@media (max-width: 768px) {
-  .footer.wrapper:not(.interface) {
-    width: 100vw;
-    margin-left: 0;
-    position: relative;
-    padding-right: 0;
-    left: -120px;
-  }
-  .footer h2.heading-6 {
-    font-size: 1.27rem !important;
-    color: #010125;
-  }
-}
+// //Adjust width of footer
+// @media (max-width: 768px) {
+//   .footer.wrapper:not(.interface) {
+//     width: 100vw;
+//     margin-left: 0;
+//     position: relative;
+//     padding-right: 0;
+//     left: -120px;
+//   }
+//   .footer h2.heading-6 {
+//     font-size: 1.27rem !important;
+//     color: #010125;
+//   }
+// }
 
-.footer-square.row {
-  text-align: center;
-}
-.cta-cards {
-  border-radius: 0.375rem;
-  border: 1px solid $secondary-color;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  padding: 1rem;
-  height: 100px;
-}
-.footer h2.heading-6 {
-  font-size: 1.5rem;
-  color: $primary-color;
-}
-//To target footer btn's
-.cta-cards > .btn.btn-outline-secondary.btn-lg.px-4 {
-  height: 35px;
-  width: 160px;
-  font-size: 1rem;
-  box-shadow: none;
-  padding: 0.375rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+// .footer-square.row {
+//   text-align: center;
+// }
+// .cta-cards {
+//   border-radius: 0.375rem;
+//   border: 1px solid $secondary-color;
+//   display: flex;
+//   flex-flow: column;
+//   align-items: center;
+//   padding: 1rem;
+//   height: 100px;
+// }
+// .footer h2.heading-6 {
+//   font-size: 1.5rem;
+//   color: $primary-color;
+// }
+// //To target footer btn's
+// .cta-cards > .btn.btn-outline-secondary.btn-lg.px-4 {
+//   height: 35px;
+//   width: 160px;
+//   font-size: 1rem;
+//   box-shadow: none;
+//   padding: 0.375rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 
-//Divider for footer
-.svg-separator {
-  display: block;
-  background: 0 0;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 9;
-  -webkit-transform: translateY(-100%) translateY(2px);
-  transform: translateY(-100%) translateY(2px);
-  width: 100%;
-}
-.svg-separator.bottom {
-  top: auto;
-  bottom: 0;
-}
-.sep1 {
-  transform: translateY(-100%) translateY(2px) scale(1, 1);
-  transform-origin: top;
-}
-.footer-separator {
-  position: absolute;
-  width: 100vw;
-  left: 0;
-}
+// //Divider for footer
+// .svg-separator {
+//   display: block;
+//   background: 0 0;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   z-index: 9;
+//   -webkit-transform: translateY(-100%) translateY(2px);
+//   transform: translateY(-100%) translateY(2px);
+//   width: 100%;
+// }
+// .svg-separator.bottom {
+//   top: auto;
+//   bottom: 0;
+// }
+// .sep1 {
+//   transform: translateY(-100%) translateY(2px) scale(1, 1);
+//   transform-origin: top;
+// }
+// .footer-separator {
+//   position: absolute;
+//   width: 100vw;
+//   left: 0;
+// }
 
 //Case Studies
 //First section
