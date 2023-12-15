@@ -74,12 +74,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                        <a class="btn btn-primary btn-lg px-4 me-md-2" href="#resume">Resume
+                        <a class="btn btn-primary btn-lg px-4 me-md-2" href="#resume">Resume </a>  <!--.btn-resume-->
 
                             <!-- <a href="#resume"
                                 target="_blank">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button> -->
-                            </a><!--.btn-resume-->
+                         
                             <a href="#portfolio">
                                 <button type="button"
                                     class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
