@@ -165,7 +165,7 @@ $container = get_theme_mod( 'understrap_container_type' );
        </div>
        <div class="profile-container">
     <div class="row">
-        <div class="col-md-12 offset-md-3">
+        <div class="col-md-12">
             <div class="card profile-card mb-3">
                 <div class="row no-gutters">
                     <div class="col-md-6">
