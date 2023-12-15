@@ -35,6 +35,7 @@ jQuery(document).ready(function($) {
 });
 
 //Typing script for the roles
+document.addEventListener("DOMContentLoaded", function () {
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
 
@@ -71,9 +72,13 @@ jQuery(document).ready(function($) {
         }
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
+    // Start typing animation only if the typedTextSpan is found
+    if (typedTextSpan) {
         if (textArray.length) setTimeout(type, newTextDelay + 250);
-    });
+    }
+});
+
+
 
 //Parallax effect for the hero img
 jQuery(document).ready(function($) {
