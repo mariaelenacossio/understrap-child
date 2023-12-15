@@ -384,10 +384,10 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   .nav-link.active:hover {
     background-color: $background-color;
   }
-  .nav-text.active:hover {
+  .nav-link.active span.nav-text:hover {
     color: $primary-color;
   }
-  .btm-bar.active svg:hover {
+  .nav-link.active svg:hover {
     fill: $primary-color;
   }
   /* Style the container */
