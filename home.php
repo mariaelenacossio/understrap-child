@@ -228,7 +228,28 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div>
     </section><!-- End Resume Section -->
 
-
+    <div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="media">
+                <img src="https://placekitten.com/40/40" class="mr-3 rounded-circle" alt="User Avatar">
+                <div class="media-body">
+                    <h5 class="mt-0">John Doe</h5>
+                    <p class="mb-0">@johndoe • 2h</p>
+                </div>
+            </div>
+            <p class="mt-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-outline-primary btn-sm"><i class="far fa-comment"></i> 12</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm"><i class="fas fa-retweet"></i> 8</button>
+                <button type="button" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i> 20</button>
+                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fas fa-share"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
 
         </div><!--.window-content-->
     </div><!--.window-container-->
