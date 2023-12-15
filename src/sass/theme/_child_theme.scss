@@ -1538,9 +1538,9 @@ section.section.footer-section {
   left: -140px;
   // z-index: -1;
 }
-@media screen and (min-width: 1000px) {
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
   .footer.wrapper:not(.interface) {
-    left: -120px;
+    right: -120px;
   }
 }
 
