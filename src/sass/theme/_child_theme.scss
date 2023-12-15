@@ -383,6 +383,7 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
   }
   .nav-link.active:hover {
     background-color: $background-color;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
   }
   .nav-link.active span.nav-text:hover {
     color: $primary-color;
