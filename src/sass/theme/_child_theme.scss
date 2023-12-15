@@ -382,8 +382,13 @@ ul.nav.nav-pills.nav-flush.flex-column.mb-auto.text-center {
     fill: $background-color;
   }
   .nav-link.active:hover {
-    border-top: 3px solid $primary-color; /* Blue 2px top border */
-    border-radius: 4px; /* Rounded corners */
+    background-color: $background-color;
+  }
+  .nav-text.active:hover {
+    color: $primary-color;
+  }
+  .btm-bar.active svg:hover {
+    fill: $primary-color;
   }
   /* Style the container */
   .nav-container {
