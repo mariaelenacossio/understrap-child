@@ -232,7 +232,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 
-<div class="row">
+<!-- <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
@@ -294,7 +294,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           </div>
         </div>
 
-      </div>
+      </div> -->
     </section><!-- End Resume Section -->
 
     <div class="container mt-5">
