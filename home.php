@@ -173,8 +173,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-md-6">
                         <div class="profile-body">
-                            <h5 class="card-title mt-0">John Doe</h5>
-                            <p class="card-text mb-0">@johndoe • 2h</p>
+                            <h5 class="card-title mt-0">Mariaelena Cossio Clark</h5>
+                            <p class="card-text mb-0">@mariaelenacossio</p>
                         </div><!--.profile-body-->
                         <div class="btn-container">
                             <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
@@ -189,7 +189,45 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.profile-card-->
         </div>
     </div>
-</div> <div class="row">
+</div> 
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mt-8">
+                <h2 class="text-2xl font-weight-bold">About</h2>
+                <p class="mt-2 text-gray-700">Hi. I'm Seán. A Designer. I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="mt-6">
+                <h2 class="text-2xl font-weight-bold">Work Experience</h2>
+                <div class="mt-2">
+                    <p class="text-gray-700"><span class="font-weight-bold">2015 — 2023</span> Senior Product Designer at Help Scout</p>
+                    <p class="text-gray-600">Remote</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-6">
+        <div class="col-md-6">
+            <div class="mt-6">
+                <h2 class="text-2xl font-weight-bold">Projects</h2>
+                <div class="mt-2">
+                    <p class="text-gray-700"><span class="font-weight-bold">2023</span> Portfolio</p>
+                    <p class="text-indigo-600 hover:underline">New year, new portfolio</p>
+                    <img class="mt-2 rounded-lg shadow-lg" src="https://unsplash.com/photos/hpjSkU2UYSU/download?force=true&w=640" alt="Portfolio Screenshot">
+                </div>
+            </div>
+        </div><!--.col-md-6-->
+    </div><!--.row-->
+</div><!--.container-->
+
+
+
+
+
+<div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
