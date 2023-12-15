@@ -17,21 +17,27 @@ jQuery(document).ready(function($) {
 
 //Active state for btn-bar
 jQuery(document).ready(function($) {
-    $('.nav-link').on('click', function() {
-        // Remove "active" class from all nav links
-        $('.nav-link').removeClass('active');
-        
-        // Add "active" class to the clicked nav link
-        $(this).addClass('active');
+ // Remove "active" class from all nav links and the btm-bar initially
+ $('.nav-link').removeClass('active');
+ $('.btm-bar').removeClass('active');
 
-        // Remove "active" class from all icons
-        $('.btm-bar .nav-link').removeClass('active');
+ $('.nav-link').on('click', function() {
+     // Remove "active" class from all nav links
+     $('.nav-link').removeClass('active');
+     
+     // Add "active" class to the clicked nav link
+     $(this).addClass('active');
 
-        // Add "active" class to the icon in the clicked nav link
-        $('.btm-bar').toggleClass('active', $(this).hasClass('active'));
+     // Remove "active" class from the btm-bar
+     $('.btm-bar').removeClass('active');
 
-        console.log("Nav link clicked:", $(this).attr("href"));
-    });
+     // Add "active" class to the btm-bar if the clicked nav link is active
+     if ($(this).hasClass('active')) {
+         $('.btm-bar').addClass('active');
+     }
+
+     console.log("Nav link clicked:", $(this).attr("href"));
+ });
 });
 
 //Add animation for hero section
