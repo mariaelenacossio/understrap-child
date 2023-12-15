@@ -178,10 +178,10 @@ $container = get_theme_mod( 'understrap_container_type' );
                         </div><!--.profile-body-->
                         <div class="btn-container">
                             <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
-                                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                                <span class="custom-badge">Resume</span>
                             </a><!--.btn-resume-->
                             <a href="#portfolio">
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                                <span class="custom-badge">Portfolio</span>
                             </a><!--.btn-portfolio-->
                         </div><!--.btn-container-->
                     </div>
@@ -189,8 +189,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div><!--.profile-card-->
         </div>
     </div>
-</div>
- <div class="row">
+</div> <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">

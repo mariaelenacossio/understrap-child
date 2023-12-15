@@ -789,6 +789,16 @@ p.lead {
 .btn-container {
   text-align: center;
   margin-top: 1rem;
+  display: flex;
+}
+.custom-badge {
+  display: inline-block;
+  background-color: $primary-color;
+  color: $background-color;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
 }
 
 //Small screens and (max-width: 477px)
