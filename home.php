@@ -64,7 +64,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                         </div><!--.role-container-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf"
+                            <a href="#resume"
                                 target="_blank">
                                 <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
                             </a><!--.btn-resume-->
@@ -177,8 +177,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <p class="card-text mb-0">@mariaelenacossio</p>
                         </div><!--.profile-body-->
                         <div class="btn-container">
-                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank">
-                                <span class="custom-badge">Resume</span>
+                            <a href="https://mariaelena-cossioclark.com/wp-content/uploads/2023/11/MCC-resume.pdf" target="_blank" 
+                            class="custom-badge">Resume
+                                <!-- <span class="custom-badge">Resume</span> -->
                             </a><!--.btn-resume-->
                             <a href="#portfolio">
                                 <span class="custom-badge">Portfolio</span>
