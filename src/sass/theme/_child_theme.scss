@@ -630,11 +630,16 @@ p.lead {
   .parallax-container {
     display: contents;
   }
-  // .role-container {
-  //   width: 268px;
-  //   height: 120px;
-  //   padding: 1rem;
-  // }
+  .container-fluid p.lead {
+    padding: 1rem;
+  }
+  .parallax-overlay .container-fluid {
+    width: 300px;
+  }
+  .image-text {
+    height: 100px;
+  }
+
   .parallax-overlay > .container {
     width: 300px;
     position: relative;
