@@ -762,6 +762,31 @@ p.lead {
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
 
+.profile-container {
+  margin-top: 20px;
+}
+
+.profile-card {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.profile-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.profile-body {
+  padding: 1rem;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
 //Small screens and (max-width: 477px)
 @media screen and (max-width: 477px) {
   .resume-container {
