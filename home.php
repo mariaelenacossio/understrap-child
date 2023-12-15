@@ -146,15 +146,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <!--Resume Section-->
 <div class="resume-container bg-light">
-    <div class="window-container max-w-4xl mx-auto mt-10 shadow-lg">
-        <div class="window-header p-4 d-flex justify-content-between align-items-center">
+    <div class="resume-window-container max-w-4xl mx-auto mt-10 shadow-lg">
+        <div class="resume-window-header p-4 d-flex justify-content-between align-items-center">
             <div class="d-flex gap-2">
                 <div class="control-btn minimize-btn"></div><!--.control-btn-->
                 <div class="control-btn maximize-btn"></div><!--.control-btn-->
                 <div class="control-btn close-btn"></div><!--.control-btn-->
             </div><!--.d-flex-->
         </div><!--.window-header-->
-        <div class="window-content">
+        <div class="resume-window-content">
 <!--Insert here-->
 <!--Resume Section-->
 <section id="resume" class="resume">
