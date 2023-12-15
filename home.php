@@ -24,41 +24,42 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="window-container max-w-4xl mx-auto mt-10 shadow-lg">
         <div class="window-header p-4 d-flex justify-content-between align-items-center">
             <div class="d-flex gap-2">
-                <div class="control-btn minimize-btn"></div><!--.control-btn-->
-                <div class="control-btn maximize-btn"></div><!--.control-btn-->
-                <div class="control-btn close-btn"></div><!--.control-btn-->
-            </div><!--.d-flex-->
-        </div><!--.window-header-->
+                <div class="control-btn minimize-btn"></div>
+                <div class="control-btn maximize-btn"></div>
+                <div class="control-btn close-btn"></div>
+            </div>
+        </div>
         <div class="window-content">
-        <div class="container-fluid">
-    <div class="row text-center">
-        <div class="col-12 col-md-8 col-lg-10 mx-auto">
-            <p class="lead">Hi! I am Mariaelena</p>
-        </div><!--.col-->
-    </div><!--.row-->
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-12 col-md-8 col-lg-10 mx-auto">
+                        <p class="lead">Hi! I am Mariaelena</p>
+                    </div>
+                </div>
 
-    <div class="row image-text">
-        <div class="col-12 text-center">
-            <div class="role-container">
-                <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
-            </div><!--.role-container-->
-        </div><!--.col-->
-    </div><!--.row-->
+                <div class="row image-text">
+                    <div class="col-12 text-center">
+                        <div class="role-container">
+                            <p>I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="row hero-cta-btns">
-        <div class="col-12 text-center">
-            <a href="#resume">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
-            </a><!--.btn-resume-->
-            <a href="#portfolio">
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
-            </a><!--.btn-portfolio-->
-        </div><!--.col-->
-    </div><!--.row-->
-</div><!--.container-fluid-->
-        </div><!--.window-content-->
-    </div><!--.window-container-->
-</div><!--.hero-container-->
+                <div class="row hero-cta-btns">
+                    <div class="col-12 text-center">
+                        <a href="#resume">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
+                        </a>
+                        <a href="#portfolio">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2">Portfolio</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!--Parallax Container-Hero Section Mobile-->
 <div class="parallax-container">
