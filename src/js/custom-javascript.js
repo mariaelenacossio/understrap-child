@@ -17,9 +17,16 @@ jQuery(document).ready(function($) {
 
 //Active state for btn-bar
 jQuery(document).ready(function($) {
-    $('.nav-link').on('click touchstart', function() {
+    $('.nav-link').on('click', function() {
+        // Remove "active" class from all nav links
         $('.nav-link').removeClass('active');
+        
+        // Add "active" class to the clicked nav link
         $(this).addClass('active');
+
+        // Toggle "active" class on the btm-bar based on the presence of "active" class in any nav link
+        $('#wrapper-nav').toggleClass('active', $('.nav-link.active').length > 0);
+
         console.log("Nav link clicked:", $(this).attr("href"));
     });
 });
