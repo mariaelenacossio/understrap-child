@@ -609,7 +609,8 @@ p.lead {
   }
   .role-container {
     width: 268px;
-    height: 85px;
+    height: 120px;
+    padding: 1rem;
   }
   .parallax-overlay > .container {
     width: 300px;
@@ -632,9 +633,9 @@ p.lead {
   .parallax-overlay {
     top: 0;
   }
-  .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > .d-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  // .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > .d-grid {
+  //   grid-template-columns: repeat(2, 1fr);
+  // }
   .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > p.lead {
     border-radius: 50px;
     padding: 1rem;
@@ -2412,6 +2413,9 @@ nav.blog-pagination {
     display: contents;
   }
 }
+/* Styles for iPhone 13 Pro in portrait mode */
+@media only screen and (min-device-width: 428px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 3) {
+}
 
 @media screen and (max-width: 767px) {
   /* Adjust styles for small screens */
@@ -2428,6 +2432,13 @@ nav.blog-pagination {
 /* Small laptops and desktops */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   /* Adjust styles for larger screens (small laptops and desktops) */
+  //Hero section Desktop 13''
+  .image-text {
+    top: 66%;
+  }
+  .hero-cta-btns {
+    top: 85%;
+  }
   // .parallax-container {
   //   display: none;
   // }
