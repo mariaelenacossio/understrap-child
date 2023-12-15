@@ -756,14 +756,15 @@ p.lead {
   background: #22c55e;
 }
 .profile-container img {
-  height: 180px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
   object-fit: inherit;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
 }
 
 .profile-container {
   margin-top: 20px;
+  height: auto;
 }
 
 .profile-card {
@@ -778,9 +779,20 @@ p.lead {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
+.profile-container .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .profile-body {
   padding: 1rem;
+}
+.profile-container .col-md-8 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .rounded-circle {
@@ -788,8 +800,8 @@ p.lead {
 }
 .btn-container {
   text-align: center;
-  margin-top: 1rem;
   display: flex;
+  gap: 2.5rem;
 }
 .custom-badge {
   display: inline-block;

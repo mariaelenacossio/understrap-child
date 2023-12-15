@@ -194,8 +194,13 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="row">
         <div class="col-md-6">
             <div class="mt-8">
-                <h2 class="text-2xl font-weight-bold">About</h2>
-                <p class="mt-2 text-gray-700">Hi. I'm Seán. A Designer. I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
+                <h2 class="text-2xl font-weight-bold">Education</h2>
+                <h4>North Island College</h4>
+              <p><em>Comox Valley, B.C. Canada</em></p>
+              <p><em>Post Graduate / Digital Design and Web Development</em></p>
+              <h4>Bachelor of Science in Computer Science</h4>
+              <p><em>Universidad del Desarrollo Profesional</em></p>
+              <p><em>Mazatlan, Sinaloa Mexico</em></p>
             </div>
         </div>
         <div class="col-md-6">
