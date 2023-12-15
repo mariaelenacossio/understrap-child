@@ -48,6 +48,7 @@ jQuery(document).ready(function ($) {
     const newTextDelay = 2000;
     let textArrayIndex = 0;
     let charIndex = 0;
+    let isTyping = true;
 
     function type() {
         if (charIndex < textArray[textArrayIndex].length) {
@@ -57,6 +58,7 @@ jQuery(document).ready(function ($) {
             setTimeout(type, typingDelay);
         } else {
             cursorSpan.removeClass("typing");
+            isTyping = false;
             setTimeout(erase, newTextDelay);
         }
     }
@@ -69,6 +71,7 @@ jQuery(document).ready(function ($) {
             setTimeout(erase, erasingDelay);
         } else {
             cursorSpan.removeClass("typing");
+            isTyping = true;
             textArrayIndex++;
             if (textArrayIndex >= textArray.length) textArrayIndex = 0;
             setTimeout(type, typingDelay + 1100);
@@ -80,6 +83,7 @@ jQuery(document).ready(function ($) {
         if (textArray.length) setTimeout(type, newTextDelay + 250);
     }
 });
+
 
 
 
