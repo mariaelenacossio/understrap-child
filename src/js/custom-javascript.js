@@ -15,6 +15,14 @@ jQuery(document).ready(function($) {
     });
 });
 
+//Active state for btn-bar
+jQuery(document).ready(function($) {
+    $('.nav-link').on('click', function() {
+        $('.nav-link').removeClass('active');
+        $(this).addClass('active');
+    });
+});
+
 //Add animation for hero section
 jQuery(document).ready(function($) {
     var container = $(".container.hero");
