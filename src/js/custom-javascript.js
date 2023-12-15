@@ -17,9 +17,10 @@ jQuery(document).ready(function($) {
 
 //Active state for btn-bar
 jQuery(document).ready(function($) {
-    $('.nav-link').on('click', function() {
+    $('.nav-link').on('click touchstart', function() {
         $('.nav-link').removeClass('active');
         $(this).addClass('active');
+        console.log("Nav link clicked:", $(this).attr("href"));
     });
 });
 
