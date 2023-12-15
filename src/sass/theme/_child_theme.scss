@@ -536,7 +536,6 @@ p.lead {
 .parallax-overlay p {
   color: $primary-color;
   font-weight: 700;
-  font-size: 1.5rem;
 }
 
 .hidden {
@@ -582,6 +581,9 @@ p.lead {
   font-size: 2rem;
   font-weight: 700;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  text-align: center;
+  color: $background-color;
+  text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
 }
 @keyframes blink {
   0% {
@@ -612,7 +614,7 @@ p.lead {
   .parallax-overlay > .container {
     width: 300px;
     position: relative;
-    top: -80px;
+    top: -200px;
   }
   .parallax-image {
     padding-left: 0;
@@ -634,7 +636,6 @@ p.lead {
     grid-template-columns: repeat(2, 1fr);
   }
   .col-sm-2.col-md-6.col-lg-8.mx-auto.text-center > p.lead {
-    backdrop-filter: hue-rotate(45deg);
     border-radius: 50px;
     padding: 1rem;
   }
