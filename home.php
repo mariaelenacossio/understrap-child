@@ -163,6 +163,23 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="section-title">
           <h2>Resume</h2>
        </div>
+       <div class="profile-container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="media">
+                        <img src="https://placekitten.com/40/40" class="mr-3 rounded-circle" alt="User Avatar">
+                        <div class="media-body">
+                            <h5 class="mt-0">John Doe</h5>
+                            <p class="mb-0">@johndoe • 2h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
