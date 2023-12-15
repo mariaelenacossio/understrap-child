@@ -1538,16 +1538,21 @@ section.section.footer-section {
   left: -140px;
   // z-index: -1;
 }
+@media screen and (min-width: 1000px) {
+  .footer.wrapper:not(.interface) {
+    left: -120px;
+  }
+}
 
-@media screen and (max-width: 991px) and (max-width: 1100px) {
+@media screen and (max-width: 991px) and (max-width: 1200px) {
   .footer.page {
     border-top: 0 rgba(255, 255, 255, 0);
     margin-top: 0;
     padding: 32px;
   }
-  .footer.wrapper:not(.interface) {
-    left: -120px;
-  }
+  // .footer.wrapper:not(.interface) {
+  //   left: -120px;
+  // }
 }
 //Align social icons in footer width:468px
 @media screen and (max-width: 468px) {
