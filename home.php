@@ -168,7 +168,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="col-md-12">
             <div class="card profile-card mb-3">
                 <div class="row no-gutters">
-                    <div class="col-md-8">
+                    <div class="col-md-4">
                         <img src="https://mariaelena-cossioclark.com/wp-content/uploads/2023/10/0D5A5721-1403-4809-9FFD-E66184DEB02E_1_102_o-e1697088508893.jpeg" class="profile-img rounded-circle" alt="User Avatar">
                     </div>
                     <div class="col-md-8">
