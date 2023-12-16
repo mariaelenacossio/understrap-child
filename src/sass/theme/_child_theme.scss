@@ -1575,7 +1575,7 @@ section.section.footer-section {
 }
 
 //Adjust width of footer
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer.wrapper:not(.interface) {
     width: 100vw;
     margin-left: 0;
@@ -1586,6 +1586,12 @@ section.section.footer-section {
   .footer h2.heading-6 {
     font-size: 1.27rem !important;
     color: #010125;
+  }
+  .footer-square.row {
+    gap: 1rem;
+  }
+  .icon-test {
+    justify-content: center;
   }
 }
 
@@ -1599,7 +1605,7 @@ section.section.footer-section {
   flex-flow: column;
   align-items: center;
   padding: 1rem;
-  height: 100px;
+  height: auto;
 }
 .footer h2.heading-6 {
   font-size: 1.5rem;
